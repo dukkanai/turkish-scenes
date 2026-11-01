@@ -14,7 +14,7 @@ final class LearningFlowTests: XCTestCase {
         XCTAssertTrue(first.label.contains("المقطع رقم"))
         XCTAssertTrue(first.label.contains("رئيس"))
         first.tap()
-        XCTAssertTrue(app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.waitForExistence(timeout: 10))
+        XCTAssertTrue(app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.waitForExistence(timeout: 10), String(app.debugDescription.prefix(12000)))
         let initialTitle = app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.label
         let next = app.buttons["المقطع التالي"]
         for _ in 0..<15 {
