@@ -1,4 +1,4 @@
-# Arabic accessibility preview: preserve native NavigationLink actions.
+# Arabic accessibility preview: verify localized navigation identifiers.
 name: Internal TestFlight preview
 on:
   push:
