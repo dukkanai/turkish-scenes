@@ -115,7 +115,7 @@ struct SegmentView: View {
                 ForEach(segment.words) { word in
                     VStack(alignment: .leading, spacing: 6) {
                         LanguageText(text: word.text, language: "tr-TR", style: .headline)
-                        LanguageText(text: word.explanation, language: "ar")
+                        LanguageText(text: ReviewedQuestionBank.explanation(for: word), language: "ar")
                     }.accessibilityElement(children: .contain)
                 }
                 ForEach(Array(segment.expressions.enumerated()), id: \.offset) { item in Text(item.element) }
