@@ -2,7 +2,10 @@
   "files": [
     "reviewed-phrases-1-10",
     "reviewed-phrases-11-160",
-    "reviewed-phrases-161-320"
+    "reviewed-phrases-161-320",
+    "reviewed-phrases-321-480",
+    "reviewed-phrases-481-640",
+    "reviewed-phrases-641-800"
   ],
-  "expectedQuestions": 219
+  "expectedQuestions": 560
 }
