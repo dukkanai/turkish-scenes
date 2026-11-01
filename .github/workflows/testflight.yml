@@ -1,0 +1,70 @@
+name: Internal TestFlight preview
+on:
+  push:
+    branches: ['dev/ios-app-20261101']
+    paths: ['.github/workflows/testflight.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: turkish-scenes-internal-testflight
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+    environment: turkish-scenes-testflight
+    if: github.repository == 'dukkanai/turkish-scenes' && github.ref == 'refs/heads/dev/ios-app-20261101'
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.1.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Record build environment
+        run: |
+          set -euo pipefail
+          sw_vers
+          xcodebuild -version
+          swift --version
+          xcrun simctl list runtimes
+      - name: Test Turkish grading and session persistence
+        run: |
+          mkdir -p build
+          swiftc App/PracticeCore.swift Tests/CoreChecks.swift -o build/core-checks
+          build/core-checks
+          swiftc App/PracticeCore.swift App/ProgressStore.swift Tests/ProgressChecks.swift -o build/progress-checks
+          build/progress-checks
+      - name: Test player security boundaries
+        run: |
+          bash -n ci/testflight.sh
+          swiftc App/VideoPolicy.swift Tests/VideoPolicyChecks.swift -o build/video-policy-checks
+          build/video-policy-checks
+      - name: Test content converter
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Convert teaching source
+        run: python3 tools/convert_content.py
+      - name: Install project generator
+        run: brew install xcodegen
+      - name: Generate app icon
+        run: swift tools/make_app_icon.swift
+      - name: Generate project
+        run: xcodegen generate
+      - name: Build iPhone simulator
+        run: |
+          set -euo pipefail
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
+      - name: Run iPhone UI smoke test
+        run: |
+          set -euo pipefail
+          DEVICE=$(xcrun simctl create TurkishScenesCI com.apple.CoreSimulator.SimDeviceType.iPhone-16 com.apple.CoreSimulator.SimRuntime.iOS-18-5)
+          xcrun simctl boot "$DEVICE"
+          xcrun simctl bootstatus "$DEVICE" -b
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -destination "platform=iOS Simulator,id=$DEVICE" -derivedDataPath build/DerivedData -resultBundlePath build/UITests.xcresult CODE_SIGNING_ALLOWED=NO -parallel-testing-enabled NO -maximum-concurrent-test-simulator-destinations 1 -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 180 test
+      - name: Report scope
+        run: echo 'Simulator build only. Device, VoiceOver, live video and content editorial acceptance remain NOT_RUN.'
+      - name: Archive and upload internal preview
+        env:
+          TURKISH_ASC_PRIVATE_KEY_B64: ${{ secrets.TURKISH_ASC_PRIVATE_KEY_B64 }}
+          TURKISH_DISTRIBUTION_P12_B64: ${{ secrets.TURKISH_DISTRIBUTION_P12_B64 }}
+          TURKISH_DISTRIBUTION_P12_PASSWORD: ${{ secrets.TURKISH_DISTRIBUTION_P12_PASSWORD }}
+          TURKISH_APP_STORE_PROFILE_B64: ${{ secrets.TURKISH_APP_STORE_PROFILE_B64 }}
+        run: bash ci/testflight.sh
