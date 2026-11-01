@@ -29,6 +29,8 @@ jobs:
           mkdir -p build
           swiftc App/PracticeCore.swift Tests/CoreChecks.swift -o build/core-checks
           build/core-checks
+          swiftc App/PracticeCore.swift App/ProgressStore.swift Tests/ProgressChecks.swift -o build/progress-checks
+          build/progress-checks
       - name: Test content converter
         run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Convert teaching source
