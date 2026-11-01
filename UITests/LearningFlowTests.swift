@@ -12,6 +12,7 @@ final class LearningFlowTests: XCTestCase {
         XCTAssertTrue(first.label.contains("رئيس"))
         first.tap()
         XCTAssertTrue(app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.waitForExistence(timeout: 10))
+        let initialTitle = app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.label
         let next = app.buttons["المقطع التالي"]
         for _ in 0..<15 {
             if next.isHittable { break }
@@ -20,6 +21,7 @@ final class LearningFlowTests: XCTestCase {
         XCTAssertTrue(next.isHittable)
         next.tap()
         XCTAssertTrue(app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.waitForExistence(timeout: 10))
+        XCTAssertNotEqual(initialTitle, app.navigationBars.matching(NSPredicate(format: "label BEGINSWITH %@", "المقطع")).firstMatch.label)
         app.terminate()
         app.launch()
         XCTAssertTrue(app.buttons["متابعة التعلم"].waitForExistence(timeout: 10))
