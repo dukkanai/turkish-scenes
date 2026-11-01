@@ -43,6 +43,10 @@ jobs:
         run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Convert teaching source
         run: python3 tools/convert_content.py
+      - name: Verify reviewed question bank
+        run: |
+          swiftc App/PracticeCore.swift App/Models.swift App/ReviewedQuestionBank.swift Tests/QuestionBankChecks.swift -o build/question-bank-checks
+          build/question-bank-checks
       - name: Install project generator
         run: brew install xcodegen
       - name: Generate app icon
