@@ -97,7 +97,7 @@ struct SegmentView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                if !practicing {
+                if !practicing && !ProcessInfo.processInfo.arguments.contains("UITEST_DISABLE_VIDEO") {
                     YouTubeView(videoID: film.youtubeID, start: Double(segment.startMS)/1000,
                                 end: Double(segment.endMS)/1000)
                         .id(segment.id).frame(minHeight: 260)
