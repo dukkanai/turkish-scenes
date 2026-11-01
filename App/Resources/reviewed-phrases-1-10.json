@@ -33,9 +33,9 @@
     "id": "miracle-cell-7:c0005:p02:choice",
     "version": 1,
     "segmentID": "miracle-cell-7:c0005",
-    "prompt": "نستمر أو نتابع؛ اكتب الاختيار بصيغة المتكلم الجمع.",
+    "prompt": "نستمر أو نتابع؛ اختر التعبير بصيغة المتكلم الجمع.",
     "answer": "devam ediyoruz",
-    "explanation": "devam ediyoruz = نستمر أو نتابع؛ اكتب الاختيار بصيغة المتكلم الجمع.",
+    "explanation": "devam ediyoruz = نستمر أو نتابع؛ اختر التعبير بصيغة المتكلم الجمع.",
     "choices": [
       "devam ediyoruz",
       "kararı verdi",
