@@ -23,6 +23,19 @@ import Foundation
             precondition(ReviewedQuestionBank.make(segment: segment, rows: wrong).isEmpty)
             precondition(ReviewedQuestionBank.make(segment: segment, rows: Array(rows.dropLast())).isEmpty)
         }
+        let phrases = try JSONDecoder().decode([PracticeQuestion].self,
+            from: Data(contentsOf: URL(fileURLWithPath: "App/Resources/reviewed-phrases-1-10.json")))
+        precondition(phrases.count == 8)
+        for q in phrases {
+            precondition(q.kind == .phrase)
+            precondition(q.choices.count == 4 && Set(q.choices.map(TurkishGrader.normalize)).count == 4)
+            precondition(q.choices.filter { TurkishGrader.isCorrect($0, expected: q.answer) }.count == 1)
+            precondition(identifiers.insert(q.id).inserted)
+            let segment = film.segments.first { $0.id == q.segmentID }!
+            let source = segment.turkish.split(whereSeparator: { $0.isWhitespace }).joined(separator: " ")
+            precondition(source.contains(q.answer), "Phrase must be verbatim source text")
+        }
+        precondition(phrases.filter { $0.kind != .phrase }.isEmpty, "Phrases cannot enter word-writing mode")
         precondition(total == 75)
         print("PASS: 75 exact-source occurrence questions, unique choices and source-drift rejection")
     }
