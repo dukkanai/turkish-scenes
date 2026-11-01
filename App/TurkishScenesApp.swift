@@ -21,7 +21,7 @@ struct ContentView: View {
                     if let film {
                         List {
                             Section {
-                                Text("نسخة تطوير: المحتوى والتوقيت قيد المراجعة. التدريب التجريبي متاح للمقاطع التعليمية ضمن أول عشرين مقطعًا فقط، مع استثناءات موضحة في الشرح.")
+                                Text("نسخة تطوير: المحتوى والتوقيت قيد المراجعة. التدريب التجريبي متاح للمقاطع التعليمية ضمن أول أربعين مقطعًا فقط، مع استثناءات موضحة في الشرح.")
                                     .font(.footnote)
                                 if let id = store.progress.lastSegmentID,
                                    let index = film.segments.firstIndex(where: { $0.id == id }) {

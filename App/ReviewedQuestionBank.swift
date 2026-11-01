@@ -8,10 +8,40 @@ enum ReviewedQuestionBank {
         let choiceOverrides: [String: [String]]
         let nonEducationalSegments: [Int]?
     }
+    struct Manifest: Decodable { let files: [String] }
+    static func merge(_ reviews: [Review]) -> Review? {
+        guard !reviews.isEmpty else { return nil }
+        var segments: [String: [[String]]] = [:]
+        var excluded: [String: String] = [:]
+        var explanations: [String: String] = [:]
+        var choices: [String: [String]] = [:]
+        var nonEducational = Set<Int>()
+        for review in reviews {
+            guard Set(segments.keys).isDisjoint(with: review.segments.keys),
+                  Set(excluded.keys).isDisjoint(with: review.excluded.keys),
+                  Set(explanations.keys).isDisjoint(with: review.explanations.keys),
+                  Set(choices.keys).isDisjoint(with: review.choiceOverrides.keys) else { return nil }
+            segments.merge(review.segments) { first, _ in first }
+            excluded.merge(review.excluded) { first, _ in first }
+            explanations.merge(review.explanations) { first, _ in first }
+            choices.merge(review.choiceOverrides) { first, _ in first }
+            nonEducational.formUnion(review.nonEducationalSegments ?? [])
+        }
+        return Review(segments: segments, excluded: excluded, explanations: explanations,
+            choiceOverrides: choices, nonEducationalSegments: nonEducational.sorted())
+    }
     private static let document: Review? = {
-        guard let url = Bundle.main.url(forResource: "reviewed-prompts", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return nil }
-        return try? JSONDecoder().decode(Review.self, from: data)
+        guard let url = Bundle.main.url(forResource: "reviewed-manifest", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let manifest = try? JSONDecoder().decode(Manifest.self, from: data) else { return nil }
+        var reviews: [Review] = []
+        for name in manifest.files {
+            guard let url = Bundle.main.url(forResource: name, withExtension: "json"),
+                  let data = try? Data(contentsOf: url),
+                  let review = try? JSONDecoder().decode(Review.self, from: data) else { return nil }
+            reviews.append(review)
+        }
+        return merge(reviews)
     }()
     static func isNonEducational(_ segment: Segment) -> Bool {
         document?.nonEducationalSegments?.contains(segment.number) ?? false
@@ -45,6 +75,7 @@ enum ReviewedQuestionBank {
                 }
             }
             guard choices.count == 4, Set(choices.map(TurkishGrader.normalize)).count == 4,
+                  choices.allSatisfy({ !heldSpellings.contains($0) }),
                   choices.filter({ TurkishGrader.isCorrect($0, expected: answer) }).count == 1 else { return [] }
             result.append(PracticeQuestion(id: word.id + ":writing", version: 1, segmentID: segment.id,
                 prompt: row[1], answer: answer,
