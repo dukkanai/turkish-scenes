@@ -38,6 +38,23 @@ import Foundation
         var skip = PracticeSession(mode:.choice,questions:[q])
         skip.next()
         check(skip.phases[q.id] == .skipped && skip.answers.isEmpty, "Skip is not success")
+        check(p.attempts?.count == 4, "All independent attempts retained")
+        p.recordCompletion(skip)
+        check(p.completedPractices == nil, "Skipped session is not completed training")
+        var full = PracticeSession(mode: .writing, questions: [q])
+        _ = full.submit("destek")
+        full.next()
+        p.recordCompletion(full)
+        p.recordCompletion(full)
+        check(p.completedPractices?.count == 1, "Completion is idempotent")
+        var old = try JSONSerialization.jsonObject(with: JSONEncoder().encode(p)) as! [String: Any]
+        old.removeValue(forKey: "attempts")
+        old.removeValue(forKey: "completedPractices")
+        let migrated = try JSONDecoder().decode(LearningProgress.self,
+            from: JSONSerialization.data(withJSONObject: old))
+        check(migrated.firstAnswers == p.firstAnswers, "Existing version-one answers survive")
+        check(migrated.mistakes.count == p.mistakes.count, "Existing mistakes survive")
+        check(migrated.attempts == nil, "Missing historic attempt log is not invented")
         print("Core checks passed.")
     }
 }
