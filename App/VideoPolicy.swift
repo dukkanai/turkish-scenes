@@ -2,7 +2,7 @@ import Foundation
 
 enum VideoPolicy {
     static func valid(videoID: String, start: Double, end: Double) -> Bool {
-        videoID.range(of: "^[A-Za-z0-9_-]{11}$", options: .regularExpression) != nil
+        videoID.utf8.count == 11 && videoID.range(of: "^[A-Za-z0-9_-]{11}$", options: .regularExpression) != nil
             && start.isFinite && end.isFinite && start >= 0 && end > start
     }
     static func allows(_ url: URL?, mainFrame: Bool, appHost: String) -> Bool {
