@@ -46,8 +46,6 @@ struct ContentView: View {
                                             }
                                         }
                                     }
-                                    .accessibilityElement(children: .ignore)
-                                    .accessibilityAddTraits(.isButton)
                                     .accessibilityLabel("المقطع رقم \(segment.number). \(segment.arabic)")
                                     .accessibilityHint("اضغط مرتين لفتح النص والفيديو والتدريب")
                                     .accessibilityIdentifier("segment-\(segment.number)")
