@@ -28,7 +28,9 @@ enum PreviewQuestions {
             prompt:"لبوش أو الخاص ببوش؛ اكتب الاسم مع لاحقة الإضافة كما ورد.", answer:"Bush'un", explanation:"Bush اسم شخص؛ -un للإضافة.",
             choices:["Bush'un","George","Başkanı","Amerika"])
     ]
-    static func forSegment(_ id: String) -> [PracticeQuestion] { all.filter { $0.segmentID == id } }
+    static func forSegment(_ segment: Segment) -> [PracticeQuestion] {
+        all.filter { $0.segmentID == segment.id } + ReviewedQuestionBank.questions(for: segment)
+    }
     static func shuffled(_ questions: [PracticeQuestion]) -> [PracticeQuestion] {
         questions.map { q in
             PracticeQuestion(id:q.id,version:q.version,segmentID:q.segmentID,prompt:q.prompt,
