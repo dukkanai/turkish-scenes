@@ -19,13 +19,15 @@ import Foundation
         check(c.errorMessage != nil, "Recovery is disclosed")
         c.visit("s3")
         check(c.progress.lastSegmentID == "s3", "Recovered state remains writable")
-        check(try FileManager.default.contentsOfDirectory(atPath: root.path).contains(where: {$0.hasPrefix("unreadable-")}), "Corrupt primary retained")
+        let names = try FileManager.default.contentsOfDirectory(atPath: root.path)
+        check(names.contains(where: {$0.hasPrefix("unreadable-")}), "Corrupt primary retained")
         try Data("corrupt".utf8).write(to: primary)
         try Data("also corrupt".utf8).write(to: root.appendingPathComponent("progress-v1.previous.json"))
         let d = ProgressStore(directory: root)
         d.visit("must-not-overwrite")
         check(d.errorMessage != nil, "Both invalid reported")
-        check(String(data: try Data(contentsOf: primary), encoding: .utf8) == "corrupt", "Both invalid not silently replaced")
+        let retained = try Data(contentsOf: primary)
+        check(String(data: retained, encoding: .utf8) == "corrupt", "Both invalid not silently replaced")
         print("Disk progress checks passed.")
     }
 }
