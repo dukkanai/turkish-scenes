@@ -26,3 +26,16 @@ targets:
         TARGETED_DEVICE_FAMILY: "1"
     scheme:
       gatherCoverageData: true
+      testTargets:
+        - TurkishScenesUITests
+  TurkishScenesUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: UITests
+    dependencies:
+      - target: TurkishScenes
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
