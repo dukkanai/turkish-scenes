@@ -1,0 +1,25 @@
+name: iOS CI
+on:
+  push:
+    branches: ['dev/ios-app-20261101']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ios-ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  environment:
+    runs-on: macos-15
+    timeout-minutes: 10
+    steps:
+      - name: Verify macOS and available Xcode runtimes
+        run: |
+          set -euo pipefail
+          sw_vers
+          xcodebuild -version
+          swift --version
+          xcrun simctl list runtimes
+          xcrun simctl list devices available
+          echo 'Environment preflight only; no application build or device acceptance yet.'
