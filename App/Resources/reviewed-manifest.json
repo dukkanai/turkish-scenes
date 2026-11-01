@@ -6,12 +6,13 @@
     "reviewed-prompts-81-160",
     "reviewed-prompts-161-240",
     "reviewed-prompts-241-320",
-    "reviewed-prompts-321-400"
+    "reviewed-prompts-321-400",
+    "reviewed-prompts-401-480"
   ],
-  "reviewedThrough": 400,
-  "expectedSourceOccurrences": 1852,
-  "expectedEligibleOccurrences": 1698,
-  "expectedExclusions": 154,
+  "reviewedThrough": 480,
+  "expectedSourceOccurrences": 2159,
+  "expectedEligibleOccurrences": 1996,
+  "expectedExclusions": 163,
   "nonEducationalSegments": [
     14,
     15,
@@ -43,6 +44,10 @@
     357,
     393,
     394,
-    396
+    396,
+    440,
+    448,
+    453,
+    464
   ]
 }
