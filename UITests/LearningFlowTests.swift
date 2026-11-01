@@ -7,7 +7,10 @@ final class LearningFlowTests: XCTestCase {
         app.launch()
         XCTAssertTrue(app.navigationBars["لقطة تركية"].waitForExistence(timeout: 20))
         let first = app.buttons["segment-1"].firstMatch
-        XCTAssertTrue(first.waitForExistence(timeout: 10))
+        let found = first.waitForExistence(timeout: 10)
+        if !found { print(String(app.debugDescription.prefix(16000))) }
+        XCTAssertTrue(found)
+        guard found else { return }
         XCTAssertTrue(first.label.contains("المقطع رقم"))
         XCTAssertTrue(first.label.contains("رئيس"))
         first.tap()
