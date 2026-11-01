@@ -9,6 +9,7 @@ struct YouTubeView: UIViewRepresentable {
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
         config.allowsInlineMediaPlayback = true
+        config.websiteDataStore = .nonPersistent()
         config.mediaTypesRequiringUserActionForPlayback = .all
         let view = WKWebView(frame: .zero, configuration: config)
         view.navigationDelegate = context.coordinator
@@ -18,8 +19,7 @@ struct YouTubeView: UIViewRepresentable {
     func updateUIView(_ view: WKWebView, context: Context) {
         let identity = "\(videoID):\(start):\(end)"
         guard context.coordinator.identity != identity,
-              videoID.range(of: "^[A-Za-z0-9_-]{11}$", options: .regularExpression) != nil,
-              start.isFinite, end.isFinite, start >= 0, end > start else { return }
+              VideoPolicy.valid(videoID: videoID, start: start, end: end) else { return }
         context.coordinator.identity = identity
         let origin = "https://" + (Bundle.main.bundleIdentifier ?? "dev.nextaura.turkishscenes").lowercased()
         let document = """
@@ -56,5 +56,12 @@ struct YouTubeView: UIViewRepresentable {
     }
     final class Coordinator: NSObject, WKNavigationDelegate {
         var identity: String?
+        func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction,
+                     decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+            let host = Bundle.main.bundleIdentifier ?? "dev.nextaura.turkishscenes"
+            let allowed = VideoPolicy.allows(navigationAction.request.url,
+                mainFrame: navigationAction.targetFrame?.isMainFrame ?? true, appHost: host)
+            decisionHandler(allowed ? .allow : .cancel)
+        }
     }
 }
