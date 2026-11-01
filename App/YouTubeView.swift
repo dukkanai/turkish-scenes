@@ -1,23 +1,28 @@
 import SwiftUI
 import WebKit
 
-struct YouTubeView: UIViewRepresentable {
+struct VideoWebView: UIViewRepresentable {
     let videoID: String
     let start: Double
     let end: Double
+    @ObservedObject var controls: PlayerControls
     func makeCoordinator() -> Coordinator { Coordinator() }
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
         config.allowsInlineMediaPlayback = true
         config.websiteDataStore = .nonPersistent()
-        config.mediaTypesRequiringUserActionForPlayback = .all
+        config.mediaTypesRequiringUserActionForPlayback = []
         let view = WKWebView(frame: .zero, configuration: config)
         view.navigationDelegate = context.coordinator
         view.scrollView.isScrollEnabled = false
         return view
     }
     func updateUIView(_ view: WKWebView, context: Context) {
-        let identity = "\(videoID):\(start):\(end)"
+        controls.webView = view
+        controls.videoID = videoID
+        controls.start = start
+        controls.end = end
+        let identity = "\(videoID):\(start):\(end):\(controls.reloadID)"
         guard context.coordinator.identity != identity,
               VideoPolicy.valid(videoID: videoID, start: start, end: end) else { return }
         context.coordinator.identity = identity
