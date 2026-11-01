@@ -1,3 +1,4 @@
+# Arabic accessibility preview: preserve segment button traits.
 name: Internal TestFlight preview
 on:
   push:
