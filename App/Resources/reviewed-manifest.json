@@ -7,12 +7,13 @@
     "reviewed-prompts-161-240",
     "reviewed-prompts-241-320",
     "reviewed-prompts-321-400",
-    "reviewed-prompts-401-480"
+    "reviewed-prompts-401-480",
+    "reviewed-prompts-481-560"
   ],
-  "reviewedThrough": 480,
-  "expectedSourceOccurrences": 2159,
-  "expectedEligibleOccurrences": 1996,
-  "expectedExclusions": 163,
+  "reviewedThrough": 560,
+  "expectedSourceOccurrences": 2461,
+  "expectedEligibleOccurrences": 2276,
+  "expectedExclusions": 185,
   "nonEducationalSegments": [
     14,
     15,
@@ -48,6 +49,15 @@
     440,
     448,
     453,
-    464
+    464,
+    481,
+    485,
+    503,
+    521,
+    534,
+    535,
+    537,
+    557,
+    558
   ]
 }
