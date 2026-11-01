@@ -52,6 +52,17 @@ jobs:
         run: |
           set -euo pipefail
           xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
+      - name: Verify Arabic bundle localization
+        run: |
+          python3 - <<'PY'
+          import plistlib
+          from pathlib import Path
+          p = Path("build/DerivedData/Build/Products/Debug-iphonesimulator/TurkishScenes.app/Info.plist")
+          info = plistlib.loads(p.read_bytes())
+          assert info["CFBundleDevelopmentRegion"] == "ar", info.get("CFBundleDevelopmentRegion")
+          assert "ar" in info["CFBundleLocalizations"]
+          print("PASS: Arabic development language and supported localization")
+          PY
       - name: Run iPhone UI smoke test
         run: |
           set -euo pipefail
