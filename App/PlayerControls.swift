@@ -41,7 +41,7 @@ import WebKit
         }
     }
     func toggle() {
-        guard ready else { return }
+        guard ready, VideoPolicy.valid(videoID: videoID, start: start, end: end) else { return }
         if playing { pause() }
         else {
             webView?.evaluateJavaScript("""
