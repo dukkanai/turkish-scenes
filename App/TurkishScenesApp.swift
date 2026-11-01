@@ -21,7 +21,7 @@ struct ContentView: View {
                     if let film {
                         List {
                             Section {
-                                Text("نسخة تطوير: المحتوى والتوقيت قيد المراجعة. التدريب التجريبي متاح للمقطع الأول فقط.")
+                                Text("نسخة تطوير: المحتوى والتوقيت قيد المراجعة. تدريب المفردات التجريبي متاح للمقاطع العشرة الأولى فقط.")
                                     .font(.footnote)
                                 if let id = store.progress.lastSegmentID,
                                    let index = film.segments.firstIndex(where: { $0.id == id }) {
@@ -119,7 +119,7 @@ struct SegmentView: View {
                     }.accessibilityElement(children: .contain)
                 }
                 ForEach(Array(segment.expressions.enumerated()), id: \.offset) { item in Text(item.element) }
-                let questions = PreviewQuestions.forSegment(segment.id)
+                let questions = PreviewQuestions.forSegment(segment)
                 if !questions.isEmpty {
                     Button("تدريب كتابة المفردات") { start(.writing, questions) }
                         .buttonStyle(.borderedProminent)
