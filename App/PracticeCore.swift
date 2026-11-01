@@ -69,6 +69,21 @@ struct MistakeRecord: Codable, Identifiable {
     var open: Bool
     var lastDate: Date
 }
+struct RecordedAttempt: Codable {
+    let sessionID: UUID?
+    let questionID: String
+    let questionVersion: Int
+    let mode: PracticeMode
+    let input: String
+    let correct: Bool
+    let date: Date
+}
+struct CompletedPractice: Codable, Identifiable {
+    let id: UUID
+    let mode: PracticeMode
+    let questionIDs: [String]
+    let date: Date
+}
 struct LearningProgress: Codable {
     var schemaVersion: Int = 1
     var lastSegmentID: String?
@@ -76,7 +91,24 @@ struct LearningProgress: Codable {
     var session: PracticeSession?
     var mistakes: [String: MistakeRecord] = [:]
     var firstAnswers: [String: Bool] = [:]
+    // Optional additions preserve decoding of existing version-one progress.
+    var attempts: [RecordedAttempt]?
+    var completedPractices: [CompletedPractice]?
+    mutating func recordCompletion(_ session: PracticeSession, date: Date = Date()) {
+        guard session.completed, !session.questions.isEmpty,
+              session.questions.allSatisfy({ session.answers[$0.id] != nil }),
+              !(completedPractices ?? []).contains(where: { $0.id == session.id }) else { return }
+        var values = completedPractices ?? []
+        values.append(CompletedPractice(id: session.id, mode: session.mode,
+            questionIDs: session.questions.map(\.id), date: date))
+        completedPractices = values
+    }
     mutating func record(_ answer: PracticeAnswer, question: PracticeQuestion, mode: PracticeMode) {
+        var history = attempts ?? []
+        history.append(RecordedAttempt(sessionID: session?.id, questionID: question.id,
+            questionVersion: question.version, mode: mode, input: answer.input,
+            correct: answer.correct, date: answer.date))
+        attempts = history
         let key = "\(question.id):v\(question.version)"
         if firstAnswers[key] == nil { firstAnswers[key] = answer.correct }
         if !answer.correct {
