@@ -16,7 +16,10 @@ struct LanguageText: UIViewRepresentable {
     func updateUIView(_ label: UILabel, context: Context) {
         label.text = text
         label.accessibilityLabel = text
-        label.accessibilityLanguage = language
+        let speechLanguage = language.hasPrefix("ar") ? "ar-SA" : language
+        label.accessibilityLanguage = speechLanguage
+        label.accessibilityAttributedLabel = NSAttributedString(string: text,
+            attributes: [.accessibilitySpeechLanguage: speechLanguage])
         label.font = .preferredFont(forTextStyle: style)
         label.textColor = .label
         label.textAlignment = language.hasPrefix("ar") ? .right : .left
