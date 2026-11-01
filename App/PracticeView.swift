@@ -85,8 +85,9 @@ struct PracticeView: View {
         .onAppear { focusQuestion() }
         .onDisappear { cancelAdvance(); pendingFocus = nil; focused = nil }
         .onReceive(NotificationCenter.default.publisher(for: UIAccessibility.announcementDidFinishNotification)) { notification in
-            guard pendingAdvance != nil,
-                  notification.userInfo?[UIAccessibility.announcementStringValueUserInfoKey] as? String == "صحيح" else { return }
+            let value = notification.userInfo?[UIAccessibility.announcementStringValueUserInfoKey]
+            let spoken = (value as? String) ?? (value as? NSAttributedString)?.string
+            guard pendingAdvance != nil, spoken == "صحيح" else { return }
             advance()
         }
     }
@@ -98,7 +99,7 @@ struct PracticeView: View {
             let token = UUID()
             pendingAdvance = token
             if UIAccessibility.isVoiceOverRunning {
-                UIAccessibility.post(notification: .announcement, argument: "صحيح")
+                UIAccessibility.post(notification: .announcement, argument: NSAttributedString(string: "صحيح", attributes: [.accessibilitySpeechLanguage: "ar-SA"]))
             }
             let delay: UInt64 = UIAccessibility.isVoiceOverRunning ? 6_000_000_000 : 700_000_000
             Task { @MainActor in

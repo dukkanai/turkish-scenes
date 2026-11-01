@@ -13,9 +13,9 @@ class ReviewedPromptsTests(unittest.TestCase):
             part = json.loads(Path("App/Resources", name + ".json").read_text())["segments"]
             self.assertFalse(set(bank).intersection(part))
             bank.update(part)
-        self.assertEqual(set(bank), {str(i) for i in range(2, 41)})
+        self.assertEqual(set(bank), {str(i) for i in range(2, manifest["reviewedThrough"] + 1)})
         total = 0
-        for segment in segments[1:40]:
+        for segment in segments[1:manifest["reviewedThrough"]]:
             rows = bank[str(segment["number"])]
             self.assertEqual([r[0] for r in rows], [w["text"] for w in segment["words"]])
             for answer, prompt in rows:
@@ -23,4 +23,4 @@ class ReviewedPromptsTests(unittest.TestCase):
                 self.assertIsNone(re.search(r"[A-Za-zÇĞİÖŞÜçğıöşü]", prompt))
                 self.assertNotIn(answer.casefold(), prompt.casefold())
                 total += 1
-        self.assertEqual(total, 225)
+        self.assertEqual(total, manifest["expectedSourceOccurrences"])

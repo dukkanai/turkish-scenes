@@ -8,7 +8,14 @@ enum ReviewedQuestionBank {
         let choiceOverrides: [String: [String]]
         let nonEducationalSegments: [Int]?
     }
-    struct Manifest: Decodable { let files: [String] }
+    struct Manifest: Decodable {
+        let files: [String]
+        let reviewedThrough: Int
+        let expectedSourceOccurrences: Int
+        let expectedEligibleOccurrences: Int
+        let expectedExclusions: Int
+        let nonEducationalSegments: [Int]
+    }
     static func merge(_ reviews: [Review]) -> Review? {
         guard !reviews.isEmpty else { return nil }
         var segments: [String: [[String]]] = [:]
@@ -43,6 +50,7 @@ enum ReviewedQuestionBank {
         }
         return merge(reviews)
     }()
+    static var reviewedThrough: Int { document?.segments.keys.compactMap(Int.init).max() ?? 0 }
     static func isNonEducational(_ segment: Segment) -> Bool {
         document?.nonEducationalSegments?.contains(segment.number) ?? false
     }

@@ -11,15 +11,15 @@ import Foundation
         guard let review = ReviewedQuestionBank.merge(reviews) else { fatalError("Review batches conflict") }
         precondition(ReviewedQuestionBank.merge(reviews + reviews) == nil, "Duplicate batches must fail closed")
         let seeds = review.segments
-        precondition(review.excluded.count == 24)
+        precondition(review.excluded.count == manifest.expectedExclusions)
         for id in ["miracle-cell-7:c0002:w08","miracle-cell-7:c0012:w07",
                    "miracle-cell-7:c0035:w03","miracle-cell-7:c0037:w08","miracle-cell-7:c0038:w02"] {
             precondition(review.excluded[id] != nil)
         }
-        precondition(review.nonEducationalSegments == [14,15,16,19,20,21])
+        precondition((review.nonEducationalSegments ?? []) == manifest.nonEducationalSegments)
         var total = 0
         var identifiers = Set<String>()
-        for segment in film.segments where (2...40).contains(segment.number) {
+        for segment in film.segments where (2...manifest.reviewedThrough).contains(segment.number) {
             let rows = seeds[String(segment.number)]!
             let questions = ReviewedQuestionBank.make(segment: segment, rows: rows, review: review)
             let held = segment.words.filter { review.excluded[$0.id] != nil }
@@ -55,7 +55,8 @@ import Foundation
             precondition(source.contains(q.answer), "Phrase must be verbatim source text")
         }
         precondition(phrases.filter { $0.kind != .phrase }.isEmpty, "Phrases cannot enter word-writing mode")
-        precondition(total == 201)
-        print("PASS: 201 reviewed occurrences, 24 explicit holds/exclusions, eight phrases and source-drift rejection")
+        precondition(total == manifest.expectedEligibleOccurrences)
+        precondition(total + review.excluded.count == manifest.expectedSourceOccurrences)
+        print("PASS: Reviewed occurrence counts, explicit holds/exclusions and eight phrases and source-drift rejection")
     }
 }

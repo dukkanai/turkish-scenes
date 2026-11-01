@@ -1,6 +1,29 @@
 {
   "files": [
     "reviewed-prompts",
-    "reviewed-prompts-21-40"
+    "reviewed-prompts-21-40",
+    "reviewed-prompts-41-80",
+    "reviewed-prompts-81-160",
+    "reviewed-prompts-161-240"
+  ],
+  "reviewedThrough": 240,
+  "expectedSourceOccurrences": 1180,
+  "expectedEligibleOccurrences": 1114,
+  "expectedExclusions": 66,
+  "nonEducationalSegments": [
+    14,
+    15,
+    16,
+    19,
+    20,
+    21,
+    72,
+    91,
+    137,
+    158,
+    160,
+    175,
+    176,
+    232
   ]
 }

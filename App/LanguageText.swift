@@ -18,8 +18,11 @@ struct LanguageText: UIViewRepresentable {
         label.accessibilityLabel = text
         let speechLanguage = language.hasPrefix("ar") ? "ar-SA" : language
         label.accessibilityLanguage = speechLanguage
-        label.accessibilityAttributedLabel = NSAttributedString(string: text,
-            attributes: [.accessibilitySpeechLanguage: speechLanguage])
+        let spoken = NSMutableAttributedString(string: text)
+        for run in SpeechLanguageRuns.runs(in: text, baseLanguage: speechLanguage) {
+            spoken.addAttribute(.accessibilitySpeechLanguage, value: run.language, range: run.range)
+        }
+        label.accessibilityAttributedLabel = spoken
         label.font = .preferredFont(forTextStyle: style)
         label.textColor = .label
         label.textAlignment = language.hasPrefix("ar") ? .right : .left

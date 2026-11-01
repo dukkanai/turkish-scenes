@@ -31,6 +31,8 @@ jobs:
           build/core-checks
           swiftc App/PracticeCore.swift App/ProgressStore.swift Tests/ProgressChecks.swift -o build/progress-checks
           build/progress-checks
+          swiftc App/SpeechLanguageRuns.swift Tests/SpeechLanguageChecks.swift -o build/speech-checks
+          build/speech-checks
       - name: Test player security boundaries
         run: |
           bash -n ci/testflight.sh
