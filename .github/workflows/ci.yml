@@ -10,16 +10,27 @@ concurrency:
   group: ios-ci-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  environment:
+  build:
     runs-on: macos-15
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
-      - name: Verify macOS and available Xcode runtimes
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Record build environment
         run: |
           set -euo pipefail
           sw_vers
           xcodebuild -version
           swift --version
           xcrun simctl list runtimes
-          xcrun simctl list devices available
-          echo 'Environment preflight only; no application build or device acceptance yet.'
+      - name: Convert teaching source
+        run: python3 tools/convert_content.py
+      - name: Install project generator
+        run: brew install xcodegen
+      - name: Generate project
+        run: xcodegen generate
+      - name: Build iPhone simulator
+        run: |
+          set -euo pipefail
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
+      - name: Report scope
+        run: echo 'Simulator build only. Device, VoiceOver, live video and content editorial acceptance remain NOT_RUN.'
