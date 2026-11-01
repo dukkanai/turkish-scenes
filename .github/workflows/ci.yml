@@ -22,6 +22,11 @@ jobs:
           xcodebuild -version
           swift --version
           xcrun simctl list runtimes
+      - name: Test Turkish grading and session persistence
+        run: |
+          mkdir -p build
+          swiftc App/PracticeCore.swift Tests/CoreChecks.swift -o build/core-checks
+          build/core-checks
       - name: Test content converter
         run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Convert teaching source
