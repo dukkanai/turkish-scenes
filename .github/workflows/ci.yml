@@ -22,6 +22,8 @@ jobs:
           xcodebuild -version
           swift --version
           xcrun simctl list runtimes
+      - name: Test content converter
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
       - name: Convert teaching source
         run: python3 tools/convert_content.py
       - name: Install project generator
