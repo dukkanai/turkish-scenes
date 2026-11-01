@@ -24,3 +24,23 @@ class ReviewedPromptsTests(unittest.TestCase):
                 self.assertNotIn(answer.casefold(), prompt.casefold())
                 total += 1
         self.assertEqual(total, manifest["expectedSourceOccurrences"])
+
+    def test_reviewed_phrases_align_and_do_not_leak(self):
+        segments, _ = convert(Path("docs/srt/7_Koğuştaki_Mucize.srt").read_text(encoding="utf-8-sig"))
+        by_id = {s["id"]: s for s in segments}
+        manifest = json.loads(Path("App/Resources/reviewed-phrases-manifest.json").read_text())
+        self.assertEqual(len(set(manifest["files"])), len(manifest["files"]))
+        questions = []
+        for name in manifest["files"]:
+            questions.extend(json.loads(Path("App/Resources", name + ".json").read_text()))
+        self.assertEqual(len(questions), manifest["expectedQuestions"])
+        self.assertEqual(len({q["id"] for q in questions}), len(questions))
+        for q in questions:
+            self.assertEqual(q["kind"], "phrase")
+            self.assertTrue(q["id"].startswith(q["segmentID"] + ":p"))
+            self.assertTrue(q["id"].endswith(":choice"))
+            self.assertIsNone(re.search(r"[A-Za-zÇĞİÖŞÜçğıöşü]", q["prompt"]))
+            source = " ".join(by_id[q["segmentID"]]["turkish"].split())
+            self.assertIn(q["answer"], source)
+            self.assertEqual(len(q["choices"]), 4)
+            self.assertEqual(q["choices"].count(q["answer"]), 1)

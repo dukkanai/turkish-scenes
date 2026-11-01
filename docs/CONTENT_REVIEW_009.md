@@ -1,0 +1,11 @@
+# Content review 009: words through 880 and phrases through 160
+
+721–800 preserves 360 words: 329 eligible and 31 sound/action exclusions, with 329 contextual explanations and choice overrides. Five name occurrences inside pure action descriptions remain eligible and are honestly labeled descriptive. 801–880 preserves 358 words: 326 eligible, 31 sound/action exclusions and one explicit orthographic hold for 839:w06 Nikah (dictionary nikâh). Memo in 865 remains eligible; only the action verb is excluded. Contextual grammar and lyric variants are not silently rewritten.
+
+Cumulative 1–880: 3,877 source word occurrences, 3,573 eligible word questions and 304 exclusions/holds. The manifest excludes the first eight static starter words.
+
+Phrase review adds 116 choices for 116 distinct clips in 11–160. Combined with eight existing questions in 1–10, the phrase bank now has 124 questions. Total active questions: 3,697. Answers are exact contiguous source phrases with four distinct choices and no held spellings. Skipped clips: 14,15,16,19,20,21,72,91,137,158,160 (sound/action only);17,78 (names only);22,23 (nonlexical refrain with one useful word);25 (isolated speech acts);27,28 (standalone repetition);30,99 (independent single-word acts/vocatives);31,55,62,81,82,83,88,100,148,150,151 (single-word speech);38,111 (held Heidi'li in the sole phrase);155 (nonstandard Araç bin is not silently repaired or taught as standard phrasing).
+
+A phrase manifest supports future batches without editing the loader per batch. The shared bank rejects missing counts, duplicate question IDs, non-phrase entries and malformed choices. Python and Swift checks validate phrase alignment, Arabic-only prompts, uniqueness, correct answer and word/phrase separation. The source transcript remains immutable. No accounts, permissions, credentials, network endpoints or signing configuration changed.
+
+Each artifact was verified as one new blob with no unrelated modifications or deletions; source alignment was rechecked before integration. Exact-head GitHub macOS CI must pass. This is partial text-only editorial coverage, not full-film, audiovisual, native-speaker or real-device certification. TestFlight remains the prior delivered version until a separately verified release.

@@ -42,9 +42,21 @@ import Foundation
             precondition(ReviewedQuestionBank.make(segment: segment, rows: wrong).isEmpty)
             precondition(ReviewedQuestionBank.make(segment: segment, rows: Array(rows.dropLast())).isEmpty)
         }
-        let phrases = try JSONDecoder().decode([PracticeQuestion].self,
-            from: Data(contentsOf: URL(fileURLWithPath: "App/Resources/reviewed-phrases-1-10.json")))
-        precondition(phrases.count == 8)
+        let phraseManifest = try JSONDecoder().decode(ReviewedPhraseBank.Manifest.self,
+            from: Data(contentsOf: URL(fileURLWithPath: "App/Resources/reviewed-phrases-manifest.json")))
+        let phraseBatches = try phraseManifest.files.map { name in
+            try JSONDecoder().decode([PracticeQuestion].self,
+                from: Data(contentsOf: URL(fileURLWithPath: "App/Resources/" + name + ".json")))
+        }
+        guard let phrases = ReviewedPhraseBank.merge(phraseBatches, expectedCount: phraseManifest.expectedQuestions) else {
+            fatalError("Phrase batches invalid")
+        }
+        precondition(ReviewedPhraseBank.merge(phraseBatches + phraseBatches,
+            expectedCount: phraseManifest.expectedQuestions * 2) == nil, "Duplicate phrase IDs must fail closed")
+        precondition(ReviewedPhraseBank.merge(phraseBatches,
+            expectedCount: phraseManifest.expectedQuestions + 1) == nil, "Missing phrases must fail closed")
+        precondition(ReviewedPhraseBank.merge([[PracticeQuestion(id: "not-a-phrase", version: 1, segmentID: "test", prompt: "معنى", answer: "bir", explanation: "اختبار", choices: ["bir", "iki", "üç", "dört"])]], expectedCount: 1) == nil,
+            "Word questions cannot enter phrase bank")
         for q in phrases {
             precondition(q.kind == .phrase)
             precondition(q.choices.count == 4 && Set(q.choices.map(TurkishGrader.normalize)).count == 4)
@@ -57,6 +69,6 @@ import Foundation
         precondition(phrases.filter { $0.kind != .phrase }.isEmpty, "Phrases cannot enter word-writing mode")
         precondition(total == manifest.expectedEligibleOccurrences)
         precondition(total + review.excluded.count == manifest.expectedSourceOccurrences)
-        print("PASS: Reviewed occurrence counts, explicit holds/exclusions and eight phrases and source-drift rejection")
+        print("PASS: Reviewed occurrence counts, explicit holds/exclusions and manifest-backed phrases and source-drift rejection")
     }
 }

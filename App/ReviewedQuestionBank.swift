@@ -93,3 +93,38 @@ enum ReviewedQuestionBank {
         return result
     }
 }
+
+enum ReviewedPhraseBank {
+    struct Manifest: Decodable {
+        let files: [String]
+        let expectedQuestions: Int
+    }
+    static func merge(_ batches: [[PracticeQuestion]], expectedCount: Int) -> [PracticeQuestion]? {
+        guard !batches.isEmpty, expectedCount > 0 else { return nil }
+        let values = batches.flatMap { $0 }
+        guard values.count == expectedCount,
+              Set(values.map { $0.id }).count == values.count,
+              values.allSatisfy({ q in
+                  q.kind == .phrase && !q.prompt.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                  && !q.answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                  && q.choices.count == 4
+                  && Set(q.choices.map(TurkishGrader.normalize)).count == 4
+                  && q.choices.filter { TurkishGrader.isCorrect($0, expected: q.answer) }.count == 1
+              }) else { return nil }
+        return values
+    }
+    static let all: [PracticeQuestion] = {
+        guard let url = Bundle.main.url(forResource: "reviewed-phrases-manifest", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let manifest = try? JSONDecoder().decode(Manifest.self, from: data),
+              Set(manifest.files).count == manifest.files.count else { return [] }
+        var batches: [[PracticeQuestion]] = []
+        for name in manifest.files {
+            guard let url = Bundle.main.url(forResource: name, withExtension: "json"),
+                  let data = try? Data(contentsOf: url),
+                  let values = try? JSONDecoder().decode([PracticeQuestion].self, from: data) else { return [] }
+            batches.append(values)
+        }
+        return merge(batches, expectedCount: manifest.expectedQuestions) ?? []
+    }()
+}

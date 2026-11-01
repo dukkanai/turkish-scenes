@@ -28,12 +28,7 @@ enum PreviewQuestions {
             prompt:"لبوش أو الخاص ببوش؛ اكتب الاسم مع لاحقة الإضافة كما ورد.", answer:"Bush'un", explanation:"Bush اسم شخص؛ -un للإضافة.",
             choices:["Bush'un","George","Başkanı","Amerika"])
     ]
-    static let phrases: [PracticeQuestion] = {
-        guard let url = Bundle.main.url(forResource: "reviewed-phrases-1-10", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let values = try? JSONDecoder().decode([PracticeQuestion].self, from: data) else { return [] }
-        return values
-    }()
+    static let phrases: [PracticeQuestion] = ReviewedPhraseBank.all
     static func forSegment(_ segment: Segment) -> [PracticeQuestion] {
         all.filter { $0.segmentID == segment.id } + ReviewedQuestionBank.questions(for: segment)
             + phrases.filter { $0.segmentID == segment.id }

@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "miracle-cell-7:c0011:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0011",
+    "prompt": "عقوبة الإعدام، المذكورة في الخبر عن آخر تطبيق لها في تركيا.",
+    "answer": "idam cezası",
+    "explanation": "تركيب اسمي يعني عقوبة الإعدام، لا مجرد الموت.",
+    "choices": [
+      "hapis cezası",
+      "trafik cezası",
+      "ölüm haberi",
+      "idam cezası"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0012:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0012",
+    "prompt": "مواطن أوزبكستان، وصف لاعب الشطرنج في الخبر.",
+    "answer": "Özbekistan vatandaşı",
+    "explanation": "تحدد العبارة جنسية اللاعب قبل ذكر اسمه.",
+    "choices": [
+      "Özbekistan vatandaşı",
+      "Özbekistan başkenti",
+      "İngiltere vatandaşı",
+      "satranç turnuvası"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0013:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0013",
+    "prompt": "بطل العالم في الشطرنج، اللقب الذي فاز به اللاعب.",
+    "answer": "Dünya Satranç Şampiyonu",
+    "explanation": "العبارة لقب رياضي؛ الشطرنج يحدد مجال البطولة.",
+    "choices": [
+      "Dünya Futbol Şampiyonu",
+      "Dünya Satranç Şampiyonu",
+      "Türkiye Satranç Şampiyonu",
+      "Satranç Federasyonu Başkanı"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0018:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0018",
+    "prompt": "أحسنت يا أوفا؛ عبارة استحسان موجّهة إلى الطفلة.",
+    "answer": "Aferin, Ova",
+    "explanation": "استحسان لما حققته أوفا، وليس طلبًا منها أن تفعل شيئًا.",
+    "choices": [
+      "Bekle, Ova",
+      "Gel, Ova",
+      "Aferin, Ova",
+      "Sus, Ova"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0024:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0024",
+    "prompt": "فزتُ بشريط جائزة، كما تخبر الطفلة أباها.",
+    "answer": "kurdele kazandım",
+    "explanation": "الفعل بصيغة الماضي للمتكلم، والشريط هو ما فازت به.",
+    "choices": [
+      "kurdele kazandım",
+      "kurdele kaybettim",
+      "çanta kazandım",
+      "kurdele alacağım"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0026:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0026",
+    "prompt": "انظروا إلى من ينعته الصبي بعبارة مهينة تعني «متخلف عقليًا».",
+    "answer": "Geri zekâlıya bakın",
+    "explanation": "ترد العبارة تنمّرًا وإهانة في الحوار؛ لا تُقدَّم بوصفها طريقة محترمة لوصف شخص.",
+    "choices": [
+      "Öğretmene bakın",
+      "Geri dönün",
+      "Geri zekâlıya bakın",
+      "Çocuğa yardım edin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0029:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0029",
+    "prompt": "نعتذر؛ ما تقوله الطالبة بصيغة الجمع للمعلمة.",
+    "answer": "Özür dileriz",
+    "explanation": "تعبير ثابت للاعتذار بصيغة نحن.",
+    "choices": [
+      "Teşekkür ederiz",
+      "Özür dileriz",
+      "Yardım isteriz",
+      "Tebrik ederiz"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0032:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0032",
+    "prompt": "هيا تعال؛ دعوة المخاطب إلى المجيء.",
+    "answer": "hadi gel",
+    "explanation": "تجمع العبارة الحثّ مع أمر المجيء للمفرد.",
+    "choices": [
+      "hadi gel",
+      "hadi git",
+      "burada kal",
+      "biraz bekle"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0033:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0033",
+    "prompt": "انظري، الطيور! ما يقوله الأب ليلفت انتباه أوفا إليها.",
+    "answer": "bak, kuşlar",
+    "explanation": "الأب يلفت الانتباه إلى الطيور؛ الأمر التركي لا يميز جنس المخاطب.",
+    "choices": [
+      "bak, çiçekler",
+      "bak, kuşlar",
+      "dinle, müzik",
+      "bekle, geliyorum"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0034:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0034",
+    "prompt": "أبي، توقف؛ لن تستطيع اللحاق بها!",
+    "answer": "Baba dur, yetişemezsin",
+    "explanation": "تطلب أوفا من أبيها التوقف عن محاولة اللحاق بالطيور؛ الفعل ينفي القدرة.",
+    "choices": [
+      "Baba gel, yetişebiliriz",
+      "Baba koş, geç kaldık",
+      "Baba dur, yetişemezsin",
+      "Baba bak, kuşlar geldi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0035:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0035",
+    "prompt": "بلّغوا السلام؛ طلب الأب من الطيور نقل تحيته.",
+    "answer": "selam söyleyin",
+    "explanation": "تعبير لنقل التحية إلى شخص آخر، بصيغة أمر الجمع.",
+    "choices": [
+      "haber bekleyin",
+      "geri dönün",
+      "sessiz olun",
+      "selam söyleyin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0036:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0036",
+    "prompt": "قولوا إن ميمو بخير؛ الرسالة التي يريد نقلها.",
+    "answer": "Memo iyi deyin",
+    "explanation": "يطلب الأب من الطيور نقل خبر أنه بخير.",
+    "choices": [
+      "Memo iyi deyin",
+      "Memo hasta deyin",
+      "Memo geldi deyin",
+      "Ova uyuyor deyin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0037:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0037",
+    "prompt": "هل ما زلت مستمرًا في جعل شعرك يُقصّ؟ سؤال موجّه إلى كمال.",
+    "answer": "kırptırmaya devam mı",
+    "explanation": "سؤال محادثة مختصر عن مواصلة قصّ الشعر؛ لا يُضاف فعل غير موجود في المصدر.",
+    "choices": [
+      "tıraş bitti mi",
+      "kırptırmaya devam mı",
+      "çanta hazır mı",
+      "eve gidecek misin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0039:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0039",
+    "prompt": "كيف تسير الدراسة؟ سؤال عن أحوال المدرسة.",
+    "answer": "Nasıl gidiyor okul",
+    "explanation": "سؤال محادثة عن سير الدراسة، وليس عن الطريق إلى المدرسة.",
+    "choices": [
+      "Okul nerede",
+      "Okula kim gidiyor",
+      "Okul ne zaman kapanıyor",
+      "Nasıl gidiyor okul"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0040:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0040",
+    "prompt": "كم ثمن هذه الحقيبة؟",
+    "answer": "kaç para bu çanta",
+    "explanation": "سؤال دارج عن السعر؛ ترتيب الكلمات محفوظ كما ورد.",
+    "choices": [
+      "kaç para bu çanta",
+      "kaç tane çanta var",
+      "bu çanta kimin",
+      "bu çanta ne renk"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0041:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0041",
+    "prompt": "تبيّن أنها غالية جدًا، في التعليق على ثمن الحقيبة.",
+    "answer": "Çok pahalıymış",
+    "explanation": "صيغة الخبر المكتشف هنا تعبر عن ملاحظة ارتفاع الثمن.",
+    "choices": [
+      "Çok ucuzmuş",
+      "Çok pahalıymış",
+      "Çok ağırmış",
+      "Çok eskimiş"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0042:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0042",
+    "prompt": "نتدبر الباقي لاحقًا، كما يقترح البائع بخصوص الثمن.",
+    "answer": "gerisini sonra hallederiz",
+    "explanation": "يقترح البائع تأجيل معالجة المبلغ المتبقي.",
+    "choices": [
+      "hepsini şimdi öderiz",
+      "gerisini sana veririz",
+      "gerisini sonra hallederiz",
+      "yarın hepsini satarız"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0043:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0043",
+    "prompt": "لا يصح الأمر هكذا؛ رفض اقتراح البائع.",
+    "answer": "öyle olmaz",
+    "explanation": "اعتراض على الطريقة المقترحة، لا خبر عن شيء غير موجود.",
+    "choices": [
+      "öyle olsun",
+      "şimdi gel",
+      "sonra görüşürüz",
+      "öyle olmaz"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0044:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0044",
+    "prompt": "ستغضب جدتي من جهة أبي، كما يعلل رفضه.",
+    "answer": "babaannem kızar",
+    "explanation": "اسم القرابة هنا جدة الأب، والفعل يدل على الغضب المتوقع.",
+    "choices": [
+      "babaannem kızar",
+      "babaannem güler",
+      "annem kızar",
+      "babaannem uyur"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0045:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0045",
+    "prompt": "عبارة تعجب واستغراب: يا إلهي!",
+    "answer": "Allah Allah",
+    "explanation": "تكرار لفظ الجلالة هنا تعجب محادثي، وليس اسم شخص أو نداءً لشخص.",
+    "choices": [
+      "Hadi gel",
+      "Allah Allah",
+      "İyi akşamlar",
+      "Hoş geldiniz"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0046:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0046",
+    "prompt": "لن نستطيع شراءها، أليس كذلك؟ سؤال أوفا عن الحقيبة.",
+    "answer": "Alamayız değil mi",
+    "explanation": "نفي الاستطاعة يتبعه طلب تأكيد.",
+    "choices": [
+      "Alabiliriz değil mi",
+      "Satacağız değil mi",
+      "Alamayız değil mi",
+      "Aldınız değil mi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0047:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0047",
+    "prompt": "التفاح المغطى بالسكر، الحلوى التي سيبيعها الأب.",
+    "answer": "elma şekeri",
+    "explanation": "اسم نوع من الحلوى، وليس مجرد سكر مستخرج من التفاح.",
+    "choices": [
+      "elma suyu",
+      "elma ağacı",
+      "şeker kutusu",
+      "elma şekeri"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0048:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0048",
+    "prompt": "الشيء نفسه دائمًا؛ شكوى من تكرار الحال.",
+    "answer": "Hep aynı şey",
+    "explanation": "تعبير عن تكرر الأمر ذاته.",
+    "choices": [
+      "Hep aynı şey",
+      "Her gün başka şey",
+      "Hiçbir şey yok",
+      "Bir şey değişti"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0049:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0049",
+    "prompt": "ستفعل أنت أيضًا ذلك، أي ما يفعله الجميع.",
+    "answer": "sen de onu yapacaksın",
+    "explanation": "خطاب للمفرد بالمستقبل؛ الإضافة تعني أنه سيفعل مثل الآخرين.",
+    "choices": [
+      "sen onu yapmayacaksın",
+      "sen de onu yapacaksın",
+      "ben de onu yaptım",
+      "siz de buraya geleceksiniz"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0050:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0050",
+    "prompt": "سأخبر جدتي من جهة أبي؛ تهديد بإبلاغها.",
+    "answer": "babaanneme söylerim",
+    "explanation": "يتوعد المتكلم بإخبار جدته، لا بأن جدته هي التي ستتكلم.",
+    "choices": [
+      "babaannem bana söyler",
+      "babaanneme sorarım",
+      "babaanneme söylerim",
+      "babaannemi beklerim"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0051:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0051",
+    "prompt": "انظر إلى حسن! طلب ملحّ من المخاطب.",
+    "answer": "Baksana Hasan'a",
+    "explanation": "الاسم هو وجهة النظر في الجملة، وصيغة الأمر تحمل حثًّا.",
+    "choices": [
+      "Hasan'ı beklesene",
+      "Hasan'a söylesene",
+      "Hasan'dan kaçsana",
+      "Baksana Hasan'a"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0052:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0052",
+    "prompt": "اسمحوا لي، هيا؛ طلب موجّه إلى جماعة.",
+    "answer": "izin versenize",
+    "explanation": "العبارة من تركيب إعطاء الإذن، وتستعمل هنا طلبًا للسماح.",
+    "choices": [
+      "izin versenize",
+      "haber versenize",
+      "cevap versenize",
+      "geri dönsenize"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0053:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0053",
+    "prompt": "تعال إلى هنا؛ أمر لمخاطب واحد.",
+    "answer": "Buraya gel",
+    "explanation": "تحدد العبارة جهة المجيء: إلى مكان المتكلم.",
+    "choices": [
+      "Oraya git",
+      "Buraya gel",
+      "Burada kal",
+      "Geri dön"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0054:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0054",
+    "prompt": "تعال إلى هنا؛ الأمر الذي يقوله ميمو.",
+    "answer": "Gel buraya",
+    "explanation": "أمر بالمجيء يتبعه تحديد المكان، وفق ترتيب المصدر.",
+    "choices": [
+      "Git oraya",
+      "Kal burada",
+      "Gel buraya",
+      "Bak yukarı"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0056:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0056",
+    "prompt": "ما الذي يعاني منه أبي؟ سؤال الطفلة عن حال والدها.",
+    "answer": "Benim babamın nesi var",
+    "explanation": "التركيب يسأل عما به، لا عما يملكه من أشياء.",
+    "choices": [
+      "Benim babamın nesi var",
+      "Benim babam nerede",
+      "Benim babam ne yapıyor",
+      "Benim babam kaç yaşında"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0057:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0057",
+    "prompt": "وما خطب أبيك؟ سؤال الجدة ردًّا على كلام الطفلة.",
+    "answer": "Nesi varmış babanın",
+    "explanation": "تسأل الجدة عمّا قيل عن الأب؛ المخاطب هنا الطفلة.",
+    "choices": [
+      "Nereye gitmiş baban",
+      "Nesi varmış babanın",
+      "Ne almış baban",
+      "Ne zaman gelmiş baban"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0058:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0058",
+    "prompt": "هل أبي مجنون؟ السؤال الذي تطرحه الطفلة.",
+    "answer": "Deli mi benim babam",
+    "explanation": "تنقل الطفلة وصفًا جارحًا سمعته؛ السؤال لا يثبت تشخيصًا للأب.",
+    "choices": [
+      "Hasta mı benim babam",
+      "Evde mi benim babam",
+      "Deli mi benim babam",
+      "Yorgun mu benim babam"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0059:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0059",
+    "prompt": "ما هذا الكلام! تعبير استنكار لما قيل.",
+    "answer": "ne biçim laf",
+    "explanation": "ليس سؤالًا محايدًا عن نوع الكلام؛ السياق توبيخ واستنكار.",
+    "choices": [
+      "ne güzel haber",
+      "ne kadar para",
+      "ne zaman gelir",
+      "ne biçim laf"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0060:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0060",
+    "prompt": "لكنهم يقولون ذلك؛ احتجاج الطفلة بما تسمعه.",
+    "answer": "Ama öyle diyorlar",
+    "explanation": "تستدرك على الجدة وتنسب الكلام إلى جماعة.",
+    "choices": [
+      "Ama öyle diyorlar",
+      "Ama öyle demiyorlar",
+      "Ama ben bilmiyorum",
+      "Ama onlar gelmiyorlar"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0061:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0061",
+    "prompt": "من يقول ذلك؟ سؤال عن صاحب الكلام.",
+    "answer": "Kim öyle diyor",
+    "explanation": "أداة السؤال تطلب تحديد القائل.",
+    "choices": [
+      "Ne zaman geliyor",
+      "Kim öyle diyor",
+      "Kim seni bekliyor",
+      "Neden öyle yapıyor"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0063:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0063",
+    "prompt": "قولي لهم ما يلي؛ تمهيد الجدة للرد الذي ستلقنه للطفلة.",
+    "answer": "Sen onlara de ki",
+    "explanation": "الفعل هنا أمر بالقول، ثم أداة تربط الكلام الذي سيأتي.",
+    "choices": [
+      "Sen onları bekle",
+      "Sen buraya gel",
+      "Sen onlara sor",
+      "Sen onlara de ki"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0064:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0064",
+    "prompt": "مرة أخرى، في التحذير من تكرار وصف الأب بالإهانة.",
+    "answer": "bir daha",
+    "explanation": "تعبير عن التكرار؛ بقية الجملة تضعه في شرط تحذيري.",
+    "choices": [
+      "bir daha",
+      "ilk defa",
+      "her sabah",
+      "çok önce"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0065:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0065",
+    "prompt": "سأخبر جدتي عنكم؛ الجملة التي تطلب الجدة من الطفلة قولها.",
+    "answer": "sizi neneme söyleyeceğim",
+    "explanation": "إخبار الجدة عن المخاطَبين على سبيل الشكوى منهم.",
+    "choices": [
+      "sizi neneme götüreceğim",
+      "sizi neneme söyleyeceğim",
+      "nenemi size göndereceğim",
+      "sizi burada bekleyeceğim"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0066:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0066",
+    "prompt": "سأخبر كوجاباش، كما يتوعد ميمو.",
+    "answer": "Kocabaş'a söylerim",
+    "explanation": "الاسم يتلقى خبر المتكلم؛ الصيغة تفيد وعيدًا بالإبلاغ.",
+    "choices": [
+      "Kocabaş'ı beklerim",
+      "Kocabaş'tan kaçarım",
+      "Kocabaş'a söylerim",
+      "Kocabaş'a sorarım"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0067:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0067",
+    "prompt": "لا يشبه إطلاقًا؛ وصف اختلاف الأب عن الآباء الآخرين.",
+    "answer": "hiç benzemiyor",
+    "explanation": "النفي مؤكد بكلمة تدل هنا على الإطلاق.",
+    "choices": [
+      "çok benziyor",
+      "hiç konuşmuyor",
+      "hep gülümsüyor",
+      "hiç benzemiyor"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0068:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0068",
+    "prompt": "لا يشبه أحدًا إطلاقًا؛ تأكيد الجدة تميّز الأب.",
+    "answer": "hiç kimselere benzemez",
+    "explanation": "النفي يشمل أي شخص، لا مجموعة محددة فقط.",
+    "choices": [
+      "hiç kimselere benzemez",
+      "herkese çok benzer",
+      "kimseyi tanımaz",
+      "kimseye söylemez"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0069:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0069",
+    "prompt": "هل تعلمين؟ جزء سؤال الجدة للطفلة.",
+    "answer": "biliyor musun",
+    "explanation": "سؤال للمخاطب المفرد عن المعرفة؛ التركية لا تميز هنا المذكر والمؤنث.",
+    "choices": [
+      "görüyor musun",
+      "biliyor musun",
+      "geliyor musun",
+      "bekliyor musun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0070:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0070",
+    "prompt": "في مثل عمرك؛ ما تقوله الجدة عن الأب مخاطبةً الطفلة.",
+    "answer": "seninle aynı yaşta",
+    "explanation": "المقارنة بعمر المخاطبة، لا بعمر المتكلمة.",
+    "choices": [
+      "benimle aynı yaşta",
+      "seninle aynı okulda",
+      "seninle aynı yaşta",
+      "senden çok uzakta"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0071:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0071",
+    "prompt": "في مثل عمري؛ ما تعيده الطفلة عن أبيها.",
+    "answer": "benimle aynı yaşta",
+    "explanation": "تحولت المقارنة إلى عمر المتكلمة حين تكرر كلام الجدة.",
+    "choices": [
+      "seninle aynı yaşta",
+      "benimle aynı evde",
+      "benden daha yaşlı",
+      "benimle aynı yaşta"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0073:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0073",
+    "prompt": "هيا اذهبوا؛ حثّ جماعة على الانصراف.",
+    "answer": "hadi gidin",
+    "explanation": "أمر بالذهاب للجمع مع أداة حثّ.",
+    "choices": [
+      "hadi gelin",
+      "hadi gidin",
+      "burada kalın",
+      "sessiz olun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0074:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0074",
+    "prompt": "كفى، هيا! عبارة تجمع طلب الاكتفاء والحث.",
+    "answer": "Yeter hadi",
+    "explanation": "ترد وسط أوامر حازمة بإنهاء الموقف والتحرك.",
+    "choices": [
+      "Biraz daha",
+      "Çok güzel",
+      "Yeter hadi",
+      "Hoş geldin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0075:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0075",
+    "prompt": "امشوا، هيا! أمر موجّه إلى جماعة.",
+    "answer": "Yürüyün hadi",
+    "explanation": "الفعل أمر الجمع بالمشي، وتتبعه أداة الحث.",
+    "choices": [
+      "Oturun hadi",
+      "Bekleyin biraz",
+      "Dinleyin şimdi",
+      "Yürüyün hadi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0076:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0076",
+    "prompt": "تعالوا إلى هنا! بصيغة النداء الخشنة الواردة في المقطع.",
+    "answer": "Gelin lan buraya",
+    "explanation": "أمر للجمع بالمجيء إلى هنا؛ يتضمن نداءً عاميًا خشنًا لا يلائم المخاطبة المهذبة.",
+    "choices": [
+      "Gelin lan buraya",
+      "Gidin lan oraya",
+      "Kalın burada",
+      "Bakın şu tarafa"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0077:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0077",
+    "prompt": "تعالوا معي؛ أمر ميمو للجماعة بمرافقته.",
+    "answer": "Gelin benle",
+    "explanation": "كلمة المصاحبة صيغة محادثية بمعنى معي، محفوظة كما وردت.",
+    "choices": [
+      "Gidin onunla",
+      "Gelin benle",
+      "Kalın burada",
+      "Gelin yarın"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0079:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0079",
+    "prompt": "مع الماعز، في القصة التي تقرؤها الطفلة.",
+    "answer": "keçilerle birlikte",
+    "explanation": "تركيب للمصاحبة؛ ليست الماعز وجهة الذهاب.",
+    "choices": [
+      "keçilerden önce",
+      "koyunlarla birlikte",
+      "keçiler için",
+      "keçilerle birlikte"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0080:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0080",
+    "prompt": "كانت تحب الذهاب إلى المرج كثيرًا، كما تروي القصة.",
+    "answer": "çayıra gitmeyi çok seviyormuş",
+    "explanation": "حب الذهاب إلى المرج منقول ضمن حكاية، لا قول مباشر من الشخصية.",
+    "choices": [
+      "çayıra gitmeyi çok seviyormuş",
+      "çayıra gitmekten korkuyormuş",
+      "okula gitmeyi çok seviyormuş",
+      "çayırda uyumak istiyormuş"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0084:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0084",
+    "prompt": "توفيت أمها وأبوها، في حديث الطفلة عن هايدي.",
+    "answer": "annesiyle babası ölmüş",
+    "explanation": "الجملة خبر منقول عن وفاة الوالدين، وليست سفرًا أو نومًا.",
+    "choices": [
+      "annesiyle babası ölmüş",
+      "annesiyle babası gelmiş",
+      "annesiyle babası uyumuş",
+      "annesiyle babası gülmüş"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0085:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0085",
+    "prompt": "أصبحوا ملائكة؛ جواب الأب المواسي عن الوالدين.",
+    "answer": "Melek olmuşlar",
+    "explanation": "تعبير مواساة داخل الحوار عن المتوفَّيين، لا تقريرًا طبيًا.",
+    "choices": [
+      "Eve dönmüşler",
+      "Melek olmuşlar",
+      "Çok yorulmuşlar",
+      "İş bulmuşlar"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0086:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0086",
+    "prompt": "كانت خالتها تعتني بها، كما تروي القصة.",
+    "answer": "teyzesi bakıyormuş",
+    "explanation": "الفعل يعني الرعاية في هذا السياق، لا مجرد النظر.",
+    "choices": [
+      "teyzesi çalışıyormuş",
+      "annesi bakıyormuş",
+      "teyzesi bakıyormuş",
+      "teyzesi uyuyormuş"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0087:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0087",
+    "prompt": "وجدت عملًا، كما يرد في خبر خالة هايدي.",
+    "answer": "iş bulmuş",
+    "explanation": "تركيب إيجاد العمل، بصيغة الحكاية المنقولة.",
+    "choices": [
+      "iş aramış",
+      "iş bırakmış",
+      "ev bulmuş",
+      "iş bulmuş"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0089:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0089",
+    "prompt": "أنت لن تموت، أليس كذلك؟ سؤال الطفلة طلبًا للاطمئنان.",
+    "answer": "Sen ölmeyeceksin değil mi",
+    "explanation": "نفي موت المخاطب مستقبلًا يتبعه طلب تأكيد.",
+    "choices": [
+      "Sen bekleyeceksin değil mi",
+      "Sen ölmeyeceksin değil mi",
+      "Sen uyuyacaksın değil mi",
+      "Sen geleceksin değil mi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0090:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0090",
+    "prompt": "لن تذهب مثل أمي؛ ما تقوله الطفلة لأبيها.",
+    "answer": "Annem gibi gitmeyeceksin",
+    "explanation": "الذهاب هنا تلميح إلى الفقد والوفاة في سياق خوف الطفلة.",
+    "choices": [
+      "Annem gibi güleceksin",
+      "Annemle birlikte geleceksin",
+      "Annem gibi gitmeyeceksin",
+      "Annem gibi çalışacaksın"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0092:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0092",
+    "prompt": "سأبقى معك دائمًا؛ وعد الأب لابنته.",
+    "answer": "Ben hep seninle kalacağım",
+    "explanation": "وعد بصيغة المتكلم المفرد بالمستقبل، يتضمن الاستمرار في المصاحبة.",
+    "choices": [
+      "Ben hep seninle kalacağım",
+      "Ben hep seni bekleyeceğim",
+      "Ben yarın eve geleceğim",
+      "Ben artık yalnız kalacağım"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0093:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0093",
+    "prompt": "ذات يوم، في بداية حدث من القصة.",
+    "answer": "Bir gün",
+    "explanation": "تعبير زمني سردي؛ لا يحدد تاريخًا بعينه.",
+    "choices": [
+      "Her gün",
+      "Bir gün",
+      "Bu gece",
+      "Geçen yıl"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0094:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0094",
+    "prompt": "إلى أن تظهر وتأتي؛ تتمة الحديث عن مجيء الخالة.",
+    "answer": "çıkıp gelene kadar",
+    "explanation": "التركيب يحدد نهاية مدة الاستمرار في الحياة السعيدة.",
+    "choices": [
+      "çıkıp geldikten sonra",
+      "çıkıp gitmek için",
+      "çıkıp gelene kadar",
+      "çıkıp gelmeden önce"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0095:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0095",
+    "prompt": "العيش هكذا بسعادة، ضمن كلام الراوي عن استمرار حياتهم.",
+    "answer": "böyle mutlu yaşamaya",
+    "explanation": "العبارة جزء من تركيب الاستمرار الذي يكتمل في المقطع التالي، وليست جملة تامة وحدها.",
+    "choices": [
+      "yalnız kalmaya",
+      "erken kalkmaya",
+      "çok çalışmaya",
+      "böyle mutlu yaşamaya"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0096:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0096",
+    "prompt": "استمروا على هذه الحال، كما تروي القصة.",
+    "answer": "devam etmişler",
+    "explanation": "فعل مركب يدل على الاستمرار، بصيغة الماضي المنقول والجمع.",
+    "choices": [
+      "devam etmişler",
+      "vazgeçmişler",
+      "geri dönmüşler",
+      "yardım etmişler"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0097:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0097",
+    "prompt": "صار خفيف القوام، كما تقول الجدة عن الخليط.",
+    "answer": "İnce oldu",
+    "explanation": "الصفة هنا للقوام غير الكثيف، لا لنحافة شخص.",
+    "choices": [
+      "Koyu oldu",
+      "İnce oldu",
+      "Soğuk oldu",
+      "Hazır oldu"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0098:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0098",
+    "prompt": "لون زهر الرمان، الذي يطلب إضافته إلى الحلوى.",
+    "answer": "Nar çiçeği",
+    "explanation": "في هذا السياق اسم لون أحمر مائل إلى البرتقالي، لا طلب لإضافة زهرة حقيقية.",
+    "choices": [
+      "Gök mavisi",
+      "Kömür karası",
+      "Nar çiçeği",
+      "Kar beyazı"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0101:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0101",
+    "prompt": "صنعنا حلوى من التفاح؛ ما يعلنه الأب والطفلة.",
+    "answer": "Elmadan şeker yaptık",
+    "explanation": "المادة هي التفاح، والفعل ماضٍ للمتكلم الجمع.",
+    "choices": [
+      "Elmadan reçel yaptık",
+      "Elmadan şeker yaptık",
+      "Elma şekeri sattık",
+      "Şekerden elma yaptık"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0102:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0102",
+    "prompt": "اغسلي يدك ووجهك؛ أمر الجدة قبل الأكل.",
+    "answer": "Elini yüzünü yıka",
+    "explanation": "أمر للمفرد بغسل اليد والوجه؛ الجنس يؤخذ من السياق.",
+    "choices": [
+      "Elini yüzünü sil",
+      "Elini saçını yıka",
+      "Elini yüzünü yıka",
+      "Ekmeğini al ve ye"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0103:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0103",
+    "prompt": "لم ينم ولم يدع غيره ينام؛ شكوى من إلحاحه طوال الليل.",
+    "answer": "Ne uyudu ne uyuttu",
+    "explanation": "تكرار أداة النفي ينفي الفعلين؛ الثاني يعني التسبب في نوم غيره، ونفيه عدم تركهم ينامون.",
+    "choices": [
+      "Hem uyudu hem uyuttu",
+      "Ne yedi ne içti",
+      "Ne geldi ne gitti",
+      "Ne uyudu ne uyuttu"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0104:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0104",
+    "prompt": "أعطني خمسة قروش؛ الطلب المتكرر في النشيد.",
+    "answer": "Beş para ver",
+    "explanation": "وحدة نقدية في كلمات النشيد، والفعل أمر بالإعطاء.",
+    "choices": [
+      "Beş para ver",
+      "On para ver",
+      "Beş para al",
+      "Beş elma ver"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0105:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0105",
+    "prompt": "سأبيع هذه الأشياء؛ ما يقوله الأب عن الحلوى.",
+    "answer": "Bunları satacağım",
+    "explanation": "المتكلم يعد ببيع الأشياء المشار إليها، لا بشرائها.",
+    "choices": [
+      "Bunları alacağım",
+      "Bunları satacağım",
+      "Bunları yiyeceğim",
+      "Bunları sattım"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0106:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0106",
+    "prompt": "أنت لا تعرف شيئًا؛ عتاب الطفلة لأبيها.",
+    "answer": "hiçbir şey bilmiyorsun",
+    "explanation": "نفي شامل للمعرفة في هذا العتاب، لا وصف ثابت لقيمة الشخص.",
+    "choices": [
+      "her şeyi biliyorsun",
+      "hiçbir şey görmüyorsun",
+      "hiçbir şey bilmiyorsun",
+      "hiçbir şey istemiyorsun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0107:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0107",
+    "prompt": "أعطني عشرة قروش؛ البديل المطلوب إذا لم توجد خمسة في النشيد.",
+    "answer": "on para ver",
+    "explanation": "يتغير العدد إلى عشرة في تتمة كلمات النشيد.",
+    "choices": [
+      "beş para ver",
+      "on para al",
+      "on elma ver",
+      "on para ver"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0108:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0108",
+    "prompt": "لماذا قلتِ ذلك؟ سؤال الأب عن كلام الطفلة.",
+    "answer": "Niye öyle dedin",
+    "explanation": "سؤال عن سبب قول سابق، لا عن معناه أو صاحبه.",
+    "choices": [
+      "Niye öyle dedin",
+      "Ne zaman geldin",
+      "Nereye gittin",
+      "Ne kadar verdin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0109:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0109",
+    "prompt": "تقول: ميموش لا يعرف؛ ما ينقله الأب عن كلام جدته.",
+    "answer": "Memoş bilmez diyor",
+    "explanation": "ينقل المتكلم حكمًا قالته الجدة عنه، ولا يصدر حكمًا جديدًا من الراوي.",
+    "choices": [
+      "Memoş bilir diyor",
+      "Memoş bilmez diyor",
+      "Memoş gelmez diyor",
+      "Memoş uyuyor diyor"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0110:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0110",
+    "prompt": "لماذا قلتِ ذلك؟ السؤال الموجّه إلى الطفلة.",
+    "answer": "Neden öyle dedin",
+    "explanation": "استفهام عن سبب ما قالته المخاطبة في الماضي.",
+    "choices": [
+      "Nereye böyle gittin",
+      "Ne zaman geri geldin",
+      "Neden öyle dedin",
+      "Nasıl bunu yaptın"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0112:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0112",
+    "prompt": "شكرًا لك؛ عبارة الجندي في الحوار.",
+    "answer": "Sağ ol",
+    "explanation": "صيغة شكر متداولة للمخاطب المفرد، وحرفيتها دعاء له بالعافية.",
+    "choices": [
+      "Sağ ol",
+      "Hoş geldin",
+      "Güle güle",
+      "Geçmiş olsun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0113:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0113",
+    "prompt": "شكرًا لك؛ العبارة التي يكررها الجنديان.",
+    "answer": "Sağ ol",
+    "explanation": "نفس صيغة الشكر ترد من متحدثين مختلفين في المقطع.",
+    "choices": [
+      "İyi geceler",
+      "Sağ ol",
+      "Kolay gelsin",
+      "Hoş geldin"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0114:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0114",
+    "prompt": "شكرًا لك؛ جواب الجندي الرابع.",
+    "answer": "Sağ ol",
+    "explanation": "تعبير شكر قصير، لا تحية وصول أو توديع.",
+    "choices": [
+      "Hoşça kal",
+      "Günaydın",
+      "Sağ ol",
+      "Afiyet olsun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0115:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0115",
+    "prompt": "زينتها البيضاء والحمراء؛ وصف العلم بوصفه زينة السماوات في القصيدة.",
+    "answer": "beyaz ve kızıl süsü",
+    "explanation": "الوصف يربط بياض العلم وحمرته بصورة شعرية للزينة.",
+    "choices": [
+      "beyaz ve mavi süsü",
+      "beyaz ve kızıl bulutları",
+      "mavi göklerin sesi",
+      "beyaz ve kızıl süsü"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0116:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0116",
+    "prompt": "ثوب زفاف أختي؛ إحدى الصور الشعرية للعلم.",
+    "answer": "Kız kardeşimin gelinliği",
+    "explanation": "تركيب ملكية: ثوب الزفاف يخص أخت المتكلم.",
+    "choices": [
+      "Kız kardeşimin gelinliği",
+      "Kız kardeşimin çantası",
+      "Erkek kardeşimin gömleği",
+      "Annemin gelinliği"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0117:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0117",
+    "prompt": "موجةً بعد موجة، في وصف تموّج العلم.",
+    "answer": "dalga dalga",
+    "explanation": "تكرار الاسم يرسم حركة متتابعة تشبه الأمواج.",
+    "choices": [
+      "yavaş yavaş",
+      "dalga dalga",
+      "birer birer",
+      "gece gündüz"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0118:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0118",
+    "prompt": "سأكتب ملحمتك؛ وعد الشاعر الموجّه إلى العلم.",
+    "answer": "senin destanını yazacağım",
+    "explanation": "الفعل مستقبل المتكلم المفرد، والمفعول ملحمة المخاطب.",
+    "choices": [
+      "senin destanını okudum",
+      "senin resmini çizeceğim",
+      "senin destanını yazacağım",
+      "senin destanını unuttum"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0119:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0119",
+    "prompt": "بعيني، أي من منظوري، في خطاب الشاعر للعلم.",
+    "answer": "benim gözümle",
+    "explanation": "المعنى هنا رؤية العلم بالطريقة التي يراه بها المتكلم.",
+    "choices": [
+      "senin sözünle",
+      "benim elimle",
+      "onun izniyle",
+      "benim gözümle"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0120:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0120",
+    "prompt": "عشّ الطائر المحلّق، بصيغة المفعول به في البيت.",
+    "answer": "uçan kuşun yuvasını",
+    "explanation": "تركيب يربط العش بالطائر الذي يطير؛ اللاحقة النهائية تحدد المفعول به.",
+    "choices": [
+      "uçan kuşun yuvasını",
+      "uçan kuşun kanadını",
+      "uyuyan çocuğun yatağını",
+      "düşen yaprağın rengini"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0121:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0121",
+    "prompt": "لا خوف ولا حزن، في المكان الذي يرفرف فيه العلم.",
+    "answer": "ne korku ne keder",
+    "explanation": "التركيب ينفي الأمرين معًا رغم عدم وجود فعل منفي مستقل.",
+    "choices": [
+      "hem korku hem keder",
+      "ne korku ne keder",
+      "ne ses ne ışık",
+      "biraz korku biraz umut"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0122:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0122",
+    "prompt": "امنح مكانًا؛ طلب الشاعر أن يكون له موضع في ظل العلم.",
+    "answer": "yer ver",
+    "explanation": "أمر بإفساح مكان، لا طلب لذكر اسم مكان.",
+    "choices": [
+      "yol sor",
+      "geri dön",
+      "yer ver",
+      "yer seç"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0123:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0123",
+    "prompt": "ما الضير؟ سؤال بلاغي يقلّل من أهمية غياب الصباح في البيت.",
+    "answer": "ne çıkar",
+    "explanation": "تعبير اصطلاحي عن عدم الاكتراث بالنتيجة، لا سؤال حرفي عما يخرج.",
+    "choices": [
+      "ne zaman",
+      "kaç kişi",
+      "hangi yol",
+      "ne çıkar"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0124:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0124",
+    "prompt": "نور هلالك ونجمتك، الذي يقول البيت إنه يكفي الوطن.",
+    "answer": "ay yıldızının ışığı",
+    "explanation": "الهلال والنجمة رمزا العلم في هذا التركيب، وليست الكلمة الأولى شهرًا زمنيًا.",
+    "choices": [
+      "ay yıldızının ışığı",
+      "güneş ışığı",
+      "şehrin sokakları",
+      "gecenin karanlığı"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0125:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0125",
+    "prompt": "تدفأنا في حمرتك؛ صورة شعرية يخاطب بها الشاعر العلم.",
+    "answer": "kızıllarında ısındık",
+    "explanation": "صورة شعرية للتدفؤ في درجات حمرة العلم؛ تُحفظ صيغة الجمع في لفظ الحمرة كما وردت.",
+    "choices": [
+      "gölgende dinlendik",
+      "kızıllarında ısındık",
+      "ışığında yürüdük",
+      "soğuğunda titredik"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0126:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0126",
+    "prompt": "من الجبال إلى الصحاري؛ الانتقال المكاني في القصيدة.",
+    "answer": "Dağlardan çöllere",
+    "explanation": "الأولى نقطة الانطلاق والثانية الوجهة.",
+    "choices": [
+      "Çöllerden dağlara",
+      "Denizlerden göllere",
+      "Dağlardan çöllere",
+      "Dağlardan köylere"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0127:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0127",
+    "prompt": "احتمينا بظلك؛ ما يقوله الشاعر للعلم.",
+    "answer": "gölgene sığındık",
+    "explanation": "صيغة الماضي للمتكلم الجمع، والظل ظل المخاطب.",
+    "choices": [
+      "evine döndük",
+      "gölgeni aradık",
+      "sesini duyduk",
+      "gölgene sığındık"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0128:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0128",
+    "prompt": "ماذا تفعل؟ سؤال الصبي في المقطع.",
+    "answer": "Ne yapıyorsun",
+    "explanation": "يسأل عن فعل المخاطب الجاري الآن.",
+    "choices": [
+      "Ne yapıyorsun",
+      "Nereye gidiyorsun",
+      "Ne istiyorsun",
+      "Kimi bekliyorsun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0129:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0129",
+    "prompt": "حمامة السلام؛ صورة شعرية للعلم.",
+    "answer": "Barışın güvercini",
+    "explanation": "تركيب إضافي يربط الحمامة بالسلام.",
+    "choices": [
+      "Savaşın kartalı",
+      "Barışın güvercini",
+      "Barışın sesi",
+      "Göğün yıldızı"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0130:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0130",
+    "prompt": "زهرتي التي تتفتح في الأماكن المرتفعة؛ وصف العلم في القصيدة.",
+    "answer": "Yüksek yerlerde açan çiçeğim",
+    "explanation": "يُشبَّه العلم بزهرة متفتحة في العلو؛ الفعل هنا لتفتح الزهر.",
+    "choices": [
+      "Alçak yerlerde solan çiçeğim",
+      "Yüksek dağlarda uçan kuşum",
+      "Yüksek yerlerde açan çiçeğim",
+      "Derin sularda yüzen balığım"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0131:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0131",
+    "prompt": "سأموت تحتك؛ ما يتعهد به الشاعر مخاطبًا العلم.",
+    "answer": "senin altında öleceğim",
+    "explanation": "المستقبل بصيغة المتكلم، في مقابل الولادة المذكورة قبله.",
+    "choices": [
+      "Senin altında doğdum",
+      "senin yanında yaşayacağım",
+      "senin üstünde uçacağım",
+      "senin altında öleceğim"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0132:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0132",
+    "prompt": "عيد الأطفال؛ ما يقوله ميمو.",
+    "answer": "Çocuk bayramı",
+    "explanation": "تركيب اسمي يحدد نوع المناسبة المحتفل بها.",
+    "choices": [
+      "Çocuk bayramı",
+      "Zafer bayramı",
+      "Düğün günü",
+      "Okul gezisi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0133:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0133",
+    "prompt": "كل شيء لي؛ تعبير الشاعر عن مكانة العلم.",
+    "answer": "her şeyim",
+    "explanation": "صيغة ملكية للمتكلم تجعل العلم بمنزلة كل ما يعنيه.",
+    "choices": [
+      "hiçbir şey",
+      "her şeyim",
+      "herkes için",
+      "başka bir şey"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0134:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0134",
+    "prompt": "على وجه الأرض، بالكتابة الشعرية المفصولة الموجودة في المصدر.",
+    "answer": "Yer yüzünde",
+    "explanation": "يحفظ الجواب الرسم الشعري المفصول؛ في الكتابة المعاصرة تُكتب العبارة عادة كلمة واحدة.",
+    "choices": [
+      "Gökyüzünde",
+      "Deniz altında",
+      "Yer yüzünde",
+      "Evin içinde"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0135:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0135",
+    "prompt": "دعني أنصبك هناك؛ عرض الشاعر للعلم.",
+    "answer": "seni oraya dikeyim",
+    "explanation": "صيغة رغبة للمتكلم، والمكان المقصود هو الذي يختاره المخاطب.",
+    "choices": [
+      "seni buradan alayım",
+      "seni orada bekleyeyim",
+      "seni buraya getireyim",
+      "seni oraya dikeyim"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0136:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0136",
+    "prompt": "لا توجد حقيبة؛ جزء من كلام أوفا وأبيها عند عودتهما.",
+    "answer": "çanta yok",
+    "explanation": "نفي وجود الحقيبة التي يبحثان عنها؛ الاسم يتبعه لفظ النفي.",
+    "choices": [
+      "çanta yok",
+      "çanta var",
+      "çanta ağır",
+      "çanta yeni"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0138:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0138",
+    "prompt": "تهنّؤوا بها؛ عبارة البائع لمن اشترى الحقيبة.",
+    "answer": "Güle güle kullanın",
+    "explanation": "دعاء بالاستمتاع باستخدام المشتَرَى، بصيغة الاحترام أو الجمع، وليس توديعًا فقط.",
+    "choices": [
+      "Tekrar deneyin",
+      "Biraz bekleyin",
+      "Güle güle kullanın",
+      "Buraya buyurun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0139:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0139",
+    "prompt": "وكنا قد أحضرنا المال أيضًا؛ ما تقوله الطفلة للبائع.",
+    "answer": "Parayı da getirmiştik",
+    "explanation": "ماضٍ أسبق للمتكلم الجمع، مع إضافة إحضار المال إلى نيتهم الشراء.",
+    "choices": [
+      "Parayı da unutmuştuk",
+      "Çantayı da getirmiştik",
+      "Parayı da getireceğiz",
+      "Parayı da getirmiştik"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0140:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0140",
+    "prompt": "هل توافق؟ طلب قبول اقتراح إحضار حقيبة أخرى.",
+    "answer": "olur mu",
+    "explanation": "سؤال محادثي عن قبول الاقتراح، لا سؤالًا عن المكان.",
+    "choices": [
+      "olur mu",
+      "nerede kaldı",
+      "kaç para",
+      "kim geldi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0141:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0141",
+    "prompt": "لكننا نحن كنا سنشتريها؛ احتجاج على بيع الحقيبة.",
+    "answer": "Ama biz alacaktık",
+    "explanation": "يعبر عن نية مستقبلية من منظور الماضي، مع التشديد على نحن.",
+    "choices": [
+      "Ama biz satacaktık",
+      "Ama biz alacaktık",
+      "Ama siz alacaktınız",
+      "Ama biz aldık"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0142:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0142",
+    "prompt": "ماذا يقول هؤلاء؟ سؤال عن كلام الأب والطفلة.",
+    "answer": "Ne diyor bunlar",
+    "explanation": "أداة السؤال عن محتوى الكلام، والضمير يشير إلى المتحدثين.",
+    "choices": [
+      "Nereye gidiyor bunlar",
+      "Ne alıyor bunlar",
+      "Ne diyor bunlar",
+      "Kimi bekliyor bunlar"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0143:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0143",
+    "prompt": "لا تؤاخذونا؛ اعتذار مهذب موجّه إلى القائد.",
+    "answer": "kusura bakmayın",
+    "explanation": "تعبير اصطلاحي للاعتذار بصيغة الاحترام أو الجمع، لا طلب حرفي للنظر.",
+    "choices": [
+      "dikkatli bakın",
+      "geri dönün",
+      "burada bekleyin",
+      "kusura bakmayın"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0144:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0144",
+    "prompt": "منذ مدة طويلة، في القول إنهما يتطلعان إلى الحقيبة.",
+    "answer": "ne zamandır",
+    "explanation": "هنا تفيد العبارة امتداد المدة، وليست سؤالًا مستقلًا عن بداية الزمن.",
+    "choices": [
+      "ne zamandır",
+      "ilk defa",
+      "biraz sonra",
+      "gelecek yıl"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0145:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0145",
+    "prompt": "لا تطل الأمر يا بني؛ طلب البائع إنهاء الإلحاح.",
+    "answer": "Uzatma, oğlum",
+    "explanation": "الفعل هنا لعدم إطالة الكلام أو الجدال، لا لطول جسم مادي.",
+    "choices": [
+      "Bekle, oğlum",
+      "Uzatma, oğlum",
+      "Dinlen, oğlum",
+      "Otur, oğlum"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0146:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0146",
+    "prompt": "لا تفعل هذا يا بني؛ محاولة ثنيه عن التصرف.",
+    "answer": "yapma oğlum",
+    "explanation": "أمر منفي للمفرد يتبعه نداء حنون أو استرضائي.",
+    "choices": [
+      "gel oğlum",
+      "bak oğlum",
+      "yapma oğlum",
+      "uyu oğlum"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0147:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0147",
+    "prompt": "ثمنها موجود هنا أيضًا؛ تأكيد وجود مال الحقيبة.",
+    "answer": "parası da burada",
+    "explanation": "الملكية تربط المال بالشيء المراد شراؤه، ثم يحدد موضعه.",
+    "choices": [
+      "çantası da burada",
+      "parası da kayboldu",
+      "parası da azaldı",
+      "parası da burada"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0149:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0149",
+    "prompt": "الحقيبة التي تحبها أوفا؛ تعريف الأب بالحقيبة المقصودة.",
+    "answer": "Ova'nın sevdiği çanta",
+    "explanation": "التركيب الوصفي يربط الحقيبة بمحبة أوفا لها.",
+    "choices": [
+      "Ova'nın sattığı çanta",
+      "Ova'nın sevdiği çanta",
+      "Ova'nın sevdiği elbise",
+      "Ova'nın kaybettiği para"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0152:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0152",
+    "prompt": "من تظن نفسك؟ استفهام غاضب اعتراضًا على محاولة لمس ابنته.",
+    "answer": "Kim oluyorsun",
+    "explanation": "تعبير تحدٍّ واعتراض على الجرأة، وليس طلبًا محايدًا لمعرفة الاسم.",
+    "choices": [
+      "Kim oluyorsun",
+      "Nerede oturuyorsun",
+      "Ne zaman geliyorsun",
+      "Kimi arıyorsun"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0153:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0153",
+    "prompt": "ضعيف الإدراك؛ الوصف الانتقاصي الذي يقوله الرجل عن ميمو.",
+    "answer": "Yarım akıllı",
+    "explanation": "تعبير جارح في الحوار، وحرفيته نصف عاقل؛ ليس مصطلحًا تشخيصيًا أو وصفًا موصى به.",
+    "choices": [
+      "Çok cesur",
+      "Yarım akıllı",
+      "İyi niyetli",
+      "Yorgun düşmüş"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0154:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0154",
+    "prompt": "لا شيء يدعو للقلق؛ طمأنة من حوله.",
+    "answer": "yok bir şey",
+    "explanation": "ترتيب محادثي يفيد أن شيئًا مهمًا لم يحدث في هذا السياق.",
+    "choices": [
+      "çok iş var",
+      "biri geliyor",
+      "yok bir şey",
+      "bir şey kırıldı"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0156:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0156",
+    "prompt": "امشي يا ابنتي، امشي؛ الأمر الذي يقوله الأب.",
+    "answer": "Yürü, kızım, yürü",
+    "explanation": "تكرار الأمر يحث الابنة على السير؛ النداء يحدد المخاطبة.",
+    "choices": [
+      "Yürü, kızım, yürü",
+      "Otur, kızım, otur",
+      "Bekle, kızım, bekle",
+      "Uyu, kızım, uyu"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0157:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0157",
+    "prompt": "لا شيء يدعو للقلق؛ العبارة التي ينهي بها المتحدث كلامه.",
+    "answer": "Yok bir şey",
+    "explanation": "تعبير محادثي لتهوين الموقف، لا وصفًا لفراغ مكان.",
+    "choices": [
+      "Bir sorun var",
+      "Yok bir şey",
+      "Çok geç oldu",
+      "Herkes geldi"
+    ],
+    "kind": "phrase"
+  },
+  {
+    "id": "miracle-cell-7:c0159:p01:choice",
+    "version": 1,
+    "segmentID": "miracle-cell-7:c0159",
+    "prompt": "تعالوا، هيا؛ دعوة حنونة إلى الاقتراب.",
+    "answer": "gelin bakayım",
+    "explanation": "صيغة دعوة للجمع؛ الكلمة الأخيرة تلطف الحثّ بمعنى دعوني أرى.",
+    "choices": [
+      "gidin bakalım",
+      "oturun burada",
+      "bekleyin biraz",
+      "gelin bakayım"
+    ],
+    "kind": "phrase"
+  }
+]
