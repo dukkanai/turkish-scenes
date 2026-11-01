@@ -67,17 +67,13 @@ struct SegmentView: View {
                     .frame(minHeight: 220)
                 Text("اضغط تشغيل داخل المشغل. يتطلب الفيديو اتصالًا بالإنترنت.")
                     .font(.footnote)
-                Text(segment.turkish)
-                    .environment(\.layoutDirection, .leftToRight)
-                    .accessibilitySpeechLanguage("tr-TR")
-                Text(segment.arabic).accessibilitySpeechLanguage("ar")
+                LanguageText(text: segment.turkish, language: "tr-TR")
+                LanguageText(text: segment.arabic, language: "ar")
                 Text("الكلمات بالترتيب").font(.headline).accessibilityAddTraits(.isHeader)
                 ForEach(segment.words) { word in
                     VStack(alignment: .leading, spacing: 6) {
-                        Text(word.text).font(.headline)
-                            .environment(\.layoutDirection, .leftToRight)
-                            .accessibilitySpeechLanguage("tr-TR")
-                        Text(word.explanation).accessibilitySpeechLanguage("ar")
+                        LanguageText(text: word.text, language: "tr-TR", style: .headline)
+                        LanguageText(text: word.explanation, language: "ar")
                     }.accessibilityElement(children: .contain)
                 }
                 ForEach(Array(segment.expressions.enumerated()), id: \.offset) { item in
