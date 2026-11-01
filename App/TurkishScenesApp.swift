@@ -4,7 +4,9 @@ import SwiftUI
     @StateObject private var store = ProgressStore()
     var body: some Scene {
         WindowGroup {
-            ContentView(store: store).environment(\.layoutDirection, .rightToLeft)
+            ContentView(store: store)
+                .environment(\.layoutDirection, .rightToLeft)
+                .environment(\.locale, Locale(identifier: "ar_SA"))
         }
     }
 }
@@ -44,6 +46,10 @@ struct ContentView: View {
                                             }
                                         }
                                     }
+                                    .accessibilityElement(children: .ignore)
+                                    .accessibilityLabel("المقطع رقم \(segment.number). \(segment.arabic)")
+                                    .accessibilityHint("اضغط مرتين لفتح النص والفيديو والتدريب")
+                                    .accessibilityIdentifier("segment-\(segment.number)")
                                 }
                             }
                         }
