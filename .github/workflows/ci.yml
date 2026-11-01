@@ -37,6 +37,8 @@ jobs:
         run: python3 tools/convert_content.py
       - name: Install project generator
         run: brew install xcodegen
+      - name: Generate app icon
+        run: swift tools/make_app_icon.swift
       - name: Generate project
         run: xcodegen generate
       - name: Build iPhone simulator
