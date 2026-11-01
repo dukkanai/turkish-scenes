@@ -1,36 +1,52 @@
 import Foundation
 
 enum ReviewedQuestionBank {
-    private struct File: Decodable { let segments: [String: [[String]]] }
-    private static let seeds: [String: [[String]]] = {
-        guard let url = Bundle.main.url(forResource: "reviewed-prompts-2-10", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let file = try? JSONDecoder().decode(File.self, from: data) else { return [:] }
-        return file.segments
-    }()
-    static func questions(for segment: Segment) -> [PracticeQuestion] {
-        guard let rows = seeds[String(segment.number)] else { return [] }
-        return make(segment: segment, rows: rows)
+    struct Review: Decodable {
+        let segments: [String: [[String]]]
+        let excluded: [String: String]
+        let explanations: [String: String]
+        let choiceOverrides: [String: [String]]
     }
-    static func make(segment: Segment, rows: [[String]]) -> [PracticeQuestion] {
+    private static let document: Review? = {
+        guard let url = Bundle.main.url(forResource: "reviewed-prompts-2-10", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return nil }
+        return try? JSONDecoder().decode(Review.self, from: data)
+    }()
+    static func explanation(for word: WordOccurrence) -> String {
+        document?.excluded[word.id] ?? document?.explanations[word.id] ?? word.explanation
+    }
+    static func questions(for segment: Segment) -> [PracticeQuestion] {
+        guard let document, let rows = document.segments[String(segment.number)] else { return [] }
+        return make(segment: segment, rows: rows, review: document)
+    }
+    static func make(segment: Segment, rows: [[String]], review: Review? = nil) -> [PracticeQuestion] {
         guard rows.count == segment.words.count, rows.allSatisfy({ $0.count == 2 }),
               zip(rows, segment.words).allSatisfy({ $0.0[0] == $0.1.text }) else { return [] }
-        // This first reviewed batch has distinct senses within each segment.
-        // All distractors are source spellings with different meanings, not generated translations.
-        return rows.enumerated().compactMap { index, row in
+        let held = segment.words.filter { review?.excluded[$0.id] != nil }
+        let heldSpellings = Set(held.map(\.text))
+        var result: [PracticeQuestion] = []
+        for (index, row) in rows.enumerated() {
+            let word = segment.words[index]
+            if review?.excluded[word.id] != nil { continue }
             let answer = row[0]
             let candidates = Array(rows.dropFirst(index + 1)) + Array(rows.prefix(index))
-            var choices = [answer]
-            for candidate in candidates.map({ $0[0] }) + ["Irak", "Tony", "İngiltere"] {
-                if !choices.contains(where: { TurkishGrader.isCorrect($0, expected: candidate) }) {
-                    choices.append(candidate)
+            var choices = review?.choiceOverrides[word.id] ?? [answer]
+            if choices.count == 1 {
+                for candidate in candidates.map({ $0[0] }) + ["Irak", "Tony", "İngiltere"] {
+                    if !heldSpellings.contains(candidate),
+                       !choices.contains(where: { TurkishGrader.isCorrect($0, expected: candidate) }) {
+                        choices.append(candidate)
+                    }
+                    if choices.count == 4 { break }
                 }
-                if choices.count == 4 { break }
             }
-            guard choices.count == 4 else { return nil }
-            let word = segment.words[index]
-            return PracticeQuestion(id: word.id + ":writing", version: 1, segmentID: segment.id,
-                prompt: row[1], answer: answer, explanation: word.explanation, choices: choices)
+            guard choices.count == 4, Set(choices.map(TurkishGrader.normalize)).count == 4,
+                  choices.filter({ TurkishGrader.isCorrect($0, expected: answer) }).count == 1 else { return [] }
+            result.append(PracticeQuestion(id: word.id + ":writing", version: 1, segmentID: segment.id,
+                prompt: row[1], answer: answer,
+                explanation: review?.explanations[word.id] ?? word.explanation, choices: choices))
         }
+        guard result.count + held.count == segment.words.count else { return [] }
+        return result
     }
 }
