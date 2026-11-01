@@ -1,6 +1,7 @@
 name: TurkishScenes
 options:
   bundleIdPrefix: dev.nextaura
+  developmentLanguage: ar
   deploymentTarget:
     iOS: "16.0"
 settings:
@@ -12,6 +13,11 @@ targets:
     type: application
     platform: iOS
     deploymentTarget: "16.0"
+    info:
+      path: App/GeneratedInfo.plist
+      properties:
+        CFBundleDevelopmentRegion: ar
+        CFBundleLocalizations: [ar]
     sources:
       - path: App
     settings:
