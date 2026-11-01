@@ -14,6 +14,7 @@ enum TurkishGrader {
         return !answer.isEmpty && answer == normalize(expected)
     }
 }
+enum QuestionKind: String, Codable { case word, phrase }
 struct PracticeQuestion: Codable, Identifiable, Equatable {
     let id: String
     let version: Int
@@ -22,6 +23,7 @@ struct PracticeQuestion: Codable, Identifiable, Equatable {
     let answer: String
     let explanation: String
     let choices: [String]
+    var kind: QuestionKind? = nil
 }
 enum PracticeMode: String, Codable { case writing, choice, review }
 enum AnswerPhase: String, Codable { case unanswered, correct, incorrect, skipped }
