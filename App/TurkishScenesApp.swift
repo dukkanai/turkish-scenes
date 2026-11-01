@@ -102,7 +102,7 @@ struct SegmentView: View {
                                 end: Double(segment.endMS)/1000)
                         .id(segment.id).frame(minHeight: 260)
                 }
-                Text("اضغط تشغيل داخل المشغل. يتطلب الفيديو اتصالًا بالإنترنت.")
+                Text("استخدم زر تشغيل المقطع أو عناصر مشغل YouTube. يتطلب الفيديو اتصالًا بالإنترنت.")
                     .font(.footnote)
                 LanguageText(text: segment.turkish, language: "tr-TR")
                 LanguageText(text: segment.arabic, language: "ar")
