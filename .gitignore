@@ -1,0 +1,22 @@
+# Local agent and machine settings
+.codex/
+.DS_Store
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+
+# Generated Apple build output and user settings
+DerivedData/
+build/
+*.xcarchive/
+*.ipa
+xcuserdata/
+*.xcuserstate
