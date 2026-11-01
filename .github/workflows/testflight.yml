@@ -1,4 +1,4 @@
-# Arabic accessibility preview: verify localized navigation identifiers.
+# Full source word inventory and documented phrase coverage internal preview.
 name: Internal TestFlight preview
 on:
   push:
@@ -78,7 +78,7 @@ jobs:
           xcrun simctl bootstatus "$DEVICE" -b
           xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -destination "platform=iOS Simulator,id=$DEVICE" -derivedDataPath build/DerivedData -resultBundlePath build/UITests.xcresult CODE_SIGNING_ALLOWED=NO -parallel-testing-enabled NO -maximum-concurrent-test-simulator-destinations 1 -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 180 test
       - name: Report scope
-        run: echo 'Simulator build only. Device, VoiceOver, live video and content editorial acceptance remain NOT_RUN.'
+        run: echo 'Automated simulator and text-data checks only. Full word/phrase editorial inventory is documented; exhaustive audiovisual, device and VoiceOver acceptance remain unverified.'
       - name: Archive and upload internal preview
         env:
           TURKISH_ASC_PRIVATE_KEY_B64: ${{ secrets.TURKISH_ASC_PRIVATE_KEY_B64 }}

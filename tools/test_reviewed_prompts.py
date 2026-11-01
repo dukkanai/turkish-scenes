@@ -44,3 +44,20 @@ class ReviewedPromptsTests(unittest.TestCase):
             self.assertIn(q["answer"], source)
             self.assertEqual(len(q["choices"]), 4)
             self.assertEqual(q["choices"].count(q["answer"]), 1)
+
+    def test_phrase_coverage_has_explicit_reasons(self):
+        coverage = json.loads(Path("docs/phrase-coverage.json").read_text())
+        manifest = json.loads(Path("App/Resources/reviewed-phrases-manifest.json").read_text())
+        questions = []
+        for name in manifest["files"]:
+            questions.extend(json.loads(Path("App/Resources", name + ".json").read_text()))
+        covered = {int(q["segmentID"].split(":c")[1]) for q in questions}
+        skipped = {int(n) for n in coverage["skipped"]}
+        self.assertEqual(coverage["reviewedThrough"], 1666)
+        self.assertEqual(len(questions), coverage["expectedQuestions"])
+        self.assertEqual(len(covered), coverage["expectedCoveredSegments"])
+        self.assertEqual(len(skipped), coverage["expectedSkippedSegments"])
+        self.assertFalse(covered.intersection(skipped))
+        self.assertEqual(covered | skipped, set(range(1, 1667)))
+        self.assertTrue(all(reason.strip() for reason in coverage["skipped"].values()))
+        self.assertTrue(set(range(1, 11)).issubset(covered))
