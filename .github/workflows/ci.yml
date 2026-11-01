@@ -13,6 +13,8 @@ jobs:
   build:
     runs-on: macos-15
     timeout-minutes: 30
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.1.app/Contents/Developer
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Record build environment
@@ -39,5 +41,10 @@ jobs:
         run: |
           set -euo pipefail
           xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
+      - name: Run iPhone UI smoke test
+        run: |
+          set -euo pipefail
+          DEVICE=$(xcrun simctl create TurkishScenesCI com.apple.CoreSimulator.SimDeviceType.iPhone-16 com.apple.CoreSimulator.SimRuntime.iOS-26-1)
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -destination "platform=iOS Simulator,id=$DEVICE" -derivedDataPath build/DerivedData -resultBundlePath build/UITests.xcresult CODE_SIGNING_ALLOWED=NO test
       - name: Report scope
         run: echo 'Simulator build only. Device, VoiceOver, live video and content editorial acceptance remain NOT_RUN.'
