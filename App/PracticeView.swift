@@ -25,6 +25,7 @@ struct PracticeView: View {
                                 }.buttonStyle(.bordered)
                             }
                         } else {
+                            LanguageText(text: "اكتب الكلمة التركية نفسها الواردة في المقطع، باللواحق نفسها، لا مرادفًا لها.", language: "ar")
                             TextField("اكتب الإجابة التركية", text: $input)
                                 .textInputAutocapitalization(.never)
                                 .autocorrectionDisabled()
