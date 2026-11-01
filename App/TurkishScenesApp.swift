@@ -70,6 +70,15 @@ struct ContentView: View {
                     Text("المقاطع التي فتحتها: \(store.progress.visited.count)")
                     Text("الأخطاء المفتوحة: \(store.progress.mistakes.values.filter { $0.open }.count)")
                     Text("إجابات أولى مسجلة: \(store.progress.firstAnswers.count)")
+                    if !store.progress.firstAnswers.isEmpty {
+                        let correct = store.progress.firstAnswers.values.filter { $0 }.count
+                        let percent = Int((Double(correct) / Double(store.progress.firstAnswers.count) * 100).rounded())
+                        Text("دقة أول إجابة لكل سؤال: \(percent) بالمئة")
+                    }
+                    Text("جلسات مكتملة دون تجاوز: \(store.progress.completedPractices?.count ?? 0)")
+                    Text("محاولات محفوظة بالتفصيل: \(store.progress.attempts?.count ?? 0)")
+                    NavigationLink("الإعدادات") { SettingsView(store: store) }
+                        .accessibilityIdentifier("settings-link")
                     Text("فتح المقطع لا يعني إتقانه، وتجاوز السؤال لا يعد إجابة صحيحة.")
                     if let error = store.errorMessage { Text(error).foregroundStyle(.red) }
                     Section("الخصوصية") {
@@ -77,7 +86,7 @@ struct ContentView: View {
                     }
                 }.navigationTitle("تقدمي")
             }.tabItem { Label("تقدمي", systemImage: "chart.bar") }
-        }
+        }.controlSize(.large)
     }
     private func load() {
         do {
@@ -140,7 +149,15 @@ struct SegmentView: View {
         }
         .navigationTitle("المقطع \(segment.number)")
         .onAppear { store.visit(segment.id) }
-        .navigationDestination(isPresented: $practicing) { PracticeView(store: store) }
+        .navigationDestination(isPresented: $practicing) {
+            PracticeView(store: store, onNextSegment: index < film.segments.count - 1 ? nextAfterPractice : nil)
+        }
+    }
+    private func nextAfterPractice() {
+        guard index < film.segments.count - 1 else { return }
+        practicing = false
+        index += 1
+        store.visit(segment.id)
     }
     private func start(_ mode: PracticeMode, _ questions: [PracticeQuestion]) {
         if store.begin(mode: mode, questions: PreviewQuestions.shuffled(questions)) { practicing = true }

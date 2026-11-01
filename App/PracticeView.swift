@@ -3,9 +3,12 @@ import UIKit
 
 struct PracticeView: View {
     @ObservedObject var store: ProgressStore
+    var onNextSegment: (() -> Void)? = nil
+    @Environment(\.dismiss) private var dismiss
     @State private var input = ""
     @AccessibilityFocusState private var focused: Focus?
     @State private var pendingAdvance: UUID?
+    @State private var pendingFocus: UUID?
     enum Focus: Hashable { case question, result }
     var body: some View {
         ScrollView {
@@ -49,7 +52,7 @@ struct PracticeView: View {
                             .accessibilityFocused($focused, equals: .result)
                     }
                     HStack {
-                        Button("السابق") { cancelAdvance(); store.previous(); input = ""; focused = .question }
+                        Button("السابق") { cancelAdvance(); store.previous(); input = ""; focusQuestion() }
                             .disabled(session.index == 0)
                         Spacer()
                         Button(phase == .unanswered ? "تجاوز السؤال" : "التالي") { advance() }
@@ -62,14 +65,25 @@ struct PracticeView: View {
                     Text("الصحيحة: \(session.answers.values.filter { $0.correct }.count)")
                     Text("الخاطئة: \(session.answers.values.filter { !$0.correct }.count)")
                     Text("المتجاوزة: \(session.phases.values.filter { $0 == .skipped }.count)")
+                    Button("إعادة هذا التدريب") {
+                        cancelAdvance()
+                        if store.begin(mode: session.mode, questions: PreviewQuestions.shuffled(session.questions)) {
+                            input = ""
+                            focusQuestion()
+                        }
+                    }.buttonStyle(.borderedProminent)
+                    Button("العودة") { dismiss() }.buttonStyle(.bordered)
+                    if let onNextSegment {
+                        Button("الانتقال إلى المقطع التالي", action: onNextSegment).buttonStyle(.bordered)
+                    }
                 } else {
                     Text("اختر تدريبًا من مقطع الفيلم.")
                 }
             }.padding()
         }
         .navigationTitle("التدريب")
-        .onAppear { focused = .question }
-        .onDisappear { cancelAdvance() }
+        .onAppear { focusQuestion() }
+        .onDisappear { cancelAdvance(); pendingFocus = nil; focused = nil }
         .onReceive(NotificationCenter.default.publisher(for: UIAccessibility.announcementDidFinishNotification)) { notification in
             guard pendingAdvance != nil,
                   notification.userInfo?[UIAccessibility.announcementStringValueUserInfoKey] as? String == "صحيح" else { return }
@@ -78,6 +92,7 @@ struct PracticeView: View {
     }
     private func answer(_ value: String) {
         guard let result = store.submit(value) else { return }
+        pendingFocus = nil
         focused = .result
         if result.correct {
             let token = UUID()
@@ -92,11 +107,22 @@ struct PracticeView: View {
             }
         }
     }
+    private func focusQuestion() {
+        let token = UUID()
+        pendingFocus = token
+        focused = nil
+        Task { @MainActor in
+            await Task.yield()
+            guard pendingFocus == token else { return }
+            pendingFocus = nil
+            focused = .question
+        }
+    }
     private func cancelAdvance() { pendingAdvance = nil }
     private func advance() {
         cancelAdvance()
         store.next()
         input = ""
-        focused = .question
+        focusQuestion()
     }
 }

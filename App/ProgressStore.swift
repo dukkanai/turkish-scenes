@@ -15,7 +15,7 @@ import Combine
     }
     private func decode(_ url: URL) throws -> LearningProgress {
         let value = try JSONDecoder().decode(LearningProgress.self, from: Data(contentsOf: url))
-        guard value.schemaVersion == 1 else { throw CocoaError(.coderReadCorrupt) }
+        guard value.schemaVersion == 1, value.session?.structurallyValid ?? true else { throw CocoaError(.coderReadCorrupt) }
         return value
     }
     private func load() {
@@ -54,6 +54,22 @@ import Combine
             return true
         } catch {
             errorMessage = "لم يُحفظ هذا التغيير. بقي التقدم السابق محفوظًا؛ حاول مجددًا."
+            return false
+        }
+    }
+    // Called only after the user confirms the in-app destructive dialog.
+    @discardableResult func deleteAllProgress() -> Bool {
+        do {
+            if FileManager.default.fileExists(atPath: directory.path) {
+                try FileManager.default.removeItem(at: directory)
+            }
+            progress = LearningProgress()
+            recoveredFromBackup = false
+            unreadableProgress = false
+            errorMessage = nil
+            return true
+        } catch {
+            errorMessage = "تعذر إكمال حذف التقدم. قد تكون بعض الملفات باقية؛ حاول مجددًا."
             return false
         }
     }

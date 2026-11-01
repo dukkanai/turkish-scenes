@@ -28,6 +28,25 @@ import Foundation
         check(d.errorMessage != nil, "Both invalid reported")
         let retained = try Data(contentsOf: primary)
         check(String(data: retained, encoding: .utf8) == "corrupt", "Both invalid not silently replaced")
+        let sibling = root.deletingLastPathComponent().appendingPathComponent(UUID().uuidString)
+        try Data("unrelated".utf8).write(to: sibling)
+        defer { try? FileManager.default.removeItem(at: sibling) }
+        check(d.deleteAllProgress(), "Explicit reset can clear corrupt local progress")
+        check(!FileManager.default.fileExists(atPath: root.path), "Primary, backup and preserved copies are removed")
+        check(FileManager.default.fileExists(atPath: sibling.path), "Unrelated sibling is untouched")
+        check(d.progress.visited.isEmpty && d.progress.session == nil, "Memory is reset")
+        d.visit("after-reset")
+        check(ProgressStore(directory: root).progress.lastSegmentID == "after-reset", "Saving works after explicit reset")
+        let badRoot = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        defer { try? FileManager.default.removeItem(at: badRoot) }
+        try FileManager.default.createDirectory(at: badRoot, withIntermediateDirectories: true)
+        let q = PracticeQuestion(id:"q",version:1,segmentID:"s",prompt:"اختبار",answer:"evet",explanation:"نعم",choices:[])
+        var bad = LearningProgress()
+        bad.session = PracticeSession(mode: .writing, questions: [q])
+        bad.session?.index = -1
+        try JSONEncoder().encode(bad).write(to: badRoot.appendingPathComponent("progress-v1.json"))
+        let rejected = ProgressStore(directory: badRoot)
+        check(rejected.errorMessage != nil && rejected.progress.session == nil, "Malformed semantic session rejected safely")
         print("Disk progress checks passed.")
     }
 }

@@ -48,7 +48,18 @@ struct PracticeSession: Codable {
     var phases: [String: AnswerPhase] = [:]
     var answers: [String: PracticeAnswer] = [:]
     var completed: Bool { index >= questions.count }
-    var current: PracticeQuestion? { completed ? nil : questions[index] }
+    var current: PracticeQuestion? {
+        guard index >= 0 && index < questions.count else { return nil }
+        return questions[index]
+    }
+    var structurallyValid: Bool {
+        let ids = Set(questions.map(\.id))
+        return (0...questions.count).contains(index) && ids.count == questions.count
+            && Set(phases.keys).isSubset(of: ids) && Set(answers.keys).isSubset(of: ids)
+            && answers.allSatisfy { key, answer in
+                key == answer.questionID && (phases[key] == .correct || phases[key] == .incorrect)
+            }
+    }
     init(mode: PracticeMode, questions: [PracticeQuestion]) {
         self.id = UUID()
         self.mode = mode
@@ -69,7 +80,13 @@ struct PracticeSession: Codable {
         if phases[question.id, default: .unanswered] == .unanswered { phases[question.id] = .skipped }
         index += 1
     }
-    mutating func previous() { if index > 0 { index -= 1 } }
+    mutating func previous() {
+        guard index > 0 else { return }
+        index -= 1
+        if let question = current, phases[question.id] == .skipped {
+            phases.removeValue(forKey: question.id)
+        }
+    }
 }
 struct MistakeRecord: Codable, Identifiable {
     var id: String { question.id }

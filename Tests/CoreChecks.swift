@@ -44,6 +44,16 @@ import Foundation
         check(p.attempts?.count == 4, "All independent attempts retained")
         p.recordCompletion(skip)
         check(p.completedPractices == nil, "Skipped session is not completed training")
+        skip.previous()
+        check(skip.current?.id == q.id && skip.phases[q.id] == nil, "Skipped question can be answered on return")
+        check(skip.submit("destek")?.correct == true, "Returning to skipped item does not block an answer")
+        var invalid = PracticeSession(mode: .writing, questions: [q])
+        invalid.index = -1
+        check(!invalid.structurallyValid && invalid.current == nil, "Negative restored index cannot crash")
+        invalid.index = 2
+        check(!invalid.structurallyValid, "Out-of-range restored index is rejected")
+        let duplicate = PracticeSession(mode: .writing, questions: [q,q])
+        check(!duplicate.structurallyValid, "Duplicate question identifiers rejected")
         var full = PracticeSession(mode: .writing, questions: [q])
         _ = full.submit("destek")
         full.next()
