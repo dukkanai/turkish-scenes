@@ -17,7 +17,7 @@ struct PracticeView: View {
                         .accessibilityFocused($focused, equals: .question)
                     let phase = session.phases[question.id, default: .unanswered]
                     if phase == .unanswered {
-                        if session.mode == .choice, !question.choices.isEmpty {
+                        if (session.mode == .choice || question.kind == .phrase), !question.choices.isEmpty {
                             ForEach(question.choices, id: \.self) { choice in
                                 Button { answer(choice) } label: {
                                     LanguageText(text: choice, language: "tr-TR")
