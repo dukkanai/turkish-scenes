@@ -1,4 +1,4 @@
-# Arabic accessibility preview: preserve segment button traits.
+# Arabic accessibility preview: preserve native NavigationLink actions.
 name: Internal TestFlight preview
 on:
   push:
