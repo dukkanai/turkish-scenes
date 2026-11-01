@@ -79,6 +79,7 @@ import Combine
     func next() {
         var value = progress
         value.session?.next()
+        if let session = value.session { value.recordCompletion(session) }
         _ = commit(value)
     }
     func previous() {
