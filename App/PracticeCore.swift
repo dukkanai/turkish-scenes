@@ -2,7 +2,14 @@ import Foundation
 
 enum TurkishGrader {
     static func normalize(_ input: String) -> String {
-        let text = input.precomposedStringWithCanonicalMapping
+        let digits = input.unicodeScalars.map { scalar -> String in
+            switch scalar.value {
+            case 0x0660...0x0669: return String(scalar.value - 0x0660)
+            case 0x06F0...0x06F9: return String(scalar.value - 0x06F0)
+            default: return String(scalar)
+            }
+        }.joined()
+        let text = digits.precomposedStringWithCanonicalMapping
             .replacingOccurrences(of: "’", with: "'")
             .replacingOccurrences(of: "‘", with: "'")
         let trimmed = text.trimmingCharacters(in: .whitespacesAndNewlines.union(.punctuationCharacters))

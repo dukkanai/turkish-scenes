@@ -6,12 +6,16 @@ enum ReviewedQuestionBank {
         let excluded: [String: String]
         let explanations: [String: String]
         let choiceOverrides: [String: [String]]
+        let nonEducationalSegments: [Int]?
     }
     private static let document: Review? = {
-        guard let url = Bundle.main.url(forResource: "reviewed-prompts-2-10", withExtension: "json"),
+        guard let url = Bundle.main.url(forResource: "reviewed-prompts", withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return nil }
         return try? JSONDecoder().decode(Review.self, from: data)
     }()
+    static func isNonEducational(_ segment: Segment) -> Bool {
+        document?.nonEducationalSegments?.contains(segment.number) ?? false
+    }
     static func explanation(for word: WordOccurrence) -> String {
         document?.excluded[word.id] ?? document?.explanations[word.id] ?? word.explanation
     }

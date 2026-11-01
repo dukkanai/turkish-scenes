@@ -21,7 +21,7 @@ struct ContentView: View {
                     if let film {
                         List {
                             Section {
-                                Text("نسخة تطوير: المحتوى والتوقيت قيد المراجعة. تدريب المفردات والعبارات التجريبي متاح للمقاطع العشرة الأولى فقط.")
+                                Text("نسخة تطوير: المحتوى والتوقيت قيد المراجعة. التدريب التجريبي متاح للمقاطع التعليمية ضمن أول عشرين مقطعًا فقط، مع استثناءات موضحة في الشرح.")
                                     .font(.footnote)
                                 if let id = store.progress.lastSegmentID,
                                    let index = film.segments.firstIndex(where: { $0.id == id }) {
@@ -125,6 +125,8 @@ struct SegmentView: View {
                         .buttonStyle(.borderedProminent)
                     Button("تدريب الاختيارات") { start(.choice, questions) }
                         .buttonStyle(.bordered)
+                } else if ReviewedQuestionBank.isNonEducational(segment) {
+                    Text("هذا الجزء من المصدر يصف مؤثرًا صوتيًا أو موسيقى أو صوتًا غير مفهوم؛ لا توجد له أسئلة لغوية.")
                 } else { Text("بنك أسئلة هذا المقطع لم يُراجع بعد.") }
                 HStack {
                     Button("المقطع السابق") { index -= 1; store.visit(segment.id) }
