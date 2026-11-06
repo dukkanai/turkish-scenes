@@ -61,3 +61,7 @@ xcrun altool --validate-app --type ios --file "$IPA" --apiKey 9X6UGZYBYR --apiIs
 # Exactly one upload attempt. An uncertain upload must be checked in ASC before retry.
 xcrun altool --upload-app --type ios --file "$IPA" --apiKey 9X6UGZYBYR --apiIssuer 54a3742f-c62d-468e-a2ae-70e0d8aff797
 printf 'Upload accepted by tool for build %s. Apple processing and tester availability still require verification.\n' "$BUILD_NUMBER"
+
+# Read the exact uploaded build; never retry the upload because processing is pending.
+export TURKISH_EXPECTED_BUILD="$BUILD_NUMBER"
+ruby ci/verify_testflight.rb

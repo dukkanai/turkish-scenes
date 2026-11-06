@@ -1,4 +1,4 @@
-# Full source word inventory and documented phrase coverage internal preview.
+# Arabic-guided Turkish audio curriculum internal preview. No paid Realtime calls in CI.
 name: Internal TestFlight preview
 on:
   push:
@@ -27,28 +27,8 @@ jobs:
           xcodebuild -version
           swift --version
           xcrun simctl list runtimes
-      - name: Test Turkish grading and session persistence
-        run: |
-          mkdir -p build
-          swiftc App/PracticeCore.swift Tests/CoreChecks.swift -o build/core-checks
-          build/core-checks
-          swiftc App/PracticeCore.swift App/ProgressStore.swift Tests/ProgressChecks.swift -o build/progress-checks
-          build/progress-checks
-          swiftc App/SpeechLanguageRuns.swift Tests/SpeechLanguageChecks.swift -o build/speech-checks
-          build/speech-checks
-      - name: Test player security boundaries
-        run: |
-          bash -n ci/testflight.sh
-          swiftc App/VideoPolicy.swift Tests/VideoPolicyChecks.swift -o build/video-policy-checks
-          build/video-policy-checks
-      - name: Test content converter
-        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
-      - name: Convert teaching source
-        run: python3 tools/convert_content.py
-      - name: Verify reviewed question bank
-        run: |
-          swiftc App/PracticeCore.swift App/Models.swift App/ReviewedQuestionBank.swift Tests/QuestionBankChecks.swift -o build/question-bank-checks
-          build/question-bank-checks
+      - name: Test audio curriculum, progress, playback and security contracts
+        run: bash ci/check_audio.sh
       - name: Install project generator
         run: brew install xcodegen
       - name: Generate app icon
@@ -78,7 +58,7 @@ jobs:
           xcrun simctl bootstatus "$DEVICE" -b
           xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -destination "platform=iOS Simulator,id=$DEVICE" -derivedDataPath build/DerivedData -resultBundlePath build/UITests.xcresult CODE_SIGNING_ALLOWED=NO -parallel-testing-enabled NO -maximum-concurrent-test-simulator-destinations 1 -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 180 test
       - name: Report scope
-        run: echo 'Automated simulator and text-data checks only. Full word/phrase editorial inventory is documented; exhaustive audiovisual, device and VoiceOver acceptance remain unverified.'
+        run: echo 'Automated curriculum, state, playback-timeline and simulator checks only. Paid Realtime and real-device VoiceOver/audio acceptance remain unverified.'
       - name: Archive and upload internal preview
         env:
           TURKISH_ASC_PRIVATE_KEY_B64: ${{ secrets.TURKISH_ASC_PRIVATE_KEY_B64 }}
