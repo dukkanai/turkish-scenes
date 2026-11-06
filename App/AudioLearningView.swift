@@ -134,7 +134,7 @@ private struct AudioLessonList: View {
                     } label: {
                         VStack(alignment: .leading) {
                             Text("الدرس \(lesson.number)").font(.headline)
-                            Text(lesson.cards.map { $0.kind == .grammar ? $0.arabic : $0.turkish }.joined(separator: "، "))
+                            LanguageText(text: lesson.cards.map { $0.kind == .grammar ? $0.arabic : $0.turkish }.joined(separator: "، "), language: track == .grammar ? "ar" : "tr-TR")
                             Text(store.progress.completedLessons.contains(lesson.id) ? "مكتمل ويمكن تكراره" : (unlocked ? "متاح" : "أكمل الدرس السابق لفتح التدريب"))
                         }
                     }.disabled(!unlocked).accessibilityIdentifier("audio-lesson-\(lesson.id)")
@@ -154,7 +154,7 @@ struct AudioCardView: View {
         VStack(alignment: .leading, spacing: 10) {
             if let explanation = card.explanationArabic {
                 Text(card.arabic).font(.headline).accessibilityAddTraits(.isHeader)
-                Text(explanation)
+                LanguageText(text: explanation, language: "ar")
             } else {
                 LanguageText(text: card.turkish, language: "tr-TR", style: .headline)
                 LanguageText(text: card.arabic, language: "ar")
@@ -178,7 +178,7 @@ private struct AudioSessionView: View {
                 if let session = store.progress.session {
                     Text(session.phase == .teaching ? "الشرح أولًا ثم الاختبار" : session.phase == .quiz ? "متبقٍ للتدريب: \(session.queue.count)" : "اكتمل الدرس. يمكنك العودة إلى الدروس لاختيار التالي.")
                     if session.phase == .quiz, let id = session.currentID, let card = store.allCards.first(where: { $0.id == id }) {
-                        Text(card.question).accessibilityIdentifier("audio-current-question")
+                        LanguageText(text: card.question, language: "ar").accessibilityIdentifier("audio-current-question")
                     }
                 }
                 if tutor.state == .stopped, store.progress.session?.phase != .complete {
@@ -200,7 +200,7 @@ private struct AudioSessionView: View {
                 if tutor.totalTokens > 0 { Text("وحدات استخدام أبلغت عنها الخدمة: \(tutor.totalTokens). ليست تقديرًا بالدولار.").font(.footnote) }
             }
             if !tutor.transcript.isEmpty {
-                Section("آخر كلام المعلم") { Text(tutor.transcript) }
+                Section("آخر كلام المعلم") { LanguageText(text: tutor.transcript, language: "ar") }
             }
             if store.progress.session?.phase == .teaching {
                 Section("محتوى الدرس") {
