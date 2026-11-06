@@ -1,4 +1,4 @@
-# Internal preview with offline GA protocol and secret-safe error diagnostic checks. No paid API calls in CI.
+# Internal preview with deterministic GA payloads and secret-safe diagnostics. No paid API calls in CI.
 name: Internal TestFlight preview
 on:
   push:
