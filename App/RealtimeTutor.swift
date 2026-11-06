@@ -170,7 +170,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
         send(["type": "response.create"])
     }
     private func interruptPlayback() {
-        if let (item, milliseconds) = io.interrupt() {
+        for (item, milliseconds) in io.interrupt() {
             interruptedItems.insert(item)
             send(["type": "conversation.item.truncate", "item_id": item, "content_index": 0, "audio_end_ms": milliseconds])
         }
@@ -212,6 +212,9 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             defer { userTurnAvailable = false }
             if let usage = response["usage"] as? [String: Any], let count = usage["total_tokens"] as? Int, count >= 0 { totalTokens += count }
             if response["status"] as? String == "failed" { stop("فشل رد خدمة الصوت. راجع صلاحية المفتاح ورصيد حساب OpenAI."); return }
+            if response["status"] as? String == "incomplete" {
+                stop("انتهى الرد قبل اكتماله. لم نحتسب تقييمًا ناقصًا؛ يمكنك المحاولة مجددًا."); return
+            }
             guard response["status"] as? String == "completed" else { return }
             let calls = (response["output"] as? [[String: Any]] ?? []).filter { $0["type"] as? String == "function_call" }
             var mutationUsed = false

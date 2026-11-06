@@ -7,11 +7,10 @@ import AVFoundation
     private var tapInstalled = false
     private var attached = false
     private var generation = UUID()
-    private var outputFrames: AVAudioFramePosition = 0
+    private var timeline = AudioPlaybackTimeline()
     private let format = AVAudioFormat(standardFormatWithSampleRate: 24000, channels: 1)!
     var onPCM: ((Data) -> Void)?
     var onFailure: (() -> Void)?
-    private(set) var playingItemID: String?
     func start() throws {
         let token = UUID()
         generation = token
@@ -50,12 +49,7 @@ import AVFoundation
     }
     func play(_ data: Data, itemID: String) throws {
         guard !data.isEmpty, data.count % 2 == 0, data.count <= 512_000 else { throw AudioError.format }
-        if playingItemID != itemID {
-            player.stop(); playingItemID = itemID; outputFrames = 0; player.play()
-        }
         let count = data.count / 2
-        // Bound buffered output to 90 seconds, including what has already played.
-        guard outputFrames + AVAudioFramePosition(count) - playedFrames <= 90 * 24000 else { throw AudioError.overflow }
         guard let buffer = AVAudioPCMBuffer(pcmFormat: format, frameCapacity: AVAudioFrameCount(count)),
               let samples = buffer.floatChannelData?[0] else { throw AudioError.format }
         buffer.frameLength = AVAudioFrameCount(count)
@@ -66,22 +60,26 @@ import AVFoundation
                 samples[i] = Float(value) / 32768
             }
         }
-        outputFrames += AVAudioFramePosition(count)
-        player.scheduleBuffer(buffer)
+        guard let start = timeline.append(itemID: itemID, frames: Int64(count), renderedFrame: renderedFrames) else {
+            throw AudioError.overflow
+        }
+        // Preserve all earlier buffers, including the tail of another response item.
+        player.scheduleBuffer(buffer, at: AVAudioTime(sampleTime: start, atRate: 24000), options: [])
     }
-    private var playedFrames: AVAudioFramePosition {
+    private var renderedFrames: AVAudioFramePosition {
         guard let time = player.lastRenderTime, let value = player.playerTime(forNodeTime: time) else { return 0 }
-        return max(0, min(outputFrames, value.sampleTime))
+        return max(0, value.sampleTime)
     }
-    func interrupt() -> (String, Int)? {
-        let result = playingItemID.map { ($0, Int(playedFrames * 1000 / 24000)) }
-        player.stop(); player.play(); playingItemID = nil; outputFrames = 0
+    func interrupt() -> [(String, Int)] {
+        let result = timeline.truncations(at: renderedFrames)
+        player.stop(); timeline.reset()
+        if engine.isRunning { player.play() }
         return result
     }
     func stop() {
         generation = UUID() // Discard tap callbacks already queued before teardown.
         if tapInstalled { engine.inputNode.removeTap(onBus: 0); tapInstalled = false }
-        player.stop(); engine.stop(); playingItemID = nil; outputFrames = 0
+        player.stop(); engine.stop(); timeline.reset()
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
     }
     enum AudioError: Error { case format, overflow }

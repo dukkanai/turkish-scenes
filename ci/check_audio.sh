@@ -10,4 +10,7 @@ swiftc App/AudioLearningCore.swift App/AudioTutorProtocol.swift Tests/AudioProto
 build/audio-protocol-checks
 swiftc App/SpeechLanguageRuns.swift Tests/SpeechLanguageChecks.swift -o build/speech-checks
 build/speech-checks
+swiftc App/AudioPlaybackTimeline.swift Tests/AudioPlaybackChecks.swift -o build/audio-playback-checks
+build/audio-playback-checks
 bash -n ci/testflight.sh
+ruby -c ci/verify_testflight.rb
