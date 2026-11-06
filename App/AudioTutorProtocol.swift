@@ -3,6 +3,19 @@ import Foundation
 enum AudioTutorProtocol {
     static let model = "gpt-realtime-2.1"
     static let endpoint = URL(string: "wss://api.openai.com/v1/realtime?model=gpt-realtime-2.1")!
+    static func sessionConfiguration(progress: AudioLearningProgress, cards: [AudioCard]) -> [String: Any] {
+        // The model is selected by the connection URL and cannot be changed by
+        // session.update. Keep this exact GA payload shared with offline tests.
+        ["type": "realtime", "instructions": instructions(progress: progress, cards: cards),
+         "output_modalities": ["audio"], "max_output_tokens": 700,
+         "audio": [
+            "input": ["format": ["type": "audio/pcm", "rate": 24000],
+                      "noise_reduction": ["type": "near_field"],
+                      "turn_detection": ["type": "server_vad", "threshold": 0.6, "prefix_padding_ms": 300,
+                                         "silence_duration_ms": 900, "create_response": true, "interrupt_response": true]],
+            "output": ["format": ["type": "audio/pcm", "rate": 24000], "voice": "marin"]
+         ], "tools": tools, "tool_choice": "auto"]
+    }
     static func instructions(progress: AudioLearningProgress, cards: [AudioCard]) -> String {
         let session = progress.session
         let selected = cards.filter { session?.cardIDs.contains($0.id) == true }

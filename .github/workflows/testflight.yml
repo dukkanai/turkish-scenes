@@ -1,4 +1,4 @@
-# Arabic-guided Turkish audio curriculum internal preview. No paid Realtime calls in CI.
+# Internal preview with offline GA protocol and secret-safe error diagnostic checks. No paid API calls in CI.
 name: Internal TestFlight preview
 on:
   push:

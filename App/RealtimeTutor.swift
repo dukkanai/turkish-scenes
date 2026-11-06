@@ -85,7 +85,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
                     }
                 } catch {
                     guard let self, self.generation == token, !Task.isCancelled else { return }
-                    self.stop("انقطع الاتصال. حُفظ التقدم السابق. اضغط البدء لإعادة الاتصال؛ لا نعيد الاتصال تلقائيًا.")
+                    self.stop(RealtimeFailure.transport(httpStatus: (task.response as? HTTPURLResponse)?.statusCode))
                 }
             }
             handshake = Task { [weak self] in
@@ -155,16 +155,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
         }
     }
     private func sessionConfiguration() -> [String: Any] {
-        ["type": "realtime", "model": AudioTutorProtocol.model,
-         "instructions": AudioTutorProtocol.instructions(progress: store.progress, cards: store.allCards),
-         "output_modalities": ["audio"], "max_output_tokens": 700,
-         "audio": [
-            "input": ["format": ["type": "audio/pcm", "rate": 24000],
-                      "noise_reduction": ["type": "near_field"],
-                      "turn_detection": ["type": "server_vad", "threshold": 0.6, "prefix_padding_ms": 300,
-                                         "silence_duration_ms": 900, "create_response": true, "interrupt_response": true]],
-            "output": ["format": ["type": "audio/pcm", "rate": 24000], "voice": "marin"]
-         ], "tools": AudioTutorProtocol.tools, "tool_choice": "auto"]
+        AudioTutorProtocol.sessionConfiguration(progress: store.progress, cards: store.allCards)
     }
     private func speakCurrentState() {
         send(["type": "session.update", "session": ["type": "realtime",
@@ -221,7 +212,10 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             userTurnAvailable = responsePrompt != nil && responsePrompt == store.progress.session?.promptID
             defer { userTurnAvailable = false }
             if let usage = response["usage"] as? [String: Any], let count = usage["total_tokens"] as? Int, count >= 0 { totalTokens += count }
-            if response["status"] as? String == "failed" { stop("فشل رد خدمة الصوت. راجع صلاحية المفتاح ورصيد حساب OpenAI."); return }
+            if response["status"] as? String == "failed" {
+                let details = response["status_details"] as? [String: Any]
+                stop(RealtimeFailure.service(details?["error"] as? [String: Any], duringSetup: false)); return
+            }
             if response["status"] as? String == "incomplete" {
                 stop("انتهى الرد قبل اكتماله. لم نحتسب تقييمًا ناقصًا؛ يمكنك المحاولة مجددًا."); return
             }
@@ -247,7 +241,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
         case "error":
             let code = (event["error"] as? [String: Any])?["code"] as? String
             if code == "response_cancel_not_active" { return }
-            stop("رفضت خدمة الصوت الطلب. تحقّق من المفتاح والرصيد وإتاحة GPT-Realtime-2.1. لم يُكشف المفتاح.")
+            stop(RealtimeFailure.service(event["error"] as? [String: Any], duringSetup: state == .connecting))
         default: break
         }
     }
