@@ -50,6 +50,8 @@ jobs:
           assert "ar" in info["CFBundleLocalizations"]
           print("PASS: Arabic development language and supported localization")
           PY
+      - name: Verify compiled app icon
+        run: python3 ci/check_app_bundle.py build/DerivedData/Build/Products/Debug-iphonesimulator/TurkishScenes.app
       - name: Run iPhone UI smoke test
         run: |
           set -euo pipefail

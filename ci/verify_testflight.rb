@@ -75,6 +75,8 @@ begin
   end
   puts JSON.pretty_generate(final)
   puts 'Upload is not repeated. Apple processing or tester availability still needs a later read-only check.'
+  # Pending is not delivery success, and must never trigger an automatic re-upload.
+  exit 2
 rescue => error
   warn "Read-only TestFlight verification did not complete (#{error.class}). Upload outcome must be inspected before any retry."
   exit 1

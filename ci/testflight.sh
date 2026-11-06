@@ -47,6 +47,7 @@ mkdir -p "$PROFILE_DIR"
 cp "$PRIVATE_DIR/profile.mobileprovision" "$PROFILE_PATH"
 BUILD_NUMBER="$GITHUB_RUN_NUMBER.$GITHUB_RUN_ATTEMPT"
 xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -configuration Release -destination 'generic/platform=iOS' -archivePath build/TurkishScenes.xcarchive DEVELOPMENT_TEAM=9G7GPBG7FB CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="Apple Distribution" PROVISIONING_PROFILE_SPECIFIER=turkish_scenes_app_store_20261101 CURRENT_PROJECT_VERSION="$BUILD_NUMBER" OTHER_CODE_SIGN_FLAGS="--keychain $KEYCHAIN" archive
+python3 ci/check_app_bundle.py build/TurkishScenes.xcarchive/Products/Applications/TurkishScenes.app
 python3 - <<'PY'
 import plistlib
 with open("build/ExportOptions.plist","wb") as f:
@@ -57,10 +58,10 @@ IPA="build/export/TurkishScenes.ipa"
 test -s "$IPA"
 codesign --verify --deep --strict build/TurkishScenes.xcarchive/Products/Applications/TurkishScenes.app
 export API_PRIVATE_KEYS_DIR="$PRIVATE_DIR"
-xcrun altool --validate-app --type ios --file "$IPA" --apiKey 9X6UGZYBYR --apiIssuer 54a3742f-c62d-468e-a2ae-70e0d8aff797
+python3 ci/run_altool.py validate --type ios --file "$IPA" --apiKey 9X6UGZYBYR --apiIssuer 54a3742f-c62d-468e-a2ae-70e0d8aff797
 # Exactly one upload attempt. An uncertain upload must be checked in ASC before retry.
-xcrun altool --upload-app --type ios --file "$IPA" --apiKey 9X6UGZYBYR --apiIssuer 54a3742f-c62d-468e-a2ae-70e0d8aff797
-printf 'Upload accepted by tool for build %s. Apple processing and tester availability still require verification.\n' "$BUILD_NUMBER"
+python3 ci/run_altool.py upload --type ios --file "$IPA" --apiKey 9X6UGZYBYR --apiIssuer 54a3742f-c62d-468e-a2ae-70e0d8aff797
+printf 'Apple explicitly confirmed upload for build %s. Processing and tester availability still require verification.\n' "$BUILD_NUMBER"
 
 # Read the exact uploaded build; never retry the upload because processing is pending.
 export TURKISH_EXPECTED_BUILD="$BUILD_NUMBER"

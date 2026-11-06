@@ -21,8 +21,6 @@ targets:
         NSMicrophoneUsageDescription: "نستخدم الميكروفون خلال جلسة تعلم صوتية تبدأها بنفسك، لإرسال إجابتك إلى OpenAI وتصحيحها."
     sources:
       - path: App
-        excludes:
-          - Resources
     settings:
       base:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
