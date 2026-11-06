@@ -1,0 +1,7773 @@
+[
+  {
+    "id": "word-0001",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "ev",
+    "arabic": "بيت",
+    "acceptedArabic": [
+      "بيت",
+      "منزل"
+    ],
+    "exampleTurkish": "Bu ev çok sıcak.",
+    "exampleArabic": "هذا البيت دافئ جدًا."
+  },
+  {
+    "id": "word-0002",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "oda",
+    "arabic": "غرفة",
+    "acceptedArabic": [
+      "غرفة",
+      "حجرة"
+    ],
+    "exampleTurkish": "Odamda iki pencere var.",
+    "exampleArabic": "في غرفتي نافذتان."
+  },
+  {
+    "id": "word-0003",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "salon",
+    "arabic": "غرفة الجلوس",
+    "acceptedArabic": [
+      "غرفة الجلوس",
+      "غرفة المعيشة"
+    ],
+    "exampleTurkish": "Misafirler salonda oturuyor.",
+    "exampleArabic": "الضيوف جالسون في غرفة الجلوس."
+  },
+  {
+    "id": "word-0004",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "yatak odası",
+    "arabic": "غرفة النوم",
+    "acceptedArabic": [
+      "غرفة النوم",
+      "حجرة النوم"
+    ],
+    "exampleTurkish": "Yatak odası üst katta.",
+    "exampleArabic": "غرفة النوم في الطابق العلوي."
+  },
+  {
+    "id": "word-0005",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "banyo",
+    "arabic": "حمّام",
+    "acceptedArabic": [
+      "حمّام"
+    ],
+    "exampleTurkish": "Banyoda sıcak su var.",
+    "exampleArabic": "يوجد ماء ساخن في الحمّام."
+  },
+  {
+    "id": "word-0006",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "tavan",
+    "arabic": "سقف داخلي",
+    "acceptedArabic": [
+      "سقف داخلي"
+    ],
+    "exampleTurkish": "Tavanda küçük bir lamba var.",
+    "exampleArabic": "يوجد مصباح صغير في السقف."
+  },
+  {
+    "id": "word-0007",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "duvar",
+    "arabic": "جدار",
+    "acceptedArabic": [
+      "جدار"
+    ],
+    "exampleTurkish": "Bu duvarı beyaza boyadık.",
+    "exampleArabic": "طلينا هذا الجدار بالأبيض."
+  },
+  {
+    "id": "word-0008",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "zemin",
+    "arabic": "أرضية",
+    "acceptedArabic": [
+      "أرضية"
+    ],
+    "exampleTurkish": "Zemin hâlâ ıslak.",
+    "exampleArabic": "الأرضية لا تزال مبتلة."
+  },
+  {
+    "id": "word-0009",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "çatı",
+    "arabic": "سطح المنزل",
+    "acceptedArabic": [
+      "سطح المنزل"
+    ],
+    "exampleTurkish": "Çatıda bir kuş var.",
+    "exampleArabic": "يوجد طائر على سطح المنزل."
+  },
+  {
+    "id": "word-0010",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kapı",
+    "arabic": "باب",
+    "acceptedArabic": [
+      "باب"
+    ],
+    "exampleTurkish": "Lütfen kapıyı kapat.",
+    "exampleArabic": "أغلق الباب من فضلك."
+  },
+  {
+    "id": "word-0011",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "pencere",
+    "arabic": "نافذة",
+    "acceptedArabic": [
+      "نافذة"
+    ],
+    "exampleTurkish": "Pencereyi biraz açabilir misin?",
+    "exampleArabic": "هل يمكنك فتح النافذة قليلًا؟"
+  },
+  {
+    "id": "word-0012",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "balkon",
+    "arabic": "شرفة",
+    "acceptedArabic": [
+      "شرفة"
+    ],
+    "exampleTurkish": "Balkonda çay içiyoruz.",
+    "exampleArabic": "نشرب الشاي في الشرفة."
+  },
+  {
+    "id": "word-0013",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "merdiven",
+    "arabic": "سُلّم",
+    "acceptedArabic": [
+      "سُلّم"
+    ],
+    "exampleTurkish": "Merdivenler çok dar.",
+    "exampleArabic": "السلالم ضيقة جدًا."
+  },
+  {
+    "id": "word-0014",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "koridor",
+    "arabic": "ممر",
+    "acceptedArabic": [
+      "ممر"
+    ],
+    "exampleTurkish": "Koridorun sonunda bir oda var.",
+    "exampleArabic": "توجد غرفة في نهاية الممر."
+  },
+  {
+    "id": "word-0015",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "giriş",
+    "arabic": "مدخل",
+    "acceptedArabic": [
+      "مدخل"
+    ],
+    "exampleTurkish": "Girişte ayakkabılarını çıkar.",
+    "exampleArabic": "اخلع حذاءك عند المدخل."
+  },
+  {
+    "id": "word-0016",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "bodrum",
+    "arabic": "قبو",
+    "acceptedArabic": [
+      "قبو"
+    ],
+    "exampleTurkish": "Eski kutular bodrumda.",
+    "exampleArabic": "الصناديق القديمة في القبو."
+  },
+  {
+    "id": "word-0017",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "tavan arası",
+    "arabic": "علّية",
+    "acceptedArabic": [
+      "علّية"
+    ],
+    "exampleTurkish": "Tavan arasında eski bir sandık bulduk.",
+    "exampleArabic": "وجدنا صندوقًا قديمًا في العلّية."
+  },
+  {
+    "id": "word-0018",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "anahtar",
+    "arabic": "مفتاح",
+    "acceptedArabic": [
+      "مفتاح"
+    ],
+    "exampleTurkish": "Anahtarım cebimde.",
+    "exampleArabic": "مفتاحي في جيبي."
+  },
+  {
+    "id": "word-0019",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kilit",
+    "arabic": "قفل",
+    "acceptedArabic": [
+      "قفل"
+    ],
+    "exampleTurkish": "Kapının kilidi bozuk.",
+    "exampleArabic": "قفل الباب معطّل."
+  },
+  {
+    "id": "word-0020",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "koltuk",
+    "arabic": "كرسي مريح",
+    "acceptedArabic": [
+      "كرسي مريح"
+    ],
+    "exampleTurkish": "Babam koltukta uyuyor.",
+    "exampleArabic": "أبي نائم على الكرسي المريح."
+  },
+  {
+    "id": "word-0021",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kanepe",
+    "arabic": "أريكة",
+    "acceptedArabic": [
+      "أريكة"
+    ],
+    "exampleTurkish": "Kanepede üç kişi oturabilir.",
+    "exampleArabic": "يمكن لثلاثة أشخاص الجلوس على الأريكة."
+  },
+  {
+    "id": "word-0022",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "sandalye",
+    "arabic": "كرسي",
+    "acceptedArabic": [
+      "كرسي"
+    ],
+    "exampleTurkish": "Bir sandalye daha getir.",
+    "exampleArabic": "أحضر كرسيًا آخر."
+  },
+  {
+    "id": "word-0023",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "masa",
+    "arabic": "طاولة",
+    "acceptedArabic": [
+      "طاولة"
+    ],
+    "exampleTurkish": "Kitabı masaya koydum.",
+    "exampleArabic": "وضعت الكتاب على الطاولة."
+  },
+  {
+    "id": "word-0024",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "sehpa",
+    "arabic": "طاولة صغيرة",
+    "acceptedArabic": [
+      "طاولة صغيرة"
+    ],
+    "exampleTurkish": "Kumanda sehpanın üstünde.",
+    "exampleArabic": "جهاز التحكم فوق الطاولة الصغيرة."
+  },
+  {
+    "id": "word-0025",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "dolap",
+    "arabic": "خزانة",
+    "acceptedArabic": [
+      "خزانة"
+    ],
+    "exampleTurkish": "Dolapta temiz havlular var.",
+    "exampleArabic": "توجد مناشف نظيفة في الخزانة."
+  },
+  {
+    "id": "word-0026",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "çekmece",
+    "arabic": "درج",
+    "acceptedArabic": [
+      "درج"
+    ],
+    "exampleTurkish": "Makas üst çekmecede.",
+    "exampleArabic": "المقص في الدرج العلوي."
+  },
+  {
+    "id": "word-0027",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "raf",
+    "arabic": "رف",
+    "acceptedArabic": [
+      "رف"
+    ],
+    "exampleTurkish": "Bu raf çok yüksek.",
+    "exampleArabic": "هذا الرف عالٍ جدًا."
+  },
+  {
+    "id": "word-0028",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "yatak",
+    "arabic": "سرير",
+    "acceptedArabic": [
+      "سرير"
+    ],
+    "exampleTurkish": "Yatak pencerenin yanında.",
+    "exampleArabic": "السرير بجانب النافذة."
+  },
+  {
+    "id": "word-0029",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "yastık",
+    "arabic": "وسادة",
+    "acceptedArabic": [
+      "وسادة"
+    ],
+    "exampleTurkish": "Bu yastık çok yumuşak.",
+    "exampleArabic": "هذه الوسادة ناعمة جدًا."
+  },
+  {
+    "id": "word-0030",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "yorgan",
+    "arabic": "لحاف",
+    "acceptedArabic": [
+      "لحاف"
+    ],
+    "exampleTurkish": "Kışın kalın bir yorgan kullanıyorum.",
+    "exampleArabic": "أستخدم لحافًا سميكًا في الشتاء."
+  },
+  {
+    "id": "word-0031",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "battaniye",
+    "arabic": "بطانية",
+    "acceptedArabic": [
+      "بطانية"
+    ],
+    "exampleTurkish": "Üşüyorsan battaniye al.",
+    "exampleArabic": "خذ بطانية إن كنت تشعر بالبرد."
+  },
+  {
+    "id": "word-0032",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "çarşaf",
+    "arabic": "ملاءة",
+    "acceptedArabic": [
+      "ملاءة"
+    ],
+    "exampleTurkish": "Yatağa temiz bir çarşaf serdim.",
+    "exampleArabic": "فرشت ملاءة نظيفة على السرير."
+  },
+  {
+    "id": "word-0033",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "perde",
+    "arabic": "ستارة",
+    "acceptedArabic": [
+      "ستارة"
+    ],
+    "exampleTurkish": "Sabah perdeleri açıyorum.",
+    "exampleArabic": "أفتح الستائر صباحًا."
+  },
+  {
+    "id": "word-0034",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "halı",
+    "arabic": "سجادة",
+    "acceptedArabic": [
+      "سجادة"
+    ],
+    "exampleTurkish": "Halıyı balkonda temizledik.",
+    "exampleArabic": "نظّفنا السجادة في الشرفة."
+  },
+  {
+    "id": "word-0035",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kilim",
+    "arabic": "بساط منسوج",
+    "acceptedArabic": [
+      "بساط منسوج"
+    ],
+    "exampleTurkish": "Yerde renkli bir kilim var.",
+    "exampleArabic": "يوجد بساط منسوج ملوّن على الأرض."
+  },
+  {
+    "id": "word-0036",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "ayna",
+    "arabic": "مرآة",
+    "acceptedArabic": [
+      "مرآة"
+    ],
+    "exampleTurkish": "Aynaya bakıp saçını düzeltti.",
+    "exampleArabic": "نظر في المرآة ورتّب شعره."
+  },
+  {
+    "id": "word-0037",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "lamba",
+    "arabic": "مصباح",
+    "acceptedArabic": [
+      "مصباح"
+    ],
+    "exampleTurkish": "Bu lamba az ışık veriyor.",
+    "exampleArabic": "هذا المصباح يعطي ضوءًا قليلًا."
+  },
+  {
+    "id": "word-0038",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "ampul",
+    "arabic": "لمبة",
+    "acceptedArabic": [
+      "لمبة"
+    ],
+    "exampleTurkish": "Mutfaktaki ampulü değiştirdim.",
+    "exampleArabic": "غيّرت لمبة المطبخ."
+  },
+  {
+    "id": "word-0039",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "priz",
+    "arabic": "مقبس كهربائي",
+    "acceptedArabic": [
+      "مقبس كهربائي"
+    ],
+    "exampleTurkish": "Masanın yanında bir priz var.",
+    "exampleArabic": "يوجد مقبس كهربائي بجانب الطاولة."
+  },
+  {
+    "id": "word-0040",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "fiş",
+    "arabic": "قابس كهربائي",
+    "acceptedArabic": [
+      "قابس كهربائي"
+    ],
+    "exampleTurkish": "Fişi prizden çektim.",
+    "exampleArabic": "نزعت القابس من المقبس."
+  },
+  {
+    "id": "word-0041",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kablo",
+    "arabic": "سلك",
+    "acceptedArabic": [
+      "سلك"
+    ],
+    "exampleTurkish": "Bu kablo çok kısa.",
+    "exampleArabic": "هذا السلك قصير جدًا."
+  },
+  {
+    "id": "word-0042",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "ısıtıcı",
+    "arabic": "مدفأة كهربائية",
+    "acceptedArabic": [
+      "مدفأة كهربائية"
+    ],
+    "exampleTurkish": "Odaya küçük bir ısıtıcı aldık.",
+    "exampleArabic": "اشترينا مدفأة كهربائية صغيرة للغرفة."
+  },
+  {
+    "id": "word-0043",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kalorifer",
+    "arabic": "تدفئة مركزية",
+    "acceptedArabic": [
+      "تدفئة مركزية"
+    ],
+    "exampleTurkish": "Kalorifer bütün evi ısıtıyor.",
+    "exampleArabic": "التدفئة المركزية تدفئ البيت كله."
+  },
+  {
+    "id": "word-0044",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "klima",
+    "arabic": "مكيّف",
+    "acceptedArabic": [
+      "مكيّف"
+    ],
+    "exampleTurkish": "Klimayı biraz kısabilir misin?",
+    "exampleArabic": "هل يمكنك تخفيف المكيّف قليلًا؟"
+  },
+  {
+    "id": "word-0045",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "vantilatör",
+    "arabic": "مروحة",
+    "acceptedArabic": [
+      "مروحة"
+    ],
+    "exampleTurkish": "Vantilatör yatağın yanında.",
+    "exampleArabic": "المروحة بجانب السرير."
+  },
+  {
+    "id": "word-0046",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "şömine",
+    "arabic": "مدفأة حطب",
+    "acceptedArabic": [
+      "مدفأة حطب"
+    ],
+    "exampleTurkish": "Şöminenin önünde oturduk.",
+    "exampleArabic": "جلسنا أمام مدفأة الحطب."
+  },
+  {
+    "id": "word-0047",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "vazo",
+    "arabic": "مزهرية",
+    "acceptedArabic": [
+      "مزهرية"
+    ],
+    "exampleTurkish": "Vazoya taze çiçek koydum.",
+    "exampleArabic": "وضعت زهورًا طازجة في المزهرية."
+  },
+  {
+    "id": "word-0048",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "çerçeve",
+    "arabic": "إطار",
+    "acceptedArabic": [
+      "إطار"
+    ],
+    "exampleTurkish": "Fotoğraf için ahşap bir çerçeve aldım.",
+    "exampleArabic": "اشتريت إطارًا خشبيًا للصورة."
+  },
+  {
+    "id": "word-0049",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "askılık",
+    "arabic": "علّاقة ملابس",
+    "acceptedArabic": [
+      "علّاقة ملابس"
+    ],
+    "exampleTurkish": "Montunu askılığa as.",
+    "exampleArabic": "علّق معطفك على علّاقة الملابس."
+  },
+  {
+    "id": "word-0050",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "paspas",
+    "arabic": "ممسحة أرجل",
+    "acceptedArabic": [
+      "ممسحة أرجل"
+    ],
+    "exampleTurkish": "Kapının önüne yeni bir paspas koyduk.",
+    "exampleArabic": "وضعنا ممسحة أرجل جديدة أمام الباب."
+  },
+  {
+    "id": "word-0051",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kova",
+    "arabic": "دلو",
+    "acceptedArabic": [
+      "دلو"
+    ],
+    "exampleTurkish": "Kovayı suyla doldur.",
+    "exampleArabic": "املأ الدلو بالماء."
+  },
+  {
+    "id": "word-0052",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "süpürge",
+    "arabic": "مكنسة",
+    "acceptedArabic": [
+      "مكنسة"
+    ],
+    "exampleTurkish": "Süpürge kapının arkasında.",
+    "exampleArabic": "المكنسة خلف الباب."
+  },
+  {
+    "id": "word-0053",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "bez",
+    "arabic": "قطعة قماش",
+    "acceptedArabic": [
+      "قطعة قماش"
+    ],
+    "exampleTurkish": "Masayı nemli bir bezle sildim.",
+    "exampleArabic": "مسحت الطاولة بقطعة قماش رطبة."
+  },
+  {
+    "id": "word-0054",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "çöp",
+    "arabic": "قمامة",
+    "acceptedArabic": [
+      "قمامة"
+    ],
+    "exampleTurkish": "Çöpü dışarı çıkarır mısın?",
+    "exampleArabic": "هل يمكنك إخراج القمامة؟"
+  },
+  {
+    "id": "word-0055",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "çöp kutusu",
+    "arabic": "سلّة قمامة",
+    "acceptedArabic": [
+      "سلّة قمامة"
+    ],
+    "exampleTurkish": "Çöp kutusu lavabonun altında.",
+    "exampleArabic": "سلّة القمامة تحت المغسلة."
+  },
+  {
+    "id": "word-0056",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "kutu",
+    "arabic": "صندوق",
+    "acceptedArabic": [
+      "صندوق"
+    ],
+    "exampleTurkish": "Oyuncakları kutuya koy.",
+    "exampleArabic": "ضع الألعاب في الصندوق."
+  },
+  {
+    "id": "word-0057",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "sepet",
+    "arabic": "سلّة",
+    "acceptedArabic": [
+      "سلّة"
+    ],
+    "exampleTurkish": "Sepette temiz çamaşırlar var.",
+    "exampleArabic": "توجد ملابس نظيفة في السلّة."
+  },
+  {
+    "id": "word-0058",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "sandık",
+    "arabic": "صندوق كبير",
+    "acceptedArabic": [
+      "صندوق كبير"
+    ],
+    "exampleTurkish": "Bu sandık büyükannemden kaldı.",
+    "exampleArabic": "هذا الصندوق الكبير بقي لنا من جدّتي."
+  },
+  {
+    "id": "word-0059",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "örtü",
+    "arabic": "غطاء قماشي",
+    "acceptedArabic": [
+      "غطاء قماشي"
+    ],
+    "exampleTurkish": "Masanın örtüsü çok güzel.",
+    "exampleArabic": "غطاء الطاولة جميل جدًا."
+  },
+  {
+    "id": "word-0060",
+    "kind": "word",
+    "category": "البيت",
+    "turkish": "korkuluk",
+    "arabic": "درابزين",
+    "acceptedArabic": [
+      "درابزين"
+    ],
+    "exampleTurkish": "Merdivenden inerken korkuluğu tut.",
+    "exampleArabic": "أمسك الدرابزين أثناء نزول السلم."
+  },
+  {
+    "id": "word-0061",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "aile",
+    "arabic": "عائلة",
+    "acceptedArabic": [
+      "عائلة"
+    ],
+    "exampleTurkish": "Ailem bu şehirde yaşıyor.",
+    "exampleArabic": "تعيش عائلتي في هذه المدينة."
+  },
+  {
+    "id": "word-0062",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "anne",
+    "arabic": "أم",
+    "acceptedArabic": [
+      "أم",
+      "والدة"
+    ],
+    "exampleTurkish": "Annem kahve hazırlıyor.",
+    "exampleArabic": "أمي تحضّر القهوة."
+  },
+  {
+    "id": "word-0063",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "baba",
+    "arabic": "أب",
+    "acceptedArabic": [
+      "أب",
+      "والد"
+    ],
+    "exampleTurkish": "Babam bahçede çalışıyor.",
+    "exampleArabic": "أبي يعمل في الحديقة."
+  },
+  {
+    "id": "word-0064",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "çocuk",
+    "arabic": "طفل",
+    "acceptedArabic": [
+      "طفل"
+    ],
+    "exampleTurkish": "Çocuk parkta oynuyor.",
+    "exampleArabic": "الطفل يلعب في الحديقة."
+  },
+  {
+    "id": "word-0065",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "bebek",
+    "arabic": "رضيع",
+    "acceptedArabic": [
+      "رضيع",
+      "طفل رضيع"
+    ],
+    "exampleTurkish": "Bebek şimdi uyuyor.",
+    "exampleArabic": "الرضيع نائم الآن."
+  },
+  {
+    "id": "word-0066",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kız",
+    "arabic": "بنت",
+    "acceptedArabic": [
+      "بنت"
+    ],
+    "exampleTurkish": "Küçük kız elma yiyor.",
+    "exampleArabic": "البنت الصغيرة تأكل تفاحة."
+  },
+  {
+    "id": "word-0067",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "oğul",
+    "arabic": "ابن",
+    "acceptedArabic": [
+      "ابن"
+    ],
+    "exampleTurkish": "Oğlum bugün çok mutlu.",
+    "exampleArabic": "ابني سعيد جدًا اليوم."
+  },
+  {
+    "id": "word-0068",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kardeş",
+    "arabic": "أخ أو أخت",
+    "acceptedArabic": [
+      "أخ أو أخت",
+      "أخ",
+      "أخت"
+    ],
+    "exampleTurkish": "Kardeşim benden iki yaş küçük.",
+    "exampleArabic": "أخي أصغر منّي بسنتين."
+  },
+  {
+    "id": "word-0069",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "abla",
+    "arabic": "أخت كبرى",
+    "acceptedArabic": [
+      "أخت كبرى"
+    ],
+    "exampleTurkish": "Ablam bana yemek yaptı.",
+    "exampleArabic": "أختي الكبرى أعدّت لي الطعام."
+  },
+  {
+    "id": "word-0070",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "ağabey",
+    "arabic": "أخ أكبر",
+    "acceptedArabic": [
+      "أخ أكبر"
+    ],
+    "exampleTurkish": "Ağabeyim başka bir şehirde yaşıyor.",
+    "exampleArabic": "أخي الأكبر يعيش في مدينة أخرى."
+  },
+  {
+    "id": "word-0071",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "büyükanne",
+    "arabic": "جدّة",
+    "acceptedArabic": [
+      "جدّة"
+    ],
+    "exampleTurkish": "Büyükannem bize hikâye anlatıyor.",
+    "exampleArabic": "جدّتي تحكي لنا قصة."
+  },
+  {
+    "id": "word-0072",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "büyükbaba",
+    "arabic": "جدّ",
+    "acceptedArabic": [
+      "جدّ"
+    ],
+    "exampleTurkish": "Büyükbabam her gün yürür.",
+    "exampleArabic": "جدّي يمشي كل يوم."
+  },
+  {
+    "id": "word-0073",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "torun",
+    "arabic": "حفيد أو حفيدة",
+    "acceptedArabic": [
+      "حفيد أو حفيدة",
+      "حفيد",
+      "حفيدة"
+    ],
+    "exampleTurkish": "Torunum bu yıl okula başladı.",
+    "exampleArabic": "بدأ حفيدي المدرسة هذا العام."
+  },
+  {
+    "id": "word-0074",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "amca",
+    "arabic": "عمّ",
+    "acceptedArabic": [
+      "عمّ"
+    ],
+    "exampleTurkish": "Amcam bize akşam gelecek.",
+    "exampleArabic": "سيأتي عمّي إلينا مساءً."
+  },
+  {
+    "id": "word-0075",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "dayı",
+    "arabic": "خال",
+    "acceptedArabic": [
+      "خال"
+    ],
+    "exampleTurkish": "Dayım güzel balık pişirir.",
+    "exampleArabic": "خالي يطهو السمك جيدًا."
+  },
+  {
+    "id": "word-0076",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "hala",
+    "arabic": "عمّة",
+    "acceptedArabic": [
+      "عمّة"
+    ],
+    "exampleTurkish": "Halam köyde yaşıyor.",
+    "exampleArabic": "عمّتي تعيش في القرية."
+  },
+  {
+    "id": "word-0077",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "teyze",
+    "arabic": "خالة",
+    "acceptedArabic": [
+      "خالة"
+    ],
+    "exampleTurkish": "Teyzem yeni bir ev aldı.",
+    "exampleArabic": "اشترت خالتي بيتًا جديدًا."
+  },
+  {
+    "id": "word-0078",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kuzen",
+    "arabic": "ابن أو بنت العم أو الخال",
+    "acceptedArabic": [
+      "ابن أو بنت العم أو الخال",
+      "ابن العم",
+      "بنت العم",
+      "ابن الخال",
+      "بنت الخال",
+      "ابن العمة",
+      "بنت العمة",
+      "ابن الخالة",
+      "بنت الخالة"
+    ],
+    "exampleTurkish": "Kuzenimle aynı okuldayız.",
+    "exampleArabic": "أنا وابن عمّي في المدرسة نفسها."
+  },
+  {
+    "id": "word-0079",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "yeğen",
+    "arabic": "ابن أو بنت الأخ أو الأخت",
+    "acceptedArabic": [
+      "ابن أو بنت الأخ أو الأخت",
+      "ابن الأخ",
+      "بنت الأخ",
+      "ابن الأخت",
+      "بنت الأخت"
+    ],
+    "exampleTurkish": "Yeğenime bir oyuncak aldım.",
+    "exampleArabic": "اشتريت لعبة لابن أختي."
+  },
+  {
+    "id": "word-0080",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "eş",
+    "arabic": "زوج أو زوجة",
+    "acceptedArabic": [
+      "زوج أو زوجة",
+      "زوج",
+      "زوجة"
+    ],
+    "exampleTurkish": "Eşim bugün evde.",
+    "exampleArabic": "زوجي في البيت اليوم."
+  },
+  {
+    "id": "word-0081",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "koca",
+    "arabic": "زوج",
+    "acceptedArabic": [
+      "زوج"
+    ],
+    "exampleTurkish": "Kocası ona çiçek getirdi.",
+    "exampleArabic": "أحضر لها زوجها زهورًا."
+  },
+  {
+    "id": "word-0082",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "karı",
+    "arabic": "زوجة",
+    "acceptedArabic": [
+      "زوجة"
+    ],
+    "exampleTurkish": "Karım müzik dinlemeyi seviyor.",
+    "exampleArabic": "زوجتي تحب الاستماع إلى الموسيقى."
+  },
+  {
+    "id": "word-0083",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "gelin",
+    "arabic": "عروس",
+    "acceptedArabic": [
+      "عروس"
+    ],
+    "exampleTurkish": "Gelin beyaz bir elbise giydi.",
+    "exampleArabic": "ارتدت العروس فستانًا أبيض."
+  },
+  {
+    "id": "word-0084",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "damat",
+    "arabic": "عريس",
+    "acceptedArabic": [
+      "عريس"
+    ],
+    "exampleTurkish": "Damat kapıda misafirleri karşılıyor.",
+    "exampleArabic": "العريس يستقبل الضيوف عند الباب."
+  },
+  {
+    "id": "word-0085",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kayınvalide",
+    "arabic": "حماة",
+    "acceptedArabic": [
+      "حماة"
+    ],
+    "exampleTurkish": "Kayınvalidem bize tatlı yaptı.",
+    "exampleArabic": "أعدّت لنا حماتي حلوى."
+  },
+  {
+    "id": "word-0086",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kayınpeder",
+    "arabic": "حمو",
+    "acceptedArabic": [
+      "حمو",
+      "والد الزوج",
+      "والد الزوجة"
+    ],
+    "exampleTurkish": "Kayınpederim bahçeyi suluyor.",
+    "exampleArabic": "والد زوجتي يسقي الحديقة."
+  },
+  {
+    "id": "word-0087",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "enişte",
+    "arabic": "زوج الأخت أو العمّة أو الخالة",
+    "acceptedArabic": [
+      "زوج الأخت أو العمّة أو الخالة",
+      "زوج الأخت",
+      "زوج الخالة",
+      "زوج العمة"
+    ],
+    "exampleTurkish": "Eniştem ablamla birlikte geldi.",
+    "exampleArabic": "جاء زوج أختي مع أختي الكبرى."
+  },
+  {
+    "id": "word-0088",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "yenge",
+    "arabic": "زوجة الأخ أو العمّ أو الخال",
+    "acceptedArabic": [
+      "زوجة الأخ أو العمّ أو الخال",
+      "زوجة الأخ",
+      "زوجة العم",
+      "زوجة الخال"
+    ],
+    "exampleTurkish": "Yengem amcamla köyde yaşıyor.",
+    "exampleArabic": "تعيش زوجة عمّي مع عمّي في القرية."
+  },
+  {
+    "id": "word-0089",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "akraba",
+    "arabic": "قريب من العائلة",
+    "acceptedArabic": [
+      "قريب من العائلة"
+    ],
+    "exampleTurkish": "Bayramda akrabalarımızı ziyaret ediyoruz.",
+    "exampleArabic": "نزور أقاربنا في العيد."
+  },
+  {
+    "id": "word-0090",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "komşu",
+    "arabic": "جار",
+    "acceptedArabic": [
+      "جار"
+    ],
+    "exampleTurkish": "Komşumuz çok yardımsever.",
+    "exampleArabic": "جارنا محبّ للمساعدة."
+  },
+  {
+    "id": "word-0091",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "arkadaş",
+    "arabic": "صديق",
+    "acceptedArabic": [
+      "صديق"
+    ],
+    "exampleTurkish": "Arkadaşım beni bekliyor.",
+    "exampleArabic": "صديقي ينتظرني."
+  },
+  {
+    "id": "word-0092",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "dost",
+    "arabic": "صديق مقرّب",
+    "acceptedArabic": [
+      "صديق مقرّب"
+    ],
+    "exampleTurkish": "Eski dostumla kahve içtik.",
+    "exampleArabic": "شربت القهوة مع صديقي المقرّب القديم."
+  },
+  {
+    "id": "word-0093",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "misafir",
+    "arabic": "ضيف",
+    "acceptedArabic": [
+      "ضيف"
+    ],
+    "exampleTurkish": "Bu akşam üç misafirimiz var.",
+    "exampleArabic": "لدينا ثلاثة ضيوف هذا المساء."
+  },
+  {
+    "id": "word-0094",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kadın",
+    "arabic": "امرأة",
+    "acceptedArabic": [
+      "امرأة",
+      "سيدة"
+    ],
+    "exampleTurkish": "Kadın çocuğunun elini tutuyor.",
+    "exampleArabic": "تمسك المرأة بيد طفلها."
+  },
+  {
+    "id": "word-0095",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "erkek",
+    "arabic": "رجل",
+    "acceptedArabic": [
+      "رجل"
+    ],
+    "exampleTurkish": "Kapıda iki erkek bekliyor.",
+    "exampleArabic": "ينتظر رجلان عند الباب."
+  },
+  {
+    "id": "word-0096",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "insan",
+    "arabic": "إنسان",
+    "acceptedArabic": [
+      "إنسان"
+    ],
+    "exampleTurkish": "Her insan dinlenmeye ihtiyaç duyar.",
+    "exampleArabic": "كل إنسان يحتاج إلى الراحة."
+  },
+  {
+    "id": "word-0097",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "kişi",
+    "arabic": "شخص",
+    "acceptedArabic": [
+      "شخص"
+    ],
+    "exampleTurkish": "Bu masaya dört kişi oturabilir.",
+    "exampleArabic": "يمكن لأربعة أشخاص الجلوس إلى هذه الطاولة."
+  },
+  {
+    "id": "word-0098",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "yetişkin",
+    "arabic": "بالغ",
+    "acceptedArabic": [
+      "بالغ"
+    ],
+    "exampleTurkish": "Bu oyun çocuklar ve yetişkinler için.",
+    "exampleArabic": "هذه اللعبة للأطفال والبالغين."
+  },
+  {
+    "id": "word-0099",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "ikiz",
+    "arabic": "توأم",
+    "acceptedArabic": [
+      "توأم"
+    ],
+    "exampleTurkish": "İkiz kardeşler aynı odada kalıyor.",
+    "exampleArabic": "الأخوان التوأم يقيمان في الغرفة نفسها."
+  },
+  {
+    "id": "word-0100",
+    "kind": "word",
+    "category": "العائلة والناس",
+    "turkish": "bekâr",
+    "arabic": "أعزب",
+    "acceptedArabic": [
+      "أعزب"
+    ],
+    "exampleTurkish": "Bekâr abim yalnız yaşıyor.",
+    "exampleArabic": "أخي الأكبر الأعزب يعيش وحده."
+  },
+  {
+    "id": "word-0101",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "vücut",
+    "arabic": "جسم",
+    "acceptedArabic": [
+      "جسم"
+    ],
+    "exampleTurkish": "İnsan vücudu suya ihtiyaç duyar.",
+    "exampleArabic": "يحتاج جسم الإنسان إلى الماء."
+  },
+  {
+    "id": "word-0102",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "baş",
+    "arabic": "رأس",
+    "acceptedArabic": [
+      "رأس"
+    ],
+    "exampleTurkish": "Başımı yastığa koydum.",
+    "exampleArabic": "وضعت رأسي على الوسادة."
+  },
+  {
+    "id": "word-0103",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "saç",
+    "arabic": "شعر",
+    "acceptedArabic": [
+      "شعر"
+    ],
+    "exampleTurkish": "Saçım yağmurda ıslandı.",
+    "exampleArabic": "ابتلّ شعري في المطر."
+  },
+  {
+    "id": "word-0104",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "yüz",
+    "arabic": "وجه",
+    "acceptedArabic": [
+      "وجه"
+    ],
+    "exampleTurkish": "Yüzünü soğuk suyla yıkadı.",
+    "exampleArabic": "غسل وجهه بالماء البارد."
+  },
+  {
+    "id": "word-0105",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "alın",
+    "arabic": "جبهة",
+    "acceptedArabic": [
+      "جبهة"
+    ],
+    "exampleTurkish": "Alnında küçük bir çizik var.",
+    "exampleArabic": "يوجد خدش صغير على جبهته."
+  },
+  {
+    "id": "word-0106",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "göz",
+    "arabic": "عين",
+    "acceptedArabic": [
+      "عين"
+    ],
+    "exampleTurkish": "Gözüme toz kaçtı.",
+    "exampleArabic": "دخل الغبار في عيني."
+  },
+  {
+    "id": "word-0107",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kaş",
+    "arabic": "حاجب",
+    "acceptedArabic": [
+      "حاجب"
+    ],
+    "exampleTurkish": "Kaşları çok kalın.",
+    "exampleArabic": "حاجباه كثيفان جدًا."
+  },
+  {
+    "id": "word-0108",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kirpik",
+    "arabic": "رِمش",
+    "acceptedArabic": [
+      "رِمش"
+    ],
+    "exampleTurkish": "Kirpiğim gözüme düştü.",
+    "exampleArabic": "سقط رمش في عيني."
+  },
+  {
+    "id": "word-0109",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "göz kapağı",
+    "arabic": "جفن",
+    "acceptedArabic": [
+      "جفن"
+    ],
+    "exampleTurkish": "Göz kapağım biraz şişti.",
+    "exampleArabic": "تورّم جفني قليلًا."
+  },
+  {
+    "id": "word-0110",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kulak",
+    "arabic": "أذن",
+    "acceptedArabic": [
+      "أذن"
+    ],
+    "exampleTurkish": "Soğukta kulaklarım üşüyor.",
+    "exampleArabic": "تبرد أذناي في البرد."
+  },
+  {
+    "id": "word-0111",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "burun",
+    "arabic": "أنف",
+    "acceptedArabic": [
+      "أنف"
+    ],
+    "exampleTurkish": "Burnum soğuktan kızardı.",
+    "exampleArabic": "احمرّ أنفي من البرد."
+  },
+  {
+    "id": "word-0112",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "yanak",
+    "arabic": "خدّ",
+    "acceptedArabic": [
+      "خدّ"
+    ],
+    "exampleTurkish": "Çocuğun yanakları kırmızı.",
+    "exampleArabic": "خدّا الطفل أحمران."
+  },
+  {
+    "id": "word-0113",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ağız",
+    "arabic": "فم",
+    "acceptedArabic": [
+      "فم"
+    ],
+    "exampleTurkish": "Ağzında yemek varken konuşma.",
+    "exampleArabic": "لا تتكلم والطعام في فمك."
+  },
+  {
+    "id": "word-0114",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "dudak",
+    "arabic": "شفة",
+    "acceptedArabic": [
+      "شفة"
+    ],
+    "exampleTurkish": "Soğuk hava dudaklarımı kurutuyor.",
+    "exampleArabic": "يجفّف الهواء البارد شفتيّ."
+  },
+  {
+    "id": "word-0115",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "diş",
+    "arabic": "سنّ",
+    "acceptedArabic": [
+      "سنّ"
+    ],
+    "exampleTurkish": "Bir dişim ağrıyor.",
+    "exampleArabic": "تؤلمني سنّ."
+  },
+  {
+    "id": "word-0116",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "dil",
+    "arabic": "لسان",
+    "acceptedArabic": [
+      "لسان"
+    ],
+    "exampleTurkish": "Sıcak çorba dilimi yaktı.",
+    "exampleArabic": "أحرقت الشوربة الساخنة لساني."
+  },
+  {
+    "id": "word-0117",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "damak",
+    "arabic": "حنك",
+    "acceptedArabic": [
+      "حنك"
+    ],
+    "exampleTurkish": "Sıcak çay damağımı yaktı.",
+    "exampleArabic": "أحرق الشاي الساخن حنكي."
+  },
+  {
+    "id": "word-0118",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "çene",
+    "arabic": "ذقن؛ فكّ",
+    "acceptedArabic": [
+      "ذقن؛ فكّ",
+      "ذقن",
+      "فك"
+    ],
+    "exampleTurkish": "Çenesinde küçük bir yara var.",
+    "exampleArabic": "يوجد جرح صغير على ذقنه."
+  },
+  {
+    "id": "word-0119",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "boğaz",
+    "arabic": "حلق",
+    "acceptedArabic": [
+      "حلق"
+    ],
+    "exampleTurkish": "Boğazım bugün ağrıyor.",
+    "exampleArabic": "يؤلمني حلقي اليوم."
+  },
+  {
+    "id": "word-0120",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "boyun",
+    "arabic": "رقبة",
+    "acceptedArabic": [
+      "رقبة"
+    ],
+    "exampleTurkish": "Boynuma bir atkı sardım.",
+    "exampleArabic": "لففت وشاحًا حول رقبتي."
+  },
+  {
+    "id": "word-0121",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ense",
+    "arabic": "مؤخرة الرقبة",
+    "acceptedArabic": [
+      "مؤخرة الرقبة"
+    ],
+    "exampleTurkish": "Güneş ensemizi yaktı.",
+    "exampleArabic": "أحرقت الشمس مؤخرة رقابنا."
+  },
+  {
+    "id": "word-0122",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "omuz",
+    "arabic": "كتف",
+    "acceptedArabic": [
+      "كتف"
+    ],
+    "exampleTurkish": "Çantayı omzuma astım.",
+    "exampleArabic": "علّقت الحقيبة على كتفي."
+  },
+  {
+    "id": "word-0123",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kol",
+    "arabic": "ذراع",
+    "acceptedArabic": [
+      "ذراع"
+    ],
+    "exampleTurkish": "Kolumda bir saat var.",
+    "exampleArabic": "توجد ساعة على ذراعي."
+  },
+  {
+    "id": "word-0124",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "dirsek",
+    "arabic": "مرفق",
+    "acceptedArabic": [
+      "مرفق"
+    ],
+    "exampleTurkish": "Dirseğimi masaya çarptım.",
+    "exampleArabic": "صدمت مرفقي بالطاولة."
+  },
+  {
+    "id": "word-0125",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bilek",
+    "arabic": "معصم",
+    "acceptedArabic": [
+      "معصم",
+      "رسغ"
+    ],
+    "exampleTurkish": "Bileğindeki bilezik çok güzel.",
+    "exampleArabic": "السوار الذي على معصمها جميل جدًا."
+  },
+  {
+    "id": "word-0126",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "el",
+    "arabic": "يد",
+    "acceptedArabic": [
+      "يد"
+    ],
+    "exampleTurkish": "Yemekten önce ellerini yıka.",
+    "exampleArabic": "اغسل يديك قبل الطعام."
+  },
+  {
+    "id": "word-0127",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "avuç",
+    "arabic": "راحة اليد",
+    "acceptedArabic": [
+      "راحة اليد"
+    ],
+    "exampleTurkish": "Avucunda küçük bir taş var.",
+    "exampleArabic": "في راحة يده حجر صغير."
+  },
+  {
+    "id": "word-0128",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "parmak",
+    "arabic": "إصبع",
+    "acceptedArabic": [
+      "إصبع"
+    ],
+    "exampleTurkish": "Parmağıma yüzük taktım.",
+    "exampleArabic": "وضعت خاتمًا في إصبعي."
+  },
+  {
+    "id": "word-0129",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "başparmak",
+    "arabic": "إبهام",
+    "acceptedArabic": [
+      "إبهام"
+    ],
+    "exampleTurkish": "Başparmağım kapıya sıkıştı.",
+    "exampleArabic": "انحشر إبهامي في الباب."
+  },
+  {
+    "id": "word-0130",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "tırnak",
+    "arabic": "ظفر",
+    "acceptedArabic": [
+      "ظفر"
+    ],
+    "exampleTurkish": "Tırnaklarımı kısa kestim.",
+    "exampleArabic": "قصصت أظفاري لتصبح قصيرة."
+  },
+  {
+    "id": "word-0131",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "göğüs",
+    "arabic": "صدر",
+    "acceptedArabic": [
+      "صدر"
+    ],
+    "exampleTurkish": "Soğuk hava göğsümü rahatsız ediyor.",
+    "exampleArabic": "الهواء البارد يزعج صدري."
+  },
+  {
+    "id": "word-0132",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "sırt",
+    "arabic": "ظهر",
+    "acceptedArabic": [
+      "ظهر"
+    ],
+    "exampleTurkish": "Sırtımı duvara yasladım.",
+    "exampleArabic": "أسندت ظهري إلى الجدار."
+  },
+  {
+    "id": "word-0133",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bel",
+    "arabic": "خصر؛ أسفل الظهر",
+    "acceptedArabic": [
+      "خصر؛ أسفل الظهر",
+      "خصر",
+      "أسفل الظهر"
+    ],
+    "exampleTurkish": "Bu kemer belime tam oldu.",
+    "exampleArabic": "ناسب هذا الحزام خصري تمامًا."
+  },
+  {
+    "id": "word-0134",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "karın",
+    "arabic": "بطن",
+    "acceptedArabic": [
+      "بطن"
+    ],
+    "exampleTurkish": "Çok yediğim için karnım ağrıyor.",
+    "exampleArabic": "بطني يؤلمني لأنني أكلت كثيرًا."
+  },
+  {
+    "id": "word-0135",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "göbek",
+    "arabic": "سُرّة",
+    "acceptedArabic": [
+      "سُرّة"
+    ],
+    "exampleTurkish": "Bebeğin göbeği iyileşti.",
+    "exampleArabic": "شُفيت سُرّة الرضيع."
+  },
+  {
+    "id": "word-0136",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kalça",
+    "arabic": "ورك",
+    "acceptedArabic": [
+      "ورك"
+    ],
+    "exampleTurkish": "Düşünce kalçamı incittim.",
+    "exampleArabic": "آذيت وركي عندما سقطت."
+  },
+  {
+    "id": "word-0137",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bacak",
+    "arabic": "ساق",
+    "acceptedArabic": [
+      "ساق"
+    ],
+    "exampleTurkish": "Uzun yürüyüşten sonra bacaklarım yoruldu.",
+    "exampleArabic": "تعبت ساقاي بعد المشي الطويل."
+  },
+  {
+    "id": "word-0138",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "diz",
+    "arabic": "ركبة",
+    "acceptedArabic": [
+      "ركبة"
+    ],
+    "exampleTurkish": "Çocuk dizini yere vurdu.",
+    "exampleArabic": "ضرب الطفل ركبته بالأرض."
+  },
+  {
+    "id": "word-0139",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ayak",
+    "arabic": "قدم",
+    "acceptedArabic": [
+      "قدم"
+    ],
+    "exampleTurkish": "Ayaklarım suya girdi.",
+    "exampleArabic": "دخلت قدماي في الماء."
+  },
+  {
+    "id": "word-0140",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "topuk",
+    "arabic": "عَقِب",
+    "acceptedArabic": [
+      "عَقِب"
+    ],
+    "exampleTurkish": "Yeni ayakkabı topuğumu acıtıyor.",
+    "exampleArabic": "الحذاء الجديد يؤلم عقبي."
+  },
+  {
+    "id": "word-0141",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ayak bileği",
+    "arabic": "كاحل",
+    "acceptedArabic": [
+      "كاحل"
+    ],
+    "exampleTurkish": "Ayak bileğim biraz şiş.",
+    "exampleArabic": "كاحلي متورّم قليلًا."
+  },
+  {
+    "id": "word-0142",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "taban",
+    "arabic": "باطن القدم",
+    "acceptedArabic": [
+      "باطن القدم"
+    ],
+    "exampleTurkish": "Ayağımın tabanı çok hassas.",
+    "exampleArabic": "باطن قدمي حسّاس جدًا."
+  },
+  {
+    "id": "word-0143",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "deri",
+    "arabic": "جلد",
+    "acceptedArabic": [
+      "جلد"
+    ],
+    "exampleTurkish": "Bu sabun derimi kurutuyor.",
+    "exampleArabic": "هذا الصابون يجفّف جلدي."
+  },
+  {
+    "id": "word-0144",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kemik",
+    "arabic": "عظم",
+    "acceptedArabic": [
+      "عظم",
+      "عظمة"
+    ],
+    "exampleTurkish": "Doktor kemikte kırık olmadığını söyledi.",
+    "exampleArabic": "قال الطبيب إنه لا يوجد كسر في العظم."
+  },
+  {
+    "id": "word-0145",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kas",
+    "arabic": "عضلة",
+    "acceptedArabic": [
+      "عضلة"
+    ],
+    "exampleTurkish": "Yürüyüş bacak kaslarını çalıştırır.",
+    "exampleArabic": "المشي يشغّل عضلات الساقين."
+  },
+  {
+    "id": "word-0146",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kan",
+    "arabic": "دم",
+    "acceptedArabic": [
+      "دم"
+    ],
+    "exampleTurkish": "Parmağımdan biraz kan geldi.",
+    "exampleArabic": "خرج قليل من الدم من إصبعي."
+  },
+  {
+    "id": "word-0147",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kalp",
+    "arabic": "قلب",
+    "acceptedArabic": [
+      "قلب"
+    ],
+    "exampleTurkish": "Koşunca kalbim hızlı atıyor.",
+    "exampleArabic": "ينبض قلبي بسرعة عندما أركض."
+  },
+  {
+    "id": "word-0148",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "akciğer",
+    "arabic": "رئة",
+    "acceptedArabic": [
+      "رئة"
+    ],
+    "exampleTurkish": "Temiz hava akciğerlerimiz için önemlidir.",
+    "exampleArabic": "الهواء النظيف مهمّ لرئتينا."
+  },
+  {
+    "id": "word-0149",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "mide",
+    "arabic": "معدة",
+    "acceptedArabic": [
+      "معدة"
+    ],
+    "exampleTurkish": "Bu yemek mideme ağır geldi.",
+    "exampleArabic": "كان هذا الطعام ثقيلًا على معدتي."
+  },
+  {
+    "id": "word-0150",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "beyin",
+    "arabic": "دماغ",
+    "acceptedArabic": [
+      "دماغ"
+    ],
+    "exampleTurkish": "Uyku beynin dinlenmesine yardımcı olur.",
+    "exampleArabic": "يساعد النوم الدماغ على الراحة."
+  },
+  {
+    "id": "word-0151",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "böbrek",
+    "arabic": "كُلية",
+    "acceptedArabic": [
+      "كُلية"
+    ],
+    "exampleTurkish": "Böbrekler vücuttaki atıkları süzer.",
+    "exampleArabic": "ترشّح الكليتان فضلات الجسم."
+  },
+  {
+    "id": "word-0152",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "karaciğer",
+    "arabic": "كبد",
+    "acceptedArabic": [
+      "كبد"
+    ],
+    "exampleTurkish": "Karaciğer vücudun önemli bir organıdır.",
+    "exampleArabic": "الكبد عضو مهمّ في الجسم."
+  },
+  {
+    "id": "word-0153",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bağırsak",
+    "arabic": "أمعاء",
+    "acceptedArabic": [
+      "أمعاء"
+    ],
+    "exampleTurkish": "Bağırsaklar sindirimde görev alır.",
+    "exampleArabic": "تؤدّي الأمعاء دورًا في الهضم."
+  },
+  {
+    "id": "word-0154",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "damar",
+    "arabic": "وعاء دموي",
+    "acceptedArabic": [
+      "وعاء دموي"
+    ],
+    "exampleTurkish": "Elimin üstünde damarlar görünüyor.",
+    "exampleArabic": "تظهر الأوعية الدموية على ظهر يدي."
+  },
+  {
+    "id": "word-0155",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "eklem",
+    "arabic": "مفصل",
+    "acceptedArabic": [
+      "مفصل"
+    ],
+    "exampleTurkish": "Diz eklemim yürürken ağrıyor.",
+    "exampleArabic": "يؤلمني مفصل ركبتي أثناء المشي."
+  },
+  {
+    "id": "word-0156",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "sinir",
+    "arabic": "عصب",
+    "acceptedArabic": [
+      "عصب"
+    ],
+    "exampleTurkish": "Doktor kolumdaki siniri kontrol etti.",
+    "exampleArabic": "فحص الطبيب العصب في ذراعي."
+  },
+  {
+    "id": "word-0157",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "sakal",
+    "arabic": "لحية",
+    "acceptedArabic": [
+      "لحية"
+    ],
+    "exampleTurkish": "Babam sakalını kısalttı.",
+    "exampleArabic": "قصّر أبي لحيته."
+  },
+  {
+    "id": "word-0158",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bıyık",
+    "arabic": "شارب",
+    "acceptedArabic": [
+      "شارب"
+    ],
+    "exampleTurkish": "Dedemin kalın bir bıyığı var.",
+    "exampleArabic": "لجدّي شارب كثيف."
+  },
+  {
+    "id": "word-0159",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ben",
+    "arabic": "شامة",
+    "acceptedArabic": [
+      "شامة"
+    ],
+    "exampleTurkish": "Sol yanağında küçük bir ben var.",
+    "exampleArabic": "توجد شامة صغيرة على خدّه الأيسر."
+  },
+  {
+    "id": "word-0160",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "çil",
+    "arabic": "نمش",
+    "acceptedArabic": [
+      "نمش"
+    ],
+    "exampleTurkish": "Yüzündeki çiller yazın daha belirgin.",
+    "exampleArabic": "النمش على وجهها أوضح في الصيف."
+  },
+  {
+    "id": "word-0161",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "yara",
+    "arabic": "جرح",
+    "acceptedArabic": [
+      "جرح"
+    ],
+    "exampleTurkish": "Yarayı temiz suyla yıkadık.",
+    "exampleArabic": "غسلنا الجرح بالماء النظيف."
+  },
+  {
+    "id": "word-0162",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "iz",
+    "arabic": "أثر",
+    "acceptedArabic": [
+      "أثر"
+    ],
+    "exampleTurkish": "Kolunda eski bir yara izi var.",
+    "exampleArabic": "يوجد أثر جرح قديم على ذراعه."
+  },
+  {
+    "id": "word-0163",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ter",
+    "arabic": "عرق",
+    "acceptedArabic": [
+      "عرق"
+    ],
+    "exampleTurkish": "Alnımdaki teri sildim.",
+    "exampleArabic": "مسحت العرق عن جبهتي."
+  },
+  {
+    "id": "word-0164",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "gözyaşı",
+    "arabic": "دمعة",
+    "acceptedArabic": [
+      "دمعة"
+    ],
+    "exampleTurkish": "Sevinçten gözyaşlarını tutamadı.",
+    "exampleArabic": "لم تستطع حبس دموعها من الفرح."
+  },
+  {
+    "id": "word-0165",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "tükürük",
+    "arabic": "لعاب",
+    "acceptedArabic": [
+      "لعاب"
+    ],
+    "exampleTurkish": "Tükürük ağzımızı nemli tutar.",
+    "exampleArabic": "يحافظ اللعاب على رطوبة فمنا."
+  },
+  {
+    "id": "word-0166",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "nefes",
+    "arabic": "نَفَس",
+    "acceptedArabic": [
+      "نَفَس"
+    ],
+    "exampleTurkish": "Derin bir nefes aldım.",
+    "exampleArabic": "أخذت نفسًا عميقًا."
+  },
+  {
+    "id": "word-0167",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ses",
+    "arabic": "صوت",
+    "acceptedArabic": [
+      "صوت"
+    ],
+    "exampleTurkish": "Bugün sesim biraz kısık.",
+    "exampleArabic": "صوتي مبحوح قليلًا اليوم."
+  },
+  {
+    "id": "word-0168",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "sağlık",
+    "arabic": "صحة",
+    "acceptedArabic": [
+      "صحة"
+    ],
+    "exampleTurkish": "Sağlık bizim için çok önemli.",
+    "exampleArabic": "الصحة مهمّة جدًا لنا."
+  },
+  {
+    "id": "word-0169",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "hasta",
+    "arabic": "مريض",
+    "acceptedArabic": [
+      "مريض"
+    ],
+    "exampleTurkish": "Hasta çocuk evde dinleniyor.",
+    "exampleArabic": "الطفل المريض يستريح في البيت."
+  },
+  {
+    "id": "word-0170",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "hastalık",
+    "arabic": "مرض",
+    "acceptedArabic": [
+      "مرض"
+    ],
+    "exampleTurkish": "Bu hastalık uzun sürdü.",
+    "exampleArabic": "استمرّ هذا المرض طويلًا."
+  },
+  {
+    "id": "word-0171",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ağrı",
+    "arabic": "ألم",
+    "acceptedArabic": [
+      "ألم",
+      "وجع"
+    ],
+    "exampleTurkish": "Sırtımdaki ağrı azaldı.",
+    "exampleArabic": "خفّ الألم في ظهري."
+  },
+  {
+    "id": "word-0172",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ateş",
+    "arabic": "حمّى",
+    "acceptedArabic": [
+      "حمّى"
+    ],
+    "exampleTurkish": "Çocuğun ateşini ölçtük.",
+    "exampleArabic": "قسنا حرارة الطفل."
+  },
+  {
+    "id": "word-0173",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "öksürük",
+    "arabic": "سعال",
+    "acceptedArabic": [
+      "سعال"
+    ],
+    "exampleTurkish": "Öksürüğüm gece arttı.",
+    "exampleArabic": "ازداد سعالي ليلًا."
+  },
+  {
+    "id": "word-0174",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "nezle",
+    "arabic": "زكام",
+    "acceptedArabic": [
+      "زكام",
+      "رشح"
+    ],
+    "exampleTurkish": "Nezle olduğum için evde kaldım.",
+    "exampleArabic": "بقيت في البيت لأنني أصبت بالزكام."
+  },
+  {
+    "id": "word-0175",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "grip",
+    "arabic": "إنفلونزا",
+    "acceptedArabic": [
+      "إنفلونزا"
+    ],
+    "exampleTurkish": "Grip yüzünden birkaç gün dinlendim.",
+    "exampleArabic": "استرحت بضعة أيام بسبب الإنفلونزا."
+  },
+  {
+    "id": "word-0176",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "alerji",
+    "arabic": "حساسية",
+    "acceptedArabic": [
+      "حساسية"
+    ],
+    "exampleTurkish": "Fıstığa alerjim var.",
+    "exampleArabic": "لدي حساسية من الفستق."
+  },
+  {
+    "id": "word-0177",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bulantı",
+    "arabic": "غثيان",
+    "acceptedArabic": [
+      "غثيان"
+    ],
+    "exampleTurkish": "Yolculuk sırasında bulantı hissettim.",
+    "exampleArabic": "شعرت بالغثيان أثناء الرحلة."
+  },
+  {
+    "id": "word-0178",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "baş dönmesi",
+    "arabic": "دوار",
+    "acceptedArabic": [
+      "دوار"
+    ],
+    "exampleTurkish": "Ayağa kalkınca baş dönmesi oldu.",
+    "exampleArabic": "أصبت بالدوار عندما وقفت."
+  },
+  {
+    "id": "word-0179",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ishal",
+    "arabic": "إسهال",
+    "acceptedArabic": [
+      "إسهال"
+    ],
+    "exampleTurkish": "İshal iki gün sürdü.",
+    "exampleArabic": "استمرّ الإسهال يومين."
+  },
+  {
+    "id": "word-0180",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kabızlık",
+    "arabic": "إمساك",
+    "acceptedArabic": [
+      "إمساك"
+    ],
+    "exampleTurkish": "Kabızlık için doktora danıştı.",
+    "exampleArabic": "استشار الطبيب بشأن الإمساك."
+  },
+  {
+    "id": "word-0181",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "şişlik",
+    "arabic": "تورّم",
+    "acceptedArabic": [
+      "تورّم"
+    ],
+    "exampleTurkish": "Bileğimdeki şişlik azaldı.",
+    "exampleArabic": "خفّ التورّم في معصمي."
+  },
+  {
+    "id": "word-0182",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "morluk",
+    "arabic": "كدمة",
+    "acceptedArabic": [
+      "كدمة"
+    ],
+    "exampleTurkish": "Bacağımda küçük bir morluk var.",
+    "exampleArabic": "توجد كدمة صغيرة على ساقي."
+  },
+  {
+    "id": "word-0183",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kırık",
+    "arabic": "كسر",
+    "acceptedArabic": [
+      "كسر"
+    ],
+    "exampleTurkish": "Röntgende kırık görülmedi.",
+    "exampleArabic": "لم يظهر كسر في الأشعّة."
+  },
+  {
+    "id": "word-0184",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "yanık",
+    "arabic": "حرق",
+    "acceptedArabic": [
+      "حرق"
+    ],
+    "exampleTurkish": "Elindeki yanık için yardım istedi.",
+    "exampleArabic": "طلب المساعدة لحرق في يده."
+  },
+  {
+    "id": "word-0185",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "sivilce",
+    "arabic": "بثرة",
+    "acceptedArabic": [
+      "بثرة"
+    ],
+    "exampleTurkish": "Alnımda bir sivilce çıktı.",
+    "exampleArabic": "ظهرت بثرة على جبهتي."
+  },
+  {
+    "id": "word-0186",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "kaşıntı",
+    "arabic": "حكّة",
+    "acceptedArabic": [
+      "حكّة"
+    ],
+    "exampleTurkish": "Yeni sabun kaşıntı yaptı.",
+    "exampleArabic": "سبّب الصابون الجديد حكّة."
+  },
+  {
+    "id": "word-0187",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "yorgunluk",
+    "arabic": "تعب",
+    "acceptedArabic": [
+      "تعب"
+    ],
+    "exampleTurkish": "Biraz uyuyunca yorgunluğum geçti.",
+    "exampleArabic": "زال تعبي بعد أن نمت قليلًا."
+  },
+  {
+    "id": "word-0188",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "uyku",
+    "arabic": "نوم",
+    "acceptedArabic": [
+      "نوم"
+    ],
+    "exampleTurkish": "Bu gece iyi bir uykuya ihtiyacım var.",
+    "exampleArabic": "أحتاج إلى نوم جيّد هذه الليلة."
+  },
+  {
+    "id": "word-0189",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "uykusuzluk",
+    "arabic": "أرق",
+    "acceptedArabic": [
+      "أرق"
+    ],
+    "exampleTurkish": "Uykusuzluk yüzünden kendimi yorgun hissediyorum.",
+    "exampleArabic": "أشعر بالتعب بسبب الأرق."
+  },
+  {
+    "id": "word-0190",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "iştah",
+    "arabic": "شهيّة",
+    "acceptedArabic": [
+      "شهيّة"
+    ],
+    "exampleTurkish": "Hastayken iştahım azaldı.",
+    "exampleArabic": "قلّت شهيّتي عندما كنت مريضًا."
+  },
+  {
+    "id": "word-0191",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "ilaç",
+    "arabic": "دواء",
+    "acceptedArabic": [
+      "دواء",
+      "عقار"
+    ],
+    "exampleTurkish": "İlacını doktorun söylediği gibi alıyor.",
+    "exampleArabic": "يأخذ دواءه كما قال الطبيب."
+  },
+  {
+    "id": "word-0192",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "hap",
+    "arabic": "قرص دواء",
+    "acceptedArabic": [
+      "قرص دواء"
+    ],
+    "exampleTurkish": "Doktor bu hapı akşam almamı söyledi.",
+    "exampleArabic": "قال الطبيب أن آخذ هذا القرص مساءً."
+  },
+  {
+    "id": "word-0193",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "şurup",
+    "arabic": "شراب دوائي",
+    "acceptedArabic": [
+      "شراب دوائي"
+    ],
+    "exampleTurkish": "Şurup şişesini dolaba koydum.",
+    "exampleArabic": "وضعت زجاجة الشراب الدوائي في الخزانة."
+  },
+  {
+    "id": "word-0194",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "merhem",
+    "arabic": "مرهم",
+    "acceptedArabic": [
+      "مرهم"
+    ],
+    "exampleTurkish": "Merhemin kutusunu açtı.",
+    "exampleArabic": "فتح علبة المرهم."
+  },
+  {
+    "id": "word-0195",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "bandaj",
+    "arabic": "ضماد",
+    "acceptedArabic": [
+      "ضماد",
+      "رباط طبي"
+    ],
+    "exampleTurkish": "Hemşire koluma bandaj sardı.",
+    "exampleArabic": "لفّت الممرضة ضمادًا حول ذراعي."
+  },
+  {
+    "id": "word-0196",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "yara bandı",
+    "arabic": "لاصق جروح",
+    "acceptedArabic": [
+      "لاصق جروح"
+    ],
+    "exampleTurkish": "Küçük kesiğe yara bandı yapıştırdım.",
+    "exampleArabic": "وضعت لاصق جروح على القطع الصغير."
+  },
+  {
+    "id": "word-0197",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "termometre",
+    "arabic": "ميزان حرارة",
+    "acceptedArabic": [
+      "ميزان حرارة"
+    ],
+    "exampleTurkish": "Termometre çekmecede duruyor.",
+    "exampleArabic": "ميزان الحرارة موجود في الدرج."
+  },
+  {
+    "id": "word-0198",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "aşı",
+    "arabic": "لقاح",
+    "acceptedArabic": [
+      "لقاح"
+    ],
+    "exampleTurkish": "Aşı için randevu aldık.",
+    "exampleArabic": "حجزنا موعدًا للقاح."
+  },
+  {
+    "id": "word-0199",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "muayene",
+    "arabic": "فحص طبي",
+    "acceptedArabic": [
+      "فحص طبي"
+    ],
+    "exampleTurkish": "Muayene on dakika sürdü.",
+    "exampleArabic": "استغرق الفحص الطبي عشر دقائق."
+  },
+  {
+    "id": "word-0200",
+    "kind": "word",
+    "category": "الجسم والصحة",
+    "turkish": "tedavi",
+    "arabic": "علاج",
+    "acceptedArabic": [
+      "علاج"
+    ],
+    "exampleTurkish": "Tedaviden sonra kendini daha iyi hissetti.",
+    "exampleArabic": "شعر بتحسّن بعد العلاج."
+  },
+  {
+    "id": "word-0201",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "yemek",
+    "arabic": "طعام",
+    "acceptedArabic": [
+      "طعام",
+      "وجبة",
+      "أكل"
+    ],
+    "exampleTurkish": "Yemek birazdan hazır olacak.",
+    "exampleArabic": "سيكون الطعام جاهزًا بعد قليل."
+  },
+  {
+    "id": "word-0202",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "ekmek",
+    "arabic": "خبز",
+    "acceptedArabic": [
+      "خبز"
+    ],
+    "exampleTurkish": "Fırından taze ekmek aldım.",
+    "exampleArabic": "اشتريت خبزًا طازجًا من الفرن."
+  },
+  {
+    "id": "word-0203",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "su",
+    "arabic": "ماء",
+    "acceptedArabic": [
+      "ماء"
+    ],
+    "exampleTurkish": "Bir bardak su ister misin?",
+    "exampleArabic": "هل تريد كوب ماء؟"
+  },
+  {
+    "id": "word-0204",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "süt",
+    "arabic": "حليب",
+    "acceptedArabic": [
+      "حليب"
+    ],
+    "exampleTurkish": "Çocuk her sabah süt içiyor.",
+    "exampleArabic": "يشرب الطفل الحليب كل صباح."
+  },
+  {
+    "id": "word-0205",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "çay",
+    "arabic": "شاي",
+    "acceptedArabic": [
+      "شاي"
+    ],
+    "exampleTurkish": "Çayı şekersiz içiyorum.",
+    "exampleArabic": "أشرب الشاي دون سكر."
+  },
+  {
+    "id": "word-0206",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kahve",
+    "arabic": "قهوة",
+    "acceptedArabic": [
+      "قهوة"
+    ],
+    "exampleTurkish": "Kahvenin kokusu çok güzel.",
+    "exampleArabic": "رائحة القهوة جميلة جدًا."
+  },
+  {
+    "id": "word-0207",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "ayran",
+    "arabic": "لبن مخفوق بالماء والملح",
+    "acceptedArabic": [
+      "لبن مخفوق بالماء والملح"
+    ],
+    "exampleTurkish": "Yemeğin yanında ayran içtim.",
+    "exampleArabic": "شربت لبنًا مخفوقًا بالماء والملح مع الطعام."
+  },
+  {
+    "id": "word-0208",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "meyve suyu",
+    "arabic": "عصير فاكهة",
+    "acceptedArabic": [
+      "عصير فاكهة"
+    ],
+    "exampleTurkish": "Kahvaltıda meyve suyu içtik.",
+    "exampleArabic": "شربنا عصير فاكهة في الفطور."
+  },
+  {
+    "id": "word-0209",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "limonata",
+    "arabic": "عصير ليمون محلّى",
+    "acceptedArabic": [
+      "عصير ليمون محلّى"
+    ],
+    "exampleTurkish": "Sıcak günde soğuk limonata içtik.",
+    "exampleArabic": "شربنا عصير ليمون محلّى باردًا في يوم حارّ."
+  },
+  {
+    "id": "word-0210",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "maden suyu",
+    "arabic": "ماء معدني فوّار",
+    "acceptedArabic": [
+      "ماء معدني فوّار"
+    ],
+    "exampleTurkish": "Bir şişe maden suyu aldım.",
+    "exampleArabic": "اشتريت زجاجة ماء معدني فوّار."
+  },
+  {
+    "id": "word-0211",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "çorba",
+    "arabic": "شوربة",
+    "acceptedArabic": [
+      "شوربة",
+      "حساء"
+    ],
+    "exampleTurkish": "Çorba çok sıcak, biraz bekle.",
+    "exampleArabic": "الشوربة ساخنة جدًا، انتظر قليلًا."
+  },
+  {
+    "id": "word-0212",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pilav",
+    "arabic": "أرز مطبوخ",
+    "acceptedArabic": [
+      "أرز مطبوخ"
+    ],
+    "exampleTurkish": "Tavuğun yanında pilav var.",
+    "exampleArabic": "يوجد أرز مطبوخ بجانب الدجاج."
+  },
+  {
+    "id": "word-0213",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "makarna",
+    "arabic": "معكرونة",
+    "acceptedArabic": [
+      "معكرونة"
+    ],
+    "exampleTurkish": "Akşam için makarna yaptım.",
+    "exampleArabic": "أعددت معكرونة للعشاء."
+  },
+  {
+    "id": "word-0214",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "bulgur",
+    "arabic": "برغل",
+    "acceptedArabic": [
+      "برغل"
+    ],
+    "exampleTurkish": "Bu salatada bulgur var.",
+    "exampleArabic": "يوجد برغل في هذه السلطة."
+  },
+  {
+    "id": "word-0215",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pirinç",
+    "arabic": "أرز",
+    "acceptedArabic": [
+      "أرز"
+    ],
+    "exampleTurkish": "Pilav için pirinci yıkadım.",
+    "exampleArabic": "غسلت الأرز لإعداد الطبق."
+  },
+  {
+    "id": "word-0216",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "un",
+    "arabic": "دقيق",
+    "acceptedArabic": [
+      "دقيق"
+    ],
+    "exampleTurkish": "Hamura biraz un ekledim.",
+    "exampleArabic": "أضفت قليلًا من الدقيق إلى العجين."
+  },
+  {
+    "id": "word-0217",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "yulaf",
+    "arabic": "شوفان",
+    "acceptedArabic": [
+      "شوفان"
+    ],
+    "exampleTurkish": "Yoğurduma yulaf koyuyorum.",
+    "exampleArabic": "أضع الشوفان في الزبادي."
+  },
+  {
+    "id": "word-0218",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "irmik",
+    "arabic": "سميد",
+    "acceptedArabic": [
+      "سميد"
+    ],
+    "exampleTurkish": "Bu tatlı irmikle yapılıyor.",
+    "exampleArabic": "تُصنع هذه الحلوى بالسميد."
+  },
+  {
+    "id": "word-0219",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "şeker",
+    "arabic": "سكر",
+    "acceptedArabic": [
+      "سكر"
+    ],
+    "exampleTurkish": "Çayına şeker koyar mısın?",
+    "exampleArabic": "هل تضع السكر في شايك؟"
+  },
+  {
+    "id": "word-0220",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "tuz",
+    "arabic": "ملح",
+    "acceptedArabic": [
+      "ملح"
+    ],
+    "exampleTurkish": "Çorbaya biraz tuz ekle.",
+    "exampleArabic": "أضف قليلًا من الملح إلى الشوربة."
+  },
+  {
+    "id": "word-0221",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "karabiber",
+    "arabic": "فلفل أسود",
+    "acceptedArabic": [
+      "فلفل أسود"
+    ],
+    "exampleTurkish": "Yemeğe karabiber serptim.",
+    "exampleArabic": "رششت فلفلًا أسود على الطعام."
+  },
+  {
+    "id": "word-0222",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kimyon",
+    "arabic": "كمّون",
+    "acceptedArabic": [
+      "كمّون"
+    ],
+    "exampleTurkish": "Köfteye biraz kimyon koydum.",
+    "exampleArabic": "وضعت قليلًا من الكمّون في الكفتة."
+  },
+  {
+    "id": "word-0223",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "tarçın",
+    "arabic": "قرفة",
+    "acceptedArabic": [
+      "قرفة"
+    ],
+    "exampleTurkish": "Elmanın üstüne tarçın serptik.",
+    "exampleArabic": "رششنا القرفة على التفاح."
+  },
+  {
+    "id": "word-0224",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "zencefil",
+    "arabic": "زنجبيل",
+    "acceptedArabic": [
+      "زنجبيل"
+    ],
+    "exampleTurkish": "Çaya taze zencefil ekledim.",
+    "exampleArabic": "أضفت زنجبيلًا طازجًا إلى الشاي."
+  },
+  {
+    "id": "word-0225",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "zerdeçal",
+    "arabic": "كركم",
+    "acceptedArabic": [
+      "كركم"
+    ],
+    "exampleTurkish": "Çorbaya az zerdeçal koydu.",
+    "exampleArabic": "وضع قليلًا من الكركم في الشوربة."
+  },
+  {
+    "id": "word-0226",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kekik",
+    "arabic": "زعتر",
+    "acceptedArabic": [
+      "زعتر"
+    ],
+    "exampleTurkish": "Patateslerin üstüne kekik serptim.",
+    "exampleArabic": "رششت الزعتر على البطاطس."
+  },
+  {
+    "id": "word-0227",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "nane",
+    "arabic": "نعناع",
+    "acceptedArabic": [
+      "نعناع"
+    ],
+    "exampleTurkish": "Salataya taze nane doğradım.",
+    "exampleArabic": "قطّعت نعناعًا طازجًا للسلطة."
+  },
+  {
+    "id": "word-0228",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "maydanoz",
+    "arabic": "بقدونس",
+    "acceptedArabic": [
+      "بقدونس"
+    ],
+    "exampleTurkish": "Maydanozu iyice yıkadım.",
+    "exampleArabic": "غسلت البقدونس جيدًا."
+  },
+  {
+    "id": "word-0229",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "dereotu",
+    "arabic": "شبت",
+    "acceptedArabic": [
+      "شبت"
+    ],
+    "exampleTurkish": "Yoğurda dereotu ekledik.",
+    "exampleArabic": "أضفنا الشبت إلى الزبادي."
+  },
+  {
+    "id": "word-0230",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "reyhan",
+    "arabic": "ريحان",
+    "acceptedArabic": [
+      "ريحان"
+    ],
+    "exampleTurkish": "Reyhan yemeğe güzel bir koku verdi.",
+    "exampleArabic": "أعطى الريحان الطعام رائحة جميلة."
+  },
+  {
+    "id": "word-0231",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "yağ",
+    "arabic": "زيت أو دهن",
+    "acceptedArabic": [
+      "زيت أو دهن"
+    ],
+    "exampleTurkish": "Tavaya biraz yağ koydum.",
+    "exampleArabic": "وضعت قليلًا من الزيت في المقلاة."
+  },
+  {
+    "id": "word-0232",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "zeytinyağı",
+    "arabic": "زيت زيتون",
+    "acceptedArabic": [
+      "زيت زيتون"
+    ],
+    "exampleTurkish": "Salataya zeytinyağı döktüm.",
+    "exampleArabic": "سكبت زيت الزيتون على السلطة."
+  },
+  {
+    "id": "word-0233",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "tereyağı",
+    "arabic": "زبدة",
+    "acceptedArabic": [
+      "زبدة"
+    ],
+    "exampleTurkish": "Ekmeğe tereyağı sürdüm.",
+    "exampleArabic": "دهنت الخبز بالزبدة."
+  },
+  {
+    "id": "word-0234",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sirke",
+    "arabic": "خلّ",
+    "acceptedArabic": [
+      "خلّ"
+    ],
+    "exampleTurkish": "Salataya az sirke ekledim.",
+    "exampleArabic": "أضفت قليلًا من الخلّ إلى السلطة."
+  },
+  {
+    "id": "word-0235",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sos",
+    "arabic": "صلصة",
+    "acceptedArabic": [
+      "صلصة"
+    ],
+    "exampleTurkish": "Makarnanın sosu çok lezzetli.",
+    "exampleArabic": "صلصة المعكرونة لذيذة جدًا."
+  },
+  {
+    "id": "word-0236",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "salça",
+    "arabic": "معجون طماطم أو فلفل",
+    "acceptedArabic": [
+      "معجون طماطم أو فلفل"
+    ],
+    "exampleTurkish": "Yemeğe bir kaşık salça koydum.",
+    "exampleArabic": "وضعت ملعقة من معجون الطماطم في الطعام."
+  },
+  {
+    "id": "word-0237",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "peynir",
+    "arabic": "جبن",
+    "acceptedArabic": [
+      "جبن"
+    ],
+    "exampleTurkish": "Kahvaltıda peynir yedim.",
+    "exampleArabic": "أكلت جبنًا في الفطور."
+  },
+  {
+    "id": "word-0238",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "yoğurt",
+    "arabic": "زبادي",
+    "acceptedArabic": [
+      "زبادي",
+      "لبن زبادي"
+    ],
+    "exampleTurkish": "Bu yoğurt evde yapıldı.",
+    "exampleArabic": "صُنع هذا الزبادي في البيت."
+  },
+  {
+    "id": "word-0239",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kaymak",
+    "arabic": "قشطة",
+    "acceptedArabic": [
+      "قشطة"
+    ],
+    "exampleTurkish": "Balın yanında kaymak getirdiler.",
+    "exampleArabic": "أحضروا قشطة مع العسل."
+  },
+  {
+    "id": "word-0240",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "krema",
+    "arabic": "كريمة",
+    "acceptedArabic": [
+      "كريمة"
+    ],
+    "exampleTurkish": "Çorbaya biraz krema ekledim.",
+    "exampleArabic": "أضفت قليلًا من الكريمة إلى الشوربة."
+  },
+  {
+    "id": "word-0241",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "yumurta",
+    "arabic": "بيضة",
+    "acceptedArabic": [
+      "بيضة"
+    ],
+    "exampleTurkish": "Kahvaltı için iki yumurta haşladım.",
+    "exampleArabic": "سلقت بيضتين للفطور."
+  },
+  {
+    "id": "word-0242",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "bal",
+    "arabic": "عسل",
+    "acceptedArabic": [
+      "عسل"
+    ],
+    "exampleTurkish": "Yoğurda bir kaşık bal koydum.",
+    "exampleArabic": "وضعت ملعقة عسل في الزبادي."
+  },
+  {
+    "id": "word-0243",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "reçel",
+    "arabic": "مربّى",
+    "acceptedArabic": [
+      "مربّى"
+    ],
+    "exampleTurkish": "Annem çilek reçeli yaptı.",
+    "exampleArabic": "صنعت أمي مربّى الفراولة."
+  },
+  {
+    "id": "word-0244",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pekmez",
+    "arabic": "دبس",
+    "acceptedArabic": [
+      "دبس"
+    ],
+    "exampleTurkish": "Kahvaltıda tahin ve pekmez yedik.",
+    "exampleArabic": "أكلنا الطحينة والدبس في الفطور."
+  },
+  {
+    "id": "word-0245",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "tahin",
+    "arabic": "طحينة",
+    "acceptedArabic": [
+      "طحينة"
+    ],
+    "exampleTurkish": "Bu sosun içinde tahin var.",
+    "exampleArabic": "توجد طحينة في هذه الصلصة."
+  },
+  {
+    "id": "word-0246",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "et",
+    "arabic": "لحم",
+    "acceptedArabic": [
+      "لحم"
+    ],
+    "exampleTurkish": "Eti küçük parçalara kestim.",
+    "exampleArabic": "قطّعت اللحم إلى قطع صغيرة."
+  },
+  {
+    "id": "word-0247",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kıyma",
+    "arabic": "لحم مفروم",
+    "acceptedArabic": [
+      "لحم مفروم"
+    ],
+    "exampleTurkish": "Köfte için kıyma aldık.",
+    "exampleArabic": "اشترينا لحمًا مفرومًا للكفتة."
+  },
+  {
+    "id": "word-0248",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "tavuk",
+    "arabic": "دجاج",
+    "acceptedArabic": [
+      "دجاج"
+    ],
+    "exampleTurkish": "Fırında tavuk pişirdim.",
+    "exampleArabic": "طهوت دجاجًا في الفرن."
+  },
+  {
+    "id": "word-0249",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "hindi",
+    "arabic": "ديك رومي",
+    "acceptedArabic": [
+      "ديك رومي"
+    ],
+    "exampleTurkish": "Akşam hindi eti yedik.",
+    "exampleArabic": "أكلنا لحم ديك رومي مساءً."
+  },
+  {
+    "id": "word-0250",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "balık",
+    "arabic": "سمك",
+    "acceptedArabic": [
+      "سمك"
+    ],
+    "exampleTurkish": "Bugün taze balık aldım.",
+    "exampleArabic": "اشتريت سمكًا طازجًا اليوم."
+  },
+  {
+    "id": "word-0251",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sucuk",
+    "arabic": "سجق تركي متبّل",
+    "acceptedArabic": [
+      "سجق تركي متبّل"
+    ],
+    "exampleTurkish": "Yumurtaya birkaç dilim sucuk ekledim.",
+    "exampleArabic": "أضفت بضع شرائح من السجق التركي إلى البيض."
+  },
+  {
+    "id": "word-0252",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sosis",
+    "arabic": "نقانق",
+    "acceptedArabic": [
+      "نقانق"
+    ],
+    "exampleTurkish": "Sandviçin içine sosis koydu.",
+    "exampleArabic": "وضع نقانق داخل الشطيرة."
+  },
+  {
+    "id": "word-0253",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pastırma",
+    "arabic": "لحم مقدّد متبّل",
+    "acceptedArabic": [
+      "لحم مقدّد متبّل"
+    ],
+    "exampleTurkish": "Bu böreğin içinde pastırma var.",
+    "exampleArabic": "يوجد لحم مقدّد متبّل داخل هذه الفطيرة."
+  },
+  {
+    "id": "word-0254",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "köfte",
+    "arabic": "كفتة",
+    "acceptedArabic": [
+      "كفتة"
+    ],
+    "exampleTurkish": "Köfteleri tavada pişirdik.",
+    "exampleArabic": "طهونا الكفتة في المقلاة."
+  },
+  {
+    "id": "word-0255",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kebap",
+    "arabic": "كباب",
+    "acceptedArabic": [
+      "كباب"
+    ],
+    "exampleTurkish": "Bu lokantanın kebabı meşhur.",
+    "exampleArabic": "كباب هذا المطعم مشهور."
+  },
+  {
+    "id": "word-0256",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "döner",
+    "arabic": "دونر؛ شاورما تركية",
+    "acceptedArabic": [
+      "دونر؛ شاورما تركية"
+    ],
+    "exampleTurkish": "Öğle yemeğinde döner yedim.",
+    "exampleArabic": "أكلت دونر في الغداء."
+  },
+  {
+    "id": "word-0257",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "börek",
+    "arabic": "فطيرة بورك",
+    "acceptedArabic": [
+      "فطيرة بورك"
+    ],
+    "exampleTurkish": "Peynirli börek fırından çıktı.",
+    "exampleArabic": "خرجت فطيرة البورك بالجبن من الفرن."
+  },
+  {
+    "id": "word-0258",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "poğaça",
+    "arabic": "معجّنات بوغاتشا",
+    "acceptedArabic": [
+      "معجّنات بوغاتشا"
+    ],
+    "exampleTurkish": "Çayın yanında bir poğaça yedim.",
+    "exampleArabic": "أكلت قطعة بوغاتشا مع الشاي."
+  },
+  {
+    "id": "word-0259",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "simit",
+    "arabic": "كعك تركي بالسمسم",
+    "acceptedArabic": [
+      "كعك تركي بالسمسم"
+    ],
+    "exampleTurkish": "Sabah sıcak simit aldık.",
+    "exampleArabic": "اشترينا كعكًا تركيًا بالسمسم ساخنًا صباحًا."
+  },
+  {
+    "id": "word-0260",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pide",
+    "arabic": "خبز بيده تركي",
+    "acceptedArabic": [
+      "خبز بيده تركي"
+    ],
+    "exampleTurkish": "Ramazanda sıcak pide alıyoruz.",
+    "exampleArabic": "نشتري خبز البيده الساخن في رمضان."
+  },
+  {
+    "id": "word-0261",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "lahmacun",
+    "arabic": "لحم بعجين",
+    "acceptedArabic": [
+      "لحم بعجين"
+    ],
+    "exampleTurkish": "Lahmacuna limon sıktım.",
+    "exampleArabic": "عصرت الليمون على اللحم بعجين."
+  },
+  {
+    "id": "word-0262",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "mantı",
+    "arabic": "عجين محشوّ باللحم",
+    "acceptedArabic": [
+      "عجين محشوّ باللحم"
+    ],
+    "exampleTurkish": "Mantının üzerine yoğurt koyduk.",
+    "exampleArabic": "وضعنا الزبادي فوق العجين المحشوّ باللحم."
+  },
+  {
+    "id": "word-0263",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "dolma",
+    "arabic": "محشي",
+    "acceptedArabic": [
+      "محشي"
+    ],
+    "exampleTurkish": "Annem biber dolması hazırladı.",
+    "exampleArabic": "أعدّت أمي محشي الفلفل."
+  },
+  {
+    "id": "word-0264",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sarma",
+    "arabic": "ورق ملفوف محشوّ",
+    "acceptedArabic": [
+      "ورق ملفوف محشوّ"
+    ],
+    "exampleTurkish": "Yaprak sarması çok güzel olmuş.",
+    "exampleArabic": "أصبح محشي ورق العنب لذيذًا جدًا."
+  },
+  {
+    "id": "word-0265",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "salata",
+    "arabic": "سلطة",
+    "acceptedArabic": [
+      "سلطة"
+    ],
+    "exampleTurkish": "Yemeğin yanına salata yaptım.",
+    "exampleArabic": "أعددت سلطة مع الطعام."
+  },
+  {
+    "id": "word-0266",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sandviç",
+    "arabic": "شطيرة",
+    "acceptedArabic": [
+      "شطيرة"
+    ],
+    "exampleTurkish": "Çantama bir sandviç koydum.",
+    "exampleArabic": "وضعت شطيرة في حقيبتي."
+  },
+  {
+    "id": "word-0267",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "tost",
+    "arabic": "شطيرة محمّصة",
+    "acceptedArabic": [
+      "شطيرة محمّصة"
+    ],
+    "exampleTurkish": "Peynirli tost istiyorum.",
+    "exampleArabic": "أريد شطيرة محمّصة بالجبن."
+  },
+  {
+    "id": "word-0268",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pizza",
+    "arabic": "بيتزا",
+    "acceptedArabic": [
+      "بيتزا"
+    ],
+    "exampleTurkish": "Pizzayı dört parçaya böldük.",
+    "exampleArabic": "قسّمنا البيتزا إلى أربع قطع."
+  },
+  {
+    "id": "word-0269",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "hamburger",
+    "arabic": "هامبرغر",
+    "acceptedArabic": [
+      "هامبرغر"
+    ],
+    "exampleTurkish": "Hamburgerin içinde domates var.",
+    "exampleArabic": "توجد طماطم داخل الهامبرغر."
+  },
+  {
+    "id": "word-0270",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "patates",
+    "arabic": "بطاطس",
+    "acceptedArabic": [
+      "بطاطس",
+      "بطاطا"
+    ],
+    "exampleTurkish": "Patatesleri fırına koydum.",
+    "exampleArabic": "وضعت البطاطس في الفرن."
+  },
+  {
+    "id": "word-0271",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "domates",
+    "arabic": "طماطم",
+    "acceptedArabic": [
+      "طماطم",
+      "بندورة"
+    ],
+    "exampleTurkish": "Salata için domates doğradım.",
+    "exampleArabic": "قطّعت طماطم للسلطة."
+  },
+  {
+    "id": "word-0272",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "salatalık",
+    "arabic": "خيار",
+    "acceptedArabic": [
+      "خيار"
+    ],
+    "exampleTurkish": "Salatalıkları ince kestim.",
+    "exampleArabic": "قطّعت الخيار إلى شرائح رفيعة."
+  },
+  {
+    "id": "word-0273",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "biber",
+    "arabic": "فلفل",
+    "acceptedArabic": [
+      "فلفل"
+    ],
+    "exampleTurkish": "Bu biber çok acı.",
+    "exampleArabic": "هذا الفلفل حارّ جدًا."
+  },
+  {
+    "id": "word-0274",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "soğan",
+    "arabic": "بصل",
+    "acceptedArabic": [
+      "بصل"
+    ],
+    "exampleTurkish": "Soğan doğrarken gözlerim yaşardı.",
+    "exampleArabic": "دمعت عيناي وأنا أقطّع البصل."
+  },
+  {
+    "id": "word-0275",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "sarımsak",
+    "arabic": "ثوم",
+    "acceptedArabic": [
+      "ثوم"
+    ],
+    "exampleTurkish": "Yoğurda sarımsak ekledim.",
+    "exampleArabic": "أضفت الثوم إلى الزبادي."
+  },
+  {
+    "id": "word-0276",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "havuç",
+    "arabic": "جزر",
+    "acceptedArabic": [
+      "جزر"
+    ],
+    "exampleTurkish": "Çocuk çiğ havuç yiyor.",
+    "exampleArabic": "الطفل يأكل جزرًا نيئًا."
+  },
+  {
+    "id": "word-0277",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kabak",
+    "arabic": "كوسا",
+    "acceptedArabic": [
+      "كوسا",
+      "كوسة"
+    ],
+    "exampleTurkish": "Kabakları ince dilimledim.",
+    "exampleArabic": "قطّعت الكوسا إلى شرائح رفيعة."
+  },
+  {
+    "id": "word-0278",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "patlıcan",
+    "arabic": "باذنجان",
+    "acceptedArabic": [
+      "باذنجان"
+    ],
+    "exampleTurkish": "Patlıcanları fırında közledik.",
+    "exampleArabic": "شوينا الباذنجان في الفرن."
+  },
+  {
+    "id": "word-0279",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "ıspanak",
+    "arabic": "سبانخ",
+    "acceptedArabic": [
+      "سبانخ"
+    ],
+    "exampleTurkish": "Ispanağı birkaç kez yıkadım.",
+    "exampleArabic": "غسلت السبانخ عدّة مرّات."
+  },
+  {
+    "id": "word-0280",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pırasa",
+    "arabic": "كرّاث",
+    "acceptedArabic": [
+      "كرّاث"
+    ],
+    "exampleTurkish": "Annem zeytinyağlı pırasa pişirdi.",
+    "exampleArabic": "طهت أمي الكرّاث بزيت الزيتون."
+  },
+  {
+    "id": "word-0281",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "lahana",
+    "arabic": "ملفوف",
+    "acceptedArabic": [
+      "ملفوف"
+    ],
+    "exampleTurkish": "Lahanayı salata için doğradım.",
+    "exampleArabic": "قطّعت الملفوف للسلطة."
+  },
+  {
+    "id": "word-0282",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "karnabahar",
+    "arabic": "قرنبيط",
+    "acceptedArabic": [
+      "قرنبيط"
+    ],
+    "exampleTurkish": "Karnabaharı buharda pişirdim.",
+    "exampleArabic": "طهوت القرنبيط على البخار."
+  },
+  {
+    "id": "word-0283",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "brokoli",
+    "arabic": "بروكلي",
+    "acceptedArabic": [
+      "بروكلي"
+    ],
+    "exampleTurkish": "Çorbaya biraz brokoli ekledik.",
+    "exampleArabic": "أضفنا قليلًا من البروكلي إلى الشوربة."
+  },
+  {
+    "id": "word-0284",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "marul",
+    "arabic": "خسّ",
+    "acceptedArabic": [
+      "خسّ"
+    ],
+    "exampleTurkish": "Sandviçe iki yaprak marul koydum.",
+    "exampleArabic": "وضعت ورقتي خسّ في الشطيرة."
+  },
+  {
+    "id": "word-0285",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "roka",
+    "arabic": "جرجير",
+    "acceptedArabic": [
+      "جرجير"
+    ],
+    "exampleTurkish": "Balığın yanında roka yedik.",
+    "exampleArabic": "أكلنا الجرجير مع السمك."
+  },
+  {
+    "id": "word-0286",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "turp",
+    "arabic": "فجل",
+    "acceptedArabic": [
+      "فجل"
+    ],
+    "exampleTurkish": "Salataya kırmızı turp ekledim.",
+    "exampleArabic": "أضفت فجلًا أحمر إلى السلطة."
+  },
+  {
+    "id": "word-0287",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "pancar",
+    "arabic": "شمندر",
+    "acceptedArabic": [
+      "شمندر",
+      "بنجر"
+    ],
+    "exampleTurkish": "Pancar salataya güzel bir renk verdi.",
+    "exampleArabic": "أعطى الشمندر السلطة لونًا جميلًا."
+  },
+  {
+    "id": "word-0288",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "kereviz",
+    "arabic": "كرفس",
+    "acceptedArabic": [
+      "كرفس"
+    ],
+    "exampleTurkish": "Çorbada kereviz de var.",
+    "exampleArabic": "يوجد كرفس أيضًا في الشوربة."
+  },
+  {
+    "id": "word-0289",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "bamya",
+    "arabic": "بامية",
+    "acceptedArabic": [
+      "بامية"
+    ],
+    "exampleTurkish": "Bugün bamya yemeği yaptık.",
+    "exampleArabic": "أعددنا طبق البامية اليوم."
+  },
+  {
+    "id": "word-0290",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "enginar",
+    "arabic": "خرشوف",
+    "acceptedArabic": [
+      "خرشوف"
+    ],
+    "exampleTurkish": "Enginarı zeytinyağıyla pişirdim.",
+    "exampleArabic": "طهوت الخرشوف بزيت الزيتون."
+  },
+  {
+    "id": "word-0291",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "bezelye",
+    "arabic": "بازلاء",
+    "acceptedArabic": [
+      "بازلاء"
+    ],
+    "exampleTurkish": "Pilava bezelye koydum.",
+    "exampleArabic": "وضعت البازلاء في الأرز."
+  },
+  {
+    "id": "word-0292",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "fasulye",
+    "arabic": "فاصوليا",
+    "acceptedArabic": [
+      "فاصوليا"
+    ],
+    "exampleTurkish": "Fasulyeyi bir gece suda beklettim.",
+    "exampleArabic": "نقعت الفاصوليا في الماء ليلةً كاملةً."
+  },
+  {
+    "id": "word-0293",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "nohut",
+    "arabic": "حمّص",
+    "acceptedArabic": [
+      "حمّص",
+      "حمص"
+    ],
+    "exampleTurkish": "Salataya haşlanmış nohut ekledim.",
+    "exampleArabic": "أضفت حمّصًا مسلوقًا إلى السلطة."
+  },
+  {
+    "id": "word-0294",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "mercimek",
+    "arabic": "عدس",
+    "acceptedArabic": [
+      "عدس"
+    ],
+    "exampleTurkish": "Kırmızı mercimekten çorba yaptım.",
+    "exampleArabic": "صنعت شوربة من العدس الأحمر."
+  },
+  {
+    "id": "word-0295",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "bakla",
+    "arabic": "فول",
+    "acceptedArabic": [
+      "فول"
+    ],
+    "exampleTurkish": "Pazardan taze bakla aldık.",
+    "exampleArabic": "اشترينا فولًا طازجًا من السوق."
+  },
+  {
+    "id": "word-0296",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "mantar",
+    "arabic": "فطر",
+    "acceptedArabic": [
+      "فطر"
+    ],
+    "exampleTurkish": "Mantarları tavada pişirdim.",
+    "exampleArabic": "طهوت الفطر في المقلاة."
+  },
+  {
+    "id": "word-0297",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "mısır",
+    "arabic": "ذرة",
+    "acceptedArabic": [
+      "ذرة"
+    ],
+    "exampleTurkish": "Sahilde haşlanmış mısır yedik.",
+    "exampleArabic": "أكلنا ذرة مسلوقة على الشاطئ."
+  },
+  {
+    "id": "word-0298",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "zeytin",
+    "arabic": "زيتون",
+    "acceptedArabic": [
+      "زيتون"
+    ],
+    "exampleTurkish": "Kahvaltıda siyah zeytin yiyorum.",
+    "exampleArabic": "آكل الزيتون الأسود في الفطور."
+  },
+  {
+    "id": "word-0299",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "turşu",
+    "arabic": "مخلّل",
+    "acceptedArabic": [
+      "مخلّل"
+    ],
+    "exampleTurkish": "Bu turşu biraz tuzlu.",
+    "exampleArabic": "هذا المخلّل مالح قليلًا."
+  },
+  {
+    "id": "word-0300",
+    "kind": "word",
+    "category": "الطعام والشراب",
+    "turkish": "acı",
+    "arabic": "حارّ المذاق",
+    "acceptedArabic": [
+      "حارّ المذاق"
+    ],
+    "exampleTurkish": "Acı yemek sevmiyorum.",
+    "exampleArabic": "لا أحبّ الطعام الحارّ."
+  },
+  {
+    "id": "word-0301",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "meyve",
+    "arabic": "فاكهة",
+    "acceptedArabic": [
+      "فاكهة"
+    ],
+    "exampleTurkish": "Her gün biraz meyve yiyorum.",
+    "exampleArabic": "آكل قليلًا من الفاكهة كل يوم."
+  },
+  {
+    "id": "word-0302",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "sebze",
+    "arabic": "خضار",
+    "acceptedArabic": [
+      "خضار"
+    ],
+    "exampleTurkish": "Yemeğe bol sebze koyduk.",
+    "exampleArabic": "وضعنا الكثير من الخضار في الطعام."
+  },
+  {
+    "id": "word-0303",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "elma",
+    "arabic": "تفّاح",
+    "acceptedArabic": [
+      "تفّاح"
+    ],
+    "exampleTurkish": "Çantama bir elma koydum.",
+    "exampleArabic": "وضعت تفّاحة في حقيبتي."
+  },
+  {
+    "id": "word-0304",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "armut",
+    "arabic": "كمّثرى",
+    "acceptedArabic": [
+      "كمّثرى"
+    ],
+    "exampleTurkish": "Bu armut çok sulu.",
+    "exampleArabic": "هذه الكمّثرى كثيرة العصير."
+  },
+  {
+    "id": "word-0305",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "muz",
+    "arabic": "موز",
+    "acceptedArabic": [
+      "موز"
+    ],
+    "exampleTurkish": "Kahvaltıda bir muz yedim.",
+    "exampleArabic": "أكلت موزةً في الفطور."
+  },
+  {
+    "id": "word-0306",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "portakal",
+    "arabic": "برتقال",
+    "acceptedArabic": [
+      "برتقال"
+    ],
+    "exampleTurkish": "İki portakalın suyunu sıktım.",
+    "exampleArabic": "عصرت برتقالتين."
+  },
+  {
+    "id": "word-0307",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "mandalina",
+    "arabic": "يوسفي",
+    "acceptedArabic": [
+      "يوسفي",
+      "مندرين"
+    ],
+    "exampleTurkish": "Çocuk mandalinayı kendi soydu.",
+    "exampleArabic": "قشّر الطفل اليوسفي بنفسه."
+  },
+  {
+    "id": "word-0308",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "limon",
+    "arabic": "ليمون",
+    "acceptedArabic": [
+      "ليمون"
+    ],
+    "exampleTurkish": "Çayıma bir dilim limon koydum.",
+    "exampleArabic": "وضعت شريحة ليمون في شايي."
+  },
+  {
+    "id": "word-0309",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "greyfurt",
+    "arabic": "جريب فروت",
+    "acceptedArabic": [
+      "جريب فروت"
+    ],
+    "exampleTurkish": "Greyfurtun tadı biraz acı.",
+    "exampleArabic": "مذاق الجريب فروت مرّ قليلًا."
+  },
+  {
+    "id": "word-0310",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "çilek",
+    "arabic": "فراولة",
+    "acceptedArabic": [
+      "فراولة"
+    ],
+    "exampleTurkish": "Çilekleri kâseye koydum.",
+    "exampleArabic": "وضعت الفراولة في الوعاء."
+  },
+  {
+    "id": "word-0311",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kiraz",
+    "arabic": "كرز",
+    "acceptedArabic": [
+      "كرز"
+    ],
+    "exampleTurkish": "Bahçeden kiraz topladık.",
+    "exampleArabic": "قطفنا الكرز من الحديقة."
+  },
+  {
+    "id": "word-0312",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "vişne",
+    "arabic": "كرز حامض",
+    "acceptedArabic": [
+      "كرز حامض"
+    ],
+    "exampleTurkish": "Vişneden reçel yaptık.",
+    "exampleArabic": "صنعنا مربّى من الكرز الحامض."
+  },
+  {
+    "id": "word-0313",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "şeftali",
+    "arabic": "خوخ",
+    "acceptedArabic": [
+      "خوخ",
+      "دراق"
+    ],
+    "exampleTurkish": "Olgun şeftali çok güzel kokuyor.",
+    "exampleArabic": "رائحة الخوخ الناضج جميلة جدًا."
+  },
+  {
+    "id": "word-0314",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kayısı",
+    "arabic": "مشمش",
+    "acceptedArabic": [
+      "مشمش"
+    ],
+    "exampleTurkish": "Yazın kayısı kurutuyoruz.",
+    "exampleArabic": "نجفّف المشمش في الصيف."
+  },
+  {
+    "id": "word-0315",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "erik",
+    "arabic": "برقوق",
+    "acceptedArabic": [
+      "برقوق"
+    ],
+    "exampleTurkish": "Yeşil erik biraz ekşi.",
+    "exampleArabic": "البرقوق الأخضر حامض قليلًا."
+  },
+  {
+    "id": "word-0316",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "üzüm",
+    "arabic": "عنب",
+    "acceptedArabic": [
+      "عنب"
+    ],
+    "exampleTurkish": "Bir salkım üzüm aldım.",
+    "exampleArabic": "أخذت عنقود عنب."
+  },
+  {
+    "id": "word-0317",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "karpuz",
+    "arabic": "بطّيخ",
+    "acceptedArabic": [
+      "بطّيخ",
+      "حبحب"
+    ],
+    "exampleTurkish": "Soğuk karpuz dilimleri hazırladım.",
+    "exampleArabic": "حضّرت شرائح بطّيخ باردة."
+  },
+  {
+    "id": "word-0318",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kavun",
+    "arabic": "شمّام",
+    "acceptedArabic": [
+      "شمّام"
+    ],
+    "exampleTurkish": "Kavunun kokusu odayı doldurdu.",
+    "exampleArabic": "ملأت رائحة الشمّام الغرفة."
+  },
+  {
+    "id": "word-0319",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "nar",
+    "arabic": "رمّان",
+    "acceptedArabic": [
+      "رمّان"
+    ],
+    "exampleTurkish": "Salatanın üzerine nar koydum.",
+    "exampleArabic": "وضعت الرمّان فوق السلطة."
+  },
+  {
+    "id": "word-0320",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "incir",
+    "arabic": "تين",
+    "acceptedArabic": [
+      "تين"
+    ],
+    "exampleTurkish": "Bu incir ağacı çok meyve veriyor.",
+    "exampleArabic": "شجرة التين هذه تثمر كثيرًا."
+  },
+  {
+    "id": "word-0321",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "hurma",
+    "arabic": "تمر",
+    "acceptedArabic": [
+      "تمر"
+    ],
+    "exampleTurkish": "İftarda hurma yedik.",
+    "exampleArabic": "أكلنا تمرًا عند الإفطار."
+  },
+  {
+    "id": "word-0322",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "ananas",
+    "arabic": "أناناس",
+    "acceptedArabic": [
+      "أناناس"
+    ],
+    "exampleTurkish": "Ananası küçük parçalara kestim.",
+    "exampleArabic": "قطّعت الأناناس إلى قطع صغيرة."
+  },
+  {
+    "id": "word-0323",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kivi",
+    "arabic": "كيوي",
+    "acceptedArabic": [
+      "كيوي"
+    ],
+    "exampleTurkish": "Yoğurduma kivi ekledim.",
+    "exampleArabic": "أضفت الكيوي إلى الزبادي."
+  },
+  {
+    "id": "word-0324",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "avokado",
+    "arabic": "أفوكادو",
+    "acceptedArabic": [
+      "أفوكادو"
+    ],
+    "exampleTurkish": "Avokadoyu ekmeğin üzerine sürdüm.",
+    "exampleArabic": "دهنت الأفوكادو على الخبز."
+  },
+  {
+    "id": "word-0325",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "ahududu",
+    "arabic": "توت العلّيق",
+    "acceptedArabic": [
+      "توت العلّيق"
+    ],
+    "exampleTurkish": "Pastayı ahududuyla süsledik.",
+    "exampleArabic": "زيّنا الكعكة بتوت العلّيق."
+  },
+  {
+    "id": "word-0326",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "böğürtlen",
+    "arabic": "توت أسود برّي",
+    "acceptedArabic": [
+      "توت أسود برّي"
+    ],
+    "exampleTurkish": "Yol kenarında böğürtlen topladık.",
+    "exampleArabic": "قطفنا توتًا أسود برّيًا بجانب الطريق."
+  },
+  {
+    "id": "word-0327",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "dut",
+    "arabic": "توت",
+    "acceptedArabic": [
+      "توت"
+    ],
+    "exampleTurkish": "Dut ağacının altında oturduk.",
+    "exampleArabic": "جلسنا تحت شجرة التوت."
+  },
+  {
+    "id": "word-0328",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "ceviz",
+    "arabic": "جوز",
+    "acceptedArabic": [
+      "جوز"
+    ],
+    "exampleTurkish": "Salataya ceviz ekledim.",
+    "exampleArabic": "أضفت الجوز إلى السلطة."
+  },
+  {
+    "id": "word-0329",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "badem",
+    "arabic": "لوز",
+    "acceptedArabic": [
+      "لوز"
+    ],
+    "exampleTurkish": "Bir avuç badem yedim.",
+    "exampleArabic": "أكلت حفنة من اللوز."
+  },
+  {
+    "id": "word-0330",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "fındık",
+    "arabic": "بندق",
+    "acceptedArabic": [
+      "بندق"
+    ],
+    "exampleTurkish": "Bu çikolatanın içinde fındık var.",
+    "exampleArabic": "يوجد بندق داخل هذه الشوكولاتة."
+  },
+  {
+    "id": "word-0331",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "fıstık",
+    "arabic": "فستق",
+    "acceptedArabic": [
+      "فستق",
+      "فستق حلبي"
+    ],
+    "exampleTurkish": "Baklavanın üstünde fıstık var.",
+    "exampleArabic": "يوجد فستق فوق البقلاوة."
+  },
+  {
+    "id": "word-0332",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "yer fıstığı",
+    "arabic": "فول سوداني",
+    "acceptedArabic": [
+      "فول سوداني"
+    ],
+    "exampleTurkish": "Bir paket yer fıstığı aldım.",
+    "exampleArabic": "اشتريت كيسًا من الفول السوداني."
+  },
+  {
+    "id": "word-0333",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kestane",
+    "arabic": "كستناء",
+    "acceptedArabic": [
+      "كستناء"
+    ],
+    "exampleTurkish": "Kışın fırında kestane pişiriyoruz.",
+    "exampleArabic": "نشوي الكستناء في الفرن شتاءً."
+  },
+  {
+    "id": "word-0334",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "çekirdek",
+    "arabic": "بذور للتسلية",
+    "acceptedArabic": [
+      "بذور للتسلية"
+    ],
+    "exampleTurkish": "Parkta oturup çekirdek yedik.",
+    "exampleArabic": "جلسنا في الحديقة وأكلنا البذور للتسلية."
+  },
+  {
+    "id": "word-0335",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "çikolata",
+    "arabic": "شوكولاتة",
+    "acceptedArabic": [
+      "شوكولاتة"
+    ],
+    "exampleTurkish": "Çocuklara çikolata aldım.",
+    "exampleArabic": "اشتريت شوكولاتة للأطفال."
+  },
+  {
+    "id": "word-0336",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "dondurma",
+    "arabic": "آيس كريم",
+    "acceptedArabic": [
+      "آيس كريم"
+    ],
+    "exampleTurkish": "Sıcak havada dondurma yedik.",
+    "exampleArabic": "أكلنا آيس كريم في الجوّ الحارّ."
+  },
+  {
+    "id": "word-0337",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "pasta",
+    "arabic": "كعكة",
+    "acceptedArabic": [
+      "كعكة"
+    ],
+    "exampleTurkish": "Doğum günü için pasta yaptık.",
+    "exampleArabic": "صنعنا كعكة لعيد الميلاد."
+  },
+  {
+    "id": "word-0338",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kek",
+    "arabic": "كيك",
+    "acceptedArabic": [
+      "كيك"
+    ],
+    "exampleTurkish": "Fırından limonlu kek kokusu geliyor.",
+    "exampleArabic": "تأتي رائحة كيك بالليمون من الفرن."
+  },
+  {
+    "id": "word-0339",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "kurabiye",
+    "arabic": "بسكويت منزلي",
+    "acceptedArabic": [
+      "بسكويت منزلي"
+    ],
+    "exampleTurkish": "Çayın yanında kurabiye getirdim.",
+    "exampleArabic": "أحضرت بسكويتًا منزليًا مع الشاي."
+  },
+  {
+    "id": "word-0340",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "bisküvi",
+    "arabic": "بسكويت",
+    "acceptedArabic": [
+      "بسكويت"
+    ],
+    "exampleTurkish": "Çantamda bir paket bisküvi var.",
+    "exampleArabic": "يوجد كيس بسكويت في حقيبتي."
+  },
+  {
+    "id": "word-0341",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "baklava",
+    "arabic": "بقلاوة",
+    "acceptedArabic": [
+      "بقلاوة"
+    ],
+    "exampleTurkish": "Bir dilim baklava yedim.",
+    "exampleArabic": "أكلت قطعة بقلاوة."
+  },
+  {
+    "id": "word-0342",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "lokum",
+    "arabic": "راحة الحلقوم",
+    "acceptedArabic": [
+      "راحة الحلقوم"
+    ],
+    "exampleTurkish": "Kahvenin yanında lokum sundular.",
+    "exampleArabic": "قدّموا راحة الحلقوم مع القهوة."
+  },
+  {
+    "id": "word-0343",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "tatlı",
+    "arabic": "حلو المذاق",
+    "acceptedArabic": [
+      "حلو المذاق"
+    ],
+    "exampleTurkish": "Bu üzüm çok tatlı.",
+    "exampleArabic": "هذا العنب حلو جدًا."
+  },
+  {
+    "id": "word-0344",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "ekşi",
+    "arabic": "حامض",
+    "acceptedArabic": [
+      "حامض",
+      "حامض المذاق"
+    ],
+    "exampleTurkish": "Limonun tadı ekşi.",
+    "exampleArabic": "مذاق الليمون حامض."
+  },
+  {
+    "id": "word-0345",
+    "kind": "word",
+    "category": "الفاكهة والحلوى والمذاق",
+    "turkish": "tuzlu",
+    "arabic": "مالح",
+    "acceptedArabic": [
+      "مالح"
+    ],
+    "exampleTurkish": "Çorba biraz tuzlu olmuş.",
+    "exampleArabic": "أصبحت الشوربة مالحة قليلًا."
+  },
+  {
+    "id": "word-0346",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "mutfak",
+    "arabic": "مطبخ",
+    "acceptedArabic": [
+      "مطبخ"
+    ],
+    "exampleTurkish": "Annem mutfakta yemek yapıyor.",
+    "exampleArabic": "أمي تطهو الطعام في المطبخ."
+  },
+  {
+    "id": "word-0347",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "buzdolabı",
+    "arabic": "ثلاجة",
+    "acceptedArabic": [
+      "ثلاجة"
+    ],
+    "exampleTurkish": "Sütü buzdolabına koydum.",
+    "exampleArabic": "وضعت الحليب في الثلاجة."
+  },
+  {
+    "id": "word-0348",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "dondurucu",
+    "arabic": "مجمّد",
+    "acceptedArabic": [
+      "مجمّد"
+    ],
+    "exampleTurkish": "Balığı dondurucuda saklıyoruz.",
+    "exampleArabic": "نحفظ السمك في المجمّد."
+  },
+  {
+    "id": "word-0349",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "fırın",
+    "arabic": "فرن",
+    "acceptedArabic": [
+      "فرن"
+    ],
+    "exampleTurkish": "Fırın henüz sıcak değil.",
+    "exampleArabic": "الفرن ليس ساخنًا بعد."
+  },
+  {
+    "id": "word-0350",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "ocak",
+    "arabic": "موقد",
+    "acceptedArabic": [
+      "موقد"
+    ],
+    "exampleTurkish": "Ocakta çorba var.",
+    "exampleArabic": "توجد شوربة على الموقد."
+  },
+  {
+    "id": "word-0351",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "mikrodalga",
+    "arabic": "ميكروويف",
+    "acceptedArabic": [
+      "ميكروويف"
+    ],
+    "exampleTurkish": "Yemeği mikrodalgada ısıttım.",
+    "exampleArabic": "سخّنت الطعام في الميكروويف."
+  },
+  {
+    "id": "word-0352",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "bulaşık makinesi",
+    "arabic": "غسّالة أطباق",
+    "acceptedArabic": [
+      "غسّالة أطباق"
+    ],
+    "exampleTurkish": "Tabakları bulaşık makinesine koydum.",
+    "exampleArabic": "وضعت الأطباق في غسّالة الأطباق."
+  },
+  {
+    "id": "word-0353",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "tezgâh",
+    "arabic": "سطح عمل المطبخ",
+    "acceptedArabic": [
+      "سطح عمل المطبخ"
+    ],
+    "exampleTurkish": "Sebzeleri tezgâha bıraktım.",
+    "exampleArabic": "وضعت الخضار على سطح عمل المطبخ."
+  },
+  {
+    "id": "word-0354",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "evye",
+    "arabic": "حوض المطبخ",
+    "acceptedArabic": [
+      "حوض المطبخ"
+    ],
+    "exampleTurkish": "Kirli tabaklar evyede.",
+    "exampleArabic": "الأطباق المتّسخة في حوض المطبخ."
+  },
+  {
+    "id": "word-0355",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "musluk",
+    "arabic": "صنبور",
+    "acceptedArabic": [
+      "صنبور"
+    ],
+    "exampleTurkish": "Musluktan su damlıyor.",
+    "exampleArabic": "يتقطّر الماء من الصنبور."
+  },
+  {
+    "id": "word-0356",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "tencere",
+    "arabic": "قدر",
+    "acceptedArabic": [
+      "قدر"
+    ],
+    "exampleTurkish": "Çorba büyük tencerede pişiyor.",
+    "exampleArabic": "تُطهى الشوربة في القدر الكبير."
+  },
+  {
+    "id": "word-0357",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "tava",
+    "arabic": "مقلاة",
+    "acceptedArabic": [
+      "مقلاة"
+    ],
+    "exampleTurkish": "Tavada yumurta pişirdim.",
+    "exampleArabic": "طهوت بيضًا في المقلاة."
+  },
+  {
+    "id": "word-0358",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kapak",
+    "arabic": "غطاء",
+    "acceptedArabic": [
+      "غطاء"
+    ],
+    "exampleTurkish": "Tencerenin kapağını kapattım.",
+    "exampleArabic": "أغلقت غطاء القدر."
+  },
+  {
+    "id": "word-0359",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "tepsi",
+    "arabic": "صينية",
+    "acceptedArabic": [
+      "صينية"
+    ],
+    "exampleTurkish": "Kurabiyeleri tepsiye dizdim.",
+    "exampleArabic": "صففت البسكويت في الصينية."
+  },
+  {
+    "id": "word-0360",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "tabak",
+    "arabic": "طبق",
+    "acceptedArabic": [
+      "طبق"
+    ],
+    "exampleTurkish": "Masaya dört tabak koydum.",
+    "exampleArabic": "وضعت أربعة أطباق على الطاولة."
+  },
+  {
+    "id": "word-0361",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kâse",
+    "arabic": "وعاء عميق",
+    "acceptedArabic": [
+      "وعاء عميق"
+    ],
+    "exampleTurkish": "Çorbayı kâseye doldurdum.",
+    "exampleArabic": "سكبت الشوربة في الوعاء العميق."
+  },
+  {
+    "id": "word-0362",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "bardak",
+    "arabic": "كوب",
+    "acceptedArabic": [
+      "كوب"
+    ],
+    "exampleTurkish": "Bardağı suyla doldurdum.",
+    "exampleArabic": "ملأت الكوب بالماء."
+  },
+  {
+    "id": "word-0363",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "fincan",
+    "arabic": "فنجان",
+    "acceptedArabic": [
+      "فنجان"
+    ],
+    "exampleTurkish": "Kahveyi küçük fincanda içtim.",
+    "exampleArabic": "شربت القهوة في فنجان صغير."
+  },
+  {
+    "id": "word-0364",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kupa",
+    "arabic": "كوب ذو مقبض",
+    "acceptedArabic": [
+      "كوب ذو مقبض"
+    ],
+    "exampleTurkish": "Bu kupa çay için çok büyük.",
+    "exampleArabic": "هذا الكوب ذو المقبض كبير جدًا للشاي."
+  },
+  {
+    "id": "word-0365",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kaşık",
+    "arabic": "ملعقة",
+    "acceptedArabic": [
+      "ملعقة"
+    ],
+    "exampleTurkish": "Çorba için bir kaşık getir.",
+    "exampleArabic": "أحضر ملعقة للشوربة."
+  },
+  {
+    "id": "word-0366",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "çatal",
+    "arabic": "شوكة",
+    "acceptedArabic": [
+      "شوكة"
+    ],
+    "exampleTurkish": "Çatal tabağın yanında.",
+    "exampleArabic": "الشوكة بجانب الطبق."
+  },
+  {
+    "id": "word-0367",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "bıçak",
+    "arabic": "سكّين",
+    "acceptedArabic": [
+      "سكّين"
+    ],
+    "exampleTurkish": "Bu bıçak ekmeği iyi kesiyor.",
+    "exampleArabic": "هذه السكّين تقطع الخبز جيدًا."
+  },
+  {
+    "id": "word-0368",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kepçe",
+    "arabic": "مغرفة",
+    "acceptedArabic": [
+      "مغرفة"
+    ],
+    "exampleTurkish": "Çorbayı kepçeyle servis ettim.",
+    "exampleArabic": "قدّمت الشوربة بالمغرفة."
+  },
+  {
+    "id": "word-0369",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "süzgeç",
+    "arabic": "مصفاة",
+    "acceptedArabic": [
+      "مصفاة"
+    ],
+    "exampleTurkish": "Makarnayı süzgece döktüm.",
+    "exampleArabic": "سكبت المعكرونة في المصفاة."
+  },
+  {
+    "id": "word-0370",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "rende",
+    "arabic": "مبشرة",
+    "acceptedArabic": [
+      "مبشرة"
+    ],
+    "exampleTurkish": "Havucu rendeyle rendeledim.",
+    "exampleArabic": "بشرت الجزر بالمبشرة."
+  },
+  {
+    "id": "word-0371",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "çırpıcı",
+    "arabic": "مضرب يدوي",
+    "acceptedArabic": [
+      "مضرب يدوي"
+    ],
+    "exampleTurkish": "Yumurtayı çırpıcıyla karıştırdım.",
+    "exampleArabic": "خفقت البيض بالمضرب اليدوي."
+  },
+  {
+    "id": "word-0372",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "spatula",
+    "arabic": "ملعقة مسطّحة",
+    "acceptedArabic": [
+      "ملعقة مسطّحة"
+    ],
+    "exampleTurkish": "Omleti spatulayla çevirdim.",
+    "exampleArabic": "قلبت العجّة بالملعقة المسطّحة."
+  },
+  {
+    "id": "word-0373",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "maşa",
+    "arabic": "ملقط",
+    "acceptedArabic": [
+      "ملقط"
+    ],
+    "exampleTurkish": "Eti maşayla tuttum.",
+    "exampleArabic": "أمسكت اللحم بالملقط."
+  },
+  {
+    "id": "word-0374",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kesme tahtası",
+    "arabic": "لوح تقطيع",
+    "acceptedArabic": [
+      "لوح تقطيع"
+    ],
+    "exampleTurkish": "Soğanı kesme tahtasında doğradım.",
+    "exampleArabic": "قطّعت البصل على لوح التقطيع."
+  },
+  {
+    "id": "word-0375",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "oklava",
+    "arabic": "نشّابة",
+    "acceptedArabic": [
+      "نشّابة"
+    ],
+    "exampleTurkish": "Hamuru oklavayla açtım.",
+    "exampleArabic": "فردت العجين بالنشّابة."
+  },
+  {
+    "id": "word-0376",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "çaydanlık",
+    "arabic": "إبريق شاي مزدوج",
+    "acceptedArabic": [
+      "إبريق شاي مزدوج"
+    ],
+    "exampleTurkish": "Çaydanlık ocağın üstünde.",
+    "exampleArabic": "إبريق الشاي المزدوج فوق الموقد."
+  },
+  {
+    "id": "word-0377",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "demlik",
+    "arabic": "إبريق نقع الشاي",
+    "acceptedArabic": [
+      "إبريق نقع الشاي"
+    ],
+    "exampleTurkish": "Demliğe biraz çay koydum.",
+    "exampleArabic": "وضعت قليلًا من الشاي في إبريق النقع."
+  },
+  {
+    "id": "word-0378",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "cezve",
+    "arabic": "ركوة قهوة",
+    "acceptedArabic": [
+      "ركوة قهوة"
+    ],
+    "exampleTurkish": "Cezvede iki kişilik kahve yaptım.",
+    "exampleArabic": "أعددت قهوة لشخصين في الركوة."
+  },
+  {
+    "id": "word-0379",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "termos",
+    "arabic": "قارورة حافظة للحرارة",
+    "acceptedArabic": [
+      "قارورة حافظة للحرارة"
+    ],
+    "exampleTurkish": "Termosa sıcak çay doldurdum.",
+    "exampleArabic": "ملأت القارورة الحافظة للحرارة بالشاي الساخن."
+  },
+  {
+    "id": "word-0380",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "sürahi",
+    "arabic": "إبريق ماء",
+    "acceptedArabic": [
+      "إبريق ماء"
+    ],
+    "exampleTurkish": "Sürahide soğuk su var.",
+    "exampleArabic": "يوجد ماء بارد في الإبريق."
+  },
+  {
+    "id": "word-0381",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "şişe",
+    "arabic": "زجاجة",
+    "acceptedArabic": [
+      "زجاجة"
+    ],
+    "exampleTurkish": "Su şişesini çantama koydum.",
+    "exampleArabic": "وضعت زجاجة الماء في حقيبتي."
+  },
+  {
+    "id": "word-0382",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "kavanoz",
+    "arabic": "مرطبان",
+    "acceptedArabic": [
+      "مرطبان"
+    ],
+    "exampleTurkish": "Reçeli cam kavanoza koyduk.",
+    "exampleArabic": "وضعنا المربّى في مرطبان زجاجي."
+  },
+  {
+    "id": "word-0383",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "peçete",
+    "arabic": "منديل مائدة",
+    "acceptedArabic": [
+      "منديل مائدة"
+    ],
+    "exampleTurkish": "Ağzını peçeteyle sildi.",
+    "exampleArabic": "مسح فمه بمنديل المائدة."
+  },
+  {
+    "id": "word-0384",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "önlük",
+    "arabic": "مئزر",
+    "acceptedArabic": [
+      "مئزر"
+    ],
+    "exampleTurkish": "Yemek yaparken önlük giyiyorum.",
+    "exampleArabic": "أرتدي مئزرًا عند الطبخ."
+  },
+  {
+    "id": "word-0385",
+    "kind": "word",
+    "category": "المطبخ وأدواته",
+    "turkish": "bulaşık",
+    "arabic": "أوانٍ متّسخة",
+    "acceptedArabic": [
+      "أوانٍ متّسخة"
+    ],
+    "exampleTurkish": "Yemekten sonra bulaşıkları yıkadım.",
+    "exampleArabic": "غسلت الأواني بعد الطعام."
+  },
+  {
+    "id": "word-0386",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "giysi",
+    "arabic": "ملابس",
+    "acceptedArabic": [
+      "ملابس",
+      "ثياب"
+    ],
+    "exampleTurkish": "Dolabımda kışlık giysiler var.",
+    "exampleArabic": "توجد ملابس شتوية في خزانتي."
+  },
+  {
+    "id": "word-0387",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "gömlek",
+    "arabic": "قميص",
+    "acceptedArabic": [
+      "قميص"
+    ],
+    "exampleTurkish": "Bugün mavi gömlek giydim.",
+    "exampleArabic": "ارتديت قميصًا أزرق اليوم."
+  },
+  {
+    "id": "word-0388",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "tişört",
+    "arabic": "قميص قطني قصير الأكمام",
+    "acceptedArabic": [
+      "قميص قطني قصير الأكمام"
+    ],
+    "exampleTurkish": "Bu tişört bana küçük geldi.",
+    "exampleArabic": "هذا القميص القطني ضيّق عليّ."
+  },
+  {
+    "id": "word-0389",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "kazak",
+    "arabic": "كنزة",
+    "acceptedArabic": [
+      "كنزة"
+    ],
+    "exampleTurkish": "Hava soğuk, kazak giy.",
+    "exampleArabic": "الجوّ بارد، ارتدِ كنزة."
+  },
+  {
+    "id": "word-0390",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "hırka",
+    "arabic": "سترة صوفية مفتوحة",
+    "acceptedArabic": [
+      "سترة صوفية مفتوحة"
+    ],
+    "exampleTurkish": "Akşam üstüme hırka aldım.",
+    "exampleArabic": "لبست سترة صوفية مفتوحة مساءً."
+  },
+  {
+    "id": "word-0391",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "ceket",
+    "arabic": "سترة",
+    "acceptedArabic": [
+      "سترة"
+    ],
+    "exampleTurkish": "Ceketimi sandalyeye astım.",
+    "exampleArabic": "علّقت سترتي على الكرسي."
+  },
+  {
+    "id": "word-0392",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "mont",
+    "arabic": "جاكيت شتوي",
+    "acceptedArabic": [
+      "جاكيت شتوي"
+    ],
+    "exampleTurkish": "Kışın kalın mont giyiyorum.",
+    "exampleArabic": "أرتدي جاكيتًا شتويًا سميكًا في الشتاء."
+  },
+  {
+    "id": "word-0393",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "kaban",
+    "arabic": "معطف شتوي",
+    "acceptedArabic": [
+      "معطف شتوي"
+    ],
+    "exampleTurkish": "Yeni kabanım çok sıcak tutuyor.",
+    "exampleArabic": "معطفي الشتوي الجديد يدفئني جيدًا."
+  },
+  {
+    "id": "word-0394",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "palto",
+    "arabic": "معطف طويل",
+    "acceptedArabic": [
+      "معطف طويل"
+    ],
+    "exampleTurkish": "Paltomu kapının yanına astım.",
+    "exampleArabic": "علّقت معطفي الطويل بجانب الباب."
+  },
+  {
+    "id": "word-0395",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "yağmurluk",
+    "arabic": "معطف مطر",
+    "acceptedArabic": [
+      "معطف مطر"
+    ],
+    "exampleTurkish": "Yağmur başlayınca yağmurluğumu giydim.",
+    "exampleArabic": "ارتديت معطف المطر عندما بدأ المطر."
+  },
+  {
+    "id": "word-0396",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "pantolon",
+    "arabic": "بنطال",
+    "acceptedArabic": [
+      "بنطال"
+    ],
+    "exampleTurkish": "Bu pantolon biraz uzun.",
+    "exampleArabic": "هذا البنطال طويل قليلًا."
+  },
+  {
+    "id": "word-0397",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "kot",
+    "arabic": "جينز",
+    "acceptedArabic": [
+      "جينز"
+    ],
+    "exampleTurkish": "Hafta sonu kot giyiyorum.",
+    "exampleArabic": "أرتدي الجينز في عطلة الأسبوع."
+  },
+  {
+    "id": "word-0398",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "şort",
+    "arabic": "سروال قصير",
+    "acceptedArabic": [
+      "سروال قصير"
+    ],
+    "exampleTurkish": "Yazın şort giymeyi seviyorum.",
+    "exampleArabic": "أحبّ ارتداء السروال القصير صيفًا."
+  },
+  {
+    "id": "word-0399",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "etek",
+    "arabic": "تنّورة",
+    "acceptedArabic": [
+      "تنّورة",
+      "تنورة"
+    ],
+    "exampleTurkish": "Bu eteğin rengi çok güzel.",
+    "exampleArabic": "لون هذه التنّورة جميل جدًا."
+  },
+  {
+    "id": "word-0400",
+    "kind": "word",
+    "category": "الملابس",
+    "turkish": "elbise",
+    "arabic": "فستان",
+    "acceptedArabic": [
+      "فستان",
+      "ثوب نسائي"
+    ],
+    "exampleTurkish": "Düğüne yeşil bir elbise giydi.",
+    "exampleArabic": "ارتدت فستانًا أخضر في العرس."
+  },
+  {
+    "id": "word-0401",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "pijama",
+    "arabic": "بيجامة",
+    "acceptedArabic": [
+      "بيجامة"
+    ],
+    "exampleTurkish": "Uyumadan önce pijamamı giydim.",
+    "exampleArabic": "ارتديت بيجامتي قبل النوم."
+  },
+  {
+    "id": "word-0402",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "gecelik",
+    "arabic": "قميص نوم",
+    "acceptedArabic": [
+      "قميص نوم"
+    ],
+    "exampleTurkish": "Valizine bir gecelik koydu.",
+    "exampleArabic": "وضعت قميص نوم في حقيبتها."
+  },
+  {
+    "id": "word-0403",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "iç çamaşırı",
+    "arabic": "ملابس داخلية",
+    "acceptedArabic": [
+      "ملابس داخلية"
+    ],
+    "exampleTurkish": "Seyahat için temiz iç çamaşırı hazırladım.",
+    "exampleArabic": "جهّزت ملابس داخلية نظيفة للسفر."
+  },
+  {
+    "id": "word-0404",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "çorap",
+    "arabic": "جورب",
+    "acceptedArabic": [
+      "جورب"
+    ],
+    "exampleTurkish": "Bir çorabım kayboldu.",
+    "exampleArabic": "ضاع أحد جوربيّ."
+  },
+  {
+    "id": "word-0405",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "ayakkabı",
+    "arabic": "حذاء",
+    "acceptedArabic": [
+      "حذاء",
+      "جزمة"
+    ],
+    "exampleTurkish": "Ayakkabılarımı kapıda çıkardım.",
+    "exampleArabic": "خلعت حذائي عند الباب."
+  },
+  {
+    "id": "word-0406",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "bot",
+    "arabic": "حذاء شتوي",
+    "acceptedArabic": [
+      "حذاء شتوي"
+    ],
+    "exampleTurkish": "Yağmurda botlarımı giyiyorum.",
+    "exampleArabic": "أرتدي حذائي الشتوي في المطر."
+  },
+  {
+    "id": "word-0407",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "çizme",
+    "arabic": "حذاء طويل الساق",
+    "acceptedArabic": [
+      "حذاء طويل الساق"
+    ],
+    "exampleTurkish": "Çamurda yürümek için çizme giydim.",
+    "exampleArabic": "ارتديت حذاء طويل الساق للمشي في الوحل."
+  },
+  {
+    "id": "word-0408",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "terlik",
+    "arabic": "شبشب",
+    "acceptedArabic": [
+      "شبشب"
+    ],
+    "exampleTurkish": "Evde terlik giyiyoruz.",
+    "exampleArabic": "نرتدي الشبشب في البيت."
+  },
+  {
+    "id": "word-0409",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "sandalet",
+    "arabic": "صندل",
+    "acceptedArabic": [
+      "صندل"
+    ],
+    "exampleTurkish": "Yaz için rahat bir sandalet aldım.",
+    "exampleArabic": "اشتريت صندلًا مريحًا للصيف."
+  },
+  {
+    "id": "word-0410",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "şapka",
+    "arabic": "قبّعة",
+    "acceptedArabic": [
+      "قبّعة"
+    ],
+    "exampleTurkish": "Güneşte şapka takıyorum.",
+    "exampleArabic": "أرتدي قبّعة في الشمس."
+  },
+  {
+    "id": "word-0411",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "bere",
+    "arabic": "قبّعة صوفية",
+    "acceptedArabic": [
+      "قبّعة صوفية",
+      "طاقية صوف"
+    ],
+    "exampleTurkish": "Soğukta beremi taktım.",
+    "exampleArabic": "ارتديت قبّعتي الصوفية في البرد."
+  },
+  {
+    "id": "word-0412",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "atkı",
+    "arabic": "وشاح للرقبة",
+    "acceptedArabic": [
+      "وشاح للرقبة"
+    ],
+    "exampleTurkish": "Boynuma yün atkı sardım.",
+    "exampleArabic": "لففت وشاحًا صوفيًا حول رقبتي."
+  },
+  {
+    "id": "word-0413",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "şal",
+    "arabic": "شال",
+    "acceptedArabic": [
+      "شال"
+    ],
+    "exampleTurkish": "Omuzlarına ince bir şal aldı.",
+    "exampleArabic": "وضعت شالًا خفيفًا على كتفيها."
+  },
+  {
+    "id": "word-0414",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "eşarp",
+    "arabic": "غطاء رأس",
+    "acceptedArabic": [
+      "غطاء رأس"
+    ],
+    "exampleTurkish": "Annem mavi eşarbını taktı.",
+    "exampleArabic": "ارتدت أمي غطاء رأسها الأزرق."
+  },
+  {
+    "id": "word-0415",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "eldiven",
+    "arabic": "قفّاز",
+    "acceptedArabic": [
+      "قفّاز"
+    ],
+    "exampleTurkish": "Karda eldivensiz ellerim üşüdü.",
+    "exampleArabic": "بردت يداي في الثلج دون قفّازين."
+  },
+  {
+    "id": "word-0416",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "kemer",
+    "arabic": "حزام",
+    "acceptedArabic": [
+      "حزام"
+    ],
+    "exampleTurkish": "Pantolonuma kahverengi kemer taktım.",
+    "exampleArabic": "وضعت حزامًا بنّيًا في بنطالي."
+  },
+  {
+    "id": "word-0417",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "kravat",
+    "arabic": "ربطة عنق",
+    "acceptedArabic": [
+      "ربطة عنق"
+    ],
+    "exampleTurkish": "Toplantı için kravat taktı.",
+    "exampleArabic": "ارتدى ربطة عنق للاجتماع."
+  },
+  {
+    "id": "word-0418",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "yelek",
+    "arabic": "صديري",
+    "acceptedArabic": [
+      "صديري"
+    ],
+    "exampleTurkish": "Gömleğin üstüne yelek giydi.",
+    "exampleArabic": "ارتدى صديريًا فوق القميص."
+  },
+  {
+    "id": "word-0419",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "takım elbise",
+    "arabic": "بدلة رسمية",
+    "acceptedArabic": [
+      "بدلة رسمية"
+    ],
+    "exampleTurkish": "Düğün için takım elbise aldı.",
+    "exampleArabic": "اشترى بدلة رسمية للعرس."
+  },
+  {
+    "id": "word-0420",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "bluz",
+    "arabic": "بلوزة",
+    "acceptedArabic": [
+      "بلوزة"
+    ],
+    "exampleTurkish": "Bu bluz eteğimle uyumlu.",
+    "exampleArabic": "هذه البلوزة تناسب تنّورتي."
+  },
+  {
+    "id": "word-0421",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "mayo",
+    "arabic": "ملابس سباحة",
+    "acceptedArabic": [
+      "ملابس سباحة"
+    ],
+    "exampleTurkish": "Havuza giderken mayomu aldım.",
+    "exampleArabic": "أخذت ملابس السباحة عند ذهابي إلى المسبح."
+  },
+  {
+    "id": "word-0422",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "bornoz",
+    "arabic": "رداء حمّام",
+    "acceptedArabic": [
+      "رداء حمّام"
+    ],
+    "exampleTurkish": "Duştan sonra bornozunu giydi.",
+    "exampleArabic": "ارتدى رداء الحمّام بعد الاستحمام."
+  },
+  {
+    "id": "word-0423",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "cep",
+    "arabic": "جيب",
+    "acceptedArabic": [
+      "جيب"
+    ],
+    "exampleTurkish": "Telefonum montumun cebinde.",
+    "exampleArabic": "هاتفي في جيب جاكيتي الشتوي."
+  },
+  {
+    "id": "word-0424",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "yaka",
+    "arabic": "ياقة",
+    "acceptedArabic": [
+      "ياقة"
+    ],
+    "exampleTurkish": "Gömleğin yakasını düzeltti.",
+    "exampleArabic": "عدّل ياقة القميص."
+  },
+  {
+    "id": "word-0425",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "düğme",
+    "arabic": "زرّ ملابس",
+    "acceptedArabic": [
+      "زرّ ملابس"
+    ],
+    "exampleTurkish": "Gömleğimin bir düğmesi koptu.",
+    "exampleArabic": "انفصل زرّ من قميصي."
+  },
+  {
+    "id": "word-0426",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "fermuar",
+    "arabic": "سحّاب",
+    "acceptedArabic": [
+      "سحّاب"
+    ],
+    "exampleTurkish": "Çantanın fermuarı kapanmıyor.",
+    "exampleArabic": "سحّاب الحقيبة لا ينغلق."
+  },
+  {
+    "id": "word-0427",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "bağcık",
+    "arabic": "رباط حذاء",
+    "acceptedArabic": [
+      "رباط حذاء"
+    ],
+    "exampleTurkish": "Ayakkabımın bağcığını bağladım.",
+    "exampleArabic": "ربطت رباط حذائي."
+  },
+  {
+    "id": "word-0428",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "kumaş",
+    "arabic": "قماش",
+    "acceptedArabic": [
+      "قماش"
+    ],
+    "exampleTurkish": "Bu kumaş çok yumuşak.",
+    "exampleArabic": "هذا القماش ناعم جدًا."
+  },
+  {
+    "id": "word-0429",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "pamuk",
+    "arabic": "قطن",
+    "acceptedArabic": [
+      "قطن"
+    ],
+    "exampleTurkish": "Pamuk yazlık giysilerde sık kullanılır.",
+    "exampleArabic": "يُستخدم القطن كثيرًا في الملابس الصيفية."
+  },
+  {
+    "id": "word-0430",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "yün",
+    "arabic": "صوف",
+    "acceptedArabic": [
+      "صوف"
+    ],
+    "exampleTurkish": "Bu kazak yünden yapılmış.",
+    "exampleArabic": "هذه الكنزة مصنوعة من الصوف."
+  },
+  {
+    "id": "word-0431",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "ipek",
+    "arabic": "حرير",
+    "acceptedArabic": [
+      "حرير"
+    ],
+    "exampleTurkish": "Annemin ipek bir şalı var.",
+    "exampleArabic": "لأمي شال من الحرير."
+  },
+  {
+    "id": "word-0432",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "keten",
+    "arabic": "كتّان",
+    "acceptedArabic": [
+      "كتّان"
+    ],
+    "exampleTurkish": "Yazın keten gömlek giyiyorum.",
+    "exampleArabic": "أرتدي قميصًا من الكتّان صيفًا."
+  },
+  {
+    "id": "word-0433",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "kolye",
+    "arabic": "قلادة",
+    "acceptedArabic": [
+      "قلادة"
+    ],
+    "exampleTurkish": "Boynunda ince bir kolye vardı.",
+    "exampleArabic": "كانت على رقبتها قلادة رفيعة."
+  },
+  {
+    "id": "word-0434",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "yüzük",
+    "arabic": "خاتم",
+    "acceptedArabic": [
+      "خاتم"
+    ],
+    "exampleTurkish": "Yüzüğümü kutuya koydum.",
+    "exampleArabic": "وضعت خاتمي في العلبة."
+  },
+  {
+    "id": "word-0435",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "küpe",
+    "arabic": "قرط",
+    "acceptedArabic": [
+      "قرط"
+    ],
+    "exampleTurkish": "Bir küpemi bulamıyorum.",
+    "exampleArabic": "لا أجد أحد قرطيّ."
+  },
+  {
+    "id": "word-0436",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "bilezik",
+    "arabic": "سوار",
+    "acceptedArabic": [
+      "سوار"
+    ],
+    "exampleTurkish": "Bileziğini dikkatle çıkardı.",
+    "exampleArabic": "نزعت سوارها بحذر."
+  },
+  {
+    "id": "word-0437",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "broş",
+    "arabic": "دبّوس زينة",
+    "acceptedArabic": [
+      "دبّوس زينة"
+    ],
+    "exampleTurkish": "Ceketine küçük bir broş taktı.",
+    "exampleArabic": "وضعت دبّوس زينة صغيرًا على سترتها."
+  },
+  {
+    "id": "word-0438",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "toka",
+    "arabic": "مشبك شعر",
+    "acceptedArabic": [
+      "مشبك شعر"
+    ],
+    "exampleTurkish": "Saçını tokayla topladı.",
+    "exampleArabic": "جمعت شعرها بمشبك شعر."
+  },
+  {
+    "id": "word-0439",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "tarak",
+    "arabic": "مشط",
+    "acceptedArabic": [
+      "مشط"
+    ],
+    "exampleTurkish": "Tarağım banyo dolabında.",
+    "exampleArabic": "مشطي في خزانة الحمّام."
+  },
+  {
+    "id": "word-0440",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "fırça",
+    "arabic": "فرشاة",
+    "acceptedArabic": [
+      "فرشاة"
+    ],
+    "exampleTurkish": "Saç fırçamı çantaya koydum.",
+    "exampleArabic": "وضعت فرشاة شعري في الحقيبة."
+  },
+  {
+    "id": "word-0441",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "sabun",
+    "arabic": "صابون",
+    "acceptedArabic": [
+      "صابون"
+    ],
+    "exampleTurkish": "Ellerimi sabunla yıkadım.",
+    "exampleArabic": "غسلت يديّ بالصابون."
+  },
+  {
+    "id": "word-0442",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "şampuan",
+    "arabic": "شامبو",
+    "acceptedArabic": [
+      "شامبو"
+    ],
+    "exampleTurkish": "Yeni şampuan güzel kokuyor.",
+    "exampleArabic": "رائحة الشامبو الجديد جميلة."
+  },
+  {
+    "id": "word-0443",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "saç kremi",
+    "arabic": "بلسم شعر",
+    "acceptedArabic": [
+      "بلسم شعر"
+    ],
+    "exampleTurkish": "Saç kremi saçımı yumuşattı.",
+    "exampleArabic": "نعّم بلسم الشعر شعري."
+  },
+  {
+    "id": "word-0444",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "diş macunu",
+    "arabic": "معجون أسنان",
+    "acceptedArabic": [
+      "معجون أسنان"
+    ],
+    "exampleTurkish": "Diş macunu bitmiş.",
+    "exampleArabic": "انتهى معجون الأسنان."
+  },
+  {
+    "id": "word-0445",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "diş fırçası",
+    "arabic": "فرشاة أسنان",
+    "acceptedArabic": [
+      "فرشاة أسنان"
+    ],
+    "exampleTurkish": "Diş fırçamı yeniledim.",
+    "exampleArabic": "استبدلت فرشاة أسناني."
+  },
+  {
+    "id": "word-0446",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "havlu",
+    "arabic": "منشفة",
+    "acceptedArabic": [
+      "منشفة",
+      "فوطة"
+    ],
+    "exampleTurkish": "Ellerimi temiz havluyla kuruladım.",
+    "exampleArabic": "جفّفت يديّ بمنشفة نظيفة."
+  },
+  {
+    "id": "word-0447",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "lif",
+    "arabic": "ليفة استحمام",
+    "acceptedArabic": [
+      "ليفة استحمام"
+    ],
+    "exampleTurkish": "Duş için yeni bir lif aldım.",
+    "exampleArabic": "اشتريت ليفة جديدة للاستحمام."
+  },
+  {
+    "id": "word-0448",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "sünger",
+    "arabic": "إسفنجة",
+    "acceptedArabic": [
+      "إسفنجة"
+    ],
+    "exampleTurkish": "Tabakları yumuşak süngerle yıkadım.",
+    "exampleArabic": "غسلت الأطباق بإسفنجة ناعمة."
+  },
+  {
+    "id": "word-0449",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "deodorant",
+    "arabic": "مزيل عرق",
+    "acceptedArabic": [
+      "مزيل عرق"
+    ],
+    "exampleTurkish": "Deodorantı çantama koydum.",
+    "exampleArabic": "وضعت مزيل العرق في حقيبتي."
+  },
+  {
+    "id": "word-0450",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "parfüm",
+    "arabic": "عطر",
+    "acceptedArabic": [
+      "عطر"
+    ],
+    "exampleTurkish": "Bu parfüm çok hafif kokuyor.",
+    "exampleArabic": "رائحة هذا العطر خفيفة جدًا."
+  },
+  {
+    "id": "word-0451",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "kolonya",
+    "arabic": "كولونيا",
+    "acceptedArabic": [
+      "كولونيا"
+    ],
+    "exampleTurkish": "Misafirlere kolonya ikram ettik.",
+    "exampleArabic": "قدّمنا الكولونيا للضيوف."
+  },
+  {
+    "id": "word-0452",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "krem",
+    "arabic": "كريم",
+    "acceptedArabic": [
+      "كريم"
+    ],
+    "exampleTurkish": "Ellerime nemlendirici krem sürdüm.",
+    "exampleArabic": "دهنت يديّ بكريم مرطّب."
+  },
+  {
+    "id": "word-0453",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "güneş kremi",
+    "arabic": "واقي شمس",
+    "acceptedArabic": [
+      "واقي شمس"
+    ],
+    "exampleTurkish": "Dışarı çıkmadan güneş kremi sürdüm.",
+    "exampleArabic": "وضعت واقي الشمس قبل الخروج."
+  },
+  {
+    "id": "word-0454",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "ruj",
+    "arabic": "أحمر شفاه",
+    "acceptedArabic": [
+      "أحمر شفاه"
+    ],
+    "exampleTurkish": "Çantasından rujunu çıkardı.",
+    "exampleArabic": "أخرجت أحمر الشفاه من حقيبتها."
+  },
+  {
+    "id": "word-0455",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "oje",
+    "arabic": "طلاء أظافر",
+    "acceptedArabic": [
+      "طلاء أظافر"
+    ],
+    "exampleTurkish": "Tırnaklarına açık renk oje sürdü.",
+    "exampleArabic": "وضعت طلاء أظافر فاتحًا على أظفارها."
+  },
+  {
+    "id": "word-0456",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "pamuklu çubuk",
+    "arabic": "عود قطني",
+    "acceptedArabic": [
+      "عود قطني"
+    ],
+    "exampleTurkish": "Makyajı pamuklu çubukla düzeltti.",
+    "exampleArabic": "عدّلت المكياج بعود قطني."
+  },
+  {
+    "id": "word-0457",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "tıraş bıçağı",
+    "arabic": "شفرة حلاقة",
+    "acceptedArabic": [
+      "شفرة حلاقة"
+    ],
+    "exampleTurkish": "Yeni bir tıraş bıçağı aldım.",
+    "exampleArabic": "اشتريت شفرة حلاقة جديدة."
+  },
+  {
+    "id": "word-0458",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "tırnak makası",
+    "arabic": "قصّافة أظافر",
+    "acceptedArabic": [
+      "قصّافة أظافر"
+    ],
+    "exampleTurkish": "Tırnak makasını çekmeceye koydum.",
+    "exampleArabic": "وضعت قصّافة الأظافر في الدرج."
+  },
+  {
+    "id": "word-0459",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "makas",
+    "arabic": "مقصّ",
+    "acceptedArabic": [
+      "مقصّ"
+    ],
+    "exampleTurkish": "Kumaşı makasla kestim.",
+    "exampleArabic": "قصصت القماش بالمقصّ."
+  },
+  {
+    "id": "word-0460",
+    "kind": "word",
+    "category": "الملابس والعناية الشخصية",
+    "turkish": "ıslak mendil",
+    "arabic": "منديل مبلّل",
+    "acceptedArabic": [
+      "منديل مبلّل"
+    ],
+    "exampleTurkish": "Çocuğun ellerini ıslak mendille sildim.",
+    "exampleArabic": "مسحت يدي الطفل بمنديل مبلّل."
+  },
+  {
+    "id": "word-0461",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "hayvan",
+    "arabic": "حيوان",
+    "acceptedArabic": [
+      "حيوان"
+    ],
+    "exampleTurkish": "Çocuklar hayvanları çok seviyor.",
+    "exampleArabic": "الأطفال يحبّون الحيوانات كثيرًا."
+  },
+  {
+    "id": "word-0462",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kedi",
+    "arabic": "قطّ",
+    "acceptedArabic": [
+      "قطّ"
+    ],
+    "exampleTurkish": "Kedi pencerenin önünde uyuyor.",
+    "exampleArabic": "القطّ نائم أمام النافذة."
+  },
+  {
+    "id": "word-0463",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "köpek",
+    "arabic": "كلب",
+    "acceptedArabic": [
+      "كلب"
+    ],
+    "exampleTurkish": "Köpeğimiz bahçede koşuyor.",
+    "exampleArabic": "كلبنا يركض في الحديقة."
+  },
+  {
+    "id": "word-0464",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kuş",
+    "arabic": "طائر",
+    "acceptedArabic": [
+      "طائر"
+    ],
+    "exampleTurkish": "Bir kuş balkona kondu.",
+    "exampleArabic": "حطّ طائر على الشرفة."
+  },
+  {
+    "id": "word-0465",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "at",
+    "arabic": "حصان",
+    "acceptedArabic": [
+      "حصان"
+    ],
+    "exampleTurkish": "At çayırda otluyor.",
+    "exampleArabic": "يرعى الحصان في المرج."
+  },
+  {
+    "id": "word-0466",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "eşek",
+    "arabic": "حمار",
+    "acceptedArabic": [
+      "حمار"
+    ],
+    "exampleTurkish": "Eşek yolda yavaşça yürüyordu.",
+    "exampleArabic": "كان الحمار يمشي ببطء على الطريق."
+  },
+  {
+    "id": "word-0467",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "inek",
+    "arabic": "بقرة",
+    "acceptedArabic": [
+      "بقرة"
+    ],
+    "exampleTurkish": "İnek yavrusunun yanında duruyor.",
+    "exampleArabic": "تقف البقرة بجانب صغيرها."
+  },
+  {
+    "id": "word-0468",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "boğa",
+    "arabic": "ثور",
+    "acceptedArabic": [
+      "ثور"
+    ],
+    "exampleTurkish": "Boğa çitin arkasında.",
+    "exampleArabic": "الثور خلف السياج."
+  },
+  {
+    "id": "word-0469",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "buzağı",
+    "arabic": "عجل صغير",
+    "acceptedArabic": [
+      "عجل صغير"
+    ],
+    "exampleTurkish": "Buzağı annesini takip ediyor.",
+    "exampleArabic": "العجل الصغير يتبع أمّه."
+  },
+  {
+    "id": "word-0470",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "koyun",
+    "arabic": "خروف",
+    "acceptedArabic": [
+      "خروف",
+      "غنم"
+    ],
+    "exampleTurkish": "Koyunlar tepede otluyor.",
+    "exampleArabic": "ترعى الخراف على التلّ."
+  },
+  {
+    "id": "word-0471",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kuzu",
+    "arabic": "حَمَل",
+    "acceptedArabic": [
+      "حَمَل",
+      "خروف صغير"
+    ],
+    "exampleTurkish": "Küçük kuzu çayırda koşuyor.",
+    "exampleArabic": "يركض الحَمَل الصغير في المرج."
+  },
+  {
+    "id": "word-0472",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "keçi",
+    "arabic": "ماعز",
+    "acceptedArabic": [
+      "ماعز"
+    ],
+    "exampleTurkish": "Keçi kayaya çıktı.",
+    "exampleArabic": "صعدت الماعز على الصخرة."
+  },
+  {
+    "id": "word-0473",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "oğlak",
+    "arabic": "جدي صغير",
+    "acceptedArabic": [
+      "جدي صغير"
+    ],
+    "exampleTurkish": "Oğlak annesinin yanında uyuyor.",
+    "exampleArabic": "الجدي الصغير نائم بجانب أمّه."
+  },
+  {
+    "id": "word-0474",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "horoz",
+    "arabic": "ديك",
+    "acceptedArabic": [
+      "ديك"
+    ],
+    "exampleTurkish": "Horoz sabah erkenden öttü.",
+    "exampleArabic": "صاح الديك باكرًا صباحًا."
+  },
+  {
+    "id": "word-0475",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "civciv",
+    "arabic": "كتكوت",
+    "acceptedArabic": [
+      "كتكوت"
+    ],
+    "exampleTurkish": "Sarı civcivler bahçede geziyor.",
+    "exampleArabic": "تتجوّل الكتاكيت الصفراء في الحديقة."
+  },
+  {
+    "id": "word-0476",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "ördek",
+    "arabic": "بطّة",
+    "acceptedArabic": [
+      "بطّة"
+    ],
+    "exampleTurkish": "Ördek gölde yüzüyor.",
+    "exampleArabic": "تسبح البطّة في البحيرة."
+  },
+  {
+    "id": "word-0477",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kaz",
+    "arabic": "إوزّة",
+    "acceptedArabic": [
+      "إوزّة"
+    ],
+    "exampleTurkish": "Kazlar kıyıya çıktı.",
+    "exampleArabic": "خرجت الإوزّات إلى الضفّة."
+  },
+  {
+    "id": "word-0478",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "tavşan",
+    "arabic": "أرنب",
+    "acceptedArabic": [
+      "أرنب"
+    ],
+    "exampleTurkish": "Tavşan havuç yiyor.",
+    "exampleArabic": "الأرنب يأكل الجزر."
+  },
+  {
+    "id": "word-0479",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "fare",
+    "arabic": "فأر",
+    "acceptedArabic": [
+      "فأر"
+    ],
+    "exampleTurkish": "Küçük fare duvardaki delikten geçti.",
+    "exampleArabic": "مرّ الفأر الصغير من الفتحة في الجدار."
+  },
+  {
+    "id": "word-0480",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "sincap",
+    "arabic": "سنجاب",
+    "acceptedArabic": [
+      "سنجاب"
+    ],
+    "exampleTurkish": "Sincap ağaca tırmandı.",
+    "exampleArabic": "تسلّق السنجاب الشجرة."
+  },
+  {
+    "id": "word-0481",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kirpi",
+    "arabic": "قنفذ",
+    "acceptedArabic": [
+      "قنفذ"
+    ],
+    "exampleTurkish": "Bahçede bir kirpi gördük.",
+    "exampleArabic": "رأينا قنفذًا في الحديقة."
+  },
+  {
+    "id": "word-0482",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "yarasa",
+    "arabic": "خفّاش",
+    "acceptedArabic": [
+      "خفّاش"
+    ],
+    "exampleTurkish": "Akşam gökyüzünde yarasalar gördük.",
+    "exampleArabic": "رأينا خفافيش في السماء مساءً."
+  },
+  {
+    "id": "word-0483",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "tilki",
+    "arabic": "ثعلب",
+    "acceptedArabic": [
+      "ثعلب"
+    ],
+    "exampleTurkish": "Tilki ormana doğru koştu.",
+    "exampleArabic": "ركض الثعلب نحو الغابة."
+  },
+  {
+    "id": "word-0484",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kurt",
+    "arabic": "ذئب",
+    "acceptedArabic": [
+      "ذئب"
+    ],
+    "exampleTurkish": "Gece uzaktan kurt sesi duyduk.",
+    "exampleArabic": "سمعنا صوت ذئب من بعيد ليلًا."
+  },
+  {
+    "id": "word-0485",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "ayı",
+    "arabic": "دبّ",
+    "acceptedArabic": [
+      "دبّ"
+    ],
+    "exampleTurkish": "Belgeselde bir ayı izledik.",
+    "exampleArabic": "شاهدنا دبًّا في فيلم وثائقي."
+  },
+  {
+    "id": "word-0486",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "aslan",
+    "arabic": "أسد",
+    "acceptedArabic": [
+      "أسد"
+    ],
+    "exampleTurkish": "Aslan gölgede dinleniyor.",
+    "exampleArabic": "يستريح الأسد في الظلّ."
+  },
+  {
+    "id": "word-0487",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kaplan",
+    "arabic": "نمر مخطّط",
+    "acceptedArabic": [
+      "نمر مخطّط"
+    ],
+    "exampleTurkish": "Kaplanın çizgileri çok belirgin.",
+    "exampleArabic": "خطوط النمر المخطّط واضحة جدًا."
+  },
+  {
+    "id": "word-0488",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "fil",
+    "arabic": "فيل",
+    "acceptedArabic": [
+      "فيل"
+    ],
+    "exampleTurkish": "Fil hortumuyla su içiyor.",
+    "exampleArabic": "يشرب الفيل الماء بخرطومه."
+  },
+  {
+    "id": "word-0489",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "zürafa",
+    "arabic": "زرافة",
+    "acceptedArabic": [
+      "زرافة"
+    ],
+    "exampleTurkish": "Zürafa ağacın yapraklarını yiyor.",
+    "exampleArabic": "تأكل الزرافة أوراق الشجرة."
+  },
+  {
+    "id": "word-0490",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "maymun",
+    "arabic": "قرد",
+    "acceptedArabic": [
+      "قرد"
+    ],
+    "exampleTurkish": "Maymun daldan dala atlıyor.",
+    "exampleArabic": "يقفز القرد من غصن إلى آخر."
+  },
+  {
+    "id": "word-0491",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "deve",
+    "arabic": "جمل",
+    "acceptedArabic": [
+      "جمل"
+    ],
+    "exampleTurkish": "Deve çölde yürüyordu.",
+    "exampleArabic": "كان الجمل يمشي في الصحراء."
+  },
+  {
+    "id": "word-0492",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "geyik",
+    "arabic": "أيل",
+    "acceptedArabic": [
+      "أيل"
+    ],
+    "exampleTurkish": "Ormanda bir geyik gördük.",
+    "exampleArabic": "رأينا أيلًا في الغابة."
+  },
+  {
+    "id": "word-0493",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "yılan",
+    "arabic": "ثعبان",
+    "acceptedArabic": [
+      "ثعبان"
+    ],
+    "exampleTurkish": "Yılan taşın altına girdi.",
+    "exampleArabic": "دخل الثعبان تحت الحجر."
+  },
+  {
+    "id": "word-0494",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kertenkele",
+    "arabic": "سحليّة",
+    "acceptedArabic": [
+      "سحليّة"
+    ],
+    "exampleTurkish": "Kertenkele güneşte duruyor.",
+    "exampleArabic": "تقف السحليّة في الشمس."
+  },
+  {
+    "id": "word-0495",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kaplumbağa",
+    "arabic": "سلحفاة",
+    "acceptedArabic": [
+      "سلحفاة"
+    ],
+    "exampleTurkish": "Kaplumbağa yavaşça ilerliyor.",
+    "exampleArabic": "تتقدّم السلحفاة ببطء."
+  },
+  {
+    "id": "word-0496",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "kurbağa",
+    "arabic": "ضفدع",
+    "acceptedArabic": [
+      "ضفدع"
+    ],
+    "exampleTurkish": "Göletin yanında bir kurbağa var.",
+    "exampleArabic": "يوجد ضفدع بجانب البركة."
+  },
+  {
+    "id": "word-0497",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "yunus",
+    "arabic": "دلفين",
+    "acceptedArabic": [
+      "دلفين"
+    ],
+    "exampleTurkish": "Tekneden yunusları gördük.",
+    "exampleArabic": "رأينا الدلافين من القارب."
+  },
+  {
+    "id": "word-0498",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "balina",
+    "arabic": "حوت",
+    "acceptedArabic": [
+      "حوت"
+    ],
+    "exampleTurkish": "Balina suyun yüzeyine çıktı.",
+    "exampleArabic": "صعد الحوت إلى سطح الماء."
+  },
+  {
+    "id": "word-0499",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "köpekbalığı",
+    "arabic": "قرش",
+    "acceptedArabic": [
+      "قرش"
+    ],
+    "exampleTurkish": "Belgeselde köpekbalıklarını izliyoruz.",
+    "exampleArabic": "نشاهد أسماك القرش في الفيلم الوثائقي."
+  },
+  {
+    "id": "word-0500",
+    "kind": "word",
+    "category": "الحيوانات",
+    "turkish": "ahtapot",
+    "arabic": "أخطبوط",
+    "acceptedArabic": [
+      "أخطبوط"
+    ],
+    "exampleTurkish": "Ahtapot kayanın arkasına saklandı.",
+    "exampleArabic": "اختبأ الأخطبوط خلف الصخرة."
+  },
+  {
+    "id": "word-0501",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "arı",
+    "arabic": "نحلة",
+    "acceptedArabic": [
+      "نحلة"
+    ],
+    "exampleTurkish": "Arı çiçeğin üzerine kondu.",
+    "exampleArabic": "حطّت النحلة على الزهرة."
+  },
+  {
+    "id": "word-0502",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "kelebek",
+    "arabic": "فراشة",
+    "acceptedArabic": [
+      "فراشة"
+    ],
+    "exampleTurkish": "Renkli bir kelebek gördüm.",
+    "exampleArabic": "رأيت فراشة ملوّنة."
+  },
+  {
+    "id": "word-0503",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "karınca",
+    "arabic": "نملة",
+    "acceptedArabic": [
+      "نملة"
+    ],
+    "exampleTurkish": "Karıncalar yiyecek taşıyor.",
+    "exampleArabic": "يحمل النمل الطعام."
+  },
+  {
+    "id": "word-0504",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "sinek",
+    "arabic": "ذبابة",
+    "acceptedArabic": [
+      "ذبابة"
+    ],
+    "exampleTurkish": "Pencereden bir sinek girdi.",
+    "exampleArabic": "دخلت ذبابة من النافذة."
+  },
+  {
+    "id": "word-0505",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "sivrisinek",
+    "arabic": "بعوضة",
+    "acceptedArabic": [
+      "بعوضة"
+    ],
+    "exampleTurkish": "Gece sivrisinekler bizi rahatsız etti.",
+    "exampleArabic": "أزعجنا البعوض ليلًا."
+  },
+  {
+    "id": "word-0506",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "örümcek",
+    "arabic": "عنكبوت",
+    "acceptedArabic": [
+      "عنكبوت"
+    ],
+    "exampleTurkish": "Köşede küçük bir örümcek var.",
+    "exampleArabic": "يوجد عنكبوت صغير في الزاوية."
+  },
+  {
+    "id": "word-0507",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "salyangoz",
+    "arabic": "حلزون",
+    "acceptedArabic": [
+      "حلزون"
+    ],
+    "exampleTurkish": "Yağmurdan sonra salyangozlar çıktı.",
+    "exampleArabic": "خرجت الحلزونات بعد المطر."
+  },
+  {
+    "id": "word-0508",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "solucan",
+    "arabic": "دودة أرض",
+    "acceptedArabic": [
+      "دودة أرض"
+    ],
+    "exampleTurkish": "Toprakta bir solucan bulduk.",
+    "exampleArabic": "وجدنا دودة أرض في التربة."
+  },
+  {
+    "id": "word-0509",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "güvercin",
+    "arabic": "حمامة",
+    "acceptedArabic": [
+      "حمامة"
+    ],
+    "exampleTurkish": "Meydanda güvercinler uçuyor.",
+    "exampleArabic": "تطير الحمائم في الساحة."
+  },
+  {
+    "id": "word-0510",
+    "kind": "word",
+    "category": "حيوانات صغيرة وطيور",
+    "turkish": "martı",
+    "arabic": "نورس",
+    "acceptedArabic": [
+      "نورس",
+      "طائر النورس"
+    ],
+    "exampleTurkish": "Martılar denizin üstünde uçuyor.",
+    "exampleArabic": "تطير النوارس فوق البحر."
+  },
+  {
+    "id": "word-0511",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "doğa",
+    "arabic": "طبيعة",
+    "acceptedArabic": [
+      "طبيعة"
+    ],
+    "exampleTurkish": "Hafta sonu doğada yürüdük.",
+    "exampleArabic": "مشينا في الطبيعة في عطلة الأسبوع."
+  },
+  {
+    "id": "word-0512",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "gökyüzü",
+    "arabic": "سماء",
+    "acceptedArabic": [
+      "سماء"
+    ],
+    "exampleTurkish": "Gece gökyüzü çok açıktı.",
+    "exampleArabic": "كانت السماء صافية جدًا ليلًا."
+  },
+  {
+    "id": "word-0513",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "güneş",
+    "arabic": "شمس",
+    "acceptedArabic": [
+      "شمس"
+    ],
+    "exampleTurkish": "Güneş bulutların arkasında kaldı.",
+    "exampleArabic": "بقيت الشمس خلف الغيوم."
+  },
+  {
+    "id": "word-0514",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "ay",
+    "arabic": "قمر",
+    "acceptedArabic": [
+      "قمر"
+    ],
+    "exampleTurkish": "Bu gece ay çok parlak.",
+    "exampleArabic": "القمر ساطع جدًا هذه الليلة."
+  },
+  {
+    "id": "word-0515",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "yıldız",
+    "arabic": "نجمة",
+    "acceptedArabic": [
+      "نجمة"
+    ],
+    "exampleTurkish": "Gökyüzünde birçok yıldız var.",
+    "exampleArabic": "توجد نجوم كثيرة في السماء."
+  },
+  {
+    "id": "word-0516",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "dünya",
+    "arabic": "عالم؛ أرض",
+    "acceptedArabic": [
+      "عالم؛ أرض",
+      "عالم",
+      "أرض"
+    ],
+    "exampleTurkish": "Dünya güneşin etrafında döner.",
+    "exampleArabic": "تدور الأرض حول الشمس."
+  },
+  {
+    "id": "word-0517",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "deniz",
+    "arabic": "بحر",
+    "acceptedArabic": [
+      "بحر"
+    ],
+    "exampleTurkish": "Sabah deniz çok sakindi.",
+    "exampleArabic": "كان البحر هادئًا جدًا صباحًا."
+  },
+  {
+    "id": "word-0518",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "okyanus",
+    "arabic": "محيط",
+    "acceptedArabic": [
+      "محيط"
+    ],
+    "exampleTurkish": "Bu balıklar okyanusta yaşar.",
+    "exampleArabic": "تعيش هذه الأسماك في المحيط."
+  },
+  {
+    "id": "word-0519",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "göl",
+    "arabic": "بحيرة",
+    "acceptedArabic": [
+      "بحيرة"
+    ],
+    "exampleTurkish": "Gölün kenarında yürüdük.",
+    "exampleArabic": "مشينا على شاطئ البحيرة."
+  },
+  {
+    "id": "word-0520",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "nehir",
+    "arabic": "نهر",
+    "acceptedArabic": [
+      "نهر"
+    ],
+    "exampleTurkish": "Nehir şehrin içinden geçiyor.",
+    "exampleArabic": "يمرّ النهر داخل المدينة."
+  },
+  {
+    "id": "word-0521",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "dere",
+    "arabic": "جدول ماء",
+    "acceptedArabic": [
+      "جدول ماء"
+    ],
+    "exampleTurkish": "Derenin üzerinden atladık.",
+    "exampleArabic": "قفزنا فوق جدول الماء."
+  },
+  {
+    "id": "word-0522",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "gölet",
+    "arabic": "بركة ماء",
+    "acceptedArabic": [
+      "بركة ماء"
+    ],
+    "exampleTurkish": "Ördekler küçük gölette yüzüyor.",
+    "exampleArabic": "تسبح البطّات في البركة الصغيرة."
+  },
+  {
+    "id": "word-0523",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "şelale",
+    "arabic": "شلّال",
+    "acceptedArabic": [
+      "شلّال"
+    ],
+    "exampleTurkish": "Şelalenin sesi uzaktan duyuluyor.",
+    "exampleArabic": "يُسمع صوت الشلّال من بعيد."
+  },
+  {
+    "id": "word-0524",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "kıyı",
+    "arabic": "شاطئ؛ ضفّة",
+    "acceptedArabic": [
+      "شاطئ؛ ضفّة",
+      "شاطئ",
+      "ضفة"
+    ],
+    "exampleTurkish": "Tekne kıyıya yaklaştı.",
+    "exampleArabic": "اقترب القارب من الشاطئ."
+  },
+  {
+    "id": "word-0525",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "ada",
+    "arabic": "جزيرة",
+    "acceptedArabic": [
+      "جزيرة"
+    ],
+    "exampleTurkish": "Adaya tekneyle gittik.",
+    "exampleArabic": "ذهبنا إلى الجزيرة بالقارب."
+  },
+  {
+    "id": "word-0526",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "kumsal",
+    "arabic": "شاطئ رملي",
+    "acceptedArabic": [
+      "شاطئ رملي"
+    ],
+    "exampleTurkish": "Çocuklar kumsalda oynuyor.",
+    "exampleArabic": "يلعب الأطفال على الشاطئ الرملي."
+  },
+  {
+    "id": "word-0527",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "kum",
+    "arabic": "رمل",
+    "acceptedArabic": [
+      "رمل"
+    ],
+    "exampleTurkish": "Ayakkabımın içine kum girdi.",
+    "exampleArabic": "دخل الرمل إلى حذائي."
+  },
+  {
+    "id": "word-0528",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "dalga",
+    "arabic": "موجة",
+    "acceptedArabic": [
+      "موجة"
+    ],
+    "exampleTurkish": "Büyük bir dalga kıyıya vurdu.",
+    "exampleArabic": "ضربت موجة كبيرة الشاطئ."
+  },
+  {
+    "id": "word-0529",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "kaya",
+    "arabic": "صخرة",
+    "acceptedArabic": [
+      "صخرة"
+    ],
+    "exampleTurkish": "Kayanın üstünde oturduk.",
+    "exampleArabic": "جلسنا على الصخرة."
+  },
+  {
+    "id": "word-0530",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "taş",
+    "arabic": "حجر",
+    "acceptedArabic": [
+      "حجر"
+    ],
+    "exampleTurkish": "Yerden küçük bir taş aldım.",
+    "exampleArabic": "أخذت حجرًا صغيرًا من الأرض."
+  },
+  {
+    "id": "word-0531",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "dağ",
+    "arabic": "جبل",
+    "acceptedArabic": [
+      "جبل"
+    ],
+    "exampleTurkish": "Dağın tepesi karla kaplı.",
+    "exampleArabic": "قمّة الجبل مغطّاة بالثلج."
+  },
+  {
+    "id": "word-0532",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "tepe",
+    "arabic": "تلّ",
+    "acceptedArabic": [
+      "تلّ"
+    ],
+    "exampleTurkish": "Tepenin üstünden köy görünüyor.",
+    "exampleArabic": "تظهر القرية من أعلى التلّ."
+  },
+  {
+    "id": "word-0533",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "vadi",
+    "arabic": "وادٍ",
+    "acceptedArabic": [
+      "وادٍ"
+    ],
+    "exampleTurkish": "Vadinin içinden bir dere geçiyor.",
+    "exampleArabic": "يمرّ جدول ماء في الوادي."
+  },
+  {
+    "id": "word-0534",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "ova",
+    "arabic": "سهل",
+    "acceptedArabic": [
+      "سهل"
+    ],
+    "exampleTurkish": "Ovada geniş tarlalar var.",
+    "exampleArabic": "توجد حقول واسعة في السهل."
+  },
+  {
+    "id": "word-0535",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "uçurum",
+    "arabic": "جرف شديد الانحدار",
+    "acceptedArabic": [
+      "جرف شديد الانحدار"
+    ],
+    "exampleTurkish": "Uçurumun kenarına yaklaşmadık.",
+    "exampleArabic": "لم نقترب من حافّة الجرف."
+  },
+  {
+    "id": "word-0536",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "mağara",
+    "arabic": "كهف",
+    "acceptedArabic": [
+      "كهف"
+    ],
+    "exampleTurkish": "Mağaranın içi serindi.",
+    "exampleArabic": "كان داخل الكهف باردًا باعتدال."
+  },
+  {
+    "id": "word-0537",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "orman",
+    "arabic": "غابة",
+    "acceptedArabic": [
+      "غابة"
+    ],
+    "exampleTurkish": "Ormanda kuş sesleri duyduk.",
+    "exampleArabic": "سمعنا أصوات الطيور في الغابة."
+  },
+  {
+    "id": "word-0538",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "ağaç",
+    "arabic": "شجرة",
+    "acceptedArabic": [
+      "شجرة"
+    ],
+    "exampleTurkish": "Bu ağacın altında dinlenelim.",
+    "exampleArabic": "لنسترح تحت هذه الشجرة."
+  },
+  {
+    "id": "word-0539",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "dal",
+    "arabic": "غصن",
+    "acceptedArabic": [
+      "غصن"
+    ],
+    "exampleTurkish": "Kuş ince bir dala kondu.",
+    "exampleArabic": "حطّ الطائر على غصن رفيع."
+  },
+  {
+    "id": "word-0540",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "yaprak",
+    "arabic": "ورقة شجر",
+    "acceptedArabic": [
+      "ورقة شجر"
+    ],
+    "exampleTurkish": "Sonbaharda yapraklar sararıyor.",
+    "exampleArabic": "تصفرّ أوراق الشجر في الخريف."
+  },
+  {
+    "id": "word-0541",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "kök",
+    "arabic": "جذر",
+    "acceptedArabic": [
+      "جذر"
+    ],
+    "exampleTurkish": "Ağacın kökleri çok derin.",
+    "exampleArabic": "جذور الشجرة عميقة جدًا."
+  },
+  {
+    "id": "word-0542",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "çiçek",
+    "arabic": "زهرة",
+    "acceptedArabic": [
+      "زهرة"
+    ],
+    "exampleTurkish": "Masaya bir çiçek koydum.",
+    "exampleArabic": "وضعت زهرة على الطاولة."
+  },
+  {
+    "id": "word-0543",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "çimen",
+    "arabic": "عشب",
+    "acceptedArabic": [
+      "عشب",
+      "نجيل"
+    ],
+    "exampleTurkish": "Çimenlerin üzerinde oturduk.",
+    "exampleArabic": "جلسنا على العشب."
+  },
+  {
+    "id": "word-0544",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "çalı",
+    "arabic": "شجيرة",
+    "acceptedArabic": [
+      "شجيرة"
+    ],
+    "exampleTurkish": "Kedi çalının arkasına saklandı.",
+    "exampleArabic": "اختبأ القطّ خلف الشجيرة."
+  },
+  {
+    "id": "word-0545",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "yosun",
+    "arabic": "طحلب",
+    "acceptedArabic": [
+      "طحلب"
+    ],
+    "exampleTurkish": "Islak taşların üstünde yosun var.",
+    "exampleArabic": "يوجد طحلب على الأحجار المبتلّة."
+  },
+  {
+    "id": "word-0546",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "toprak",
+    "arabic": "تربة",
+    "acceptedArabic": [
+      "تربة"
+    ],
+    "exampleTurkish": "Yağmurdan sonra toprak güzel kokuyor.",
+    "exampleArabic": "تفوح رائحة جميلة من التربة بعد المطر."
+  },
+  {
+    "id": "word-0547",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "çamur",
+    "arabic": "وحل",
+    "acceptedArabic": [
+      "وحل"
+    ],
+    "exampleTurkish": "Ayakkabılarım çamura battı.",
+    "exampleArabic": "غاص حذائي في الوحل."
+  },
+  {
+    "id": "word-0548",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "çöl",
+    "arabic": "صحراء",
+    "acceptedArabic": [
+      "صحراء"
+    ],
+    "exampleTurkish": "Çölde geceler soğuk olabilir.",
+    "exampleArabic": "قد تكون الليالي باردة في الصحراء."
+  },
+  {
+    "id": "word-0549",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "çayır",
+    "arabic": "مرج",
+    "acceptedArabic": [
+      "مرج"
+    ],
+    "exampleTurkish": "İnekler çayırda otluyor.",
+    "exampleArabic": "ترعى الأبقار في المرج."
+  },
+  {
+    "id": "word-0550",
+    "kind": "word",
+    "category": "الطبيعة",
+    "turkish": "gölge",
+    "arabic": "ظلّ",
+    "acceptedArabic": [
+      "ظلّ"
+    ],
+    "exampleTurkish": "Sıcaktan kaçıp gölgeye oturduk.",
+    "exampleArabic": "جلسنا في الظلّ هربًا من الحرّ."
+  },
+  {
+    "id": "word-0551",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "hava",
+    "arabic": "طقس؛ هواء",
+    "acceptedArabic": [
+      "طقس؛ هواء",
+      "طقس",
+      "هواء"
+    ],
+    "exampleTurkish": "Bugün hava çok güzel.",
+    "exampleArabic": "الطقس جميل جدًا اليوم."
+  },
+  {
+    "id": "word-0552",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "yağmur",
+    "arabic": "مطر",
+    "acceptedArabic": [
+      "مطر"
+    ],
+    "exampleTurkish": "Sabah hafif yağmur yağdı.",
+    "exampleArabic": "هطل مطر خفيف صباحًا."
+  },
+  {
+    "id": "word-0553",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "kar",
+    "arabic": "ثلج متساقط",
+    "acceptedArabic": [
+      "ثلج متساقط",
+      "ثلج"
+    ],
+    "exampleTurkish": "Gece bütün köye kar yağdı.",
+    "exampleArabic": "تساقط الثلج على القرية كلّها ليلًا."
+  },
+  {
+    "id": "word-0554",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "dolu",
+    "arabic": "بَرَد",
+    "acceptedArabic": [
+      "بَرَد"
+    ],
+    "exampleTurkish": "Dolu arabanın camına vuruyordu.",
+    "exampleArabic": "كان البَرَد يضرب زجاج السيارة."
+  },
+  {
+    "id": "word-0555",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "rüzgâr",
+    "arabic": "رياح",
+    "acceptedArabic": [
+      "رياح"
+    ],
+    "exampleTurkish": "Rüzgâr perdeleri hareket ettiriyor.",
+    "exampleArabic": "تحرّك الرياح الستائر."
+  },
+  {
+    "id": "word-0556",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "fırtına",
+    "arabic": "عاصفة",
+    "acceptedArabic": [
+      "عاصفة"
+    ],
+    "exampleTurkish": "Fırtına yüzünden evde kaldık.",
+    "exampleArabic": "بقينا في البيت بسبب العاصفة."
+  },
+  {
+    "id": "word-0557",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "bulut",
+    "arabic": "غيمة",
+    "acceptedArabic": [
+      "غيمة"
+    ],
+    "exampleTurkish": "Gökyüzünde beyaz bulutlar var.",
+    "exampleArabic": "توجد غيوم بيضاء في السماء."
+  },
+  {
+    "id": "word-0558",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "sis",
+    "arabic": "ضباب",
+    "acceptedArabic": [
+      "ضباب"
+    ],
+    "exampleTurkish": "Sabah yoğun sis vardı.",
+    "exampleArabic": "كان هناك ضباب كثيف صباحًا."
+  },
+  {
+    "id": "word-0559",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "şimşek",
+    "arabic": "برق",
+    "acceptedArabic": [
+      "برق"
+    ],
+    "exampleTurkish": "Bir anda gökyüzünde şimşek çaktı.",
+    "exampleArabic": "لمع البرق في السماء فجأةً."
+  },
+  {
+    "id": "word-0560",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "gök gürültüsü",
+    "arabic": "رعد",
+    "acceptedArabic": [
+      "رعد"
+    ],
+    "exampleTurkish": "Uzaktan gök gürültüsü duyduk.",
+    "exampleArabic": "سمعنا الرعد من بعيد."
+  },
+  {
+    "id": "word-0561",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "yıldırım",
+    "arabic": "صاعقة",
+    "acceptedArabic": [
+      "صاعقة"
+    ],
+    "exampleTurkish": "Yıldırım yakındaki bir ağaca düştü.",
+    "exampleArabic": "ضربت صاعقة شجرة قريبة."
+  },
+  {
+    "id": "word-0562",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "gökkuşağı",
+    "arabic": "قوس قزح",
+    "acceptedArabic": [
+      "قوس قزح"
+    ],
+    "exampleTurkish": "Yağmurdan sonra gökkuşağı çıktı.",
+    "exampleArabic": "ظهر قوس قزح بعد المطر."
+  },
+  {
+    "id": "word-0563",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "buz",
+    "arabic": "جليد",
+    "acceptedArabic": [
+      "جليد",
+      "ثلج متجمد"
+    ],
+    "exampleTurkish": "Yolun üstünde ince bir buz tabakası var.",
+    "exampleArabic": "توجد طبقة رقيقة من الجليد على الطريق."
+  },
+  {
+    "id": "word-0564",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "don",
+    "arabic": "صقيع",
+    "acceptedArabic": [
+      "صقيع"
+    ],
+    "exampleTurkish": "Gece don olacağı söylendi.",
+    "exampleArabic": "قيل إن صقيعًا سيحدث ليلًا."
+  },
+  {
+    "id": "word-0565",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "çiğ",
+    "arabic": "ندى",
+    "acceptedArabic": [
+      "ندى"
+    ],
+    "exampleTurkish": "Sabah yaprakların üzerinde çiğ vardı.",
+    "exampleArabic": "كان هناك ندى على الأوراق صباحًا."
+  },
+  {
+    "id": "word-0566",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "nem",
+    "arabic": "رطوبة",
+    "acceptedArabic": [
+      "رطوبة"
+    ],
+    "exampleTurkish": "Bugün havadaki nem çok yüksek.",
+    "exampleArabic": "رطوبة الجوّ مرتفعة جدًا اليوم."
+  },
+  {
+    "id": "word-0567",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "sıcaklık",
+    "arabic": "درجة حرارة",
+    "acceptedArabic": [
+      "درجة حرارة"
+    ],
+    "exampleTurkish": "Gece sıcaklık düşecek.",
+    "exampleArabic": "ستنخفض درجة الحرارة ليلًا."
+  },
+  {
+    "id": "word-0568",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "kuraklık",
+    "arabic": "جفاف",
+    "acceptedArabic": [
+      "جفاف"
+    ],
+    "exampleTurkish": "Kuraklık tarlaları etkiledi.",
+    "exampleArabic": "أثّر الجفاف على الحقول."
+  },
+  {
+    "id": "word-0569",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "sel",
+    "arabic": "فيضان",
+    "acceptedArabic": [
+      "فيضان"
+    ],
+    "exampleTurkish": "Şiddetli yağmurdan sonra sel oldu.",
+    "exampleArabic": "حدث فيضان بعد المطر الغزير."
+  },
+  {
+    "id": "word-0570",
+    "kind": "word",
+    "category": "الطقس",
+    "turkish": "esinti",
+    "arabic": "نسمة",
+    "acceptedArabic": [
+      "نسمة"
+    ],
+    "exampleTurkish": "Pencereden hafif bir esinti geliyor.",
+    "exampleArabic": "تأتي نسمة خفيفة من النافذة."
+  },
+  {
+    "id": "word-0571",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "bahçe",
+    "arabic": "حديقة",
+    "acceptedArabic": [
+      "حديقة"
+    ],
+    "exampleTurkish": "Bahçeye domates ektik.",
+    "exampleArabic": "زرعنا الطماطم في الحديقة."
+  },
+  {
+    "id": "word-0572",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "tarla",
+    "arabic": "حقل",
+    "acceptedArabic": [
+      "حقل"
+    ],
+    "exampleTurkish": "Tarlada buğday yetişiyor.",
+    "exampleArabic": "ينمو القمح في الحقل."
+  },
+  {
+    "id": "word-0573",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "tohum",
+    "arabic": "بذرة",
+    "acceptedArabic": [
+      "بذرة"
+    ],
+    "exampleTurkish": "Tohumları toprağa ektim.",
+    "exampleArabic": "زرعت البذور في التربة."
+  },
+  {
+    "id": "word-0574",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "fidan",
+    "arabic": "شتلة شجرة",
+    "acceptedArabic": [
+      "شتلة شجرة"
+    ],
+    "exampleTurkish": "Bahçeye iki fidan diktik.",
+    "exampleArabic": "غرسنا شتلتَي شجر في الحديقة."
+  },
+  {
+    "id": "word-0575",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "fide",
+    "arabic": "شتلة خضار",
+    "acceptedArabic": [
+      "شتلة خضار"
+    ],
+    "exampleTurkish": "Domates fidelerini suladım.",
+    "exampleArabic": "سقيت شتلات الطماطم."
+  },
+  {
+    "id": "word-0576",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "gübre",
+    "arabic": "سماد",
+    "acceptedArabic": [
+      "سماد"
+    ],
+    "exampleTurkish": "Toprağa biraz gübre ekledik.",
+    "exampleArabic": "أضفنا قليلًا من السماد إلى التربة."
+  },
+  {
+    "id": "word-0577",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "saksı",
+    "arabic": "أصيص",
+    "acceptedArabic": [
+      "أصيص"
+    ],
+    "exampleTurkish": "Çiçeği daha büyük bir saksıya aldım.",
+    "exampleArabic": "نقلت الزهرة إلى أصيص أكبر."
+  },
+  {
+    "id": "word-0578",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "kürek",
+    "arabic": "مِجرفة",
+    "acceptedArabic": [
+      "مِجرفة"
+    ],
+    "exampleTurkish": "Kürekle küçük bir çukur açtım.",
+    "exampleArabic": "حفرت حفرة صغيرة بالمجرفة."
+  },
+  {
+    "id": "word-0579",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "tırmık",
+    "arabic": "مِشْط زراعي",
+    "acceptedArabic": [
+      "مِشْط زراعي"
+    ],
+    "exampleTurkish": "Yaprakları tırmıkla topladım.",
+    "exampleArabic": "جمعت الأوراق بالمشط الزراعي."
+  },
+  {
+    "id": "word-0580",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "hortum",
+    "arabic": "خرطوم",
+    "acceptedArabic": [
+      "خرطوم"
+    ],
+    "exampleTurkish": "Bahçeyi hortumla suladım.",
+    "exampleArabic": "سقيت الحديقة بالخرطوم."
+  },
+  {
+    "id": "word-0581",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "hasat",
+    "arabic": "حصاد",
+    "acceptedArabic": [
+      "حصاد"
+    ],
+    "exampleTurkish": "Bu yıl hasat erken başladı.",
+    "exampleArabic": "بدأ الحصاد مبكرًا هذا العام."
+  },
+  {
+    "id": "word-0582",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "başak",
+    "arabic": "سنبلة",
+    "acceptedArabic": [
+      "سنبلة"
+    ],
+    "exampleTurkish": "Buğday başakları sarardı.",
+    "exampleArabic": "اصفرّت سنابل القمح."
+  },
+  {
+    "id": "word-0583",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "saman",
+    "arabic": "تبن",
+    "acceptedArabic": [
+      "تبن"
+    ],
+    "exampleTurkish": "Samanı ahıra taşıdık.",
+    "exampleArabic": "حملنا التبن إلى الحظيرة."
+  },
+  {
+    "id": "word-0584",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "çit",
+    "arabic": "سياج",
+    "acceptedArabic": [
+      "سياج"
+    ],
+    "exampleTurkish": "Bahçenin etrafına çit yaptık.",
+    "exampleArabic": "بنينا سياجًا حول الحديقة."
+  },
+  {
+    "id": "word-0585",
+    "kind": "word",
+    "category": "الزراعة والنبات",
+    "turkish": "buğday",
+    "arabic": "قمح",
+    "acceptedArabic": [
+      "قمح"
+    ],
+    "exampleTurkish": "Buğdaydan un yapılır.",
+    "exampleArabic": "يُصنع الدقيق من القمح."
+  },
+  {
+    "id": "word-0586",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "renk",
+    "arabic": "لون",
+    "acceptedArabic": [
+      "لون"
+    ],
+    "exampleTurkish": "Bu rengin daha açığı var mı?",
+    "exampleArabic": "هل يوجد لون أفتح من هذا؟"
+  },
+  {
+    "id": "word-0587",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "beyaz",
+    "arabic": "أبيض",
+    "acceptedArabic": [
+      "أبيض"
+    ],
+    "exampleTurkish": "Duvarları beyaz yaptık.",
+    "exampleArabic": "جعلنا الجدران بيضاء."
+  },
+  {
+    "id": "word-0588",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "siyah",
+    "arabic": "أسود",
+    "acceptedArabic": [
+      "أسود"
+    ],
+    "exampleTurkish": "Siyah ayakkabılarımı giydim.",
+    "exampleArabic": "ارتديت حذائي الأسود."
+  },
+  {
+    "id": "word-0589",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "kırmızı",
+    "arabic": "أحمر",
+    "acceptedArabic": [
+      "أحمر"
+    ],
+    "exampleTurkish": "Kırmızı elmayı seçtim.",
+    "exampleArabic": "اخترت التفّاحة الحمراء."
+  },
+  {
+    "id": "word-0590",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "mavi",
+    "arabic": "أزرق",
+    "acceptedArabic": [
+      "أزرق"
+    ],
+    "exampleTurkish": "Bugün mavi bir gömlek giyiyor.",
+    "exampleArabic": "يرتدي اليوم قميصًا أزرق."
+  },
+  {
+    "id": "word-0591",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "yeşil",
+    "arabic": "أخضر",
+    "acceptedArabic": [
+      "أخضر"
+    ],
+    "exampleTurkish": "Bahçede yeşil yapraklar var.",
+    "exampleArabic": "توجد أوراق خضراء في الحديقة."
+  },
+  {
+    "id": "word-0592",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "sarı",
+    "arabic": "أصفر",
+    "acceptedArabic": [
+      "أصفر"
+    ],
+    "exampleTurkish": "Sarı çiçekleri vazoya koydum.",
+    "exampleArabic": "وضعت الزهور الصفراء في المزهرية."
+  },
+  {
+    "id": "word-0593",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "turuncu",
+    "arabic": "برتقالي",
+    "acceptedArabic": [
+      "برتقالي"
+    ],
+    "exampleTurkish": "Çocuğun turuncu bir topu var.",
+    "exampleArabic": "لدى الطفل كرة برتقالية."
+  },
+  {
+    "id": "word-0594",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "mor",
+    "arabic": "بنفسجي",
+    "acceptedArabic": [
+      "بنفسجي"
+    ],
+    "exampleTurkish": "Mor elbisesini çok seviyor.",
+    "exampleArabic": "تحبّ فستانها البنفسجي كثيرًا."
+  },
+  {
+    "id": "word-0595",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "pembe",
+    "arabic": "وردي",
+    "acceptedArabic": [
+      "وردي"
+    ],
+    "exampleTurkish": "Pembe havlu bana ait.",
+    "exampleArabic": "المنشفة الوردية تخصّني."
+  },
+  {
+    "id": "word-0596",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "kahverengi",
+    "arabic": "بنّي",
+    "acceptedArabic": [
+      "بنّي"
+    ],
+    "exampleTurkish": "Kahverengi çanta masanın altında.",
+    "exampleArabic": "الحقيبة البنّية تحت الطاولة."
+  },
+  {
+    "id": "word-0597",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "gri",
+    "arabic": "رمادي",
+    "acceptedArabic": [
+      "رمادي"
+    ],
+    "exampleTurkish": "Gökyüzü gri bulutlarla kaplı.",
+    "exampleArabic": "السماء مغطّاة بغيوم رمادية."
+  },
+  {
+    "id": "word-0598",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "lacivert",
+    "arabic": "أزرق داكن",
+    "acceptedArabic": [
+      "أزرق داكن",
+      "كحلي"
+    ],
+    "exampleTurkish": "Lacivert ceketimi arıyorum.",
+    "exampleArabic": "أبحث عن سترتي الزرقاء الداكنة."
+  },
+  {
+    "id": "word-0599",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "bej",
+    "arabic": "بيج",
+    "acceptedArabic": [
+      "بيج"
+    ],
+    "exampleTurkish": "Salona bej perde aldık.",
+    "exampleArabic": "اشترينا ستارة بيج لغرفة الجلوس."
+  },
+  {
+    "id": "word-0600",
+    "kind": "word",
+    "category": "الألوان",
+    "turkish": "bordo",
+    "arabic": "خمري",
+    "acceptedArabic": [
+      "خمري",
+      "عنابي"
+    ],
+    "exampleTurkish": "Bordo atkısını boynuna sardı.",
+    "exampleArabic": "لفّ وشاحه الخمري حول رقبته."
+  },
+  {
+    "id": "word-1201",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "ütü",
+    "arabic": "مكواة",
+    "acceptedArabic": [
+      "مكواة"
+    ],
+    "exampleTurkish": "Ütüyü kullandıktan sonra fişini çektim.",
+    "exampleArabic": "نزعت قابس المكواة بعد استخدامها."
+  },
+  {
+    "id": "word-1202",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "çamaşır",
+    "arabic": "غسيل الملابس",
+    "acceptedArabic": [
+      "غسيل الملابس"
+    ],
+    "exampleTurkish": "Çamaşırları balkona astım.",
+    "exampleArabic": "نشرت غسيل الملابس على الشرفة."
+  },
+  {
+    "id": "word-1203",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "mandal",
+    "arabic": "مشبك غسيل",
+    "acceptedArabic": [
+      "مشبك غسيل"
+    ],
+    "exampleTurkish": "Çarşafı iki mandalla tutturdum.",
+    "exampleArabic": "ثبّتُّ الملاءة بمشبكي غسيل."
+  },
+  {
+    "id": "word-1204",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "deterjan",
+    "arabic": "مسحوق أو سائل تنظيف",
+    "acceptedArabic": [
+      "مسحوق أو سائل تنظيف",
+      "منظف",
+      "مسحوق غسيل",
+      "سائل غسيل"
+    ],
+    "exampleTurkish": "Çamaşır makinesine biraz deterjan koydum.",
+    "exampleArabic": "وضعت قليلًا من المنظّف في غسّالة الملابس."
+  },
+  {
+    "id": "word-1205",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "yumuşatıcı",
+    "arabic": "منعّم ملابس",
+    "acceptedArabic": [
+      "منعّم ملابس"
+    ],
+    "exampleTurkish": "Bu yumuşatıcının kokusu hafif.",
+    "exampleArabic": "رائحة منعّم الملابس هذا خفيفة."
+  },
+  {
+    "id": "word-1206",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "lavabo",
+    "arabic": "مغسلة",
+    "acceptedArabic": [
+      "مغسلة"
+    ],
+    "exampleTurkish": "Lavabonun yanında temiz bir havlu var.",
+    "exampleArabic": "توجد منشفة نظيفة بجانب المغسلة."
+  },
+  {
+    "id": "word-1207",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "duş",
+    "arabic": "دُشّ؛ استحمام",
+    "acceptedArabic": [
+      "دُشّ؛ استحمام",
+      "دش",
+      "استحمام"
+    ],
+    "exampleTurkish": "Yürüyüşten sonra duş aldım.",
+    "exampleArabic": "استحممت بعد المشي."
+  },
+  {
+    "id": "word-1208",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "küvet",
+    "arabic": "حوض استحمام",
+    "acceptedArabic": [
+      "حوض استحمام"
+    ],
+    "exampleTurkish": "Küveti ılık suyla doldurdum.",
+    "exampleArabic": "ملأت حوض الاستحمام بالماء الفاتر."
+  },
+  {
+    "id": "word-1209",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "klozet",
+    "arabic": "مرحاض إفرنجي",
+    "acceptedArabic": [
+      "مرحاض إفرنجي"
+    ],
+    "exampleTurkish": "Klozetin kapağını kapattım.",
+    "exampleArabic": "أغلقت غطاء المرحاض الإفرنجي."
+  },
+  {
+    "id": "word-1210",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "sifon",
+    "arabic": "سيفون المرحاض",
+    "acceptedArabic": [
+      "سيفون المرحاض"
+    ],
+    "exampleTurkish": "Sifonu çekince su akmaya başladı.",
+    "exampleArabic": "بدأ الماء يتدفّق عندما شغّلت سيفون المرحاض."
+  },
+  {
+    "id": "word-1211",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "avize",
+    "arabic": "ثريّا",
+    "acceptedArabic": [
+      "ثريّا",
+      "نجفة"
+    ],
+    "exampleTurkish": "Salon için yeni bir avize seçtik.",
+    "exampleArabic": "اخترنا ثريّا جديدة لغرفة الجلوس."
+  },
+  {
+    "id": "word-1212",
+    "kind": "word",
+    "category": "المنزل والتنظيف",
+    "turkish": "mum",
+    "arabic": "شمعة",
+    "acceptedArabic": [
+      "شمعة"
+    ],
+    "exampleTurkish": "Elektrikler kesilince bir mum yaktık.",
+    "exampleArabic": "أشعلنا شمعة عندما انقطعت الكهرباء."
+  },
+  {
+    "id": "word-1213",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "papağan",
+    "arabic": "ببغاء",
+    "acceptedArabic": [
+      "ببغاء"
+    ],
+    "exampleTurkish": "Papağan duyduğu sözü tekrarladı.",
+    "exampleArabic": "كرّر الببغاء العبارة التي سمعها."
+  },
+  {
+    "id": "word-1214",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "baykuş",
+    "arabic": "بومة",
+    "acceptedArabic": [
+      "بومة"
+    ],
+    "exampleTurkish": "Gece ağaçtan bir baykuş sesi geldi.",
+    "exampleArabic": "جاء صوت بومة من الشجرة ليلًا."
+  },
+  {
+    "id": "word-1215",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "kartal",
+    "arabic": "عقاب",
+    "acceptedArabic": [
+      "عقاب",
+      "طائر العقاب"
+    ],
+    "exampleTurkish": "Kartal dağın üzerinde uçuyordu.",
+    "exampleArabic": "كان العقاب يطير فوق الجبل."
+  },
+  {
+    "id": "word-1216",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "serçe",
+    "arabic": "عصفور الدوري",
+    "acceptedArabic": [
+      "عصفور الدوري"
+    ],
+    "exampleTurkish": "Küçük bir serçe pencereye kondu.",
+    "exampleArabic": "حطّ عصفور دوري صغير على النافذة."
+  },
+  {
+    "id": "word-1217",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "karga",
+    "arabic": "غراب",
+    "acceptedArabic": [
+      "غراب"
+    ],
+    "exampleTurkish": "Karga ağacın en yüksek dalına kondu.",
+    "exampleArabic": "حطّ الغراب على أعلى غصن في الشجرة."
+  },
+  {
+    "id": "word-1218",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "leylek",
+    "arabic": "لقلق",
+    "acceptedArabic": [
+      "لقلق"
+    ],
+    "exampleTurkish": "Çatıda bir leylek yuvası var.",
+    "exampleArabic": "يوجد عشّ لقلق على السطح."
+  },
+  {
+    "id": "word-1219",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "penguen",
+    "arabic": "بطريق",
+    "acceptedArabic": [
+      "بطريق"
+    ],
+    "exampleTurkish": "Belgeselde penguenlerin yüzmesini izledik.",
+    "exampleArabic": "شاهدنا البطاريق تسبح في الفيلم الوثائقي."
+  },
+  {
+    "id": "word-1220",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "timsah",
+    "arabic": "تمساح",
+    "acceptedArabic": [
+      "تمساح"
+    ],
+    "exampleTurkish": "Timsah nehrin kenarında duruyordu.",
+    "exampleArabic": "كان التمساح عند ضفّة النهر."
+  },
+  {
+    "id": "word-1221",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "zebra",
+    "arabic": "حمار وحشي",
+    "acceptedArabic": [
+      "حمار وحشي"
+    ],
+    "exampleTurkish": "Zebranın siyah ve beyaz çizgileri var.",
+    "exampleArabic": "للحمار الوحشي خطوط سوداء وبيضاء."
+  },
+  {
+    "id": "word-1222",
+    "kind": "word",
+    "category": "الحيوانات والطيور",
+    "turkish": "uğurböceği",
+    "arabic": "دعسوقة",
+    "acceptedArabic": [
+      "دعسوقة"
+    ],
+    "exampleTurkish": "Yaprağın üstünde kırmızı bir uğurböceği gördüm.",
+    "exampleArabic": "رأيت دعسوقة حمراء على الورقة."
+  },
+  {
+    "id": "word-1223",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "omlet",
+    "arabic": "عجّة",
+    "acceptedArabic": [
+      "عجّة"
+    ],
+    "exampleTurkish": "Kahvaltıya peynirli omlet hazırladım.",
+    "exampleArabic": "حضّرت عجّة بالجبن للفطور."
+  },
+  {
+    "id": "word-1224",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "menemen",
+    "arabic": "بيض بالطماطم والفلفل",
+    "acceptedArabic": [
+      "بيض بالطماطم والفلفل",
+      "مينيمين"
+    ],
+    "exampleTurkish": "Menemeni tavadan sıcak sıcak yedik.",
+    "exampleArabic": "أكلنا البيض بالطماطم والفلفل ساخنًا من المقلاة."
+  },
+  {
+    "id": "word-1225",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "helva",
+    "arabic": "حلاوة",
+    "acceptedArabic": [
+      "حلاوة"
+    ],
+    "exampleTurkish": "Yemekten sonra küçük bir parça helva yedim.",
+    "exampleArabic": "أكلت قطعة صغيرة من الحلاوة بعد الطعام."
+  },
+  {
+    "id": "word-1226",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "muhallebi",
+    "arabic": "مهلّبيّة",
+    "acceptedArabic": [
+      "مهلّبيّة"
+    ],
+    "exampleTurkish": "Muhallebiyi kâselere paylaştırdım.",
+    "exampleArabic": "وزّعت المهلّبيّة في الأوعية."
+  },
+  {
+    "id": "word-1227",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "sütlaç",
+    "arabic": "أرز بالحليب",
+    "acceptedArabic": [
+      "أرز بالحليب"
+    ],
+    "exampleTurkish": "Annem akşam için sütlaç yaptı.",
+    "exampleArabic": "أعدّت أمي أرزًا بالحليب للمساء."
+  },
+  {
+    "id": "word-1228",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "puding",
+    "arabic": "بودينغ",
+    "acceptedArabic": [
+      "بودينغ"
+    ],
+    "exampleTurkish": "Çikolatalı pudingi buzdolabına koydum.",
+    "exampleArabic": "وضعت بودينغ الشوكولاتة في الثلاجة."
+  },
+  {
+    "id": "word-1229",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "leblebi",
+    "arabic": "حمّص محمّص",
+    "acceptedArabic": [
+      "حمّص محمّص",
+      "قضامة"
+    ],
+    "exampleTurkish": "Yolculuk için bir paket leblebi aldım.",
+    "exampleArabic": "اشتريت كيس حمّص محمّص للرحلة."
+  },
+  {
+    "id": "word-1230",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "kaju",
+    "arabic": "كاجو",
+    "acceptedArabic": [
+      "كاجو"
+    ],
+    "exampleTurkish": "Salataya birkaç kaju ekledim.",
+    "exampleArabic": "أضفت بضع حبّات كاجو إلى السلطة."
+  },
+  {
+    "id": "word-1231",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "susam",
+    "arabic": "سمسم",
+    "acceptedArabic": [
+      "سمسم"
+    ],
+    "exampleTurkish": "Çöreklerin üstüne susam serptim.",
+    "exampleArabic": "رششت السمسم فوق المخبوزات."
+  },
+  {
+    "id": "word-1232",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "çörek",
+    "arabic": "كعكة خبز",
+    "acceptedArabic": [
+      "كعكة خبز"
+    ],
+    "exampleTurkish": "Fırından taze çörek aldık.",
+    "exampleArabic": "اشترينا كعك خبز طازجًا من الفرن."
+  },
+  {
+    "id": "word-1233",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "fesleğen",
+    "arabic": "حبق",
+    "acceptedArabic": [
+      "حبق",
+      "ريحان"
+    ],
+    "exampleTurkish": "Makarna sosuna taze fesleğen ekledim.",
+    "exampleArabic": "أضفت الحبق الطازج إلى صلصة المعكرونة."
+  },
+  {
+    "id": "word-1234",
+    "kind": "word",
+    "category": "أطعمة ومشروبات إضافية",
+    "turkish": "ıhlamur",
+    "arabic": "زيزفون",
+    "acceptedArabic": [
+      "زيزفون"
+    ],
+    "exampleTurkish": "Akşam bir fincan ıhlamur içtim.",
+    "exampleArabic": "شربت فنجانًا من الزيزفون مساءً."
+  },
+  {
+    "id": "word-1235",
+    "kind": "word",
+    "category": "زهور وأشجار",
+    "turkish": "gül",
+    "arabic": "وردة",
+    "acceptedArabic": [
+      "وردة"
+    ],
+    "exampleTurkish": "Vazoya kırmızı bir gül koydum.",
+    "exampleArabic": "وضعت وردة حمراء في المزهرية."
+  },
+  {
+    "id": "word-1236",
+    "kind": "word",
+    "category": "زهور وأشجار",
+    "turkish": "lale",
+    "arabic": "زهرة توليب",
+    "acceptedArabic": [
+      "زهرة توليب"
+    ],
+    "exampleTurkish": "Bahçedeki laleler ilkbaharda açıyor.",
+    "exampleArabic": "تتفتّح أزهار التوليب في الحديقة في الربيع."
+  },
+  {
+    "id": "word-1237",
+    "kind": "word",
+    "category": "زهور وأشجار",
+    "turkish": "papatya",
+    "arabic": "زهرة الأقحوان",
+    "acceptedArabic": [
+      "زهرة الأقحوان",
+      "أقحوان",
+      "بابونج"
+    ],
+    "exampleTurkish": "Çocuk papatyaların fotoğrafını çekti.",
+    "exampleArabic": "صوّر الطفل أزهار الأقحوان."
+  },
+  {
+    "id": "word-1238",
+    "kind": "word",
+    "category": "زهور وأشجار",
+    "turkish": "çam",
+    "arabic": "صنوبر",
+    "acceptedArabic": [
+      "صنوبر"
+    ],
+    "exampleTurkish": "Evin önünde büyük bir çam ağacı var.",
+    "exampleArabic": "توجد شجرة صنوبر كبيرة أمام البيت."
+  },
+  {
+    "id": "word-1239",
+    "kind": "word",
+    "category": "زهور وأشجار",
+    "turkish": "meşe",
+    "arabic": "بلّوط",
+    "acceptedArabic": [
+      "بلّوط"
+    ],
+    "exampleTurkish": "Parktaki meşe ağacının altında dinlendik.",
+    "exampleArabic": "استرحنا تحت شجرة البلّوط في الحديقة."
+  },
+  {
+    "id": "word-1240",
+    "kind": "word",
+    "category": "زهور وأشجار",
+    "turkish": "çınar",
+    "arabic": "دُلْب",
+    "acceptedArabic": [
+      "دُلْب",
+      "شجرة الدلب"
+    ],
+    "exampleTurkish": "Eski çınarın gölgesinde çay içtik.",
+    "exampleArabic": "شربنا الشاي في ظلّ شجرة الدلب القديمة."
+  }
+]

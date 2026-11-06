@@ -1,0 +1,7831 @@
+[
+  {
+    "id": "word-0601",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "olmak",
+    "arabic": "يكون",
+    "acceptedArabic": [
+      "يكون"
+    ],
+    "exampleTurkish": "Öğretmen olmak istiyorum.",
+    "exampleArabic": "أريد أن أصبح معلمًا."
+  },
+  {
+    "id": "word-0602",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yapmak",
+    "arabic": "يفعل / يصنع",
+    "acceptedArabic": [
+      "يفعل",
+      "يصنع"
+    ],
+    "exampleTurkish": "Bugün ne yapmak istiyorsun?",
+    "exampleArabic": "ماذا تريد أن تفعل اليوم؟"
+  },
+  {
+    "id": "word-0603",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "etmek",
+    "arabic": "يفعل (فعل مساعد)",
+    "acceptedArabic": [
+      "يفعل (فعل مساعد)"
+    ],
+    "exampleTurkish": "Bana yardım eder misin?",
+    "exampleArabic": "هل تساعدني؟"
+  },
+  {
+    "id": "word-0604",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "gitmek",
+    "arabic": "يذهب",
+    "acceptedArabic": [
+      "يذهب"
+    ],
+    "exampleTurkish": "Yarın Ankara'ya gidiyorum.",
+    "exampleArabic": "سأذهب إلى أنقرة غدًا."
+  },
+  {
+    "id": "word-0605",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "gelmek",
+    "arabic": "يأتي",
+    "acceptedArabic": [
+      "يأتي"
+    ],
+    "exampleTurkish": "Sen de bizimle gel.",
+    "exampleArabic": "تعال معنا أنت أيضًا."
+  },
+  {
+    "id": "word-0606",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "almak",
+    "arabic": "يأخذ / يشتري",
+    "acceptedArabic": [
+      "يأخذ",
+      "يشتري"
+    ],
+    "exampleTurkish": "Bir bilet almak istiyorum.",
+    "exampleArabic": "أريد شراء تذكرة."
+  },
+  {
+    "id": "word-0607",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "vermek",
+    "arabic": "يعطي",
+    "acceptedArabic": [
+      "يعطي"
+    ],
+    "exampleTurkish": "Lütfen bana bir kalem ver.",
+    "exampleArabic": "أعطني قلمًا من فضلك."
+  },
+  {
+    "id": "word-0608",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "görmek",
+    "arabic": "يرى",
+    "acceptedArabic": [
+      "يرى"
+    ],
+    "exampleTurkish": "Buradan köprüyü görebilirsin.",
+    "exampleArabic": "يمكنك رؤية الجسر من هنا."
+  },
+  {
+    "id": "word-0609",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bakmak",
+    "arabic": "ينظر",
+    "acceptedArabic": [
+      "ينظر"
+    ],
+    "exampleTurkish": "Lütfen tahtaya bakın.",
+    "exampleArabic": "انظروا إلى السبورة من فضلكم."
+  },
+  {
+    "id": "word-0610",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "duymak",
+    "arabic": "يسمع",
+    "acceptedArabic": [
+      "يسمع"
+    ],
+    "exampleTurkish": "Sesini iyi duyamıyorum.",
+    "exampleArabic": "لا أسمع صوتك جيدًا."
+  },
+  {
+    "id": "word-0611",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "dinlemek",
+    "arabic": "يستمع",
+    "acceptedArabic": [
+      "يستمع"
+    ],
+    "exampleTurkish": "Yolda müzik dinliyorum.",
+    "exampleArabic": "أستمع إلى الموسيقى في الطريق."
+  },
+  {
+    "id": "word-0612",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "söylemek",
+    "arabic": "يقول",
+    "acceptedArabic": [
+      "يقول"
+    ],
+    "exampleTurkish": "Lütfen gerçeği söyle.",
+    "exampleArabic": "قل الحقيقة من فضلك."
+  },
+  {
+    "id": "word-0613",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "konuşmak",
+    "arabic": "يتحدث",
+    "acceptedArabic": [
+      "يتحدث"
+    ],
+    "exampleTurkish": "Biraz Türkçe konuşabiliyorum.",
+    "exampleArabic": "أستطيع التحدث بالتركية قليلًا."
+  },
+  {
+    "id": "word-0614",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "anlatmak",
+    "arabic": "يشرح / يروي",
+    "acceptedArabic": [
+      "يشرح",
+      "يروي"
+    ],
+    "exampleTurkish": "Bana yolculuğunu anlat.",
+    "exampleArabic": "احكِ لي عن رحلتك."
+  },
+  {
+    "id": "word-0615",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sormak",
+    "arabic": "يسأل",
+    "acceptedArabic": [
+      "يسأل"
+    ],
+    "exampleTurkish": "Bir soru sormak istiyorum.",
+    "exampleArabic": "أريد أن أسأل سؤالًا."
+  },
+  {
+    "id": "word-0616",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "cevaplamak",
+    "arabic": "يجيب عن",
+    "acceptedArabic": [
+      "يجيب عن"
+    ],
+    "exampleTurkish": "Önce kolay soruları cevapla.",
+    "exampleArabic": "أجب عن الأسئلة السهلة أولًا."
+  },
+  {
+    "id": "word-0617",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bilmek",
+    "arabic": "يعرف",
+    "acceptedArabic": [
+      "يعرف"
+    ],
+    "exampleTurkish": "Bu kelimenin anlamını biliyorum.",
+    "exampleArabic": "أعرف معنى هذه الكلمة."
+  },
+  {
+    "id": "word-0618",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "öğrenmek",
+    "arabic": "يتعلم",
+    "acceptedArabic": [
+      "يتعلم"
+    ],
+    "exampleTurkish": "Her gün yeni bir şey öğreniyorum.",
+    "exampleArabic": "أتعلم شيئًا جديدًا كل يوم."
+  },
+  {
+    "id": "word-0619",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "öğretmek",
+    "arabic": "يعلّم",
+    "acceptedArabic": [
+      "يعلّم"
+    ],
+    "exampleTurkish": "Bize yeni bir yöntem öğretti.",
+    "exampleArabic": "علّمنا طريقة جديدة."
+  },
+  {
+    "id": "word-0620",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "anlamak",
+    "arabic": "يفهم",
+    "acceptedArabic": [
+      "يفهم"
+    ],
+    "exampleTurkish": "Bu cümleyi anlamadım.",
+    "exampleArabic": "لم أفهم هذه الجملة."
+  },
+  {
+    "id": "word-0621",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "düşünmek",
+    "arabic": "يفكر",
+    "acceptedArabic": [
+      "يفكر"
+    ],
+    "exampleTurkish": "Biraz düşünmek istiyorum.",
+    "exampleArabic": "أريد أن أفكر قليلًا."
+  },
+  {
+    "id": "word-0622",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "hatırlamak",
+    "arabic": "يتذكر",
+    "acceptedArabic": [
+      "يتذكر"
+    ],
+    "exampleTurkish": "Adresi şimdi hatırladım.",
+    "exampleArabic": "تذكرت العنوان الآن."
+  },
+  {
+    "id": "word-0623",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "unutmak",
+    "arabic": "ينسى",
+    "acceptedArabic": [
+      "ينسى"
+    ],
+    "exampleTurkish": "Toplantıyı unutma.",
+    "exampleArabic": "لا تنسَ الاجتماع."
+  },
+  {
+    "id": "word-0624",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "okumak",
+    "arabic": "يقرأ",
+    "acceptedArabic": [
+      "يقرأ"
+    ],
+    "exampleTurkish": "Her akşam bir bölüm okuyorum.",
+    "exampleArabic": "أقرأ فصلًا كل مساء."
+  },
+  {
+    "id": "word-0625",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yazmak",
+    "arabic": "يكتب",
+    "acceptedArabic": [
+      "يكتب"
+    ],
+    "exampleTurkish": "Adını buraya yaz.",
+    "exampleArabic": "اكتب اسمك هنا."
+  },
+  {
+    "id": "word-0626",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çizmek",
+    "arabic": "يرسم خطوطًا / يرسم",
+    "acceptedArabic": [
+      "يرسم خطوطًا",
+      "يرسم"
+    ],
+    "exampleTurkish": "Haritada bir çizgi çiz.",
+    "exampleArabic": "ارسم خطًا على الخريطة."
+  },
+  {
+    "id": "word-0627",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çalışmak",
+    "arabic": "يعمل / يدرس",
+    "acceptedArabic": [
+      "يعمل",
+      "يدرس"
+    ],
+    "exampleTurkish": "Bu hafta çok çalışıyorum.",
+    "exampleArabic": "أعمل كثيرًا هذا الأسبوع."
+  },
+  {
+    "id": "word-0628",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "dinlenmek",
+    "arabic": "يستريح",
+    "acceptedArabic": [
+      "يستريح"
+    ],
+    "exampleTurkish": "Biraz dinlenmek için durduk.",
+    "exampleArabic": "توقفنا لنستريح قليلًا."
+  },
+  {
+    "id": "word-0629",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "başlamak",
+    "arabic": "يبدأ",
+    "acceptedArabic": [
+      "يبدأ"
+    ],
+    "exampleTurkish": "Ders saat dokuzda başlıyor.",
+    "exampleArabic": "يبدأ الدرس في الساعة التاسعة."
+  },
+  {
+    "id": "word-0630",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bitirmek",
+    "arabic": "ينهي",
+    "acceptedArabic": [
+      "ينهي"
+    ],
+    "exampleTurkish": "Raporu bugün bitireceğim.",
+    "exampleArabic": "سأنهي التقرير اليوم."
+  },
+  {
+    "id": "word-0631",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bitmek",
+    "arabic": "ينتهي",
+    "acceptedArabic": [
+      "ينتهي"
+    ],
+    "exampleTurkish": "Film birazdan bitecek.",
+    "exampleArabic": "سينتهي الفيلم بعد قليل."
+  },
+  {
+    "id": "word-0632",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "açmak",
+    "arabic": "يفتح",
+    "acceptedArabic": [
+      "يفتح"
+    ],
+    "exampleTurkish": "Dosyayı açabilir misin?",
+    "exampleArabic": "هل يمكنك فتح الملف؟"
+  },
+  {
+    "id": "word-0633",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kapatmak",
+    "arabic": "يغلق",
+    "acceptedArabic": [
+      "يغلق"
+    ],
+    "exampleTurkish": "Çıkarken bilgisayarı kapat.",
+    "exampleArabic": "أغلق الحاسوب عند الخروج."
+  },
+  {
+    "id": "word-0634",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "girmek",
+    "arabic": "يدخل",
+    "acceptedArabic": [
+      "يدخل"
+    ],
+    "exampleTurkish": "Müzeye buradan girebilirsiniz.",
+    "exampleArabic": "يمكنكم دخول المتحف من هنا."
+  },
+  {
+    "id": "word-0635",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çıkmak",
+    "arabic": "يخرج / يصعد",
+    "acceptedArabic": [
+      "يخرج",
+      "يصعد"
+    ],
+    "exampleTurkish": "Dersten sonra dışarı çıktık.",
+    "exampleArabic": "خرجنا بعد الدرس."
+  },
+  {
+    "id": "word-0636",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "oturmak",
+    "arabic": "يجلس / يسكن",
+    "acceptedArabic": [
+      "يجلس",
+      "يسكن"
+    ],
+    "exampleTurkish": "Buraya oturabilir miyim?",
+    "exampleArabic": "هل يمكنني الجلوس هنا؟"
+  },
+  {
+    "id": "word-0637",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kalkmak",
+    "arabic": "ينهض",
+    "acceptedArabic": [
+      "ينهض"
+    ],
+    "exampleTurkish": "Her sabah erken kalkıyorum.",
+    "exampleArabic": "أنهض مبكرًا كل صباح."
+  },
+  {
+    "id": "word-0638",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "durmak",
+    "arabic": "يتوقف",
+    "acceptedArabic": [
+      "يتوقف"
+    ],
+    "exampleTurkish": "Otobüs burada duruyor.",
+    "exampleArabic": "تتوقف الحافلة هنا."
+  },
+  {
+    "id": "word-0639",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "beklemek",
+    "arabic": "ينتظر",
+    "acceptedArabic": [
+      "ينتظر"
+    ],
+    "exampleTurkish": "Seni girişte bekliyorum.",
+    "exampleArabic": "أنتظرك عند المدخل."
+  },
+  {
+    "id": "word-0640",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yürümek",
+    "arabic": "يمشي",
+    "acceptedArabic": [
+      "يمشي"
+    ],
+    "exampleTurkish": "İstasyona kadar yürüyelim.",
+    "exampleArabic": "لنمشِ حتى المحطة."
+  },
+  {
+    "id": "word-0641",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "koşmak",
+    "arabic": "يركض",
+    "acceptedArabic": [
+      "يركض"
+    ],
+    "exampleTurkish": "Otobüse yetişmek için koştum.",
+    "exampleArabic": "ركضت للحاق بالحافلة."
+  },
+  {
+    "id": "word-0642",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "dönmek",
+    "arabic": "يعود / ينعطف",
+    "acceptedArabic": [
+      "يعود",
+      "ينعطف"
+    ],
+    "exampleTurkish": "Kavşaktan sağa dön.",
+    "exampleArabic": "انعطف يمينًا عند التقاطع."
+  },
+  {
+    "id": "word-0643",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "geçmek",
+    "arabic": "يمر / يعبر",
+    "acceptedArabic": [
+      "يمر",
+      "يعبر"
+    ],
+    "exampleTurkish": "Köprüden yavaş geçtik.",
+    "exampleArabic": "عبرنا الجسر ببطء."
+  },
+  {
+    "id": "word-0644",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "geçirmek",
+    "arabic": "يقضي / يمرّر",
+    "acceptedArabic": [
+      "يقضي",
+      "يمرّر"
+    ],
+    "exampleTurkish": "Tatili burada geçirmek istiyorum.",
+    "exampleArabic": "أريد قضاء العطلة هنا."
+  },
+  {
+    "id": "word-0645",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kalmak",
+    "arabic": "يبقى / يقيم",
+    "acceptedArabic": [
+      "يبقى",
+      "يقيم"
+    ],
+    "exampleTurkish": "Bu otelde iki gece kalacağız.",
+    "exampleArabic": "سنقيم في هذا الفندق ليلتين."
+  },
+  {
+    "id": "word-0646",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yaşamak",
+    "arabic": "يعيش",
+    "acceptedArabic": [
+      "يعيش"
+    ],
+    "exampleTurkish": "Uzun süredir burada yaşıyorum.",
+    "exampleArabic": "أعيش هنا منذ مدة طويلة."
+  },
+  {
+    "id": "word-0647",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "taşımak",
+    "arabic": "يحمل / ينقل",
+    "acceptedArabic": [
+      "يحمل",
+      "ينقل"
+    ],
+    "exampleTurkish": "Bu dosyaları arşive taşı.",
+    "exampleArabic": "انقل هذه الملفات إلى الأرشيف."
+  },
+  {
+    "id": "word-0648",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "taşınmak",
+    "arabic": "ينتقل للسكن",
+    "acceptedArabic": [
+      "ينتقل للسكن"
+    ],
+    "exampleTurkish": "Gelecek ay İzmir'e taşınıyoruz.",
+    "exampleArabic": "سننتقل إلى إزمير الشهر المقبل."
+  },
+  {
+    "id": "word-0649",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "koymak",
+    "arabic": "يضع",
+    "acceptedArabic": [
+      "يضع"
+    ],
+    "exampleTurkish": "Bileti çantana koy.",
+    "exampleArabic": "ضع التذكرة في حقيبتك."
+  },
+  {
+    "id": "word-0650",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bırakmak",
+    "arabic": "يترك",
+    "acceptedArabic": [
+      "يترك"
+    ],
+    "exampleTurkish": "Mesajını buraya bırakabilirsin.",
+    "exampleArabic": "يمكنك ترك رسالتك هنا."
+  },
+  {
+    "id": "word-0651",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bulmak",
+    "arabic": "يجد",
+    "acceptedArabic": [
+      "يجد"
+    ],
+    "exampleTurkish": "Sonunda doğru adresi bulduk.",
+    "exampleArabic": "وجدنا العنوان الصحيح أخيرًا."
+  },
+  {
+    "id": "word-0652",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "aramak",
+    "arabic": "يبحث عن / يتصل",
+    "acceptedArabic": [
+      "يبحث عن",
+      "يتصل"
+    ],
+    "exampleTurkish": "Seni akşam arayacağım.",
+    "exampleArabic": "سأتصل بك مساءً."
+  },
+  {
+    "id": "word-0653",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kaybetmek",
+    "arabic": "يفقد / يخسر",
+    "acceptedArabic": [
+      "يفقد",
+      "يخسر"
+    ],
+    "exampleTurkish": "Biletimi kaybettim.",
+    "exampleArabic": "فقدت تذكرتي."
+  },
+  {
+    "id": "word-0654",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kazanmak",
+    "arabic": "يفوز / يكسب",
+    "acceptedArabic": [
+      "يفوز",
+      "يكسب"
+    ],
+    "exampleTurkish": "Takımımız yarışı kazandı.",
+    "exampleArabic": "فاز فريقنا بالسباق."
+  },
+  {
+    "id": "word-0655",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "istemek",
+    "arabic": "يريد",
+    "acceptedArabic": [
+      "يريد"
+    ],
+    "exampleTurkish": "Biraz daha zaman istiyorum.",
+    "exampleArabic": "أريد مزيدًا من الوقت."
+  },
+  {
+    "id": "word-0656",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sevmek",
+    "arabic": "يحب",
+    "acceptedArabic": [
+      "يحب"
+    ],
+    "exampleTurkish": "Yeni yerler görmeyi seviyorum.",
+    "exampleArabic": "أحب رؤية أماكن جديدة."
+  },
+  {
+    "id": "word-0657",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "beğenmek",
+    "arabic": "يعجبه",
+    "acceptedArabic": [
+      "يعجبه"
+    ],
+    "exampleTurkish": "Bu tasarımı çok beğendim.",
+    "exampleArabic": "أعجبني هذا التصميم كثيرًا."
+  },
+  {
+    "id": "word-0658",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "seçmek",
+    "arabic": "يختار",
+    "acceptedArabic": [
+      "يختار"
+    ],
+    "exampleTurkish": "Listeden bir tarih seç.",
+    "exampleArabic": "اختر تاريخًا من القائمة."
+  },
+  {
+    "id": "word-0659",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kararlaştırmak",
+    "arabic": "يقرر بالاتفاق",
+    "acceptedArabic": [
+      "يقرر بالاتفاق"
+    ],
+    "exampleTurkish": "Buluşma yerini kararlaştırdık.",
+    "exampleArabic": "اتفقنا على مكان اللقاء."
+  },
+  {
+    "id": "word-0660",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "planlamak",
+    "arabic": "يخطط",
+    "acceptedArabic": [
+      "يخطط"
+    ],
+    "exampleTurkish": "Hafta sonunu birlikte planlayalım.",
+    "exampleArabic": "لنخطط لعطلة نهاية الأسبوع معًا."
+  },
+  {
+    "id": "word-0661",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "hazırlamak",
+    "arabic": "يجهّز",
+    "acceptedArabic": [
+      "يجهّز"
+    ],
+    "exampleTurkish": "Sunumu toplantıdan önce hazırladım.",
+    "exampleArabic": "جهزت العرض قبل الاجتماع."
+  },
+  {
+    "id": "word-0662",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "hazırlanmak",
+    "arabic": "يستعد",
+    "acceptedArabic": [
+      "يستعد"
+    ],
+    "exampleTurkish": "Yolculuk için hazırlanıyorum.",
+    "exampleArabic": "أستعد للرحلة."
+  },
+  {
+    "id": "word-0663",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "denemek",
+    "arabic": "يجرّب",
+    "acceptedArabic": [
+      "يجرّب"
+    ],
+    "exampleTurkish": "Başka bir yöntem deneyelim.",
+    "exampleArabic": "لنجرب طريقة أخرى."
+  },
+  {
+    "id": "word-0664",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "başarmak",
+    "arabic": "ينجح في إنجاز",
+    "acceptedArabic": [
+      "ينجح في إنجاز"
+    ],
+    "exampleTurkish": "Zor görevi başardık.",
+    "exampleArabic": "نجحنا في إنجاز المهمة الصعبة."
+  },
+  {
+    "id": "word-0665",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "başvurmak",
+    "arabic": "يتقدم بطلب",
+    "acceptedArabic": [
+      "يتقدم بطلب"
+    ],
+    "exampleTurkish": "Bu işe başvurmak istiyorum.",
+    "exampleArabic": "أريد التقدم لهذه الوظيفة."
+  },
+  {
+    "id": "word-0666",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "katılmak",
+    "arabic": "ينضم / يشارك",
+    "acceptedArabic": [
+      "ينضم",
+      "يشارك"
+    ],
+    "exampleTurkish": "Toplantıya çevrim içi katılacağım.",
+    "exampleArabic": "سأشارك في الاجتماع عبر الإنترنت."
+  },
+  {
+    "id": "word-0667",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ayrılmak",
+    "arabic": "يغادر / ينفصل",
+    "acceptedArabic": [
+      "يغادر",
+      "ينفصل"
+    ],
+    "exampleTurkish": "Ofisten biraz erken ayrıldım.",
+    "exampleArabic": "غادرت المكتب مبكرًا قليلًا."
+  },
+  {
+    "id": "word-0668",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "buluşmak",
+    "arabic": "يلتقي باتفاق",
+    "acceptedArabic": [
+      "يلتقي باتفاق"
+    ],
+    "exampleTurkish": "Saat beşte istasyonda buluşalım.",
+    "exampleArabic": "لنلتقِ في المحطة عند الخامسة."
+  },
+  {
+    "id": "word-0669",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tanışmak",
+    "arabic": "يتعارف",
+    "acceptedArabic": [
+      "يتعارف"
+    ],
+    "exampleTurkish": "Kursta yeni insanlarla tanıştım.",
+    "exampleArabic": "تعرفت على أشخاص جدد في الدورة."
+  },
+  {
+    "id": "word-0670",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tanımak",
+    "arabic": "يعرف شخصًا / يتعرف على",
+    "acceptedArabic": [
+      "يعرف شخصًا",
+      "يتعرف على"
+    ],
+    "exampleTurkish": "Bu yazarı tanıyor musun?",
+    "exampleArabic": "هل تعرف هذا الكاتب؟"
+  },
+  {
+    "id": "word-0671",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "karşılaşmak",
+    "arabic": "يصادف",
+    "acceptedArabic": [
+      "يصادف"
+    ],
+    "exampleTurkish": "Yolda eski bir arkadaşımla karşılaştım.",
+    "exampleArabic": "صادفت صديقًا قديمًا في الطريق."
+  },
+  {
+    "id": "word-0672",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "karşılamak",
+    "arabic": "يستقبل",
+    "acceptedArabic": [
+      "يستقبل"
+    ],
+    "exampleTurkish": "Misafirleri girişte karşıladık.",
+    "exampleArabic": "استقبلنا الضيوف عند المدخل."
+  },
+  {
+    "id": "word-0673",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "göndermek",
+    "arabic": "يرسل",
+    "acceptedArabic": [
+      "يرسل"
+    ],
+    "exampleTurkish": "Belgeyi e-postayla gönder.",
+    "exampleArabic": "أرسل الوثيقة بالبريد الإلكتروني."
+  },
+  {
+    "id": "word-0674",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "getirmek",
+    "arabic": "يحضر شيئًا",
+    "acceptedArabic": [
+      "يحضر شيئًا"
+    ],
+    "exampleTurkish": "Yarın kitabını getir.",
+    "exampleArabic": "أحضر كتابك غدًا."
+  },
+  {
+    "id": "word-0675",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "götürmek",
+    "arabic": "يأخذ شيئًا إلى مكان",
+    "acceptedArabic": [
+      "يأخذ شيئًا إلى مكان"
+    ],
+    "exampleTurkish": "Bu yol bizi meydana götürür.",
+    "exampleArabic": "يوصلنا هذا الطريق إلى الساحة."
+  },
+  {
+    "id": "word-0676",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "göstermek",
+    "arabic": "يُري / يعرض",
+    "acceptedArabic": [
+      "يُري",
+      "يعرض"
+    ],
+    "exampleTurkish": "Haritada yerini göster.",
+    "exampleArabic": "أرني مكانه على الخريطة."
+  },
+  {
+    "id": "word-0677",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "gizlemek",
+    "arabic": "يخفي",
+    "acceptedArabic": [
+      "يخفي"
+    ],
+    "exampleTurkish": "Bu sütunu geçici olarak gizle.",
+    "exampleArabic": "أخفِ هذا العمود مؤقتًا."
+  },
+  {
+    "id": "word-0678",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "açıklamak",
+    "arabic": "يوضح",
+    "acceptedArabic": [
+      "يوضح"
+    ],
+    "exampleTurkish": "Kuralı bir örnekle açıkladı.",
+    "exampleArabic": "وضح القاعدة بمثال."
+  },
+  {
+    "id": "word-0679",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tekrarlamak",
+    "arabic": "يكرر",
+    "acceptedArabic": [
+      "يكرر"
+    ],
+    "exampleTurkish": "Lütfen son cümleyi tekrarla.",
+    "exampleArabic": "كرر الجملة الأخيرة من فضلك."
+  },
+  {
+    "id": "word-0680",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çevirmek",
+    "arabic": "يترجم / يدير",
+    "acceptedArabic": [
+      "يترجم",
+      "يدير"
+    ],
+    "exampleTurkish": "Bu metni Arapçaya çevirdim.",
+    "exampleArabic": "ترجمت هذا النص إلى العربية."
+  },
+  {
+    "id": "word-0681",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çözmek",
+    "arabic": "يحل",
+    "acceptedArabic": [
+      "يحل"
+    ],
+    "exampleTurkish": "Bu sorunu birlikte çözebiliriz.",
+    "exampleArabic": "يمكننا حل هذه المشكلة معًا."
+  },
+  {
+    "id": "word-0682",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "düzeltmek",
+    "arabic": "يصحح",
+    "acceptedArabic": [
+      "يصحح"
+    ],
+    "exampleTurkish": "Yazımdaki hatayı düzelttim.",
+    "exampleArabic": "صححت الخطأ في كتابتي."
+  },
+  {
+    "id": "word-0683",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "değiştirmek",
+    "arabic": "يغيّر",
+    "acceptedArabic": [
+      "يغيّر"
+    ],
+    "exampleTurkish": "Biletin tarihini değiştirmek istiyorum.",
+    "exampleArabic": "أريد تغيير تاريخ التذكرة."
+  },
+  {
+    "id": "word-0684",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "değişmek",
+    "arabic": "يتغير",
+    "acceptedArabic": [
+      "يتغير"
+    ],
+    "exampleTurkish": "Toplantının saati değişti.",
+    "exampleArabic": "تغير موعد الاجتماع."
+  },
+  {
+    "id": "word-0685",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "gelişmek",
+    "arabic": "يتطور",
+    "acceptedArabic": [
+      "يتطور"
+    ],
+    "exampleTurkish": "Türkçem her gün gelişiyor.",
+    "exampleArabic": "تتحسن لغتي التركية كل يوم."
+  },
+  {
+    "id": "word-0686",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "geliştirmek",
+    "arabic": "يطوّر",
+    "acceptedArabic": [
+      "يطوّر"
+    ],
+    "exampleTurkish": "Yeni bir uygulama geliştiriyoruz.",
+    "exampleArabic": "نطور تطبيقًا جديدًا."
+  },
+  {
+    "id": "word-0687",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "artmak",
+    "arabic": "يزداد",
+    "acceptedArabic": [
+      "يزداد"
+    ],
+    "exampleTurkish": "Bu ay yolcu sayısı arttı.",
+    "exampleArabic": "ازداد عدد الركاب هذا الشهر."
+  },
+  {
+    "id": "word-0688",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "artırmak",
+    "arabic": "يزيد شيئًا",
+    "acceptedArabic": [
+      "يزيد شيئًا"
+    ],
+    "exampleTurkish": "Ses seviyesini biraz artır.",
+    "exampleArabic": "ارفع مستوى الصوت قليلًا."
+  },
+  {
+    "id": "word-0689",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "azalmak",
+    "arabic": "ينقص",
+    "acceptedArabic": [
+      "ينقص"
+    ],
+    "exampleTurkish": "Akşam trafik azaldı.",
+    "exampleArabic": "خفّت حركة المرور مساءً."
+  },
+  {
+    "id": "word-0690",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "azaltmak",
+    "arabic": "يقلل",
+    "acceptedArabic": [
+      "يقلل"
+    ],
+    "exampleTurkish": "Bekleme süresini azaltmalıyız.",
+    "exampleArabic": "علينا تقليل مدة الانتظار."
+  },
+  {
+    "id": "word-0691",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ilerlemek",
+    "arabic": "يتقدم",
+    "acceptedArabic": [
+      "يتقدم"
+    ],
+    "exampleTurkish": "Sırada yavaşça ilerledik.",
+    "exampleArabic": "تقدمنا ببطء في الصف."
+  },
+  {
+    "id": "word-0692",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "gerilemek",
+    "arabic": "يتراجع",
+    "acceptedArabic": [
+      "يتراجع"
+    ],
+    "exampleTurkish": "Satışlar geçen ay geriledi.",
+    "exampleArabic": "تراجعت المبيعات الشهر الماضي."
+  },
+  {
+    "id": "word-0693",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yaklaşmak",
+    "arabic": "يقترب",
+    "acceptedArabic": [
+      "يقترب"
+    ],
+    "exampleTurkish": "Tren istasyona yaklaşıyor.",
+    "exampleArabic": "يقترب القطار من المحطة."
+  },
+  {
+    "id": "word-0694",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uzaklaşmak",
+    "arabic": "يبتعد",
+    "acceptedArabic": [
+      "يبتعد"
+    ],
+    "exampleTurkish": "Kalabalıktan biraz uzaklaştık.",
+    "exampleArabic": "ابتعدنا قليلًا عن الزحام."
+  },
+  {
+    "id": "word-0695",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ulaşmak",
+    "arabic": "يصل",
+    "acceptedArabic": [
+      "يصل"
+    ],
+    "exampleTurkish": "Otele gece ulaştık.",
+    "exampleArabic": "وصلنا إلى الفندق ليلًا."
+  },
+  {
+    "id": "word-0696",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yetişmek",
+    "arabic": "يلحق / يصل في الوقت",
+    "acceptedArabic": [
+      "يلحق",
+      "يصل في الوقت"
+    ],
+    "exampleTurkish": "Son trene yetiştik.",
+    "exampleArabic": "لحقنا بالقطار الأخير."
+  },
+  {
+    "id": "word-0697",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "binmek",
+    "arabic": "يركب",
+    "acceptedArabic": [
+      "يركب"
+    ],
+    "exampleTurkish": "Buradan metroya binebilirsin.",
+    "exampleArabic": "يمكنك ركوب المترو من هنا."
+  },
+  {
+    "id": "word-0698",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "inmek",
+    "arabic": "ينزل",
+    "acceptedArabic": [
+      "ينزل"
+    ],
+    "exampleTurkish": "İki durak sonra ineceğim.",
+    "exampleArabic": "سأنزل بعد محطتين."
+  },
+  {
+    "id": "word-0699",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sürmek",
+    "arabic": "يقود / يستغرق",
+    "acceptedArabic": [
+      "يقود",
+      "يستغرق"
+    ],
+    "exampleTurkish": "Yolculuk üç saat sürüyor.",
+    "exampleArabic": "تستغرق الرحلة ثلاث ساعات."
+  },
+  {
+    "id": "word-0700",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uçmak",
+    "arabic": "يطير",
+    "acceptedArabic": [
+      "يطير"
+    ],
+    "exampleTurkish": "Yarın sabah İstanbul'a uçuyoruz.",
+    "exampleArabic": "سنسافر بالطائرة إلى إسطنبول غدًا صباحًا."
+  },
+  {
+    "id": "word-0701",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "park etmek",
+    "arabic": "يركن مركبة",
+    "acceptedArabic": [
+      "يركن مركبة"
+    ],
+    "exampleTurkish": "Arabayı buraya park etme.",
+    "exampleArabic": "لا تركن السيارة هنا."
+  },
+  {
+    "id": "word-0702",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "fren yapmak",
+    "arabic": "يفرمل",
+    "acceptedArabic": [
+      "يفرمل"
+    ],
+    "exampleTurkish": "Sürücü yavaşça fren yaptı.",
+    "exampleArabic": "ضغط السائق على الفرامل بهدوء."
+  },
+  {
+    "id": "word-0703",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kalkış yapmak",
+    "arabic": "يقلع",
+    "acceptedArabic": [
+      "يقلع"
+    ],
+    "exampleTurkish": "Uçak zamanında kalkış yaptı.",
+    "exampleArabic": "أقلعت الطائرة في موعدها."
+  },
+  {
+    "id": "word-0704",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kiralamak",
+    "arabic": "يستأجر",
+    "acceptedArabic": [
+      "يستأجر"
+    ],
+    "exampleTurkish": "Hafta sonu için bir araç kiraladık.",
+    "exampleArabic": "استأجرنا مركبة لعطلة نهاية الأسبوع."
+  },
+  {
+    "id": "word-0705",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ödemek",
+    "arabic": "يدفع مالًا",
+    "acceptedArabic": [
+      "يدفع مالًا"
+    ],
+    "exampleTurkish": "Kartla ödeyebilir miyim?",
+    "exampleArabic": "هل يمكنني الدفع بالبطاقة؟"
+  },
+  {
+    "id": "word-0706",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "satmak",
+    "arabic": "يبيع",
+    "acceptedArabic": [
+      "يبيع"
+    ],
+    "exampleTurkish": "Bu dükkân ikinci el kitap satıyor.",
+    "exampleArabic": "يبيع هذا المتجر كتبًا مستعملة."
+  },
+  {
+    "id": "word-0707",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "satın almak",
+    "arabic": "يشتري",
+    "acceptedArabic": [
+      "يشتري"
+    ],
+    "exampleTurkish": "Çevrim içi bilet satın aldım.",
+    "exampleArabic": "اشتريت تذكرة عبر الإنترنت."
+  },
+  {
+    "id": "word-0708",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "harcamak",
+    "arabic": "ينفق",
+    "acceptedArabic": [
+      "ينفق"
+    ],
+    "exampleTurkish": "Bu ay fazla para harcadım.",
+    "exampleArabic": "أنفقت مالًا كثيرًا هذا الشهر."
+  },
+  {
+    "id": "word-0709",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "biriktirmek",
+    "arabic": "يدخر / يجمع",
+    "acceptedArabic": [
+      "يدخر",
+      "يجمع"
+    ],
+    "exampleTurkish": "Yolculuk için para biriktiriyorum.",
+    "exampleArabic": "أدخر المال من أجل الرحلة."
+  },
+  {
+    "id": "word-0710",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "borç almak",
+    "arabic": "يستدين",
+    "acceptedArabic": [
+      "يستدين"
+    ],
+    "exampleTurkish": "Biraz borç almak zorunda kaldım.",
+    "exampleArabic": "اضطررت إلى اقتراض بعض المال."
+  },
+  {
+    "id": "word-0711",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "borç vermek",
+    "arabic": "يقرض",
+    "acceptedArabic": [
+      "يقرض"
+    ],
+    "exampleTurkish": "Arkadaşıma az miktarda borç verdim.",
+    "exampleArabic": "أقرضت صديقي مبلغًا صغيرًا."
+  },
+  {
+    "id": "word-0712",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kaydetmek",
+    "arabic": "يحفظ / يسجل",
+    "acceptedArabic": [
+      "يحفظ",
+      "يسجل"
+    ],
+    "exampleTurkish": "Çıkmadan önce dosyayı kaydet.",
+    "exampleArabic": "احفظ الملف قبل الخروج."
+  },
+  {
+    "id": "word-0713",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "silmek",
+    "arabic": "يمحو / يحذف",
+    "acceptedArabic": [
+      "يمحو",
+      "يحذف"
+    ],
+    "exampleTurkish": "Eski mesajları sildim.",
+    "exampleArabic": "حذفت الرسائل القديمة."
+  },
+  {
+    "id": "word-0714",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kopyalamak",
+    "arabic": "ينسخ",
+    "acceptedArabic": [
+      "ينسخ"
+    ],
+    "exampleTurkish": "Bu cümleyi kopyala.",
+    "exampleArabic": "انسخ هذه الجملة."
+  },
+  {
+    "id": "word-0715",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yapıştırmak",
+    "arabic": "يلصق",
+    "acceptedArabic": [
+      "يلصق"
+    ],
+    "exampleTurkish": "Adresi buraya yapıştır.",
+    "exampleArabic": "ألصق العنوان هنا."
+  },
+  {
+    "id": "word-0716",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yüklemek",
+    "arabic": "يحمّل إلى جهاز أو خادم",
+    "acceptedArabic": [
+      "يحمّل إلى جهاز أو خادم"
+    ],
+    "exampleTurkish": "Dosyayı sisteme yükledim.",
+    "exampleArabic": "رفعت الملف إلى النظام."
+  },
+  {
+    "id": "word-0717",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "indirmek",
+    "arabic": "ينزّل / يخفض",
+    "acceptedArabic": [
+      "ينزّل",
+      "يخفض"
+    ],
+    "exampleTurkish": "Haritayı telefonuma indirdim.",
+    "exampleArabic": "نزّلت الخريطة على هاتفي."
+  },
+  {
+    "id": "word-0718",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kurmak",
+    "arabic": "يؤسس / يثبت",
+    "acceptedArabic": [
+      "يؤسس",
+      "يثبت"
+    ],
+    "exampleTurkish": "Bilgisayara yeni bir program kurdum.",
+    "exampleArabic": "ثبتُّ برنامجًا جديدًا على الحاسوب."
+  },
+  {
+    "id": "word-0719",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bağlamak",
+    "arabic": "يربط / يوصل",
+    "acceptedArabic": [
+      "يربط",
+      "يوصل"
+    ],
+    "exampleTurkish": "Kabloyu bilgisayara bağla.",
+    "exampleArabic": "وصّل الكابل بالحاسوب."
+  },
+  {
+    "id": "word-0720",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bağlanmak",
+    "arabic": "يتصل بشبكة",
+    "acceptedArabic": [
+      "يتصل بشبكة"
+    ],
+    "exampleTurkish": "İnternete bağlanamıyorum.",
+    "exampleArabic": "لا أستطيع الاتصال بالإنترنت."
+  },
+  {
+    "id": "word-0721",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çalıştırmak",
+    "arabic": "يشغّل",
+    "acceptedArabic": [
+      "يشغّل"
+    ],
+    "exampleTurkish": "Programı yeniden çalıştır.",
+    "exampleArabic": "شغّل البرنامج من جديد."
+  },
+  {
+    "id": "word-0722",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yenilemek",
+    "arabic": "يجدد / يحدّث",
+    "acceptedArabic": [
+      "يجدد",
+      "يحدّث"
+    ],
+    "exampleTurkish": "Sayfayı yenileyince mesaj göründü.",
+    "exampleArabic": "ظهرت الرسالة عندما حدّثت الصفحة."
+  },
+  {
+    "id": "word-0723",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "güncellemek",
+    "arabic": "يحدّث معلومات أو برنامجًا",
+    "acceptedArabic": [
+      "يحدّث معلومات أو برنامجًا"
+    ],
+    "exampleTurkish": "Uygulamayı bu sabah güncelledim.",
+    "exampleArabic": "حدّثت التطبيق هذا الصباح."
+  },
+  {
+    "id": "word-0724",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "arızalanmak",
+    "arabic": "يتعطل",
+    "acceptedArabic": [
+      "يتعطل"
+    ],
+    "exampleTurkish": "Asansör dün arızalandı.",
+    "exampleArabic": "تعطل المصعد أمس."
+  },
+  {
+    "id": "word-0725",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "onarmak",
+    "arabic": "يصلح",
+    "acceptedArabic": [
+      "يصلح"
+    ],
+    "exampleTurkish": "Teknisyen yazıcıyı onardı.",
+    "exampleArabic": "أصلح الفني الطابعة."
+  },
+  {
+    "id": "word-0726",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "üretmek",
+    "arabic": "ينتج",
+    "acceptedArabic": [
+      "ينتج"
+    ],
+    "exampleTurkish": "Bu fabrika elektrikli araç üretiyor.",
+    "exampleArabic": "ينتج هذا المصنع مركبات كهربائية."
+  },
+  {
+    "id": "word-0727",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tasarlamak",
+    "arabic": "يصمم",
+    "acceptedArabic": [
+      "يصمم"
+    ],
+    "exampleTurkish": "Yeni bir logo tasarladık.",
+    "exampleArabic": "صممنا شعارًا جديدًا."
+  },
+  {
+    "id": "word-0728",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "inşa etmek",
+    "arabic": "يبني",
+    "acceptedArabic": [
+      "يبني"
+    ],
+    "exampleTurkish": "Buraya yeni bir köprü inşa ediyorlar.",
+    "exampleArabic": "يبنون جسرًا جديدًا هنا."
+  },
+  {
+    "id": "word-0729",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ölçmek",
+    "arabic": "يقيس",
+    "acceptedArabic": [
+      "يقيس"
+    ],
+    "exampleTurkish": "İki nokta arasındaki mesafeyi ölçtük.",
+    "exampleArabic": "قسنا المسافة بين النقطتين."
+  },
+  {
+    "id": "word-0730",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "hesaplamak",
+    "arabic": "يحسب",
+    "acceptedArabic": [
+      "يحسب"
+    ],
+    "exampleTurkish": "Toplam ücreti hesapladım.",
+    "exampleArabic": "حسبت التكلفة الإجمالية."
+  },
+  {
+    "id": "word-0731",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "saymak",
+    "arabic": "يعدّ",
+    "acceptedArabic": [
+      "يعدّ"
+    ],
+    "exampleTurkish": "Biletleri tek tek saydım.",
+    "exampleArabic": "عددت التذاكر واحدة واحدة."
+  },
+  {
+    "id": "word-0732",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "karşılaştırmak",
+    "arabic": "يقارن",
+    "acceptedArabic": [
+      "يقارن"
+    ],
+    "exampleTurkish": "İki fiyatı karşılaştıralım.",
+    "exampleArabic": "لنقارن السعرين."
+  },
+  {
+    "id": "word-0733",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ayırmak",
+    "arabic": "يفصل / يخصص",
+    "acceptedArabic": [
+      "يفصل",
+      "يخصص"
+    ],
+    "exampleTurkish": "Bu iş için bir saat ayırdım.",
+    "exampleArabic": "خصصت ساعة لهذا العمل."
+  },
+  {
+    "id": "word-0734",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "birleştirmek",
+    "arabic": "يجمع / يدمج",
+    "acceptedArabic": [
+      "يجمع",
+      "يدمج"
+    ],
+    "exampleTurkish": "İki dosyayı birleştirdim.",
+    "exampleArabic": "دمجت الملفين."
+  },
+  {
+    "id": "word-0735",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bölmek",
+    "arabic": "يقسم",
+    "acceptedArabic": [
+      "يقسم"
+    ],
+    "exampleTurkish": "Görevi üç parçaya böldük.",
+    "exampleArabic": "قسمنا المهمة إلى ثلاثة أجزاء."
+  },
+  {
+    "id": "word-0736",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "paylaşmak",
+    "arabic": "يشارك شيئًا",
+    "acceptedArabic": [
+      "يشارك شيئًا"
+    ],
+    "exampleTurkish": "Notlarımı seninle paylaşabilirim.",
+    "exampleArabic": "يمكنني مشاركة ملاحظاتي معك."
+  },
+  {
+    "id": "word-0737",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "dağıtmak",
+    "arabic": "يوزع",
+    "acceptedArabic": [
+      "يوزع"
+    ],
+    "exampleTurkish": "Öğretmen kâğıtları dağıttı.",
+    "exampleArabic": "وزع المعلم الأوراق."
+  },
+  {
+    "id": "word-0738",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "toplamak",
+    "arabic": "يجمع",
+    "acceptedArabic": [
+      "يجمع"
+    ],
+    "exampleTurkish": "Toplantıdan sonra belgeleri topladık.",
+    "exampleArabic": "جمعنا الوثائق بعد الاجتماع."
+  },
+  {
+    "id": "word-0739",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "düzenlemek",
+    "arabic": "ينظم / يرتب",
+    "acceptedArabic": [
+      "ينظم",
+      "يرتب"
+    ],
+    "exampleTurkish": "Dosyaları tarihe göre düzenledim.",
+    "exampleArabic": "رتبت الملفات حسب التاريخ."
+  },
+  {
+    "id": "word-0740",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sıralamak",
+    "arabic": "يرتب بالتسلسل",
+    "acceptedArabic": [
+      "يرتب بالتسلسل"
+    ],
+    "exampleTurkish": "İsimleri alfabetik olarak sırala.",
+    "exampleArabic": "رتب الأسماء أبجديًا."
+  },
+  {
+    "id": "word-0741",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "incelemek",
+    "arabic": "يفحص / يدرس بتأنٍ",
+    "acceptedArabic": [
+      "يفحص",
+      "يدرس بتأنٍ"
+    ],
+    "exampleTurkish": "Sözleşmeyi dikkatle inceledim.",
+    "exampleArabic": "درست العقد بعناية."
+  },
+  {
+    "id": "word-0742",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "araştırmak",
+    "arabic": "يبحث بحثًا علميًا",
+    "acceptedArabic": [
+      "يبحث بحثًا علميًا"
+    ],
+    "exampleTurkish": "Yolculuk seçeneklerini araştırıyorum.",
+    "exampleArabic": "أبحث في خيارات السفر."
+  },
+  {
+    "id": "word-0743",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "keşfetmek",
+    "arabic": "يكتشف",
+    "acceptedArabic": [
+      "يكتشف"
+    ],
+    "exampleTurkish": "Şehirde yeni bir müze keşfettik.",
+    "exampleArabic": "اكتشفنا متحفًا جديدًا في المدينة."
+  },
+  {
+    "id": "word-0744",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kontrol etmek",
+    "arabic": "يتحقق من",
+    "acceptedArabic": [
+      "يتحقق من"
+    ],
+    "exampleTurkish": "Biletindeki tarihi kontrol et.",
+    "exampleArabic": "تحقق من التاريخ على تذكرتك."
+  },
+  {
+    "id": "word-0745",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "onaylamak",
+    "arabic": "يوافق رسميًا",
+    "acceptedArabic": [
+      "يوافق رسميًا"
+    ],
+    "exampleTurkish": "Müdür izin talebimi onayladı.",
+    "exampleArabic": "وافق المدير على طلب إجازتي."
+  },
+  {
+    "id": "word-0746",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "reddetmek",
+    "arabic": "يرفض",
+    "acceptedArabic": [
+      "يرفض"
+    ],
+    "exampleTurkish": "Teklifi nazikçe reddettim.",
+    "exampleArabic": "رفضت العرض بلطف."
+  },
+  {
+    "id": "word-0747",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kabul etmek",
+    "arabic": "يقبل",
+    "acceptedArabic": [
+      "يقبل"
+    ],
+    "exampleTurkish": "Davetini memnuniyetle kabul ettim.",
+    "exampleArabic": "قبلت دعوتك بكل سرور."
+  },
+  {
+    "id": "word-0748",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "önermek",
+    "arabic": "يقترح",
+    "acceptedArabic": [
+      "يقترح"
+    ],
+    "exampleTurkish": "Daha kısa bir yol önerdi.",
+    "exampleArabic": "اقترح طريقًا أقصر."
+  },
+  {
+    "id": "word-0749",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tavsiye etmek",
+    "arabic": "ينصح / يوصي",
+    "acceptedArabic": [
+      "ينصح",
+      "يوصي"
+    ],
+    "exampleTurkish": "Bu sözlüğü sana tavsiye ederim.",
+    "exampleArabic": "أنصحك بهذا القاموس."
+  },
+  {
+    "id": "word-0750",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uyarmak",
+    "arabic": "يحذر / ينبه",
+    "acceptedArabic": [
+      "يحذر",
+      "ينبه"
+    ],
+    "exampleTurkish": "Görevli bizi gecikme konusunda uyardı.",
+    "exampleArabic": "نبهنا الموظف إلى التأخير."
+  },
+  {
+    "id": "word-0751",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "hatırlatmak",
+    "arabic": "يذكّر",
+    "acceptedArabic": [
+      "يذكّر"
+    ],
+    "exampleTurkish": "Lütfen toplantı saatini bana hatırlat.",
+    "exampleArabic": "ذكرني بموعد الاجتماع من فضلك."
+  },
+  {
+    "id": "word-0752",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "davet etmek",
+    "arabic": "يدعو",
+    "acceptedArabic": [
+      "يدعو"
+    ],
+    "exampleTurkish": "Seni etkinliğimize davet ediyoruz.",
+    "exampleArabic": "ندعوك إلى فعاليتنا."
+  },
+  {
+    "id": "word-0753",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "teşekkür etmek",
+    "arabic": "يشكر",
+    "acceptedArabic": [
+      "يشكر"
+    ],
+    "exampleTurkish": "Yardımın için teşekkür ederim.",
+    "exampleArabic": "أشكرك على مساعدتك."
+  },
+  {
+    "id": "word-0754",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "özür dilemek",
+    "arabic": "يعتذر",
+    "acceptedArabic": [
+      "يعتذر"
+    ],
+    "exampleTurkish": "Geciktiğim için özür dilerim.",
+    "exampleArabic": "أعتذر عن تأخري."
+  },
+  {
+    "id": "word-0755",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "selamlamak",
+    "arabic": "يحيّي",
+    "acceptedArabic": [
+      "يحيّي"
+    ],
+    "exampleTurkish": "Girişte görevliyi selamladım.",
+    "exampleArabic": "حييت الموظف عند المدخل."
+  },
+  {
+    "id": "word-0756",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "vedalaşmak",
+    "arabic": "يتودع",
+    "acceptedArabic": [
+      "يتودع"
+    ],
+    "exampleTurkish": "İstasyonda vedalaştık.",
+    "exampleArabic": "توادعنا في المحطة."
+  },
+  {
+    "id": "word-0757",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kutlamak",
+    "arabic": "يهنئ / يحتفل",
+    "acceptedArabic": [
+      "يهنئ",
+      "يحتفل"
+    ],
+    "exampleTurkish": "Başarını kutlamak istiyoruz.",
+    "exampleArabic": "نريد الاحتفال بنجاحك."
+  },
+  {
+    "id": "word-0758",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "söz vermek",
+    "arabic": "يعد",
+    "acceptedArabic": [
+      "يعد"
+    ],
+    "exampleTurkish": "Zamanında gelmek için söz verdim.",
+    "exampleArabic": "وعدت بأن آتي في الوقت المحدد."
+  },
+  {
+    "id": "word-0759",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "izin vermek",
+    "arabic": "يسمح",
+    "acceptedArabic": [
+      "يسمح"
+    ],
+    "exampleTurkish": "Görevli içeri girmemize izin verdi.",
+    "exampleArabic": "سمح لنا الموظف بالدخول."
+  },
+  {
+    "id": "word-0760",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yasaklamak",
+    "arabic": "يمنع / يحظر",
+    "acceptedArabic": [
+      "يمنع",
+      "يحظر"
+    ],
+    "exampleTurkish": "Burada park etmeyi yasakladılar.",
+    "exampleArabic": "حظروا ركن السيارات هنا."
+  },
+  {
+    "id": "word-0761",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "zorlamak",
+    "arabic": "يجبر / يضغط على",
+    "acceptedArabic": [
+      "يجبر",
+      "يضغط على"
+    ],
+    "exampleTurkish": "Kimseyi konuşmaya zorlama.",
+    "exampleArabic": "لا تجبر أحدًا على الكلام."
+  },
+  {
+    "id": "word-0762",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yardım etmek",
+    "arabic": "يساعد",
+    "acceptedArabic": [
+      "يساعد"
+    ],
+    "exampleTurkish": "Bu soruda bana yardım eder misin?",
+    "exampleArabic": "هل تساعدني في هذا السؤال؟"
+  },
+  {
+    "id": "word-0763",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "desteklemek",
+    "arabic": "يدعم",
+    "acceptedArabic": [
+      "يدعم"
+    ],
+    "exampleTurkish": "Ekibimiz yeni projeyi destekliyor.",
+    "exampleArabic": "يدعم فريقنا المشروع الجديد."
+  },
+  {
+    "id": "word-0764",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "korumak",
+    "arabic": "يحمي / يحافظ على",
+    "acceptedArabic": [
+      "يحمي",
+      "يحافظ على"
+    ],
+    "exampleTurkish": "Kişisel bilgilerini korumalısın.",
+    "exampleArabic": "عليك حماية معلوماتك الشخصية."
+  },
+  {
+    "id": "word-0765",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kurtarmak",
+    "arabic": "ينقذ",
+    "acceptedArabic": [
+      "ينقذ"
+    ],
+    "exampleTurkish": "Yedek kopya çalışmamı kurtardı.",
+    "exampleArabic": "أنقذت النسخة الاحتياطية عملي."
+  },
+  {
+    "id": "word-0766",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "güvenmek",
+    "arabic": "يثق",
+    "acceptedArabic": [
+      "يثق"
+    ],
+    "exampleTurkish": "Bu kaynağa güveniyorum.",
+    "exampleArabic": "أثق بهذا المصدر."
+  },
+  {
+    "id": "word-0767",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "inanmak",
+    "arabic": "يؤمن / يصدق",
+    "acceptedArabic": [
+      "يؤمن",
+      "يصدق"
+    ],
+    "exampleTurkish": "Başaracağına inanıyorum.",
+    "exampleArabic": "أؤمن بأنك ستنجح."
+  },
+  {
+    "id": "word-0768",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "şüphelenmek",
+    "arabic": "يشك / يرتاب",
+    "acceptedArabic": [
+      "يشك",
+      "يرتاب"
+    ],
+    "exampleTurkish": "Bu mesajın gerçek olduğundan şüphelendim.",
+    "exampleArabic": "شككت في صحة هذه الرسالة."
+  },
+  {
+    "id": "word-0769",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "merak etmek",
+    "arabic": "يتساءل / يرغب في المعرفة",
+    "acceptedArabic": [
+      "يتساءل",
+      "يرغب في المعرفة"
+    ],
+    "exampleTurkish": "Sonucu merak ediyorum.",
+    "exampleArabic": "أتطلع إلى معرفة النتيجة."
+  },
+  {
+    "id": "word-0770",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ummak",
+    "arabic": "يأمل",
+    "acceptedArabic": [
+      "يأمل"
+    ],
+    "exampleTurkish": "Yarın iyi haber almayı umuyorum.",
+    "exampleArabic": "آمل أن أتلقى خبرًا جيدًا غدًا."
+  },
+  {
+    "id": "word-0771",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "dilemek",
+    "arabic": "يتمنى",
+    "acceptedArabic": [
+      "يتمنى"
+    ],
+    "exampleTurkish": "Sana iyi yolculuklar dilerim.",
+    "exampleArabic": "أتمنى لك رحلة سعيدة."
+  },
+  {
+    "id": "word-0772",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tercih etmek",
+    "arabic": "يفضل",
+    "acceptedArabic": [
+      "يفضل"
+    ],
+    "exampleTurkish": "Trenle gitmeyi tercih ediyorum.",
+    "exampleArabic": "أفضل الذهاب بالقطار."
+  },
+  {
+    "id": "word-0773",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "özlemek",
+    "arabic": "يشتاق إلى",
+    "acceptedArabic": [
+      "يشتاق إلى"
+    ],
+    "exampleTurkish": "Eski mahallemi özledim.",
+    "exampleArabic": "اشتقت إلى حيي القديم."
+  },
+  {
+    "id": "word-0774",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "korkmak",
+    "arabic": "يخاف",
+    "acceptedArabic": [
+      "يخاف"
+    ],
+    "exampleTurkish": "Hata yapmaktan korkma.",
+    "exampleArabic": "لا تخف من ارتكاب الأخطاء."
+  },
+  {
+    "id": "word-0775",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "şaşırmak",
+    "arabic": "يتفاجأ",
+    "acceptedArabic": [
+      "يتفاجأ"
+    ],
+    "exampleTurkish": "Bu habere çok şaşırdım.",
+    "exampleArabic": "تفاجأت كثيرًا بهذا الخبر."
+  },
+  {
+    "id": "word-0776",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sevinmek",
+    "arabic": "يفرح",
+    "acceptedArabic": [
+      "يفرح"
+    ],
+    "exampleTurkish": "Geldiğine çok sevindim.",
+    "exampleArabic": "فرحت كثيرًا بمجيئك."
+  },
+  {
+    "id": "word-0777",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "üzülmek",
+    "arabic": "يحزن",
+    "acceptedArabic": [
+      "يحزن"
+    ],
+    "exampleTurkish": "İptal haberine üzüldük.",
+    "exampleArabic": "حزنّا لخبر الإلغاء."
+  },
+  {
+    "id": "word-0778",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kızmak",
+    "arabic": "يغضب",
+    "acceptedArabic": [
+      "يغضب"
+    ],
+    "exampleTurkish": "Küçük bir hata için kızma.",
+    "exampleArabic": "لا تغضب بسبب خطأ صغير."
+  },
+  {
+    "id": "word-0779",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sakinleşmek",
+    "arabic": "يهدأ",
+    "acceptedArabic": [
+      "يهدأ"
+    ],
+    "exampleTurkish": "Biraz bekleyince sakinleştim.",
+    "exampleArabic": "هدأت بعدما انتظرت قليلًا."
+  },
+  {
+    "id": "word-0780",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sabretmek",
+    "arabic": "يصبر",
+    "acceptedArabic": [
+      "يصبر"
+    ],
+    "exampleTurkish": "Biraz daha sabretmeliyiz.",
+    "exampleArabic": "علينا أن نصبر أكثر قليلًا."
+  },
+  {
+    "id": "word-0781",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "acele etmek",
+    "arabic": "يستعجل",
+    "acceptedArabic": [
+      "يستعجل"
+    ],
+    "exampleTurkish": "Acele etme, vaktimiz var.",
+    "exampleArabic": "لا تستعجل، لدينا وقت."
+  },
+  {
+    "id": "word-0782",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uğraşmak",
+    "arabic": "ينشغل / يبذل جهدًا",
+    "acceptedArabic": [
+      "ينشغل",
+      "يبذل جهدًا"
+    ],
+    "exampleTurkish": "Bu sorunla uzun süre uğraştım.",
+    "exampleArabic": "بذلت جهدًا طويلًا في معالجة هذه المشكلة."
+  },
+  {
+    "id": "word-0783",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çabalamak",
+    "arabic": "يسعى / يجتهد",
+    "acceptedArabic": [
+      "يسعى",
+      "يجتهد"
+    ],
+    "exampleTurkish": "Daha iyi yazmak için çabalıyorum.",
+    "exampleArabic": "أجتهد لأكتب بشكل أفضل."
+  },
+  {
+    "id": "word-0784",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "vazgeçmek",
+    "arabic": "يتراجع عن / يتخلى عن",
+    "acceptedArabic": [
+      "يتراجع عن",
+      "يتخلى عن"
+    ],
+    "exampleTurkish": "Bu plandan vazgeçtik.",
+    "exampleArabic": "تخلينا عن هذه الخطة."
+  },
+  {
+    "id": "word-0785",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sürdürmek",
+    "arabic": "يواصل",
+    "acceptedArabic": [
+      "يواصل"
+    ],
+    "exampleTurkish": "Çalışmalarımızı yarın sürdüreceğiz.",
+    "exampleArabic": "سنواصل عملنا غدًا."
+  },
+  {
+    "id": "word-0786",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "devam etmek",
+    "arabic": "يستمر",
+    "acceptedArabic": [
+      "يستمر"
+    ],
+    "exampleTurkish": "Ders kısa bir aradan sonra devam edecek.",
+    "exampleArabic": "سيستمر الدرس بعد استراحة قصيرة."
+  },
+  {
+    "id": "word-0787",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ertelemek",
+    "arabic": "يؤجل",
+    "acceptedArabic": [
+      "يؤجل"
+    ],
+    "exampleTurkish": "Toplantıyı cuma gününe erteledik.",
+    "exampleArabic": "أجلنا الاجتماع إلى يوم الجمعة."
+  },
+  {
+    "id": "word-0788",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "iptal etmek",
+    "arabic": "يلغي",
+    "acceptedArabic": [
+      "يلغي"
+    ],
+    "exampleTurkish": "Rezervasyonumu iptal etmek istiyorum.",
+    "exampleArabic": "أريد إلغاء حجزي."
+  },
+  {
+    "id": "word-0789",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "engellemek",
+    "arabic": "يمنع / يعيق",
+    "acceptedArabic": [
+      "يمنع",
+      "يعيق"
+    ],
+    "exampleTurkish": "Yoğun trafik ilerlememizi engelledi.",
+    "exampleArabic": "أعاقت حركة المرور الكثيفة تقدمنا."
+  },
+  {
+    "id": "word-0790",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sağlamak",
+    "arabic": "يوفر / يضمن",
+    "acceptedArabic": [
+      "يوفر",
+      "يضمن"
+    ],
+    "exampleTurkish": "Bu yöntem zaman tasarrufu sağlar.",
+    "exampleArabic": "توفر هذه الطريقة الوقت."
+  },
+  {
+    "id": "word-0791",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "gerekmek",
+    "arabic": "يلزم",
+    "acceptedArabic": [
+      "يلزم"
+    ],
+    "exampleTurkish": "Erken çıkmamız gerekiyor.",
+    "exampleArabic": "يلزم أن نخرج مبكرًا."
+  },
+  {
+    "id": "word-0792",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yetmek",
+    "arabic": "يكفي",
+    "acceptedArabic": [
+      "يكفي"
+    ],
+    "exampleTurkish": "Bu süre bize yeter.",
+    "exampleArabic": "هذه المدة تكفينا."
+  },
+  {
+    "id": "word-0793",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uymak",
+    "arabic": "يلتزم / يلائم",
+    "acceptedArabic": [
+      "يلتزم",
+      "يلائم"
+    ],
+    "exampleTurkish": "Lütfen kurallara uyun.",
+    "exampleArabic": "التزموا بالقواعد من فضلكم."
+  },
+  {
+    "id": "word-0794",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uygulamak",
+    "arabic": "يطبق",
+    "acceptedArabic": [
+      "يطبق"
+    ],
+    "exampleTurkish": "Yeni yöntemi bu hafta uygulayacağız.",
+    "exampleArabic": "سنطبق الطريقة الجديدة هذا الأسبوع."
+  },
+  {
+    "id": "word-0795",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yönetmek",
+    "arabic": "يدير",
+    "acceptedArabic": [
+      "يدير"
+    ],
+    "exampleTurkish": "Bu projeyi kim yönetiyor?",
+    "exampleArabic": "من يدير هذا المشروع؟"
+  },
+  {
+    "id": "word-0796",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "görevlendirmek",
+    "arabic": "يكلّف بمهمة",
+    "acceptedArabic": [
+      "يكلّف بمهمة"
+    ],
+    "exampleTurkish": "Beni raporu hazırlamakla görevlendirdiler.",
+    "exampleArabic": "كلفوني بإعداد التقرير."
+  },
+  {
+    "id": "word-0797",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "görüşmek",
+    "arabic": "يتباحث / يلتقي",
+    "acceptedArabic": [
+      "يتباحث",
+      "يلتقي"
+    ],
+    "exampleTurkish": "Müdürle yarın görüşeceğim.",
+    "exampleArabic": "سألتقي المدير غدًا."
+  },
+  {
+    "id": "word-0798",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tartışmak",
+    "arabic": "يناقش / يجادل",
+    "acceptedArabic": [
+      "يناقش",
+      "يجادل"
+    ],
+    "exampleTurkish": "Bu konuyu toplantıda tartışalım.",
+    "exampleArabic": "لنناقش هذا الموضوع في الاجتماع."
+  },
+  {
+    "id": "word-0799",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "anlaşmak",
+    "arabic": "يتفق",
+    "acceptedArabic": [
+      "يتفق"
+    ],
+    "exampleTurkish": "Fiyat konusunda anlaştık.",
+    "exampleArabic": "اتفقنا على السعر."
+  },
+  {
+    "id": "word-0800",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uzlaşmak",
+    "arabic": "يتوصل إلى تسوية",
+    "acceptedArabic": [
+      "يتوصل إلى تسوية"
+    ],
+    "exampleTurkish": "Sonunda ortak bir çözümde uzlaştık.",
+    "exampleArabic": "توصلنا أخيرًا إلى حل مشترك."
+  },
+  {
+    "id": "word-0801",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "iddia etmek",
+    "arabic": "يدعي",
+    "acceptedArabic": [
+      "يدعي"
+    ],
+    "exampleTurkish": "Mesajı gönderdiğini iddia ediyor.",
+    "exampleArabic": "يدعي أنه أرسل الرسالة."
+  },
+  {
+    "id": "word-0802",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kanıtlamak",
+    "arabic": "يثبت بالدليل",
+    "acceptedArabic": [
+      "يثبت بالدليل"
+    ],
+    "exampleTurkish": "Bu belge sonucu kanıtlıyor.",
+    "exampleArabic": "تثبت هذه الوثيقة النتيجة."
+  },
+  {
+    "id": "word-0803",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "belirtmek",
+    "arabic": "يذكر / يبيّن",
+    "acceptedArabic": [
+      "يذكر",
+      "يبيّن"
+    ],
+    "exampleTurkish": "Formda adresini belirt.",
+    "exampleArabic": "اذكر عنوانك في النموذج."
+  },
+  {
+    "id": "word-0804",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "bildirmek",
+    "arabic": "يبلغ",
+    "acceptedArabic": [
+      "يبلغ"
+    ],
+    "exampleTurkish": "Değişikliği bize önceden bildirin.",
+    "exampleArabic": "أبلغونا بالتغيير مسبقًا."
+  },
+  {
+    "id": "word-0805",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yayınlamak",
+    "arabic": "ينشر / يبث",
+    "acceptedArabic": [
+      "ينشر",
+      "يبث"
+    ],
+    "exampleTurkish": "Raporu bugün yayınladılar.",
+    "exampleArabic": "نشروا التقرير اليوم."
+  },
+  {
+    "id": "word-0806",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "imzalamak",
+    "arabic": "يوقّع",
+    "acceptedArabic": [
+      "يوقّع"
+    ],
+    "exampleTurkish": "Belgeyi henüz imzalamadım.",
+    "exampleArabic": "لم أوقّع الوثيقة بعد."
+  },
+  {
+    "id": "word-0807",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "doldurmak",
+    "arabic": "يملأ",
+    "acceptedArabic": [
+      "يملأ"
+    ],
+    "exampleTurkish": "Lütfen bu formu doldurun.",
+    "exampleArabic": "املؤوا هذا النموذج من فضلكم."
+  },
+  {
+    "id": "word-0808",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "boşaltmak",
+    "arabic": "يفرغ",
+    "acceptedArabic": [
+      "يفرغ"
+    ],
+    "exampleTurkish": "Depoyu yarına kadar boşaltmalıyız.",
+    "exampleArabic": "علينا إفراغ المستودع بحلول الغد."
+  },
+  {
+    "id": "word-0809",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kilitlemek",
+    "arabic": "يقفل",
+    "acceptedArabic": [
+      "يقفل"
+    ],
+    "exampleTurkish": "Çıkarken ofisi kilitle.",
+    "exampleArabic": "أقفل المكتب عند الخروج."
+  },
+  {
+    "id": "word-0810",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "çekmek",
+    "arabic": "يسحب / يلتقط",
+    "acceptedArabic": [
+      "يسحب",
+      "يلتقط"
+    ],
+    "exampleTurkish": "Burada fotoğraf çekebilir miyim?",
+    "exampleArabic": "هل يمكنني التقاط صور هنا؟"
+  },
+  {
+    "id": "word-0811",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "itmek",
+    "arabic": "يدفع جسمًا",
+    "acceptedArabic": [
+      "يدفع جسمًا"
+    ],
+    "exampleTurkish": "Kapıyı hafifçe it.",
+    "exampleArabic": "ادفع الباب برفق."
+  },
+  {
+    "id": "word-0812",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kaldırmak",
+    "arabic": "يرفع / يزيل",
+    "acceptedArabic": [
+      "يرفع",
+      "يزيل"
+    ],
+    "exampleTurkish": "Elini kaldırıp soru sordu.",
+    "exampleArabic": "رفع يده وطرح سؤالًا."
+  },
+  {
+    "id": "word-0813",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "uzatmak",
+    "arabic": "يمد / يطيل",
+    "acceptedArabic": [
+      "يمد",
+      "يطيل"
+    ],
+    "exampleTurkish": "Kütüphane ödünç süresini uzattı.",
+    "exampleArabic": "مددت المكتبة مدة الإعارة."
+  },
+  {
+    "id": "word-0814",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kısaltmak",
+    "arabic": "يقصّر / يختصر",
+    "acceptedArabic": [
+      "يقصّر",
+      "يختصر"
+    ],
+    "exampleTurkish": "Bu cümleyi biraz kısalt.",
+    "exampleArabic": "اختصر هذه الجملة قليلًا."
+  },
+  {
+    "id": "word-0815",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sıkıştırmak",
+    "arabic": "يضغط / يحشر",
+    "acceptedArabic": [
+      "يضغط",
+      "يحشر"
+    ],
+    "exampleTurkish": "Dosyayı göndermeden önce sıkıştır.",
+    "exampleArabic": "اضغط الملف قبل إرساله."
+  },
+  {
+    "id": "word-0816",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "basmak",
+    "arabic": "يضغط / يطبع",
+    "acceptedArabic": [
+      "يضغط",
+      "يطبع"
+    ],
+    "exampleTurkish": "Devam etmek için bu düğmeye bas.",
+    "exampleArabic": "اضغط هذا الزر للمتابعة."
+  },
+  {
+    "id": "word-0817",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tıklamak",
+    "arabic": "ينقر",
+    "acceptedArabic": [
+      "ينقر"
+    ],
+    "exampleTurkish": "Bağlantıya bir kez tıkla.",
+    "exampleArabic": "انقر على الرابط مرة واحدة."
+  },
+  {
+    "id": "word-0818",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kaydırmak",
+    "arabic": "يمرر / يزيح",
+    "acceptedArabic": [
+      "يمرر",
+      "يزيح"
+    ],
+    "exampleTurkish": "Ekranı aşağı kaydır.",
+    "exampleArabic": "مرر الشاشة إلى الأسفل."
+  },
+  {
+    "id": "word-0819",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "taramak",
+    "arabic": "يمسح ضوئيًا / يمشط",
+    "acceptedArabic": [
+      "يمسح ضوئيًا",
+      "يمشط"
+    ],
+    "exampleTurkish": "Belgeyi tarayıp gönder.",
+    "exampleArabic": "امسح الوثيقة ضوئيًا ثم أرسلها."
+  },
+  {
+    "id": "word-0820",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "şarj etmek",
+    "arabic": "يشحن كهربائيًا",
+    "acceptedArabic": [
+      "يشحن كهربائيًا"
+    ],
+    "exampleTurkish": "Telefonumu şarj etmem gerekiyor.",
+    "exampleArabic": "عليّ شحن هاتفي."
+  },
+  {
+    "id": "word-0821",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kurcalamak",
+    "arabic": "يعبث / يفتش بإلحاح",
+    "acceptedArabic": [
+      "يعبث",
+      "يفتش بإلحاح"
+    ],
+    "exampleTurkish": "Bilmediğin ayarları kurcalama.",
+    "exampleArabic": "لا تعبث بالإعدادات التي لا تعرفها."
+  },
+  {
+    "id": "word-0822",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "programlamak",
+    "arabic": "يبرمج / يجدول",
+    "acceptedArabic": [
+      "يبرمج",
+      "يجدول"
+    ],
+    "exampleTurkish": "Sistemi gece çalışacak şekilde programladık.",
+    "exampleArabic": "برمجنا النظام ليعمل ليلًا."
+  },
+  {
+    "id": "word-0823",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ezberlemek",
+    "arabic": "يحفظ عن ظهر قلب",
+    "acceptedArabic": [
+      "يحفظ عن ظهر قلب"
+    ],
+    "exampleTurkish": "Bugün beş kelime ezberledim.",
+    "exampleArabic": "حفظت خمس كلمات اليوم."
+  },
+  {
+    "id": "word-0824",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "hecelemek",
+    "arabic": "يتهجى بالمقاطع",
+    "acceptedArabic": [
+      "يتهجى بالمقاطع"
+    ],
+    "exampleTurkish": "Öğretmen kelimeyi yavaşça heceledi.",
+    "exampleArabic": "هجّى المعلم الكلمة بالمقاطع ببطء."
+  },
+  {
+    "id": "word-0825",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "telaffuz etmek",
+    "arabic": "ينطق",
+    "acceptedArabic": [
+      "ينطق"
+    ],
+    "exampleTurkish": "Bu kelimeyi nasıl telaffuz ediyorsun?",
+    "exampleArabic": "كيف تنطق هذه الكلمة؟"
+  },
+  {
+    "id": "word-0826",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "not almak",
+    "arabic": "يدوّن ملاحظات",
+    "acceptedArabic": [
+      "يدوّن ملاحظات"
+    ],
+    "exampleTurkish": "Dersi dinlerken not alıyorum.",
+    "exampleArabic": "أدوّن ملاحظات أثناء الاستماع إلى الدرس."
+  },
+  {
+    "id": "word-0827",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "özetlemek",
+    "arabic": "يلخص",
+    "acceptedArabic": [
+      "يلخص"
+    ],
+    "exampleTurkish": "Metni iki cümleyle özetle.",
+    "exampleArabic": "لخص النص في جملتين."
+  },
+  {
+    "id": "word-0828",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yorumlamak",
+    "arabic": "يفسر / يعلق على",
+    "acceptedArabic": [
+      "يفسر",
+      "يعلق على"
+    ],
+    "exampleTurkish": "Sonuçları birlikte yorumlayalım.",
+    "exampleArabic": "لنفسر النتائج معًا."
+  },
+  {
+    "id": "word-0829",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "benzemek",
+    "arabic": "يشبه",
+    "acceptedArabic": [
+      "يشبه"
+    ],
+    "exampleTurkish": "Bu bina eski istasyona benziyor.",
+    "exampleArabic": "يشبه هذا المبنى المحطة القديمة."
+  },
+  {
+    "id": "word-0830",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "fark etmek",
+    "arabic": "يلاحظ",
+    "acceptedArabic": [
+      "يلاحظ"
+    ],
+    "exampleTurkish": "Yanlış trene bindiğimi fark ettim.",
+    "exampleArabic": "لاحظت أنني ركبت القطار الخطأ."
+  },
+  {
+    "id": "word-0831",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "varsaymak",
+    "arabic": "يفترض",
+    "acceptedArabic": [
+      "يفترض"
+    ],
+    "exampleTurkish": "Herkesin hazır olduğunu varsaymayalım.",
+    "exampleArabic": "لا نفترض أن الجميع مستعدون."
+  },
+  {
+    "id": "word-0832",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "tahmin etmek",
+    "arabic": "يخمّن / يتوقع",
+    "acceptedArabic": [
+      "يخمّن",
+      "يتوقع"
+    ],
+    "exampleTurkish": "Kaç dakika süreceğini tahmin et.",
+    "exampleArabic": "خمّن كم دقيقة سيستغرق الأمر."
+  },
+  {
+    "id": "word-0833",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "sorgulamak",
+    "arabic": "يستجوب / يتحقق نقديًا",
+    "acceptedArabic": [
+      "يستجوب",
+      "يتحقق نقديًا"
+    ],
+    "exampleTurkish": "Bilginin kaynağını sorgulamalıyız.",
+    "exampleArabic": "علينا التحقق نقديًا من مصدر المعلومة."
+  },
+  {
+    "id": "word-0834",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "önemsemek",
+    "arabic": "يهتم بـ / يولي أهمية",
+    "acceptedArabic": [
+      "يهتم بـ",
+      "يولي أهمية"
+    ],
+    "exampleTurkish": "Senin fikrini önemsiyorum.",
+    "exampleArabic": "أولي رأيك أهمية."
+  },
+  {
+    "id": "word-0835",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ilgilenmek",
+    "arabic": "يهتم / يعتني",
+    "acceptedArabic": [
+      "يهتم",
+      "يعتني"
+    ],
+    "exampleTurkish": "Sanatla ilgileniyorum.",
+    "exampleArabic": "أهتم بالفن."
+  },
+  {
+    "id": "word-0836",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "oyalanmak",
+    "arabic": "يتلكأ / ينشغل لتمضية الوقت",
+    "acceptedArabic": [
+      "يتلكأ",
+      "ينشغل لتمضية الوقت"
+    ],
+    "exampleTurkish": "Yolda oyalanmadan geldim.",
+    "exampleArabic": "أتيت دون أن أتلكأ في الطريق."
+  },
+  {
+    "id": "word-0837",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "kaybolmak",
+    "arabic": "يضيع / يختفي",
+    "acceptedArabic": [
+      "يضيع",
+      "يختفي"
+    ],
+    "exampleTurkish": "Yabancı şehirde kaybolduk.",
+    "exampleArabic": "ضللنا الطريق في المدينة الغريبة."
+  },
+  {
+    "id": "word-0838",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "yanılmak",
+    "arabic": "يخطئ في تقديره",
+    "acceptedArabic": [
+      "يخطئ في تقديره"
+    ],
+    "exampleTurkish": "Saat konusunda yanılmışım.",
+    "exampleArabic": "كنت مخطئًا بشأن الوقت."
+  },
+  {
+    "id": "word-0839",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "aldatmak",
+    "arabic": "يخدع",
+    "acceptedArabic": [
+      "يخدع"
+    ],
+    "exampleTurkish": "Bu sahte mesaj insanları aldatıyor.",
+    "exampleArabic": "تخدع هذه الرسالة المزيفة الناس."
+  },
+  {
+    "id": "word-0840",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "şikâyet etmek",
+    "arabic": "يشتكي",
+    "acceptedArabic": [
+      "يشتكي"
+    ],
+    "exampleTurkish": "Gürültüden şikâyet ettik.",
+    "exampleArabic": "اشتكينا من الضوضاء."
+  },
+  {
+    "id": "word-0841",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "itiraz etmek",
+    "arabic": "يعترض",
+    "acceptedArabic": [
+      "يعترض"
+    ],
+    "exampleTurkish": "Bu karara itiraz ediyorum.",
+    "exampleArabic": "أعترض على هذا القرار."
+  },
+  {
+    "id": "word-0842",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "oylamak",
+    "arabic": "يصوّت على",
+    "acceptedArabic": [
+      "يصوّت على"
+    ],
+    "exampleTurkish": "Toplantıda yeni planı oyladık.",
+    "exampleArabic": "صوتنا على الخطة الجديدة في الاجتماع."
+  },
+  {
+    "id": "word-0843",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "oy vermek",
+    "arabic": "يدلي بصوته",
+    "acceptedArabic": [
+      "يدلي بصوته"
+    ],
+    "exampleTurkish": "Seçimde oy vereceğim.",
+    "exampleArabic": "سأدلي بصوتي في الانتخابات."
+  },
+  {
+    "id": "word-0844",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "teslim etmek",
+    "arabic": "يسلّم",
+    "acceptedArabic": [
+      "يسلّم"
+    ],
+    "exampleTurkish": "Ödevi cuma günü teslim edeceğim.",
+    "exampleArabic": "سأسلم الواجب يوم الجمعة."
+  },
+  {
+    "id": "word-0845",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "teslim almak",
+    "arabic": "يتسلم",
+    "acceptedArabic": [
+      "يتسلم"
+    ],
+    "exampleTurkish": "Paketi şubeden teslim aldım.",
+    "exampleArabic": "تسلمت الطرد من الفرع."
+  },
+  {
+    "id": "word-0846",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ödünç almak",
+    "arabic": "يستعير",
+    "acceptedArabic": [
+      "يستعير"
+    ],
+    "exampleTurkish": "Kütüphaneden bir kitap ödünç aldım.",
+    "exampleArabic": "استعرت كتابًا من المكتبة."
+  },
+  {
+    "id": "word-0847",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "ödünç vermek",
+    "arabic": "يعير",
+    "acceptedArabic": [
+      "يعير"
+    ],
+    "exampleTurkish": "Kalemimi sana ödünç verebilirim.",
+    "exampleArabic": "يمكنني إعارتك قلمي."
+  },
+  {
+    "id": "word-0848",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "iade etmek",
+    "arabic": "يعيد سلعة أو شيئًا",
+    "acceptedArabic": [
+      "يعيد سلعة أو شيئًا"
+    ],
+    "exampleTurkish": "Kitabı yarın iade edeceğim.",
+    "exampleArabic": "سأعيد الكتاب غدًا."
+  },
+  {
+    "id": "word-0849",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "alışmak",
+    "arabic": "يعتاد",
+    "acceptedArabic": [
+      "يعتاد"
+    ],
+    "exampleTurkish": "Yeni programa çabuk alıştım.",
+    "exampleArabic": "اعتدت البرنامج الجديد بسرعة."
+  },
+  {
+    "id": "word-0850",
+    "kind": "word",
+    "category": "أفعال شائعة",
+    "turkish": "başlatmak",
+    "arabic": "يبدأ شيئًا / يشغّل",
+    "acceptedArabic": [
+      "يبدأ شيئًا",
+      "يشغّل"
+    ],
+    "exampleTurkish": "Toplantıyı şimdi başlatalım.",
+    "exampleArabic": "لنبدأ الاجتماع الآن."
+  },
+  {
+    "id": "word-0851",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "zaman",
+    "arabic": "وقت / زمن",
+    "acceptedArabic": [
+      "وقت",
+      "زمن"
+    ],
+    "exampleTurkish": "Biraz zamana ihtiyacım var.",
+    "exampleArabic": "أحتاج إلى بعض الوقت."
+  },
+  {
+    "id": "word-0852",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "vakit",
+    "arabic": "وقت متاح",
+    "acceptedArabic": [
+      "وقت متاح"
+    ],
+    "exampleTurkish": "Şimdi vaktin var mı?",
+    "exampleArabic": "هل لديك وقت الآن؟"
+  },
+  {
+    "id": "word-0853",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "saat",
+    "arabic": "ساعة",
+    "acceptedArabic": [
+      "ساعة"
+    ],
+    "exampleTurkish": "Ders bir saat sürüyor.",
+    "exampleArabic": "يستغرق الدرس ساعة."
+  },
+  {
+    "id": "word-0854",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "dakika",
+    "arabic": "دقيقة",
+    "acceptedArabic": [
+      "دقيقة"
+    ],
+    "exampleTurkish": "Beş dakika sonra geliyorum.",
+    "exampleArabic": "سآتي بعد خمس دقائق."
+  },
+  {
+    "id": "word-0855",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "saniye",
+    "arabic": "ثانية",
+    "acceptedArabic": [
+      "ثانية"
+    ],
+    "exampleTurkish": "İşlem birkaç saniye sürdü.",
+    "exampleArabic": "استغرقت العملية بضع ثوانٍ."
+  },
+  {
+    "id": "word-0856",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "gün",
+    "arabic": "يوم",
+    "acceptedArabic": [
+      "يوم"
+    ],
+    "exampleTurkish": "İki gün burada kalacağız.",
+    "exampleArabic": "سنبقى هنا يومين."
+  },
+  {
+    "id": "word-0857",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "hafta",
+    "arabic": "أسبوع",
+    "acceptedArabic": [
+      "أسبوع"
+    ],
+    "exampleTurkish": "Bu hafta çok meşgulüm.",
+    "exampleArabic": "أنا مشغول جدًا هذا الأسبوع."
+  },
+  {
+    "id": "word-0858",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "dönem",
+    "arabic": "فترة / فصل دراسي",
+    "acceptedArabic": [
+      "فترة",
+      "فصل دراسي"
+    ],
+    "exampleTurkish": "Bu dönem Türkçe kursuna başladım.",
+    "exampleArabic": "بدأت دورة للغة التركية هذا الفصل الدراسي."
+  },
+  {
+    "id": "word-0859",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "yıl",
+    "arabic": "سنة",
+    "acceptedArabic": [
+      "سنة"
+    ],
+    "exampleTurkish": "Bir yıl önce taşındık.",
+    "exampleArabic": "انتقلنا قبل سنة."
+  },
+  {
+    "id": "word-0860",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "yüzyıl",
+    "arabic": "قرن",
+    "acceptedArabic": [
+      "قرن"
+    ],
+    "exampleTurkish": "Bu bina bir yüzyıl önce yapılmış.",
+    "exampleArabic": "بُني هذا المبنى قبل قرن."
+  },
+  {
+    "id": "word-0861",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "sabah",
+    "arabic": "صباح",
+    "acceptedArabic": [
+      "صباح"
+    ],
+    "exampleTurkish": "Sabah erkenden yola çıktık.",
+    "exampleArabic": "انطلقنا في الصباح الباكر."
+  },
+  {
+    "id": "word-0862",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "öğle",
+    "arabic": "ظهر",
+    "acceptedArabic": [
+      "ظهر"
+    ],
+    "exampleTurkish": "Öğle vakti kısa bir ara verdik.",
+    "exampleArabic": "أخذنا استراحة قصيرة وقت الظهر."
+  },
+  {
+    "id": "word-0863",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "akşam",
+    "arabic": "مساء",
+    "acceptedArabic": [
+      "مساء"
+    ],
+    "exampleTurkish": "Akşam seni arayacağım.",
+    "exampleArabic": "سأتصل بك مساءً."
+  },
+  {
+    "id": "word-0864",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "gece",
+    "arabic": "ليل",
+    "acceptedArabic": [
+      "ليل"
+    ],
+    "exampleTurkish": "Tren gece yarısı kalkıyor.",
+    "exampleArabic": "ينطلق القطار عند منتصف الليل."
+  },
+  {
+    "id": "word-0865",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "öğleden sonra",
+    "arabic": "بعد الظهر",
+    "acceptedArabic": [
+      "بعد الظهر"
+    ],
+    "exampleTurkish": "Öğleden sonra kütüphaneye gideceğim.",
+    "exampleArabic": "سأذهب إلى المكتبة بعد الظهر."
+  },
+  {
+    "id": "word-0866",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "bugün",
+    "arabic": "اليوم",
+    "acceptedArabic": [
+      "اليوم"
+    ],
+    "exampleTurkish": "Bugün yeni bir derse başlıyoruz.",
+    "exampleArabic": "نبدأ درسًا جديدًا اليوم."
+  },
+  {
+    "id": "word-0867",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "dün",
+    "arabic": "أمس",
+    "acceptedArabic": [
+      "أمس"
+    ],
+    "exampleTurkish": "Dün sana mesaj gönderdim.",
+    "exampleArabic": "أرسلت لك رسالة أمس."
+  },
+  {
+    "id": "word-0868",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "yarın",
+    "arabic": "غدًا",
+    "acceptedArabic": [
+      "غدًا"
+    ],
+    "exampleTurkish": "Yarın erken gel.",
+    "exampleArabic": "تعال مبكرًا غدًا."
+  },
+  {
+    "id": "word-0869",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "evvelsi gün",
+    "arabic": "أول أمس",
+    "acceptedArabic": [
+      "أول أمس"
+    ],
+    "exampleTurkish": "Evvelsi gün bu kitabı aldım.",
+    "exampleArabic": "اشتريت هذا الكتاب أول أمس."
+  },
+  {
+    "id": "word-0870",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "öbür gün",
+    "arabic": "بعد غد",
+    "acceptedArabic": [
+      "بعد غد"
+    ],
+    "exampleTurkish": "Öbür gün yola çıkacağız.",
+    "exampleArabic": "سننطلق بعد غد."
+  },
+  {
+    "id": "word-0871",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "şimdi",
+    "arabic": "الآن",
+    "acceptedArabic": [
+      "الآن"
+    ],
+    "exampleTurkish": "Şimdi seni dinliyorum.",
+    "exampleArabic": "أستمع إليك الآن."
+  },
+  {
+    "id": "word-0872",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "sonra",
+    "arabic": "بعد / لاحقًا",
+    "acceptedArabic": [
+      "بعد",
+      "لاحقًا"
+    ],
+    "exampleTurkish": "Önce çalışalım, sonra konuşuruz.",
+    "exampleArabic": "لنعمل أولًا، ثم نتحدث."
+  },
+  {
+    "id": "word-0873",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "önce",
+    "arabic": "قبل / أولًا",
+    "acceptedArabic": [
+      "قبل",
+      "أولًا"
+    ],
+    "exampleTurkish": "Önce bileti alalım.",
+    "exampleArabic": "لنشترِ التذكرة أولًا."
+  },
+  {
+    "id": "word-0874",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "erken",
+    "arabic": "مبكر",
+    "acceptedArabic": [
+      "مبكر"
+    ],
+    "exampleTurkish": "Bugün ofise erken geldim.",
+    "exampleArabic": "أتيت إلى المكتب مبكرًا اليوم."
+  },
+  {
+    "id": "word-0875",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "geç",
+    "arabic": "متأخر",
+    "acceptedArabic": [
+      "متأخر"
+    ],
+    "exampleTurkish": "Bu gece geç döneceğim.",
+    "exampleArabic": "سأعود متأخرًا هذه الليلة."
+  },
+  {
+    "id": "word-0876",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "hemen",
+    "arabic": "فورًا",
+    "acceptedArabic": [
+      "فورًا"
+    ],
+    "exampleTurkish": "Mesajına hemen cevap verdim.",
+    "exampleArabic": "أجبت عن رسالتك فورًا."
+  },
+  {
+    "id": "word-0877",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "birazdan",
+    "arabic": "بعد قليل",
+    "acceptedArabic": [
+      "بعد قليل"
+    ],
+    "exampleTurkish": "Ders birazdan başlayacak.",
+    "exampleArabic": "سيبدأ الدرس بعد قليل."
+  },
+  {
+    "id": "word-0878",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "henüz",
+    "arabic": "بعد (مع النفي) / حتى الآن",
+    "acceptedArabic": [
+      "بعد (مع النفي)",
+      "حتى الآن"
+    ],
+    "exampleTurkish": "Henüz karar vermedim.",
+    "exampleArabic": "لم أقرر بعد."
+  },
+  {
+    "id": "word-0879",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "hâlâ",
+    "arabic": "ما زال / لا يزال",
+    "acceptedArabic": [
+      "ما زال",
+      "لا يزال"
+    ],
+    "exampleTurkish": "Seni hâlâ bekliyorum.",
+    "exampleArabic": "ما زلت أنتظرك."
+  },
+  {
+    "id": "word-0880",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "artık",
+    "arabic": "من الآن فصاعدًا / لم يعد",
+    "acceptedArabic": [
+      "من الآن فصاعدًا",
+      "لم يعد"
+    ],
+    "exampleTurkish": "Artık burada çalışmıyorum.",
+    "exampleArabic": "لم أعد أعمل هنا."
+  },
+  {
+    "id": "word-0881",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "her zaman",
+    "arabic": "دائمًا",
+    "acceptedArabic": [
+      "دائمًا"
+    ],
+    "exampleTurkish": "Biletimi her zaman önceden alırım.",
+    "exampleArabic": "أشتري تذكرتي دائمًا مسبقًا."
+  },
+  {
+    "id": "word-0882",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "bazen",
+    "arabic": "أحيانًا",
+    "acceptedArabic": [
+      "أحيانًا"
+    ],
+    "exampleTurkish": "Bazen işe yürüyerek giderim.",
+    "exampleArabic": "أذهب إلى العمل سيرًا أحيانًا."
+  },
+  {
+    "id": "word-0883",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "sık sık",
+    "arabic": "مرارًا / كثيرًا",
+    "acceptedArabic": [
+      "مرارًا",
+      "كثيرًا"
+    ],
+    "exampleTurkish": "Bu kütüphaneye sık sık gelirim.",
+    "exampleArabic": "آتي إلى هذه المكتبة كثيرًا."
+  },
+  {
+    "id": "word-0884",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "nadiren",
+    "arabic": "نادرًا",
+    "acceptedArabic": [
+      "نادرًا"
+    ],
+    "exampleTurkish": "Toplantıya nadiren geç kalır.",
+    "exampleArabic": "نادرًا ما يتأخر عن الاجتماع."
+  },
+  {
+    "id": "word-0885",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "asla",
+    "arabic": "أبدًا (للنفي القطعي)",
+    "acceptedArabic": [
+      "أبدًا (للنفي القطعي)"
+    ],
+    "exampleTurkish": "Şifreni asla paylaşma.",
+    "exampleArabic": "لا تشارك كلمة مرورك أبدًا."
+  },
+  {
+    "id": "word-0886",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "geçici",
+    "arabic": "مؤقت",
+    "acceptedArabic": [
+      "مؤقت"
+    ],
+    "exampleTurkish": "Bu geçici bir çözüm.",
+    "exampleArabic": "هذا حل مؤقت."
+  },
+  {
+    "id": "word-0887",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "kalıcı",
+    "arabic": "دائم / مستمر",
+    "acceptedArabic": [
+      "دائم",
+      "مستمر"
+    ],
+    "exampleTurkish": "Kalıcı bir iş arıyorum.",
+    "exampleArabic": "أبحث عن عمل دائم."
+  },
+  {
+    "id": "word-0888",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "süre",
+    "arabic": "مدة",
+    "acceptedArabic": [
+      "مدة"
+    ],
+    "exampleTurkish": "Sınav süresi bir saat.",
+    "exampleArabic": "مدة الاختبار ساعة."
+  },
+  {
+    "id": "word-0889",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "tarih",
+    "arabic": "تاريخ",
+    "acceptedArabic": [
+      "تاريخ"
+    ],
+    "exampleTurkish": "Buluşma tarihini değiştirdik.",
+    "exampleArabic": "غيّرنا تاريخ اللقاء."
+  },
+  {
+    "id": "word-0890",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "takvim",
+    "arabic": "تقويم",
+    "acceptedArabic": [
+      "تقويم"
+    ],
+    "exampleTurkish": "Yeni tarihi takvime yazdım.",
+    "exampleArabic": "كتبت التاريخ الجديد في التقويم."
+  },
+  {
+    "id": "word-0891",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "randevu",
+    "arabic": "موعد محجوز",
+    "acceptedArabic": [
+      "موعد محجوز"
+    ],
+    "exampleTurkish": "Yarın saat onda randevum var.",
+    "exampleArabic": "لدي موعد غدًا في الساعة العاشرة."
+  },
+  {
+    "id": "word-0892",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "mola",
+    "arabic": "استراحة",
+    "acceptedArabic": [
+      "استراحة"
+    ],
+    "exampleTurkish": "Kısa bir mola verelim.",
+    "exampleArabic": "لنأخذ استراحة قصيرة."
+  },
+  {
+    "id": "word-0893",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "tatil",
+    "arabic": "عطلة",
+    "acceptedArabic": [
+      "عطلة"
+    ],
+    "exampleTurkish": "Tatil için plan yaptık.",
+    "exampleArabic": "وضعنا خطة للعطلة."
+  },
+  {
+    "id": "word-0894",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "hafta sonu",
+    "arabic": "نهاية الأسبوع",
+    "acceptedArabic": [
+      "نهاية الأسبوع"
+    ],
+    "exampleTurkish": "Hafta sonu müzeye gidelim.",
+    "exampleArabic": "لنذهب إلى المتحف في نهاية الأسبوع."
+  },
+  {
+    "id": "word-0895",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "pazartesi",
+    "arabic": "الاثنين",
+    "acceptedArabic": [
+      "الاثنين"
+    ],
+    "exampleTurkish": "Kurs pazartesi başlıyor.",
+    "exampleArabic": "تبدأ الدورة يوم الاثنين."
+  },
+  {
+    "id": "word-0896",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "salı",
+    "arabic": "الثلاثاء",
+    "acceptedArabic": [
+      "الثلاثاء"
+    ],
+    "exampleTurkish": "Salı günü ofiste olacağım.",
+    "exampleArabic": "سأكون في المكتب يوم الثلاثاء."
+  },
+  {
+    "id": "word-0897",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "çarşamba",
+    "arabic": "الأربعاء",
+    "acceptedArabic": [
+      "الأربعاء"
+    ],
+    "exampleTurkish": "Çarşamba günü sınavımız var.",
+    "exampleArabic": "لدينا اختبار يوم الأربعاء."
+  },
+  {
+    "id": "word-0898",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "perşembe",
+    "arabic": "الخميس",
+    "acceptedArabic": [
+      "الخميس"
+    ],
+    "exampleTurkish": "Perşembe günü tekrar görüşelim.",
+    "exampleArabic": "لنلتقِ مجددًا يوم الخميس."
+  },
+  {
+    "id": "word-0899",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "cuma",
+    "arabic": "الجمعة",
+    "acceptedArabic": [
+      "الجمعة"
+    ],
+    "exampleTurkish": "Raporu cuma günü teslim edeceğim.",
+    "exampleArabic": "سأسلم التقرير يوم الجمعة."
+  },
+  {
+    "id": "word-0900",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "cumartesi",
+    "arabic": "السبت",
+    "acceptedArabic": [
+      "السبت"
+    ],
+    "exampleTurkish": "Cumartesi günü çalışmıyorum.",
+    "exampleArabic": "لا أعمل يوم السبت."
+  },
+  {
+    "id": "word-0901",
+    "kind": "word",
+    "category": "الوقت والمواعيد",
+    "turkish": "pazar",
+    "arabic": "الأحد / سوق",
+    "acceptedArabic": [
+      "الأحد",
+      "سوق"
+    ],
+    "exampleTurkish": "Pazar günü müze açık mı?",
+    "exampleArabic": "هل المتحف مفتوح يوم الأحد؟"
+  },
+  {
+    "id": "word-0902",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "sıfır",
+    "arabic": "صفر",
+    "acceptedArabic": [
+      "صفر"
+    ],
+    "exampleTurkish": "Bu oyunda puanım sıfır.",
+    "exampleArabic": "نقاطي في هذه اللعبة صفر."
+  },
+  {
+    "id": "word-0903",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "bir",
+    "arabic": "واحد",
+    "acceptedArabic": [
+      "واحد"
+    ],
+    "exampleTurkish": "Bir bilet istiyorum.",
+    "exampleArabic": "أريد تذكرة واحدة."
+  },
+  {
+    "id": "word-0904",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "iki",
+    "arabic": "اثنان",
+    "acceptedArabic": [
+      "اثنان"
+    ],
+    "exampleTurkish": "İki durak sonra ineceğiz.",
+    "exampleArabic": "سننزل بعد محطتين."
+  },
+  {
+    "id": "word-0905",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "üç",
+    "arabic": "ثلاثة",
+    "acceptedArabic": [
+      "ثلاثة"
+    ],
+    "exampleTurkish": "Üç sorum var.",
+    "exampleArabic": "لدي ثلاثة أسئلة."
+  },
+  {
+    "id": "word-0906",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "dört",
+    "arabic": "أربعة",
+    "acceptedArabic": [
+      "أربعة"
+    ],
+    "exampleTurkish": "Müzeye dört bilet aldık.",
+    "exampleArabic": "اشترينا أربع تذاكر للمتحف."
+  },
+  {
+    "id": "word-0907",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "beş",
+    "arabic": "خمسة",
+    "acceptedArabic": [
+      "خمسة"
+    ],
+    "exampleTurkish": "Her derste beş kelime öğreniyorum.",
+    "exampleArabic": "أتعلم خمس كلمات في كل درس."
+  },
+  {
+    "id": "word-0908",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "altı",
+    "arabic": "ستة",
+    "acceptedArabic": [
+      "ستة"
+    ],
+    "exampleTurkish": "Toplantıda altı kişi vardı.",
+    "exampleArabic": "كان في الاجتماع ستة أشخاص."
+  },
+  {
+    "id": "word-0909",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "yedi",
+    "arabic": "سبعة",
+    "acceptedArabic": [
+      "سبعة"
+    ],
+    "exampleTurkish": "Bir hafta yedi gündür.",
+    "exampleArabic": "الأسبوع سبعة أيام."
+  },
+  {
+    "id": "word-0910",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "sekiz",
+    "arabic": "ثمانية",
+    "acceptedArabic": [
+      "ثمانية"
+    ],
+    "exampleTurkish": "Otobüs sekiz dakika sonra geliyor.",
+    "exampleArabic": "ستأتي الحافلة بعد ثماني دقائق."
+  },
+  {
+    "id": "word-0911",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "dokuz",
+    "arabic": "تسعة",
+    "acceptedArabic": [
+      "تسعة"
+    ],
+    "exampleTurkish": "Ders saat dokuzda bitiyor.",
+    "exampleArabic": "ينتهي الدرس في الساعة التاسعة."
+  },
+  {
+    "id": "word-0912",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "on",
+    "arabic": "عشرة",
+    "acceptedArabic": [
+      "عشرة"
+    ],
+    "exampleTurkish": "On dakika bekledim.",
+    "exampleArabic": "انتظرت عشر دقائق."
+  },
+  {
+    "id": "word-0913",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "yirmi",
+    "arabic": "عشرون",
+    "acceptedArabic": [
+      "عشرون"
+    ],
+    "exampleTurkish": "Sınıfta yirmi öğrenci var.",
+    "exampleArabic": "يوجد عشرون طالبًا في الصف."
+  },
+  {
+    "id": "word-0914",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "otuz",
+    "arabic": "ثلاثون",
+    "acceptedArabic": [
+      "ثلاثون"
+    ],
+    "exampleTurkish": "Bu kitap otuz lira.",
+    "exampleArabic": "سعر هذا الكتاب ثلاثون ليرة."
+  },
+  {
+    "id": "word-0915",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "kırk",
+    "arabic": "أربعون",
+    "acceptedArabic": [
+      "أربعون"
+    ],
+    "exampleTurkish": "Yolculuk kırk dakika sürdü.",
+    "exampleArabic": "استغرقت الرحلة أربعين دقيقة."
+  },
+  {
+    "id": "word-0916",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "elli",
+    "arabic": "خمسون",
+    "acceptedArabic": [
+      "خمسون"
+    ],
+    "exampleTurkish": "Salonda elli sandalye var.",
+    "exampleArabic": "يوجد خمسون كرسيًا في القاعة."
+  },
+  {
+    "id": "word-0917",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "altmış",
+    "arabic": "ستون",
+    "acceptedArabic": [
+      "ستون"
+    ],
+    "exampleTurkish": "Bir saat altmış dakikadır.",
+    "exampleArabic": "الساعة ستون دقيقة."
+  },
+  {
+    "id": "word-0918",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "yetmiş",
+    "arabic": "سبعون",
+    "acceptedArabic": [
+      "سبعون"
+    ],
+    "exampleTurkish": "Bu sınavdan yetmiş puan aldım.",
+    "exampleArabic": "حصلت على سبعين نقطة في هذا الاختبار."
+  },
+  {
+    "id": "word-0919",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "seksen",
+    "arabic": "ثمانون",
+    "acceptedArabic": [
+      "ثمانون"
+    ],
+    "exampleTurkish": "Bilet seksen lira tuttu.",
+    "exampleArabic": "بلغ ثمن التذكرة ثمانين ليرة."
+  },
+  {
+    "id": "word-0920",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "doksan",
+    "arabic": "تسعون",
+    "acceptedArabic": [
+      "تسعون"
+    ],
+    "exampleTurkish": "Film doksan dakika sürüyor.",
+    "exampleArabic": "يستغرق الفيلم تسعين دقيقة."
+  },
+  {
+    "id": "word-0921",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "milyar",
+    "arabic": "مليار",
+    "acceptedArabic": [
+      "مليار"
+    ],
+    "exampleTurkish": "Yeni projenin bütçesi bir milyar lira.",
+    "exampleArabic": "ميزانية المشروع الجديد مليار ليرة."
+  },
+  {
+    "id": "word-0922",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "bin",
+    "arabic": "ألف",
+    "acceptedArabic": [
+      "ألف"
+    ],
+    "exampleTurkish": "Kütüphaneye bin kitap bağışlandı.",
+    "exampleArabic": "تُبرّع للمكتبة بألف كتاب."
+  },
+  {
+    "id": "word-0923",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "milyon",
+    "arabic": "مليون",
+    "acceptedArabic": [
+      "مليون"
+    ],
+    "exampleTurkish": "Bu şehirde bir milyon kişi yaşıyor.",
+    "exampleArabic": "يعيش في هذه المدينة مليون شخص."
+  },
+  {
+    "id": "word-0924",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "yarım",
+    "arabic": "نصف",
+    "acceptedArabic": [
+      "نصف"
+    ],
+    "exampleTurkish": "Yarım saat bekledik.",
+    "exampleArabic": "انتظرنا نصف ساعة."
+  },
+  {
+    "id": "word-0925",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "çeyrek",
+    "arabic": "ربع",
+    "acceptedArabic": [
+      "ربع"
+    ],
+    "exampleTurkish": "Çeyrek saat sonra döneceğim.",
+    "exampleArabic": "سأعود بعد ربع ساعة."
+  },
+  {
+    "id": "word-0926",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "çift",
+    "arabic": "زوج / مزدوج",
+    "acceptedArabic": [
+      "زوج",
+      "مزدوج"
+    ],
+    "exampleTurkish": "Bu otele çift kişilik oda ayırttık.",
+    "exampleArabic": "حجزنا غرفة لشخصين في هذا الفندق."
+  },
+  {
+    "id": "word-0927",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "tek",
+    "arabic": "وحيد / مفرد",
+    "acceptedArabic": [
+      "وحيد",
+      "مفرد"
+    ],
+    "exampleTurkish": "Tek bir soru kaldı.",
+    "exampleArabic": "بقي سؤال واحد فقط."
+  },
+  {
+    "id": "word-0928",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "çoğu",
+    "arabic": "معظم",
+    "acceptedArabic": [
+      "معظم"
+    ],
+    "exampleTurkish": "Öğrencilerin çoğu erken geldi.",
+    "exampleArabic": "جاء معظم الطلاب مبكرًا."
+  },
+  {
+    "id": "word-0929",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "az",
+    "arabic": "قليل",
+    "acceptedArabic": [
+      "قليل"
+    ],
+    "exampleTurkish": "Bugün az işim var.",
+    "exampleArabic": "لدي عمل قليل اليوم."
+  },
+  {
+    "id": "word-0930",
+    "kind": "word",
+    "category": "الأعداد والكميات",
+    "turkish": "çok",
+    "arabic": "كثير / جدًا",
+    "acceptedArabic": [
+      "كثير",
+      "جدًا"
+    ],
+    "exampleTurkish": "Burada çok insan var.",
+    "exampleArabic": "يوجد أناس كثيرون هنا."
+  },
+  {
+    "id": "word-0931",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "yolculuk",
+    "arabic": "رحلة / سفر",
+    "acceptedArabic": [
+      "رحلة",
+      "سفر"
+    ],
+    "exampleTurkish": "Yolculuk çok rahat geçti.",
+    "exampleArabic": "مرت الرحلة براحة كبيرة."
+  },
+  {
+    "id": "word-0932",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "seyahat",
+    "arabic": "سفر",
+    "acceptedArabic": [
+      "سفر"
+    ],
+    "exampleTurkish": "Seyahat için küçük bir çanta hazırladım.",
+    "exampleArabic": "جهزت حقيبة صغيرة للسفر."
+  },
+  {
+    "id": "word-0933",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "bilet",
+    "arabic": "تذكرة",
+    "acceptedArabic": [
+      "تذكرة"
+    ],
+    "exampleTurkish": "Biletimi telefonumda gösterdim.",
+    "exampleArabic": "عرضت تذكرتي على هاتفي."
+  },
+  {
+    "id": "word-0934",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "rezervasyon",
+    "arabic": "حجز",
+    "acceptedArabic": [
+      "حجز"
+    ],
+    "exampleTurkish": "Rezervasyon numaranızı söyler misiniz?",
+    "exampleArabic": "هل تخبرني برقم حجزك؟"
+  },
+  {
+    "id": "word-0935",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "pasaport",
+    "arabic": "جواز سفر",
+    "acceptedArabic": [
+      "جواز سفر"
+    ],
+    "exampleTurkish": "Pasaportumun süresini kontrol ettim.",
+    "exampleArabic": "تحققت من مدة صلاحية جواز سفري."
+  },
+  {
+    "id": "word-0936",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "vize",
+    "arabic": "تأشيرة",
+    "acceptedArabic": [
+      "تأشيرة"
+    ],
+    "exampleTurkish": "Bu ülke için vize gerekiyor mu?",
+    "exampleArabic": "هل تلزم تأشيرة لهذا البلد؟"
+  },
+  {
+    "id": "word-0937",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "valiz",
+    "arabic": "حقيبة سفر",
+    "acceptedArabic": [
+      "حقيبة سفر"
+    ],
+    "exampleTurkish": "Valizimi otelde bıraktım.",
+    "exampleArabic": "تركت حقيبة سفري في الفندق."
+  },
+  {
+    "id": "word-0938",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "bagaj",
+    "arabic": "أمتعة",
+    "acceptedArabic": [
+      "أمتعة"
+    ],
+    "exampleTurkish": "Bagaj için ek ücret ödedim.",
+    "exampleArabic": "دفعت رسومًا إضافية للأمتعة."
+  },
+  {
+    "id": "word-0939",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "otel",
+    "arabic": "فندق",
+    "acceptedArabic": [
+      "فندق"
+    ],
+    "exampleTurkish": "Otel istasyona çok yakın.",
+    "exampleArabic": "الفندق قريب جدًا من المحطة."
+  },
+  {
+    "id": "word-0940",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "pansiyon",
+    "arabic": "نزل صغير",
+    "acceptedArabic": [
+      "نزل صغير"
+    ],
+    "exampleTurkish": "Sahil yakınında bir pansiyon bulduk.",
+    "exampleArabic": "وجدنا نزلًا صغيرًا قرب الساحل."
+  },
+  {
+    "id": "word-0941",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "resepsiyon",
+    "arabic": "مكتب استقبال",
+    "acceptedArabic": [
+      "مكتب استقبال"
+    ],
+    "exampleTurkish": "Resepsiyon gece de açık.",
+    "exampleArabic": "مكتب الاستقبال مفتوح ليلًا أيضًا."
+  },
+  {
+    "id": "word-0942",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "konaklama",
+    "arabic": "إقامة",
+    "acceptedArabic": [
+      "إقامة"
+    ],
+    "exampleTurkish": "Konaklama ücretine kahvaltı dâhil.",
+    "exampleArabic": "يشمل سعر الإقامة الإفطار."
+  },
+  {
+    "id": "word-0943",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "tur",
+    "arabic": "جولة سياحية",
+    "acceptedArabic": [
+      "جولة سياحية"
+    ],
+    "exampleTurkish": "Şehir turu iki saat sürüyor.",
+    "exampleArabic": "تستغرق الجولة السياحية في المدينة ساعتين."
+  },
+  {
+    "id": "word-0944",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "rehber",
+    "arabic": "مرشد / دليل",
+    "acceptedArabic": [
+      "مرشد",
+      "دليل"
+    ],
+    "exampleTurkish": "Rehber bize binanın tarihini anlattı.",
+    "exampleArabic": "شرح لنا المرشد تاريخ المبنى."
+  },
+  {
+    "id": "word-0945",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "harita",
+    "arabic": "خريطة",
+    "acceptedArabic": [
+      "خريطة"
+    ],
+    "exampleTurkish": "Haritada istasyonu buldum.",
+    "exampleArabic": "وجدت المحطة على الخريطة."
+  },
+  {
+    "id": "word-0946",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "rota",
+    "arabic": "مسار رحلة",
+    "acceptedArabic": [
+      "مسار رحلة"
+    ],
+    "exampleTurkish": "Daha kısa bir rota seçtik.",
+    "exampleArabic": "اخترنا مسارًا أقصر."
+  },
+  {
+    "id": "word-0947",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "yön",
+    "arabic": "اتجاه",
+    "acceptedArabic": [
+      "اتجاه"
+    ],
+    "exampleTurkish": "Bu otobüs hangi yöne gidiyor?",
+    "exampleArabic": "في أي اتجاه تذهب هذه الحافلة؟"
+  },
+  {
+    "id": "word-0948",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "mesafe",
+    "arabic": "مسافة",
+    "acceptedArabic": [
+      "مسافة"
+    ],
+    "exampleTurkish": "İki durak arasındaki mesafe kısa.",
+    "exampleArabic": "المسافة بين المحطتين قصيرة."
+  },
+  {
+    "id": "word-0949",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "araç",
+    "arabic": "مركبة / وسيلة",
+    "acceptedArabic": [
+      "مركبة",
+      "وسيلة"
+    ],
+    "exampleTurkish": "Buraya yalnızca küçük araçlar girebilir.",
+    "exampleArabic": "لا يمكن أن تدخل هنا إلا المركبات الصغيرة."
+  },
+  {
+    "id": "word-0950",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "araba",
+    "arabic": "سيارة",
+    "acceptedArabic": [
+      "سيارة"
+    ],
+    "exampleTurkish": "Arabayı otelin önüne park ettim.",
+    "exampleArabic": "ركنت السيارة أمام الفندق."
+  },
+  {
+    "id": "word-0951",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "otobüs",
+    "arabic": "حافلة",
+    "acceptedArabic": [
+      "حافلة"
+    ],
+    "exampleTurkish": "Otobüs on dakika gecikti.",
+    "exampleArabic": "تأخرت الحافلة عشر دقائق."
+  },
+  {
+    "id": "word-0952",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "minibüs",
+    "arabic": "حافلة صغيرة",
+    "acceptedArabic": [
+      "حافلة صغيرة"
+    ],
+    "exampleTurkish": "Köye minibüsle gittik.",
+    "exampleArabic": "ذهبنا إلى القرية بحافلة صغيرة."
+  },
+  {
+    "id": "word-0953",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "taksi",
+    "arabic": "سيارة أجرة",
+    "acceptedArabic": [
+      "سيارة أجرة"
+    ],
+    "exampleTurkish": "İstasyondan taksiye bindik.",
+    "exampleArabic": "ركبنا سيارة أجرة من المحطة."
+  },
+  {
+    "id": "word-0954",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "tren",
+    "arabic": "قطار",
+    "acceptedArabic": [
+      "قطار"
+    ],
+    "exampleTurkish": "Tren zamanında geldi.",
+    "exampleArabic": "وصل القطار في موعده."
+  },
+  {
+    "id": "word-0955",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "metro",
+    "arabic": "مترو",
+    "acceptedArabic": [
+      "مترو"
+    ],
+    "exampleTurkish": "İşe metroyla gidiyorum.",
+    "exampleArabic": "أذهب إلى العمل بالمترو."
+  },
+  {
+    "id": "word-0956",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "tramvay",
+    "arabic": "ترام",
+    "acceptedArabic": [
+      "ترام"
+    ],
+    "exampleTurkish": "Tramvay meydanın yanından geçiyor.",
+    "exampleArabic": "يمر الترام بجوار الساحة."
+  },
+  {
+    "id": "word-0957",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "vapur",
+    "arabic": "عبّارة ركاب",
+    "acceptedArabic": [
+      "عبّارة ركاب"
+    ],
+    "exampleTurkish": "Karşıya vapurla geçtik.",
+    "exampleArabic": "عبرنا إلى الجهة الأخرى بالعبّارة."
+  },
+  {
+    "id": "word-0958",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "uçak",
+    "arabic": "طائرة",
+    "acceptedArabic": [
+      "طائرة"
+    ],
+    "exampleTurkish": "Uçak birazdan kalkacak.",
+    "exampleArabic": "ستقلع الطائرة بعد قليل."
+  },
+  {
+    "id": "word-0959",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "bisiklet",
+    "arabic": "دراجة هوائية",
+    "acceptedArabic": [
+      "دراجة هوائية"
+    ],
+    "exampleTurkish": "Bu yolu bisikletle geçtim.",
+    "exampleArabic": "قطعت هذا الطريق بالدراجة الهوائية."
+  },
+  {
+    "id": "word-0960",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "motosiklet",
+    "arabic": "دراجة نارية",
+    "acceptedArabic": [
+      "دراجة نارية"
+    ],
+    "exampleTurkish": "Motosiklet için ayrı bir park yeri var.",
+    "exampleArabic": "يوجد موقف منفصل للدراجات النارية."
+  },
+  {
+    "id": "word-0961",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "istasyon",
+    "arabic": "محطة قطار أو مترو",
+    "acceptedArabic": [
+      "محطة قطار أو مترو"
+    ],
+    "exampleTurkish": "İstasyon buradan on dakika uzaklıkta.",
+    "exampleArabic": "تبعد المحطة عشر دقائق من هنا."
+  },
+  {
+    "id": "word-0962",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "durak",
+    "arabic": "موقف حافلة ونحوها",
+    "acceptedArabic": [
+      "موقف حافلة ونحوها"
+    ],
+    "exampleTurkish": "Bir sonraki durakta ineceğim.",
+    "exampleArabic": "سأنزل في الموقف التالي."
+  },
+  {
+    "id": "word-0963",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "havalimanı",
+    "arabic": "مطار",
+    "acceptedArabic": [
+      "مطار"
+    ],
+    "exampleTurkish": "Havalimanına iki saat erken geldik.",
+    "exampleArabic": "وصلنا إلى المطار قبل الموعد بساعتين."
+  },
+  {
+    "id": "word-0964",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "liman",
+    "arabic": "ميناء",
+    "acceptedArabic": [
+      "ميناء"
+    ],
+    "exampleTurkish": "Liman şehir merkezine yakın.",
+    "exampleArabic": "الميناء قريب من وسط المدينة."
+  },
+  {
+    "id": "word-0965",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "iskele",
+    "arabic": "رصيف بحري",
+    "acceptedArabic": [
+      "رصيف بحري"
+    ],
+    "exampleTurkish": "Vapur iskeleye yanaştı.",
+    "exampleArabic": "رست العبّارة عند الرصيف البحري."
+  },
+  {
+    "id": "word-0966",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "peron",
+    "arabic": "رصيف محطة",
+    "acceptedArabic": [
+      "رصيف محطة"
+    ],
+    "exampleTurkish": "Tren üçüncü perondan kalkıyor.",
+    "exampleArabic": "ينطلق القطار من الرصيف الثالث."
+  },
+  {
+    "id": "word-0967",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "terminal",
+    "arabic": "مبنى ركاب / محطة نهائية",
+    "acceptedArabic": [
+      "مبنى ركاب",
+      "محطة نهائية"
+    ],
+    "exampleTurkish": "Uçuşumuz için doğru terminali bulduk.",
+    "exampleArabic": "وجدنا مبنى الركاب الصحيح لرحلتنا."
+  },
+  {
+    "id": "word-0968",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "kalkış",
+    "arabic": "إقلاع / انطلاق",
+    "acceptedArabic": [
+      "إقلاع",
+      "انطلاق"
+    ],
+    "exampleTurkish": "Kalkış saati değişti.",
+    "exampleArabic": "تغير وقت الانطلاق."
+  },
+  {
+    "id": "word-0969",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "varış",
+    "arabic": "وصول",
+    "acceptedArabic": [
+      "وصول"
+    ],
+    "exampleTurkish": "Varış saatini ekrandan kontrol ettim.",
+    "exampleArabic": "تحققت من وقت الوصول على الشاشة."
+  },
+  {
+    "id": "word-0970",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "aktarma",
+    "arabic": "انتقال بين وسائل النقل",
+    "acceptedArabic": [
+      "انتقال بين وسائل النقل"
+    ],
+    "exampleTurkish": "Bu yolculukta bir aktarma var.",
+    "exampleArabic": "تتضمن هذه الرحلة انتقالًا واحدًا بين وسائل النقل."
+  },
+  {
+    "id": "word-0971",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "gecikme",
+    "arabic": "تأخير",
+    "acceptedArabic": [
+      "تأخير"
+    ],
+    "exampleTurkish": "Gecikme için özür dilediler.",
+    "exampleArabic": "اعتذروا عن التأخير."
+  },
+  {
+    "id": "word-0972",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "uçuş",
+    "arabic": "رحلة جوية",
+    "acceptedArabic": [
+      "رحلة جوية"
+    ],
+    "exampleTurkish": "Uçuş numarası bilette yazıyor.",
+    "exampleArabic": "رقم الرحلة الجوية مكتوب على التذكرة."
+  },
+  {
+    "id": "word-0973",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "yolcu",
+    "arabic": "راكب / مسافر",
+    "acceptedArabic": [
+      "راكب",
+      "مسافر"
+    ],
+    "exampleTurkish": "Yolcular peronda bekliyor.",
+    "exampleArabic": "ينتظر المسافرون على الرصيف."
+  },
+  {
+    "id": "word-0974",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "sürücü",
+    "arabic": "سائق",
+    "acceptedArabic": [
+      "سائق"
+    ],
+    "exampleTurkish": "Sürücü bize hangi durakta ineceğimizi söyledi.",
+    "exampleArabic": "أخبرنا السائق في أي موقف ننزل."
+  },
+  {
+    "id": "word-0975",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "emniyet kemeri",
+    "arabic": "حزام أمان",
+    "acceptedArabic": [
+      "حزام أمان"
+    ],
+    "exampleTurkish": "Lütfen emniyet kemerinizi takın.",
+    "exampleArabic": "اربطوا أحزمة الأمان من فضلكم."
+  },
+  {
+    "id": "word-0976",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "trafik",
+    "arabic": "حركة المرور",
+    "acceptedArabic": [
+      "حركة المرور"
+    ],
+    "exampleTurkish": "Sabah trafik çok yoğundu.",
+    "exampleArabic": "كانت حركة المرور كثيفة جدًا صباحًا."
+  },
+  {
+    "id": "word-0977",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "kavşak",
+    "arabic": "تقاطع طرق",
+    "acceptedArabic": [
+      "تقاطع طرق"
+    ],
+    "exampleTurkish": "İkinci kavşaktan sola dön.",
+    "exampleArabic": "انعطف يسارًا عند التقاطع الثاني."
+  },
+  {
+    "id": "word-0978",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "otoyol",
+    "arabic": "طريق سريع",
+    "acceptedArabic": [
+      "طريق سريع"
+    ],
+    "exampleTurkish": "Otoyolda bir süre yavaş ilerledik.",
+    "exampleArabic": "سرنا ببطء لبعض الوقت على الطريق السريع."
+  },
+  {
+    "id": "word-0979",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "yakıt",
+    "arabic": "وقود",
+    "acceptedArabic": [
+      "وقود"
+    ],
+    "exampleTurkish": "Yola çıkmadan önce yakıt aldık.",
+    "exampleArabic": "تزودنا بالوقود قبل الانطلاق."
+  },
+  {
+    "id": "word-0980",
+    "kind": "word",
+    "category": "السفر والمواصلات",
+    "turkish": "gümrük",
+    "arabic": "جمارك",
+    "acceptedArabic": [
+      "جمارك"
+    ],
+    "exampleTurkish": "Gümrükte belgelerimizi gösterdik.",
+    "exampleArabic": "عرضنا وثائقنا عند الجمارك."
+  },
+  {
+    "id": "word-0981",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "şehir",
+    "arabic": "مدينة",
+    "acceptedArabic": [
+      "مدينة"
+    ],
+    "exampleTurkish": "Bu şehirde üç yıldır yaşıyorum.",
+    "exampleArabic": "أعيش في هذه المدينة منذ ثلاث سنوات."
+  },
+  {
+    "id": "word-0982",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "köy",
+    "arabic": "قرية",
+    "acceptedArabic": [
+      "قرية"
+    ],
+    "exampleTurkish": "Köye giden yol yenilendi.",
+    "exampleArabic": "جُدد الطريق المؤدي إلى القرية."
+  },
+  {
+    "id": "word-0983",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "mahalle",
+    "arabic": "حي",
+    "acceptedArabic": [
+      "حي"
+    ],
+    "exampleTurkish": "Mahallemizde yeni bir kütüphane açıldı.",
+    "exampleArabic": "افتُتحت مكتبة جديدة في حينا."
+  },
+  {
+    "id": "word-0984",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "cadde",
+    "arabic": "شارع رئيسي",
+    "acceptedArabic": [
+      "شارع رئيسي"
+    ],
+    "exampleTurkish": "Bu cadde akşamları çok kalabalık.",
+    "exampleArabic": "هذا الشارع الرئيسي مزدحم جدًا مساءً."
+  },
+  {
+    "id": "word-0985",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "sokak",
+    "arabic": "شارع فرعي",
+    "acceptedArabic": [
+      "شارع فرعي"
+    ],
+    "exampleTurkish": "Otel bir arka sokakta.",
+    "exampleArabic": "الفندق في شارع خلفي."
+  },
+  {
+    "id": "word-0986",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "meydan",
+    "arabic": "ساحة",
+    "acceptedArabic": [
+      "ساحة"
+    ],
+    "exampleTurkish": "Meydanda saat beşte buluşalım.",
+    "exampleArabic": "لنلتقِ في الساحة عند الخامسة."
+  },
+  {
+    "id": "word-0987",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "kaldırım",
+    "arabic": "رصيف مشاة",
+    "acceptedArabic": [
+      "رصيف مشاة"
+    ],
+    "exampleTurkish": "Lütfen kaldırımda yürüyün.",
+    "exampleArabic": "امشوا على رصيف المشاة من فضلكم."
+  },
+  {
+    "id": "word-0988",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "yaya geçidi",
+    "arabic": "ممر مشاة",
+    "acceptedArabic": [
+      "ممر مشاة"
+    ],
+    "exampleTurkish": "Yaya geçidinde araçlar durdu.",
+    "exampleArabic": "توقفت المركبات عند ممر المشاة."
+  },
+  {
+    "id": "word-0989",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "köprü",
+    "arabic": "جسر",
+    "acceptedArabic": [
+      "جسر"
+    ],
+    "exampleTurkish": "Köprüyü yürüyerek geçtik.",
+    "exampleArabic": "عبرنا الجسر سيرًا."
+  },
+  {
+    "id": "word-0990",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "tünel",
+    "arabic": "نفق",
+    "acceptedArabic": [
+      "نفق"
+    ],
+    "exampleTurkish": "Tren uzun bir tünelden geçti.",
+    "exampleArabic": "مر القطار عبر نفق طويل."
+  },
+  {
+    "id": "word-0991",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "merkez",
+    "arabic": "مركز / وسط",
+    "acceptedArabic": [
+      "مركز",
+      "وسط"
+    ],
+    "exampleTurkish": "Şehir merkezine gitmek istiyorum.",
+    "exampleArabic": "أريد الذهاب إلى وسط المدينة."
+  },
+  {
+    "id": "word-0992",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "adres",
+    "arabic": "عنوان",
+    "acceptedArabic": [
+      "عنوان"
+    ],
+    "exampleTurkish": "Adresi kâğıda yazdım.",
+    "exampleArabic": "كتبت العنوان على الورقة."
+  },
+  {
+    "id": "word-0993",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "bina",
+    "arabic": "مبنى",
+    "acceptedArabic": [
+      "مبنى"
+    ],
+    "exampleTurkish": "Bu bina eskiden okulmuş.",
+    "exampleArabic": "كان هذا المبنى مدرسة في السابق."
+  },
+  {
+    "id": "word-0994",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "kat",
+    "arabic": "طابق",
+    "acceptedArabic": [
+      "طابق"
+    ],
+    "exampleTurkish": "Ofisimiz üçüncü katta.",
+    "exampleArabic": "مكتبنا في الطابق الثالث."
+  },
+  {
+    "id": "word-0995",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "üstgeçit",
+    "arabic": "جسر عبور علوي",
+    "acceptedArabic": [
+      "جسر عبور علوي"
+    ],
+    "exampleTurkish": "Yolun karşısına üstgeçitten geçtik.",
+    "exampleArabic": "عبرنا إلى الجانب الآخر من الطريق عبر جسر العبور العلوي."
+  },
+  {
+    "id": "word-0996",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "çıkış",
+    "arabic": "مخرج / خروج",
+    "acceptedArabic": [
+      "مخرج",
+      "خروج"
+    ],
+    "exampleTurkish": "Çıkış levhasını takip edin.",
+    "exampleArabic": "اتبعوا لافتة المخرج."
+  },
+  {
+    "id": "word-0997",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "asansör",
+    "arabic": "مصعد",
+    "acceptedArabic": [
+      "مصعد"
+    ],
+    "exampleTurkish": "Asansör bugün çalışmıyor.",
+    "exampleArabic": "المصعد لا يعمل اليوم."
+  },
+  {
+    "id": "word-0998",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "yürüyen merdiven",
+    "arabic": "سلم متحرك",
+    "acceptedArabic": [
+      "سلم متحرك"
+    ],
+    "exampleTurkish": "İkinci kata yürüyen merdivenle çıktık.",
+    "exampleArabic": "صعدنا إلى الطابق الثاني بالسلم المتحرك."
+  },
+  {
+    "id": "word-0999",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "belediye",
+    "arabic": "بلدية",
+    "acceptedArabic": [
+      "بلدية"
+    ],
+    "exampleTurkish": "Bu konu için belediyeye başvurduk.",
+    "exampleArabic": "راجعنا البلدية بشأن هذا الموضوع."
+  },
+  {
+    "id": "word-1000",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "postane",
+    "arabic": "مكتب بريد",
+    "acceptedArabic": [
+      "مكتب بريد"
+    ],
+    "exampleTurkish": "Postane saat beşte kapanıyor.",
+    "exampleArabic": "يغلق مكتب البريد في الخامسة."
+  },
+  {
+    "id": "word-1001",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "banka",
+    "arabic": "بنك",
+    "acceptedArabic": [
+      "بنك"
+    ],
+    "exampleTurkish": "Bankada sıra bekledim.",
+    "exampleArabic": "انتظرت دوري في البنك."
+  },
+  {
+    "id": "word-1002",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "bankamatik",
+    "arabic": "صراف آلي",
+    "acceptedArabic": [
+      "صراف آلي"
+    ],
+    "exampleTurkish": "Yakında bir bankamatik var mı?",
+    "exampleArabic": "هل يوجد صراف آلي قريب؟"
+  },
+  {
+    "id": "word-1003",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "kütüphane",
+    "arabic": "مكتبة عامة",
+    "acceptedArabic": [
+      "مكتبة عامة"
+    ],
+    "exampleTurkish": "Kütüphaneden iki kitap aldım.",
+    "exampleArabic": "أخذت كتابين من المكتبة العامة."
+  },
+  {
+    "id": "word-1004",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "müze",
+    "arabic": "متحف",
+    "acceptedArabic": [
+      "متحف"
+    ],
+    "exampleTurkish": "Bu müzeye giriş ücretsiz.",
+    "exampleArabic": "الدخول إلى هذا المتحف مجاني."
+  },
+  {
+    "id": "word-1005",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "sinema",
+    "arabic": "دار سينما",
+    "acceptedArabic": [
+      "دار سينما"
+    ],
+    "exampleTurkish": "Bu akşam sinemaya gidelim.",
+    "exampleArabic": "لنذهب إلى السينما هذا المساء."
+  },
+  {
+    "id": "word-1006",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "tiyatro",
+    "arabic": "مسرح",
+    "acceptedArabic": [
+      "مسرح"
+    ],
+    "exampleTurkish": "Tiyatro biletleri tükenmiş.",
+    "exampleArabic": "نفدت تذاكر المسرح."
+  },
+  {
+    "id": "word-1007",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "stadyum",
+    "arabic": "ملعب رياضي كبير",
+    "acceptedArabic": [
+      "ملعب رياضي كبير"
+    ],
+    "exampleTurkish": "Stadyuma metro ile ulaştık.",
+    "exampleArabic": "وصلنا إلى الملعب بالمترو."
+  },
+  {
+    "id": "word-1008",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "karakol",
+    "arabic": "مركز شرطة",
+    "acceptedArabic": [
+      "مركز شرطة"
+    ],
+    "exampleTurkish": "Kayıp çantamı karakola bildirdim.",
+    "exampleArabic": "أبلغت مركز الشرطة عن حقيبتي المفقودة."
+  },
+  {
+    "id": "word-1009",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "mahkeme",
+    "arabic": "محكمة",
+    "acceptedArabic": [
+      "محكمة"
+    ],
+    "exampleTurkish": "Mahkeme binası meydanın yanında.",
+    "exampleArabic": "مبنى المحكمة بجوار الساحة."
+  },
+  {
+    "id": "word-1010",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "konsolosluk",
+    "arabic": "قنصلية",
+    "acceptedArabic": [
+      "قنصلية"
+    ],
+    "exampleTurkish": "Konsolosluktan randevu aldım.",
+    "exampleArabic": "حجزت موعدًا في القنصلية."
+  },
+  {
+    "id": "word-1011",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "elçilik",
+    "arabic": "سفارة",
+    "acceptedArabic": [
+      "سفارة"
+    ],
+    "exampleTurkish": "Elçiliğin adresini kontrol ettim.",
+    "exampleArabic": "تحققت من عنوان السفارة."
+  },
+  {
+    "id": "word-1012",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "mağaza",
+    "arabic": "متجر",
+    "acceptedArabic": [
+      "متجر"
+    ],
+    "exampleTurkish": "Mağaza saat onda açılıyor.",
+    "exampleArabic": "يفتح المتجر في العاشرة."
+  },
+  {
+    "id": "word-1013",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "dükkân",
+    "arabic": "دكان",
+    "acceptedArabic": [
+      "دكان"
+    ],
+    "exampleTurkish": "Bu küçük dükkân yıllardır açık.",
+    "exampleArabic": "هذا الدكان الصغير مفتوح منذ سنوات."
+  },
+  {
+    "id": "word-1014",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "alışveriş merkezi",
+    "arabic": "مركز تسوق",
+    "acceptedArabic": [
+      "مركز تسوق"
+    ],
+    "exampleTurkish": "Alışveriş merkezinde buluştuk.",
+    "exampleArabic": "التقينا في مركز التسوق."
+  },
+  {
+    "id": "word-1015",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "otopark",
+    "arabic": "موقف سيارات",
+    "acceptedArabic": [
+      "موقف سيارات"
+    ],
+    "exampleTurkish": "Otoparkta boş yer bulamadık.",
+    "exampleArabic": "لم نجد مكانًا فارغًا في موقف السيارات."
+  },
+  {
+    "id": "word-1016",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "şube",
+    "arabic": "فرع",
+    "acceptedArabic": [
+      "فرع"
+    ],
+    "exampleTurkish": "En yakın şube nerede?",
+    "exampleArabic": "أين أقرب فرع؟"
+  },
+  {
+    "id": "word-1017",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "gişe",
+    "arabic": "شباك تذاكر أو معاملات",
+    "acceptedArabic": [
+      "شباك تذاكر أو معاملات"
+    ],
+    "exampleTurkish": "Bileti gişeden aldım.",
+    "exampleArabic": "اشتريت التذكرة من الشباك."
+  },
+  {
+    "id": "word-1018",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "sıra",
+    "arabic": "دور / صف",
+    "acceptedArabic": [
+      "دور",
+      "صف"
+    ],
+    "exampleTurkish": "Sırada beş kişi var.",
+    "exampleArabic": "يوجد خمسة أشخاص في الصف."
+  },
+  {
+    "id": "word-1019",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "hizmet",
+    "arabic": "خدمة",
+    "acceptedArabic": [
+      "خدمة"
+    ],
+    "exampleTurkish": "Bu hizmet hafta sonu da veriliyor.",
+    "exampleArabic": "تتوفر هذه الخدمة في نهاية الأسبوع أيضًا."
+  },
+  {
+    "id": "word-1020",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "ücret",
+    "arabic": "رسم / أجر",
+    "acceptedArabic": [
+      "رسم",
+      "أجر"
+    ],
+    "exampleTurkish": "Giriş ücreti ne kadar?",
+    "exampleArabic": "كم رسم الدخول؟"
+  },
+  {
+    "id": "word-1021",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "fatura",
+    "arabic": "فاتورة",
+    "acceptedArabic": [
+      "فاتورة"
+    ],
+    "exampleTurkish": "Faturayı e-postayla gönderdiler.",
+    "exampleArabic": "أرسلوا الفاتورة بالبريد الإلكتروني."
+  },
+  {
+    "id": "word-1022",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "makbuz",
+    "arabic": "إيصال استلام أو دفع",
+    "acceptedArabic": [
+      "إيصال استلام أو دفع"
+    ],
+    "exampleTurkish": "Ödeme yaptıktan sonra makbuz aldım.",
+    "exampleArabic": "حصلت على إيصال بعد الدفع."
+  },
+  {
+    "id": "word-1023",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "para",
+    "arabic": "مال",
+    "acceptedArabic": [
+      "مال"
+    ],
+    "exampleTurkish": "Yanımda yeterli para var.",
+    "exampleArabic": "لدي مال كافٍ معي."
+  },
+  {
+    "id": "word-1024",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "nakit",
+    "arabic": "نقد",
+    "acceptedArabic": [
+      "نقد"
+    ],
+    "exampleTurkish": "Nakit ödeme yapabilir miyim?",
+    "exampleArabic": "هل يمكنني الدفع نقدًا؟"
+  },
+  {
+    "id": "word-1025",
+    "kind": "word",
+    "category": "المدينة والخدمات",
+    "turkish": "indirim",
+    "arabic": "خصم",
+    "acceptedArabic": [
+      "خصم"
+    ],
+    "exampleTurkish": "Öğrencilere indirim yapılıyor.",
+    "exampleArabic": "يُمنح الطلاب خصمًا."
+  },
+  {
+    "id": "word-1026",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "iş",
+    "arabic": "عمل",
+    "acceptedArabic": [
+      "عمل"
+    ],
+    "exampleTurkish": "Bugün çok işim var.",
+    "exampleArabic": "لدي عمل كثير اليوم."
+  },
+  {
+    "id": "word-1027",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "meslek",
+    "arabic": "مهنة",
+    "acceptedArabic": [
+      "مهنة"
+    ],
+    "exampleTurkish": "Yeni bir meslek öğrenmek istiyorum.",
+    "exampleArabic": "أريد تعلم مهنة جديدة."
+  },
+  {
+    "id": "word-1028",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "şirket",
+    "arabic": "شركة",
+    "acceptedArabic": [
+      "شركة"
+    ],
+    "exampleTurkish": "Bu şirket yazılım üretiyor.",
+    "exampleArabic": "تنتج هذه الشركة البرمجيات."
+  },
+  {
+    "id": "word-1029",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "ofis",
+    "arabic": "مكتب عمل",
+    "acceptedArabic": [
+      "مكتب عمل"
+    ],
+    "exampleTurkish": "Ofisimiz istasyona yakın.",
+    "exampleArabic": "مكتبنا قريب من المحطة."
+  },
+  {
+    "id": "word-1030",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "toplantı",
+    "arabic": "اجتماع",
+    "acceptedArabic": [
+      "اجتماع"
+    ],
+    "exampleTurkish": "Toplantı yarım saat sürdü.",
+    "exampleArabic": "استمر الاجتماع نصف ساعة."
+  },
+  {
+    "id": "word-1031",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "proje",
+    "arabic": "مشروع",
+    "acceptedArabic": [
+      "مشروع"
+    ],
+    "exampleTurkish": "Yeni projeye yarın başlıyoruz.",
+    "exampleArabic": "نبدأ المشروع الجديد غدًا."
+  },
+  {
+    "id": "word-1032",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "görev",
+    "arabic": "مهمة",
+    "acceptedArabic": [
+      "مهمة"
+    ],
+    "exampleTurkish": "Bu görevi birlikte tamamlayalım.",
+    "exampleArabic": "لنكمل هذه المهمة معًا."
+  },
+  {
+    "id": "word-1033",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "rapor",
+    "arabic": "تقرير",
+    "acceptedArabic": [
+      "تقرير"
+    ],
+    "exampleTurkish": "Raporu sabah gönderdim.",
+    "exampleArabic": "أرسلت التقرير صباحًا."
+  },
+  {
+    "id": "word-1034",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "sunum",
+    "arabic": "عرض تقديمي",
+    "acceptedArabic": [
+      "عرض تقديمي"
+    ],
+    "exampleTurkish": "Sunum için on dakikam var.",
+    "exampleArabic": "لدي عشر دقائق للعرض التقديمي."
+  },
+  {
+    "id": "word-1035",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "sözleşme",
+    "arabic": "عقد",
+    "acceptedArabic": [
+      "عقد"
+    ],
+    "exampleTurkish": "Sözleşmeyi dikkatlice okudum.",
+    "exampleArabic": "قرأت العقد بعناية."
+  },
+  {
+    "id": "word-1036",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "başvuru",
+    "arabic": "طلب رسمي",
+    "acceptedArabic": [
+      "طلب رسمي"
+    ],
+    "exampleTurkish": "Başvuru için son gün yarın.",
+    "exampleArabic": "غدًا هو آخر يوم لتقديم الطلب."
+  },
+  {
+    "id": "word-1037",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "maaş",
+    "arabic": "راتب",
+    "acceptedArabic": [
+      "راتب"
+    ],
+    "exampleTurkish": "Maaş her ayın sonunda ödeniyor.",
+    "exampleArabic": "يُدفع الراتب في نهاية كل شهر."
+  },
+  {
+    "id": "word-1038",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "izin",
+    "arabic": "إذن / إجازة",
+    "acceptedArabic": [
+      "إذن",
+      "إجازة"
+    ],
+    "exampleTurkish": "Gelecek hafta iki gün izin alacağım.",
+    "exampleArabic": "سآخذ إجازة يومين الأسبوع المقبل."
+  },
+  {
+    "id": "word-1039",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "deneyim",
+    "arabic": "خبرة / تجربة",
+    "acceptedArabic": [
+      "خبرة",
+      "تجربة"
+    ],
+    "exampleTurkish": "Bu işte iki yıllık deneyimim var.",
+    "exampleArabic": "لدي خبرة سنتين في هذا العمل."
+  },
+  {
+    "id": "word-1040",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "beceri",
+    "arabic": "مهارة",
+    "acceptedArabic": [
+      "مهارة"
+    ],
+    "exampleTurkish": "Bu kurs yeni beceriler kazandırıyor.",
+    "exampleArabic": "تكسب هذه الدورة مهارات جديدة."
+  },
+  {
+    "id": "word-1041",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "eğitim",
+    "arabic": "تعليم / تدريب",
+    "acceptedArabic": [
+      "تعليم",
+      "تدريب"
+    ],
+    "exampleTurkish": "Eğitim programı pazartesi başlıyor.",
+    "exampleArabic": "يبدأ البرنامج التدريبي يوم الاثنين."
+  },
+  {
+    "id": "word-1042",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "okul",
+    "arabic": "مدرسة",
+    "acceptedArabic": [
+      "مدرسة"
+    ],
+    "exampleTurkish": "Okul evimize çok yakın.",
+    "exampleArabic": "المدرسة قريبة جدًا من منزلنا."
+  },
+  {
+    "id": "word-1043",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "üniversite",
+    "arabic": "جامعة",
+    "acceptedArabic": [
+      "جامعة"
+    ],
+    "exampleTurkish": "Üniversite kütüphanesi gece de açık.",
+    "exampleArabic": "مكتبة الجامعة مفتوحة ليلًا أيضًا."
+  },
+  {
+    "id": "word-1044",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "sınıf",
+    "arabic": "صف / فصل دراسي",
+    "acceptedArabic": [
+      "صف",
+      "فصل دراسي"
+    ],
+    "exampleTurkish": "Sınıfta yirmi masa var.",
+    "exampleArabic": "توجد عشرون طاولة في الصف."
+  },
+  {
+    "id": "word-1045",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "ders",
+    "arabic": "درس",
+    "acceptedArabic": [
+      "درس"
+    ],
+    "exampleTurkish": "Her ders beş yeni kelime içeriyor.",
+    "exampleArabic": "يتضمن كل درس خمس كلمات جديدة."
+  },
+  {
+    "id": "word-1046",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "kurs",
+    "arabic": "دورة تعليمية",
+    "acceptedArabic": [
+      "دورة تعليمية"
+    ],
+    "exampleTurkish": "Akşamları Türkçe kursuna gidiyorum.",
+    "exampleArabic": "أذهب إلى دورة للغة التركية مساءً."
+  },
+  {
+    "id": "word-1047",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "sınav",
+    "arabic": "اختبار",
+    "acceptedArabic": [
+      "اختبار"
+    ],
+    "exampleTurkish": "Sınava bir hafta kaldı.",
+    "exampleArabic": "بقي أسبوع على الاختبار."
+  },
+  {
+    "id": "word-1048",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "ödev",
+    "arabic": "واجب دراسي",
+    "acceptedArabic": [
+      "واجب دراسي"
+    ],
+    "exampleTurkish": "Ödevimi akşam bitirdim.",
+    "exampleArabic": "أنهيت واجبي مساءً."
+  },
+  {
+    "id": "word-1049",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "not",
+    "arabic": "ملاحظة / درجة",
+    "acceptedArabic": [
+      "ملاحظة",
+      "درجة"
+    ],
+    "exampleTurkish": "Bu bilgiyi notlarına ekle.",
+    "exampleArabic": "أضف هذه المعلومة إلى ملاحظاتك."
+  },
+  {
+    "id": "word-1050",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "kitap",
+    "arabic": "كتاب",
+    "acceptedArabic": [
+      "كتاب"
+    ],
+    "exampleTurkish": "Bu kitabı iki günde okudum.",
+    "exampleArabic": "قرأت هذا الكتاب في يومين."
+  },
+  {
+    "id": "word-1051",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "defter",
+    "arabic": "دفتر",
+    "acceptedArabic": [
+      "دفتر"
+    ],
+    "exampleTurkish": "Yeni kelimeleri defterime yazıyorum.",
+    "exampleArabic": "أكتب الكلمات الجديدة في دفتري."
+  },
+  {
+    "id": "word-1052",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "kalem",
+    "arabic": "قلم",
+    "acceptedArabic": [
+      "قلم"
+    ],
+    "exampleTurkish": "Kalemini bir dakika kullanabilir miyim?",
+    "exampleArabic": "هل يمكنني استخدام قلمك لدقيقة؟"
+  },
+  {
+    "id": "word-1053",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "silgi",
+    "arabic": "ممحاة",
+    "acceptedArabic": [
+      "ممحاة"
+    ],
+    "exampleTurkish": "Silgiyi kalemin yanına koydum.",
+    "exampleArabic": "وضعت الممحاة بجانب القلم."
+  },
+  {
+    "id": "word-1054",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "kâğıt",
+    "arabic": "ورق / ورقة",
+    "acceptedArabic": [
+      "ورق",
+      "ورقة"
+    ],
+    "exampleTurkish": "Adresi bir kâğıda yazdım.",
+    "exampleArabic": "كتبت العنوان على ورقة."
+  },
+  {
+    "id": "word-1055",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "sayfa",
+    "arabic": "صفحة",
+    "acceptedArabic": [
+      "صفحة"
+    ],
+    "exampleTurkish": "Lütfen onuncu sayfayı açın.",
+    "exampleArabic": "افتحوا الصفحة العاشرة من فضلكم."
+  },
+  {
+    "id": "word-1056",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "tahta",
+    "arabic": "سبورة / لوح",
+    "acceptedArabic": [
+      "سبورة",
+      "لوح"
+    ],
+    "exampleTurkish": "Öğretmen örneği tahtaya yazdı.",
+    "exampleArabic": "كتب المعلم المثال على السبورة."
+  },
+  {
+    "id": "word-1057",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "sözlük",
+    "arabic": "قاموس",
+    "acceptedArabic": [
+      "قاموس"
+    ],
+    "exampleTurkish": "Bu kelimeye sözlükten baktım.",
+    "exampleArabic": "بحثت عن هذه الكلمة في القاموس."
+  },
+  {
+    "id": "word-1058",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "konu",
+    "arabic": "موضوع",
+    "acceptedArabic": [
+      "موضوع"
+    ],
+    "exampleTurkish": "Bugünkü konu ulaşım.",
+    "exampleArabic": "موضوع اليوم هو المواصلات."
+  },
+  {
+    "id": "word-1059",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "örnek",
+    "arabic": "مثال",
+    "acceptedArabic": [
+      "مثال"
+    ],
+    "exampleTurkish": "Bir örnek daha verir misin?",
+    "exampleArabic": "هل تعطي مثالًا آخر؟"
+  },
+  {
+    "id": "word-1060",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "kural",
+    "arabic": "قاعدة",
+    "acceptedArabic": [
+      "قاعدة"
+    ],
+    "exampleTurkish": "Bu kuralın bir istisnası var.",
+    "exampleArabic": "لهذه القاعدة استثناء."
+  },
+  {
+    "id": "word-1061",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "cevap",
+    "arabic": "إجابة",
+    "acceptedArabic": [
+      "إجابة"
+    ],
+    "exampleTurkish": "Cevabını buraya yaz.",
+    "exampleArabic": "اكتب إجابتك هنا."
+  },
+  {
+    "id": "word-1062",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "soru",
+    "arabic": "سؤال",
+    "acceptedArabic": [
+      "سؤال"
+    ],
+    "exampleTurkish": "Bir soru sorabilir miyim?",
+    "exampleArabic": "هل يمكنني طرح سؤال؟"
+  },
+  {
+    "id": "word-1063",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "hata",
+    "arabic": "خطأ",
+    "acceptedArabic": [
+      "خطأ"
+    ],
+    "exampleTurkish": "Metinde küçük bir hata buldum.",
+    "exampleArabic": "وجدت خطأ صغيرًا في النص."
+  },
+  {
+    "id": "word-1064",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "puan",
+    "arabic": "نقطة / درجة تقييم",
+    "acceptedArabic": [
+      "نقطة",
+      "درجة تقييم"
+    ],
+    "exampleTurkish": "Bu sorudan beş puan aldım.",
+    "exampleArabic": "حصلت على خمس نقاط من هذا السؤال."
+  },
+  {
+    "id": "word-1065",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "diploma",
+    "arabic": "شهادة تخرج",
+    "acceptedArabic": [
+      "شهادة تخرج"
+    ],
+    "exampleTurkish": "Diplomamın bir kopyasını gönderdim.",
+    "exampleArabic": "أرسلت نسخة من شهادة تخرجي."
+  },
+  {
+    "id": "word-1066",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "bilgisayar",
+    "arabic": "حاسوب",
+    "acceptedArabic": [
+      "حاسوب"
+    ],
+    "exampleTurkish": "Bilgisayarım bugün yavaş çalışıyor.",
+    "exampleArabic": "يعمل حاسوبي ببطء اليوم."
+  },
+  {
+    "id": "word-1067",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "telefon",
+    "arabic": "هاتف",
+    "acceptedArabic": [
+      "هاتف"
+    ],
+    "exampleTurkish": "Telefonumun şarjı bitti.",
+    "exampleArabic": "نفدت بطارية هاتفي."
+  },
+  {
+    "id": "word-1068",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "ekran",
+    "arabic": "شاشة",
+    "acceptedArabic": [
+      "شاشة"
+    ],
+    "exampleTurkish": "Ekrandaki mesajı okuyamıyorum.",
+    "exampleArabic": "لا أستطيع قراءة الرسالة على الشاشة."
+  },
+  {
+    "id": "word-1069",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "klavye",
+    "arabic": "لوحة مفاتيح",
+    "acceptedArabic": [
+      "لوحة مفاتيح"
+    ],
+    "exampleTurkish": "Türkçe klavye kullanıyorum.",
+    "exampleArabic": "أستخدم لوحة مفاتيح تركية."
+  },
+  {
+    "id": "word-1070",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "yazıcı",
+    "arabic": "طابعة",
+    "acceptedArabic": [
+      "طابعة"
+    ],
+    "exampleTurkish": "Yazıcıda kâğıt kalmadı.",
+    "exampleArabic": "لم يبقَ ورق في الطابعة."
+  },
+  {
+    "id": "word-1071",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "işlemci",
+    "arabic": "معالج حاسوبي",
+    "acceptedArabic": [
+      "معالج حاسوبي"
+    ],
+    "exampleTurkish": "Bu bilgisayarın işlemcisi oldukça hızlı.",
+    "exampleArabic": "معالج هذا الحاسوب سريع إلى حد كبير."
+  },
+  {
+    "id": "word-1072",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "şarj cihazı",
+    "arabic": "شاحن",
+    "acceptedArabic": [
+      "شاحن"
+    ],
+    "exampleTurkish": "Şarj cihazımı ofiste unuttum.",
+    "exampleArabic": "نسيت شاحني في المكتب."
+  },
+  {
+    "id": "word-1073",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "internet",
+    "arabic": "إنترنت",
+    "acceptedArabic": [
+      "إنترنت"
+    ],
+    "exampleTurkish": "Burada internet bağlantısı güçlü.",
+    "exampleArabic": "اتصال الإنترنت قوي هنا."
+  },
+  {
+    "id": "word-1074",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "bağlantı",
+    "arabic": "اتصال / رابط",
+    "acceptedArabic": [
+      "اتصال",
+      "رابط"
+    ],
+    "exampleTurkish": "Toplantı bağlantısını gönderdim.",
+    "exampleArabic": "أرسلت رابط الاجتماع."
+  },
+  {
+    "id": "word-1075",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "uygulama",
+    "arabic": "تطبيق",
+    "acceptedArabic": [
+      "تطبيق"
+    ],
+    "exampleTurkish": "Bu uygulamayla Türkçe çalışıyorum.",
+    "exampleArabic": "أدرس التركية باستخدام هذا التطبيق."
+  },
+  {
+    "id": "word-1076",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "program",
+    "arabic": "برنامج",
+    "acceptedArabic": [
+      "برنامج"
+    ],
+    "exampleTurkish": "Programı yeniden açtım.",
+    "exampleArabic": "فتحت البرنامج مجددًا."
+  },
+  {
+    "id": "word-1077",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "yazılım",
+    "arabic": "برمجيات",
+    "acceptedArabic": [
+      "برمجيات"
+    ],
+    "exampleTurkish": "Yeni yazılım işleri kolaylaştırıyor.",
+    "exampleArabic": "تسهّل البرمجيات الجديدة العمل."
+  },
+  {
+    "id": "word-1078",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "dosya",
+    "arabic": "ملف",
+    "acceptedArabic": [
+      "ملف"
+    ],
+    "exampleTurkish": "Dosyayı masaüstüne kaydettim.",
+    "exampleArabic": "حفظت الملف على سطح المكتب."
+  },
+  {
+    "id": "word-1079",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "klasör",
+    "arabic": "مجلد",
+    "acceptedArabic": [
+      "مجلد"
+    ],
+    "exampleTurkish": "Belgeleri yeni bir klasöre koydum.",
+    "exampleArabic": "وضعت الوثائق في مجلد جديد."
+  },
+  {
+    "id": "word-1080",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "belge",
+    "arabic": "وثيقة",
+    "acceptedArabic": [
+      "وثيقة"
+    ],
+    "exampleTurkish": "Başvuru için bu belge gerekli.",
+    "exampleArabic": "هذه الوثيقة مطلوبة لتقديم الطلب."
+  },
+  {
+    "id": "word-1081",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "veri",
+    "arabic": "بيانات",
+    "acceptedArabic": [
+      "بيانات"
+    ],
+    "exampleTurkish": "Verileri düzenli olarak yedekliyoruz.",
+    "exampleArabic": "ننسخ البيانات احتياطيًا بانتظام."
+  },
+  {
+    "id": "word-1082",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "şifre",
+    "arabic": "كلمة مرور / رمز سري",
+    "acceptedArabic": [
+      "كلمة مرور",
+      "رمز سري"
+    ],
+    "exampleTurkish": "Güçlü bir şifre seç.",
+    "exampleArabic": "اختر كلمة مرور قوية."
+  },
+  {
+    "id": "word-1083",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "hesap",
+    "arabic": "حساب",
+    "acceptedArabic": [
+      "حساب"
+    ],
+    "exampleTurkish": "Hesabıma giriş yapamıyorum.",
+    "exampleArabic": "لا أستطيع تسجيل الدخول إلى حسابي."
+  },
+  {
+    "id": "word-1084",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "ayar",
+    "arabic": "إعداد / ضبط",
+    "acceptedArabic": [
+      "إعداد",
+      "ضبط"
+    ],
+    "exampleTurkish": "Ses ayarını değiştirdim.",
+    "exampleArabic": "غيرت إعداد الصوت."
+  },
+  {
+    "id": "word-1085",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "bildirim",
+    "arabic": "إشعار",
+    "acceptedArabic": [
+      "إشعار"
+    ],
+    "exampleTurkish": "Telefonuma yeni bir bildirim geldi.",
+    "exampleArabic": "وصل إشعار جديد إلى هاتفي."
+  },
+  {
+    "id": "word-1086",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "simge",
+    "arabic": "رمز / أيقونة",
+    "acceptedArabic": [
+      "رمز",
+      "أيقونة"
+    ],
+    "exampleTurkish": "Dosyayı açmak için bu simgeye tıkla.",
+    "exampleArabic": "انقر على هذه الأيقونة لفتح الملف."
+  },
+  {
+    "id": "word-1087",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "bağlantısız",
+    "arabic": "غير متصل",
+    "acceptedArabic": [
+      "غير متصل"
+    ],
+    "exampleTurkish": "Uygulamayı bağlantısız kullanabilirsin.",
+    "exampleArabic": "يمكنك استخدام التطبيق دون اتصال."
+  },
+  {
+    "id": "word-1088",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "çevrim içi",
+    "arabic": "عبر الإنترنت / متصل",
+    "acceptedArabic": [
+      "عبر الإنترنت",
+      "متصل"
+    ],
+    "exampleTurkish": "Toplantı çevrim içi yapılacak.",
+    "exampleArabic": "سيُعقد الاجتماع عبر الإنترنت."
+  },
+  {
+    "id": "word-1089",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "yedek",
+    "arabic": "احتياطي",
+    "acceptedArabic": [
+      "احتياطي"
+    ],
+    "exampleTurkish": "Dosyanın yedek kopyasını aldım.",
+    "exampleArabic": "أنشأت نسخة احتياطية من الملف."
+  },
+  {
+    "id": "word-1090",
+    "kind": "word",
+    "category": "العمل والدراسة والتقنية",
+    "turkish": "güncelleme",
+    "arabic": "تحديث",
+    "acceptedArabic": [
+      "تحديث"
+    ],
+    "exampleTurkish": "Son güncelleme sorunu çözdü.",
+    "exampleArabic": "حل التحديث الأخير المشكلة."
+  },
+  {
+    "id": "word-1091",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "iyi",
+    "arabic": "جيد",
+    "acceptedArabic": [
+      "جيد"
+    ],
+    "exampleTurkish": "Bu iyi bir fikir.",
+    "exampleArabic": "هذه فكرة جيدة."
+  },
+  {
+    "id": "word-1092",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "kötü",
+    "arabic": "سيئ",
+    "acceptedArabic": [
+      "سيئ"
+    ],
+    "exampleTurkish": "Bugün kötü bir haber aldım.",
+    "exampleArabic": "تلقيت خبرًا سيئًا اليوم."
+  },
+  {
+    "id": "word-1093",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "güzel",
+    "arabic": "جميل",
+    "acceptedArabic": [
+      "جميل"
+    ],
+    "exampleTurkish": "Çok güzel bir şehirde yaşıyorsun.",
+    "exampleArabic": "تعيش في مدينة جميلة جدًا."
+  },
+  {
+    "id": "word-1094",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "çirkin",
+    "arabic": "قبيح",
+    "acceptedArabic": [
+      "قبيح"
+    ],
+    "exampleTurkish": "Bu çirkin davranışı kabul edemeyiz.",
+    "exampleArabic": "لا يمكننا قبول هذا التصرف القبيح."
+  },
+  {
+    "id": "word-1095",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "büyük",
+    "arabic": "كبير",
+    "acceptedArabic": [
+      "كبير"
+    ],
+    "exampleTurkish": "Büyük bir şirkette çalışıyorum.",
+    "exampleArabic": "أعمل في شركة كبيرة."
+  },
+  {
+    "id": "word-1096",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "küçük",
+    "arabic": "صغير",
+    "acceptedArabic": [
+      "صغير"
+    ],
+    "exampleTurkish": "Küçük bir ofis kiraladık.",
+    "exampleArabic": "استأجرنا مكتبًا صغيرًا."
+  },
+  {
+    "id": "word-1097",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "uzun",
+    "arabic": "طويل",
+    "acceptedArabic": [
+      "طويل"
+    ],
+    "exampleTurkish": "Uzun bir yolculuk bizi bekliyor.",
+    "exampleArabic": "تنتظرنا رحلة طويلة."
+  },
+  {
+    "id": "word-1098",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "kısa",
+    "arabic": "قصير",
+    "acceptedArabic": [
+      "قصير"
+    ],
+    "exampleTurkish": "Kısa bir mesaj yazdım.",
+    "exampleArabic": "كتبت رسالة قصيرة."
+  },
+  {
+    "id": "word-1099",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "yeni",
+    "arabic": "جديد",
+    "acceptedArabic": [
+      "جديد"
+    ],
+    "exampleTurkish": "Yeni bir kursa başladım.",
+    "exampleArabic": "بدأت دورة جديدة."
+  },
+  {
+    "id": "word-1100",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "eski",
+    "arabic": "قديم",
+    "acceptedArabic": [
+      "قديم"
+    ],
+    "exampleTurkish": "Eski dosyaları arşive taşıdım.",
+    "exampleArabic": "نقلت الملفات القديمة إلى الأرشيف."
+  },
+  {
+    "id": "word-1101",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "kolay",
+    "arabic": "سهل",
+    "acceptedArabic": [
+      "سهل"
+    ],
+    "exampleTurkish": "İlk soru çok kolay.",
+    "exampleArabic": "السؤال الأول سهل جدًا."
+  },
+  {
+    "id": "word-1102",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "zor",
+    "arabic": "صعب",
+    "acceptedArabic": [
+      "صعب"
+    ],
+    "exampleTurkish": "Bu zor bir karar.",
+    "exampleArabic": "هذا قرار صعب."
+  },
+  {
+    "id": "word-1103",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "hızlı",
+    "arabic": "سريع",
+    "acceptedArabic": [
+      "سريع"
+    ],
+    "exampleTurkish": "Hızlı trenle geldik.",
+    "exampleArabic": "أتينا بالقطار السريع."
+  },
+  {
+    "id": "word-1104",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "yavaş",
+    "arabic": "بطيء",
+    "acceptedArabic": [
+      "بطيء"
+    ],
+    "exampleTurkish": "İnternet bugün çok yavaş.",
+    "exampleArabic": "الإنترنت بطيء جدًا اليوم."
+  },
+  {
+    "id": "word-1105",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "yakın",
+    "arabic": "قريب",
+    "acceptedArabic": [
+      "قريب"
+    ],
+    "exampleTurkish": "Yakın bir otelde kalıyoruz.",
+    "exampleArabic": "نقيم في فندق قريب."
+  },
+  {
+    "id": "word-1106",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "uzak",
+    "arabic": "بعيد",
+    "acceptedArabic": [
+      "بعيد"
+    ],
+    "exampleTurkish": "İstasyon buraya uzak mı?",
+    "exampleArabic": "هل المحطة بعيدة عن هنا؟"
+  },
+  {
+    "id": "word-1107",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "açık",
+    "arabic": "مفتوح / واضح",
+    "acceptedArabic": [
+      "مفتوح",
+      "واضح"
+    ],
+    "exampleTurkish": "Müze bugün açık.",
+    "exampleArabic": "المتحف مفتوح اليوم."
+  },
+  {
+    "id": "word-1108",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "kapalı",
+    "arabic": "مغلق",
+    "acceptedArabic": [
+      "مغلق"
+    ],
+    "exampleTurkish": "Postane şu anda kapalı.",
+    "exampleArabic": "مكتب البريد مغلق الآن."
+  },
+  {
+    "id": "word-1109",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "yoğun",
+    "arabic": "كثيف / حافل",
+    "acceptedArabic": [
+      "كثيف",
+      "حافل"
+    ],
+    "exampleTurkish": "Bugün yoğun bir çalışma programım var.",
+    "exampleArabic": "لدي اليوم برنامج عمل حافل."
+  },
+  {
+    "id": "word-1110",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "boş",
+    "arabic": "فارغ",
+    "acceptedArabic": [
+      "فارغ"
+    ],
+    "exampleTurkish": "Bu koltuk boş mu?",
+    "exampleArabic": "هل هذا المقعد فارغ؟"
+  },
+  {
+    "id": "word-1111",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "doğru",
+    "arabic": "صحيح",
+    "acceptedArabic": [
+      "صحيح"
+    ],
+    "exampleTurkish": "Doğru cevabı buldun.",
+    "exampleArabic": "وجدت الإجابة الصحيحة."
+  },
+  {
+    "id": "word-1112",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "yanlış",
+    "arabic": "خاطئ",
+    "acceptedArabic": [
+      "خاطئ"
+    ],
+    "exampleTurkish": "Yanlış adrese gelmişiz.",
+    "exampleArabic": "لقد أتينا إلى العنوان الخطأ."
+  },
+  {
+    "id": "word-1113",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "önemli",
+    "arabic": "مهم",
+    "acceptedArabic": [
+      "مهم"
+    ],
+    "exampleTurkish": "Sana önemli bir şey söyleyeceğim.",
+    "exampleArabic": "سأخبرك بشيء مهم."
+  },
+  {
+    "id": "word-1114",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "gerekli",
+    "arabic": "ضروري / لازم",
+    "acceptedArabic": [
+      "ضروري",
+      "لازم"
+    ],
+    "exampleTurkish": "Bu işlem için kimlik gerekli.",
+    "exampleArabic": "بطاقة الهوية لازمة لهذه المعاملة."
+  },
+  {
+    "id": "word-1115",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "gereksiz",
+    "arabic": "غير ضروري",
+    "acceptedArabic": [
+      "غير ضروري"
+    ],
+    "exampleTurkish": "Gereksiz dosyaları sildim.",
+    "exampleArabic": "حذفت الملفات غير الضرورية."
+  },
+  {
+    "id": "word-1116",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "mümkün",
+    "arabic": "ممكن",
+    "acceptedArabic": [
+      "ممكن"
+    ],
+    "exampleTurkish": "Saati değiştirmek mümkün mü?",
+    "exampleArabic": "هل يمكن تغيير الموعد؟"
+  },
+  {
+    "id": "word-1117",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "imkânsız",
+    "arabic": "مستحيل",
+    "acceptedArabic": [
+      "مستحيل"
+    ],
+    "exampleTurkish": "Bu işi bir dakikada bitirmek imkânsız.",
+    "exampleArabic": "من المستحيل إنهاء هذا العمل في دقيقة."
+  },
+  {
+    "id": "word-1118",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "hazır",
+    "arabic": "جاهز",
+    "acceptedArabic": [
+      "جاهز"
+    ],
+    "exampleTurkish": "Sunum artık hazır.",
+    "exampleArabic": "العرض التقديمي جاهز الآن."
+  },
+  {
+    "id": "word-1119",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "meşgul",
+    "arabic": "مشغول",
+    "acceptedArabic": [
+      "مشغول"
+    ],
+    "exampleTurkish": "Şu anda biraz meşgulüm.",
+    "exampleArabic": "أنا مشغول قليلًا الآن."
+  },
+  {
+    "id": "word-1120",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "müsait",
+    "arabic": "متاح / غير مشغول",
+    "acceptedArabic": [
+      "متاح",
+      "غير مشغول"
+    ],
+    "exampleTurkish": "Yarın öğleden sonra müsait misin?",
+    "exampleArabic": "هل أنت متفرغ غدًا بعد الظهر؟"
+  },
+  {
+    "id": "word-1121",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "uygun",
+    "arabic": "مناسب",
+    "acceptedArabic": [
+      "مناسب"
+    ],
+    "exampleTurkish": "Bu saat senin için uygun mu?",
+    "exampleArabic": "هل هذا الوقت مناسب لك؟"
+  },
+  {
+    "id": "word-1122",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "pahalı",
+    "arabic": "غالي الثمن",
+    "acceptedArabic": [
+      "غالي الثمن"
+    ],
+    "exampleTurkish": "Bu bilet çok pahalı.",
+    "exampleArabic": "هذه التذكرة غالية جدًا."
+  },
+  {
+    "id": "word-1123",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "ucuz",
+    "arabic": "رخيص",
+    "acceptedArabic": [
+      "رخيص"
+    ],
+    "exampleTurkish": "Daha ucuz bir seçenek arıyorum.",
+    "exampleArabic": "أبحث عن خيار أرخص."
+  },
+  {
+    "id": "word-1124",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "ücretsiz",
+    "arabic": "مجاني",
+    "acceptedArabic": [
+      "مجاني"
+    ],
+    "exampleTurkish": "Müzeye giriş bugün ücretsiz.",
+    "exampleArabic": "الدخول إلى المتحف مجاني اليوم."
+  },
+  {
+    "id": "word-1125",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "güvenli",
+    "arabic": "آمن",
+    "acceptedArabic": [
+      "آمن"
+    ],
+    "exampleTurkish": "Burası bisiklet sürmek için güvenli.",
+    "exampleArabic": "هذا المكان آمن لركوب الدراجة."
+  },
+  {
+    "id": "word-1126",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "tehlikeli",
+    "arabic": "خطير",
+    "acceptedArabic": [
+      "خطير"
+    ],
+    "exampleTurkish": "Buradan karşıya geçmek tehlikeli.",
+    "exampleArabic": "عبور الطريق من هنا خطير."
+  },
+  {
+    "id": "word-1127",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "rahat",
+    "arabic": "مريح",
+    "acceptedArabic": [
+      "مريح"
+    ],
+    "exampleTurkish": "Tren yolculuğu çok rahattı.",
+    "exampleArabic": "كانت رحلة القطار مريحة جدًا."
+  },
+  {
+    "id": "word-1128",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "rahatsız",
+    "arabic": "منزعج / غير مرتاح",
+    "acceptedArabic": [
+      "منزعج",
+      "غير مرتاح"
+    ],
+    "exampleTurkish": "Gürültüden rahatsız oldum.",
+    "exampleArabic": "انزعجت من الضوضاء."
+  },
+  {
+    "id": "word-1129",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "sessiz",
+    "arabic": "هادئ / صامت",
+    "acceptedArabic": [
+      "هادئ",
+      "صامت"
+    ],
+    "exampleTurkish": "Çalışmak için sessiz bir yer arıyorum.",
+    "exampleArabic": "أبحث عن مكان هادئ للعمل."
+  },
+  {
+    "id": "word-1130",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "gürültülü",
+    "arabic": "صاخب",
+    "acceptedArabic": [
+      "صاخب"
+    ],
+    "exampleTurkish": "Bu sokak geceleri gürültülü.",
+    "exampleArabic": "هذا الشارع صاخب ليلًا."
+  },
+  {
+    "id": "word-1131",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "kalabalık",
+    "arabic": "مزدحم",
+    "acceptedArabic": [
+      "مزدحم"
+    ],
+    "exampleTurkish": "Metro sabahları çok kalabalık.",
+    "exampleArabic": "المترو مزدحم جدًا صباحًا."
+  },
+  {
+    "id": "word-1132",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "sakin",
+    "arabic": "هادئ",
+    "acceptedArabic": [
+      "هادئ"
+    ],
+    "exampleTurkish": "Daha sakin bir mahalleye taşındık.",
+    "exampleArabic": "انتقلنا إلى حي أهدأ."
+  },
+  {
+    "id": "word-1133",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "basit",
+    "arabic": "بسيط",
+    "acceptedArabic": [
+      "بسيط"
+    ],
+    "exampleTurkish": "Basit bir örnek verelim.",
+    "exampleArabic": "لنعطِ مثالًا بسيطًا."
+  },
+  {
+    "id": "word-1134",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "karmaşık",
+    "arabic": "معقد",
+    "acceptedArabic": [
+      "معقد"
+    ],
+    "exampleTurkish": "Bu harita biraz karmaşık.",
+    "exampleArabic": "هذه الخريطة معقدة قليلًا."
+  },
+  {
+    "id": "word-1135",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "net",
+    "arabic": "واضح / صريح",
+    "acceptedArabic": [
+      "واضح",
+      "صريح"
+    ],
+    "exampleTurkish": "Bana net bir cevap vermedi.",
+    "exampleArabic": "لم يعطني جوابًا واضحًا."
+  },
+  {
+    "id": "word-1136",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "belirsiz",
+    "arabic": "غير واضح / غير محدد",
+    "acceptedArabic": [
+      "غير واضح",
+      "غير محدد"
+    ],
+    "exampleTurkish": "Yolculuğun tarihi hâlâ belirsiz.",
+    "exampleArabic": "تاريخ الرحلة لا يزال غير محدد."
+  },
+  {
+    "id": "word-1137",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "kesin",
+    "arabic": "مؤكد / قاطع",
+    "acceptedArabic": [
+      "مؤكد",
+      "قاطع"
+    ],
+    "exampleTurkish": "Kesin sonucu yarın öğreneceğiz.",
+    "exampleArabic": "سنعرف النتيجة المؤكدة غدًا."
+  },
+  {
+    "id": "word-1138",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "muhtemel",
+    "arabic": "محتمل",
+    "acceptedArabic": [
+      "محتمل"
+    ],
+    "exampleTurkish": "Bu sorunun muhtemel nedenlerini yazdık.",
+    "exampleArabic": "كتبنا الأسباب المحتملة لهذه المشكلة."
+  },
+  {
+    "id": "word-1139",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "özel",
+    "arabic": "خاص",
+    "acceptedArabic": [
+      "خاص"
+    ],
+    "exampleTurkish": "Bu belge özel bilgiler içeriyor.",
+    "exampleArabic": "تحتوي هذه الوثيقة على معلومات خاصة."
+  },
+  {
+    "id": "word-1140",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "genel",
+    "arabic": "عام",
+    "acceptedArabic": [
+      "عام"
+    ],
+    "exampleTurkish": "Önce genel bir açıklama yapacağım.",
+    "exampleArabic": "سأقدم شرحًا عامًا أولًا."
+  },
+  {
+    "id": "word-1141",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "ortak",
+    "arabic": "مشترك",
+    "acceptedArabic": [
+      "مشترك"
+    ],
+    "exampleTurkish": "Ortak bir çözüm bulduk.",
+    "exampleArabic": "وجدنا حلًا مشتركًا."
+  },
+  {
+    "id": "word-1142",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "farklı",
+    "arabic": "مختلف",
+    "acceptedArabic": [
+      "مختلف"
+    ],
+    "exampleTurkish": "Farklı bir yöntem deneyelim.",
+    "exampleArabic": "لنجرب طريقة مختلفة."
+  },
+  {
+    "id": "word-1143",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "aynı",
+    "arabic": "نفس / مماثل",
+    "acceptedArabic": [
+      "نفس",
+      "مماثل"
+    ],
+    "exampleTurkish": "Her gün aynı otobüse biniyorum.",
+    "exampleArabic": "أركب الحافلة نفسها كل يوم."
+  },
+  {
+    "id": "word-1144",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "eşit",
+    "arabic": "متساوٍ",
+    "acceptedArabic": [
+      "متساوٍ"
+    ],
+    "exampleTurkish": "Süreyi iki eşit parçaya böldük.",
+    "exampleArabic": "قسمنا المدة إلى جزأين متساويين."
+  },
+  {
+    "id": "word-1145",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "benzer",
+    "arabic": "مشابه",
+    "acceptedArabic": [
+      "مشابه"
+    ],
+    "exampleTurkish": "Bu iki kelimenin anlamları benzer.",
+    "exampleArabic": "معنيا هاتين الكلمتين متشابهان."
+  },
+  {
+    "id": "word-1146",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "bağımsız",
+    "arabic": "مستقل",
+    "acceptedArabic": [
+      "مستقل"
+    ],
+    "exampleTurkish": "Bağımsız bir değerlendirme istiyoruz.",
+    "exampleArabic": "نريد تقييمًا مستقلًا."
+  },
+  {
+    "id": "word-1147",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "özgür",
+    "arabic": "حر",
+    "acceptedArabic": [
+      "حر"
+    ],
+    "exampleTurkish": "Herkes fikrini söylemekte özgür.",
+    "exampleArabic": "الجميع أحرار في إبداء آرائهم."
+  },
+  {
+    "id": "word-1148",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "adil",
+    "arabic": "عادل",
+    "acceptedArabic": [
+      "عادل"
+    ],
+    "exampleTurkish": "Adil bir çözüm bulmalıyız.",
+    "exampleArabic": "علينا إيجاد حل عادل."
+  },
+  {
+    "id": "word-1149",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "sorumlu",
+    "arabic": "مسؤول",
+    "acceptedArabic": [
+      "مسؤول"
+    ],
+    "exampleTurkish": "Bu projeden ben sorumluyum.",
+    "exampleArabic": "أنا المسؤول عن هذا المشروع."
+  },
+  {
+    "id": "word-1150",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "başarılı",
+    "arabic": "ناجح",
+    "acceptedArabic": [
+      "ناجح"
+    ],
+    "exampleTurkish": "Başarılı bir toplantı yaptık.",
+    "exampleArabic": "عقدنا اجتماعًا ناجحًا."
+  },
+  {
+    "id": "word-1151",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "başarısız",
+    "arabic": "غير ناجح / فاشل",
+    "acceptedArabic": [
+      "غير ناجح",
+      "فاشل"
+    ],
+    "exampleTurkish": "İlk deneme başarısız oldu.",
+    "exampleArabic": "كانت المحاولة الأولى غير ناجحة."
+  },
+  {
+    "id": "word-1152",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "yeterli",
+    "arabic": "كافٍ",
+    "acceptedArabic": [
+      "كافٍ"
+    ],
+    "exampleTurkish": "Bu süre bizim için yeterli.",
+    "exampleArabic": "هذه المدة كافية لنا."
+  },
+  {
+    "id": "word-1153",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "eksik",
+    "arabic": "ناقص",
+    "acceptedArabic": [
+      "ناقص"
+    ],
+    "exampleTurkish": "Başvuruda bir belge eksik.",
+    "exampleArabic": "توجد وثيقة ناقصة في الطلب."
+  },
+  {
+    "id": "word-1154",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "fazla",
+    "arabic": "زائد / أكثر من اللازم",
+    "acceptedArabic": [
+      "زائد",
+      "أكثر من اللازم"
+    ],
+    "exampleTurkish": "Burada fazla zaman harcadık.",
+    "exampleArabic": "أمضينا هنا وقتًا أكثر من اللازم."
+  },
+  {
+    "id": "word-1155",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "tam",
+    "arabic": "كامل / تمامًا",
+    "acceptedArabic": [
+      "كامل",
+      "تمامًا"
+    ],
+    "exampleTurkish": "Toplantı tam bir saat sürdü.",
+    "exampleArabic": "استغرق الاجتماع ساعة كاملة."
+  },
+  {
+    "id": "word-1156",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "normal",
+    "arabic": "طبيعي / عادي",
+    "acceptedArabic": [
+      "طبيعي",
+      "عادي"
+    ],
+    "exampleTurkish": "Bu küçük gecikme normal.",
+    "exampleArabic": "هذا التأخير البسيط طبيعي."
+  },
+  {
+    "id": "word-1157",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "ilginç",
+    "arabic": "مثير للاهتمام",
+    "acceptedArabic": [
+      "مثير للاهتمام"
+    ],
+    "exampleTurkish": "İlginç bir kitap okuyorum.",
+    "exampleArabic": "أقرأ كتابًا مثيرًا للاهتمام."
+  },
+  {
+    "id": "word-1158",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "sıkıcı",
+    "arabic": "ممل",
+    "acceptedArabic": [
+      "ممل"
+    ],
+    "exampleTurkish": "Sunum biraz sıkıcıydı.",
+    "exampleArabic": "كان العرض مملًا قليلًا."
+  },
+  {
+    "id": "word-1159",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "ciddi",
+    "arabic": "جاد / خطير",
+    "acceptedArabic": [
+      "جاد",
+      "خطير"
+    ],
+    "exampleTurkish": "Bu ciddi bir sorun.",
+    "exampleArabic": "هذه مشكلة خطيرة."
+  },
+  {
+    "id": "word-1160",
+    "kind": "word",
+    "category": "الصفات والمعاني العامة",
+    "turkish": "komik",
+    "arabic": "مضحك",
+    "acceptedArabic": [
+      "مضحك"
+    ],
+    "exampleTurkish": "Bize komik bir hikâye anlattı.",
+    "exampleArabic": "روى لنا قصة مضحكة."
+  },
+  {
+    "id": "word-1161",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "lehçe",
+    "arabic": "لهجة",
+    "acceptedArabic": [
+      "لهجة"
+    ],
+    "exampleTurkish": "Bu lehçede bazı kelimeler farklı söyleniyor.",
+    "exampleArabic": "تُنطق بعض الكلمات بشكل مختلف في هذه اللهجة."
+  },
+  {
+    "id": "word-1162",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "kelime",
+    "arabic": "كلمة",
+    "acceptedArabic": [
+      "كلمة"
+    ],
+    "exampleTurkish": "Bu kelimenin anlamını biliyor musun?",
+    "exampleArabic": "هل تعرف معنى هذه الكلمة؟"
+  },
+  {
+    "id": "word-1163",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "cümle",
+    "arabic": "جملة",
+    "acceptedArabic": [
+      "جملة"
+    ],
+    "exampleTurkish": "Bu cümleyi tekrar okuyalım.",
+    "exampleArabic": "لنقرأ هذه الجملة مجددًا."
+  },
+  {
+    "id": "word-1164",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "harf",
+    "arabic": "حرف",
+    "acceptedArabic": [
+      "حرف"
+    ],
+    "exampleTurkish": "Adım beş harften oluşuyor.",
+    "exampleArabic": "يتكون اسمي من خمسة أحرف."
+  },
+  {
+    "id": "word-1165",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "anlam",
+    "arabic": "معنى",
+    "acceptedArabic": [
+      "معنى"
+    ],
+    "exampleTurkish": "Bu işaretin anlamı nedir?",
+    "exampleArabic": "ما معنى هذه العلامة؟"
+  },
+  {
+    "id": "word-1166",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "vurgu",
+    "arabic": "نبر / تشديد",
+    "acceptedArabic": [
+      "نبر",
+      "تشديد"
+    ],
+    "exampleTurkish": "Bu kelimede vurgu son hecede.",
+    "exampleArabic": "يقع النبر في هذه الكلمة على المقطع الأخير."
+  },
+  {
+    "id": "word-1167",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "telaffuz",
+    "arabic": "نطق",
+    "acceptedArabic": [
+      "نطق"
+    ],
+    "exampleTurkish": "Telaffuz için kaydı tekrar dinledim.",
+    "exampleArabic": "استمعت إلى التسجيل مجددًا للتدرب على النطق."
+  },
+  {
+    "id": "word-1168",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "çeviri",
+    "arabic": "ترجمة",
+    "acceptedArabic": [
+      "ترجمة"
+    ],
+    "exampleTurkish": "Çeviride küçük bir hata var.",
+    "exampleArabic": "يوجد خطأ صغير في الترجمة."
+  },
+  {
+    "id": "word-1169",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "mesaj",
+    "arabic": "رسالة قصيرة",
+    "acceptedArabic": [
+      "رسالة قصيرة"
+    ],
+    "exampleTurkish": "Mesajını biraz önce gördüm.",
+    "exampleArabic": "رأيت رسالتك قبل قليل."
+  },
+  {
+    "id": "word-1170",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "e-posta",
+    "arabic": "بريد إلكتروني",
+    "acceptedArabic": [
+      "بريد إلكتروني"
+    ],
+    "exampleTurkish": "Sana bir e-posta gönderdim.",
+    "exampleArabic": "أرسلت لك بريدًا إلكترونيًا."
+  },
+  {
+    "id": "word-1171",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "mektup",
+    "arabic": "رسالة مكتوبة",
+    "acceptedArabic": [
+      "رسالة مكتوبة"
+    ],
+    "exampleTurkish": "Arkadaşımdan uzun bir mektup aldım.",
+    "exampleArabic": "تلقيت رسالة طويلة من صديقي."
+  },
+  {
+    "id": "word-1172",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "haber",
+    "arabic": "خبر",
+    "acceptedArabic": [
+      "خبر"
+    ],
+    "exampleTurkish": "Sana güzel bir haberim var.",
+    "exampleArabic": "لدي خبر جميل لك."
+  },
+  {
+    "id": "word-1173",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "bilgi",
+    "arabic": "معلومة / معلومات",
+    "acceptedArabic": [
+      "معلومة",
+      "معلومات"
+    ],
+    "exampleTurkish": "Daha fazla bilgi için bizi arayın.",
+    "exampleArabic": "اتصلوا بنا لمزيد من المعلومات."
+  },
+  {
+    "id": "word-1174",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "açıklama",
+    "arabic": "شرح / توضيح",
+    "acceptedArabic": [
+      "شرح",
+      "توضيح"
+    ],
+    "exampleTurkish": "Açıklaman çok yardımcı oldu.",
+    "exampleArabic": "كان توضيحك مفيدًا جدًا."
+  },
+  {
+    "id": "word-1175",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "duyuru",
+    "arabic": "إعلان / إشعار عام",
+    "acceptedArabic": [
+      "إعلان",
+      "إشعار عام"
+    ],
+    "exampleTurkish": "Duyuruyu girişe astılar.",
+    "exampleArabic": "علقوا الإعلان عند المدخل."
+  },
+  {
+    "id": "word-1176",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "davet",
+    "arabic": "دعوة",
+    "acceptedArabic": [
+      "دعوة"
+    ],
+    "exampleTurkish": "Davet için çok teşekkür ederim.",
+    "exampleArabic": "أشكرك جزيلًا على الدعوة."
+  },
+  {
+    "id": "word-1177",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "sohbet",
+    "arabic": "دردشة / حديث ودي",
+    "acceptedArabic": [
+      "دردشة",
+      "حديث ودي"
+    ],
+    "exampleTurkish": "Yol boyunca sohbet ettik.",
+    "exampleArabic": "تحدثنا حديثًا وديًا طوال الطريق."
+  },
+  {
+    "id": "word-1178",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "tartışma",
+    "arabic": "نقاش / جدال",
+    "acceptedArabic": [
+      "نقاش",
+      "جدال"
+    ],
+    "exampleTurkish": "Tartışma sonunda bir çözüm bulduk.",
+    "exampleArabic": "وجدنا حلًا في نهاية النقاش."
+  },
+  {
+    "id": "word-1179",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "fikir",
+    "arabic": "فكرة / رأي",
+    "acceptedArabic": [
+      "فكرة",
+      "رأي"
+    ],
+    "exampleTurkish": "Aklıma yeni bir fikir geldi.",
+    "exampleArabic": "خطرت لي فكرة جديدة."
+  },
+  {
+    "id": "word-1180",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "düşünce",
+    "arabic": "فكرة / تفكير",
+    "acceptedArabic": [
+      "فكرة",
+      "تفكير"
+    ],
+    "exampleTurkish": "Bu konuda farklı düşüncelerimiz var.",
+    "exampleArabic": "لدينا أفكار مختلفة حول هذا الموضوع."
+  },
+  {
+    "id": "word-1181",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "görüş",
+    "arabic": "رأي / وجهة نظر",
+    "acceptedArabic": [
+      "رأي",
+      "وجهة نظر"
+    ],
+    "exampleTurkish": "Senin görüşünü de duymak istiyorum.",
+    "exampleArabic": "أريد سماع رأيك أيضًا."
+  },
+  {
+    "id": "word-1182",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "öneri",
+    "arabic": "اقتراح",
+    "acceptedArabic": [
+      "اقتراح"
+    ],
+    "exampleTurkish": "Bu öneriyi birlikte değerlendirelim.",
+    "exampleArabic": "لنقيّم هذا الاقتراح معًا."
+  },
+  {
+    "id": "word-1183",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "teklif",
+    "arabic": "عرض / اقتراح رسمي",
+    "acceptedArabic": [
+      "عرض",
+      "اقتراح رسمي"
+    ],
+    "exampleTurkish": "Şirketten yeni bir teklif aldım.",
+    "exampleArabic": "تلقيت عرضًا جديدًا من الشركة."
+  },
+  {
+    "id": "word-1184",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "karar",
+    "arabic": "قرار",
+    "acceptedArabic": [
+      "قرار"
+    ],
+    "exampleTurkish": "Henüz bir karar vermedim.",
+    "exampleArabic": "لم أتخذ قرارًا بعد."
+  },
+  {
+    "id": "word-1185",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "seçenek",
+    "arabic": "خيار",
+    "acceptedArabic": [
+      "خيار"
+    ],
+    "exampleTurkish": "Başka bir seçenek var mı?",
+    "exampleArabic": "هل يوجد خيار آخر؟"
+  },
+  {
+    "id": "word-1186",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "sebep",
+    "arabic": "سبب",
+    "acceptedArabic": [
+      "سبب"
+    ],
+    "exampleTurkish": "Gecikmenin sebebini öğrendik.",
+    "exampleArabic": "عرفنا سبب التأخير."
+  },
+  {
+    "id": "word-1187",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "sonuç",
+    "arabic": "نتيجة",
+    "acceptedArabic": [
+      "نتيجة"
+    ],
+    "exampleTurkish": "Sonuç yarın açıklanacak.",
+    "exampleArabic": "ستُعلن النتيجة غدًا."
+  },
+  {
+    "id": "word-1188",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "amaç",
+    "arabic": "هدف / غرض",
+    "acceptedArabic": [
+      "هدف",
+      "غرض"
+    ],
+    "exampleTurkish": "Bu çalışmanın amacı nedir?",
+    "exampleArabic": "ما هدف هذا العمل؟"
+  },
+  {
+    "id": "word-1189",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "hedef",
+    "arabic": "هدف محدد",
+    "acceptedArabic": [
+      "هدف محدد"
+    ],
+    "exampleTurkish": "Bu ayki hedefim yüz kelime öğrenmek.",
+    "exampleArabic": "هدفي هذا الشهر تعلم مئة كلمة."
+  },
+  {
+    "id": "word-1190",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "sorun",
+    "arabic": "مشكلة",
+    "acceptedArabic": [
+      "مشكلة"
+    ],
+    "exampleTurkish": "İnternet bağlantısında bir sorun var.",
+    "exampleArabic": "توجد مشكلة في اتصال الإنترنت."
+  },
+  {
+    "id": "word-1191",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "çözüm",
+    "arabic": "حل",
+    "acceptedArabic": [
+      "حل"
+    ],
+    "exampleTurkish": "Bu sorun için bir çözüm bulduk.",
+    "exampleArabic": "وجدنا حلًا لهذه المشكلة."
+  },
+  {
+    "id": "word-1192",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "fırsat",
+    "arabic": "فرصة",
+    "acceptedArabic": [
+      "فرصة"
+    ],
+    "exampleTurkish": "Türkçe konuşmak için iyi bir fırsat buldum.",
+    "exampleArabic": "وجدت فرصة جيدة للتحدث بالتركية."
+  },
+  {
+    "id": "word-1193",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "ihtiyaç",
+    "arabic": "حاجة",
+    "acceptedArabic": [
+      "حاجة"
+    ],
+    "exampleTurkish": "Biraz yardıma ihtiyacım var.",
+    "exampleArabic": "أحتاج إلى بعض المساعدة."
+  },
+  {
+    "id": "word-1194",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "istek",
+    "arabic": "رغبة / طلب",
+    "acceptedArabic": [
+      "رغبة",
+      "طلب"
+    ],
+    "exampleTurkish": "İsteklerinizi buraya yazabilirsiniz.",
+    "exampleArabic": "يمكنكم كتابة طلباتكم هنا."
+  },
+  {
+    "id": "word-1195",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "umut",
+    "arabic": "أمل",
+    "acceptedArabic": [
+      "أمل"
+    ],
+    "exampleTurkish": "Yeni proje bize umut verdi.",
+    "exampleArabic": "منحنا المشروع الجديد أملًا."
+  },
+  {
+    "id": "word-1196",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "şans",
+    "arabic": "حظ / فرصة",
+    "acceptedArabic": [
+      "حظ",
+      "فرصة"
+    ],
+    "exampleTurkish": "Sınavda sana iyi şanslar dilerim.",
+    "exampleArabic": "أتمنى لك حظًا موفقًا في الاختبار."
+  },
+  {
+    "id": "word-1197",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "saygı",
+    "arabic": "احترام",
+    "acceptedArabic": [
+      "احترام"
+    ],
+    "exampleTurkish": "Farklı görüşlere saygı duymalıyız.",
+    "exampleArabic": "علينا احترام الآراء المختلفة."
+  },
+  {
+    "id": "word-1198",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "güven",
+    "arabic": "ثقة",
+    "acceptedArabic": [
+      "ثقة"
+    ],
+    "exampleTurkish": "Bu açıklama bize güven verdi.",
+    "exampleArabic": "منحنا هذا التوضيح ثقة."
+  },
+  {
+    "id": "word-1199",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "sabır",
+    "arabic": "صبر",
+    "acceptedArabic": [
+      "صبر"
+    ],
+    "exampleTurkish": "Dil öğrenmek sabır gerektirir.",
+    "exampleArabic": "يتطلب تعلم اللغة الصبر."
+  },
+  {
+    "id": "word-1200",
+    "kind": "word",
+    "category": "التواصل والأفكار",
+    "turkish": "iletişim",
+    "arabic": "تواصل",
+    "acceptedArabic": [
+      "تواصل"
+    ],
+    "exampleTurkish": "Yolculuk boyunca iletişim hâlinde kaldık.",
+    "exampleArabic": "بقينا على تواصل طوال الرحلة."
+  },
+  {
+    "id": "word-1241",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "teknoloji",
+    "arabic": "تقنية",
+    "acceptedArabic": [
+      "تقنية"
+    ],
+    "exampleTurkish": "Teknoloji günlük işlerimizi kolaylaştırıyor.",
+    "exampleArabic": "تسهّل التقنية أعمالنا اليومية."
+  },
+  {
+    "id": "word-1242",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "ağ",
+    "arabic": "شبكة",
+    "acceptedArabic": [
+      "شبكة"
+    ],
+    "exampleTurkish": "Ofisteki ağ bugün çok yavaş.",
+    "exampleArabic": "الشبكة في المكتب بطيئة جدًا اليوم."
+  },
+  {
+    "id": "word-1243",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "sunucu",
+    "arabic": "خادم حاسوبي / مقدم برنامج",
+    "acceptedArabic": [
+      "خادم حاسوبي",
+      "مقدم برنامج"
+    ],
+    "exampleTurkish": "Sunucu bakım nedeniyle kısa süre kapalı kaldı.",
+    "exampleArabic": "بقي الخادم متوقفًا مدة قصيرة بسبب الصيانة."
+  },
+  {
+    "id": "word-1244",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "veritabanı",
+    "arabic": "قاعدة بيانات",
+    "acceptedArabic": [
+      "قاعدة بيانات"
+    ],
+    "exampleTurkish": "Yeni bilgileri veritabanına ekledik.",
+    "exampleArabic": "أضفنا المعلومات الجديدة إلى قاعدة البيانات."
+  },
+  {
+    "id": "word-1245",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "tarayıcı",
+    "arabic": "متصفح / ماسح ضوئي",
+    "acceptedArabic": [
+      "متصفح",
+      "ماسح ضوئي"
+    ],
+    "exampleTurkish": "Bu siteyi başka bir tarayıcıda açtım.",
+    "exampleArabic": "فتحت هذا الموقع في متصفح آخر."
+  },
+  {
+    "id": "word-1246",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "bağdaştırıcı",
+    "arabic": "مهايئ / محول توصيل",
+    "acceptedArabic": [
+      "مهايئ",
+      "محول توصيل"
+    ],
+    "exampleTurkish": "Bu ekran için bir bağdaştırıcı gerekiyor.",
+    "exampleArabic": "يلزم مهايئ لتوصيل هذه الشاشة."
+  },
+  {
+    "id": "word-1247",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "bellek",
+    "arabic": "ذاكرة",
+    "acceptedArabic": [
+      "ذاكرة"
+    ],
+    "exampleTurkish": "Bilgisayarın belleği bu program için yeterli.",
+    "exampleArabic": "ذاكرة الحاسوب كافية لهذا البرنامج."
+  },
+  {
+    "id": "word-1248",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "donanım",
+    "arabic": "عتاد حاسوبي / تجهيزات",
+    "acceptedArabic": [
+      "عتاد حاسوبي",
+      "تجهيزات"
+    ],
+    "exampleTurkish": "Yeni yazılım daha güçlü donanım gerektiriyor.",
+    "exampleArabic": "تتطلب البرمجيات الجديدة عتادًا أقوى."
+  },
+  {
+    "id": "word-1249",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "çözünürlük",
+    "arabic": "دقة الصورة أو الشاشة",
+    "acceptedArabic": [
+      "دقة الصورة أو الشاشة"
+    ],
+    "exampleTurkish": "Fotoğrafın çözünürlüğü baskı için yeterli değil.",
+    "exampleArabic": "دقة الصورة غير كافية للطباعة."
+  },
+  {
+    "id": "word-1250",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "algoritma",
+    "arabic": "خوارزمية",
+    "acceptedArabic": [
+      "خوارزمية"
+    ],
+    "exampleTurkish": "Bu algoritma sonuçları tarihe göre sıralıyor.",
+    "exampleArabic": "ترتب هذه الخوارزمية النتائج حسب التاريخ."
+  },
+  {
+    "id": "word-1251",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "içerik",
+    "arabic": "محتوى",
+    "acceptedArabic": [
+      "محتوى"
+    ],
+    "exampleTurkish": "Dersin içeriğini birlikte gözden geçirdik.",
+    "exampleArabic": "راجعنا محتوى الدرس معًا."
+  },
+  {
+    "id": "word-1252",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "sürüm",
+    "arabic": "إصدار",
+    "acceptedArabic": [
+      "إصدار"
+    ],
+    "exampleTurkish": "Uygulamanın yeni sürümü daha hızlı.",
+    "exampleArabic": "الإصدار الجديد من التطبيق أسرع."
+  },
+  {
+    "id": "word-1253",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "erişim",
+    "arabic": "وصول / صلاحية وصول",
+    "acceptedArabic": [
+      "وصول",
+      "صلاحية وصول"
+    ],
+    "exampleTurkish": "Bu dosyaya erişim iznim yok.",
+    "exampleArabic": "ليس لدي إذن بالوصول إلى هذا الملف."
+  },
+  {
+    "id": "word-1254",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "arayüz",
+    "arabic": "واجهة مستخدم",
+    "acceptedArabic": [
+      "واجهة مستخدم"
+    ],
+    "exampleTurkish": "Yeni arayüzün kullanımı kolay.",
+    "exampleArabic": "واجهة المستخدم الجديدة سهلة الاستخدام."
+  },
+  {
+    "id": "word-1255",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "sekme",
+    "arabic": "علامة تبويب",
+    "acceptedArabic": [
+      "علامة تبويب"
+    ],
+    "exampleTurkish": "Bağlantıyı yeni bir sekmede aç.",
+    "exampleArabic": "افتح الرابط في علامة تبويب جديدة."
+  },
+  {
+    "id": "word-1256",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "imleç",
+    "arabic": "مؤشر",
+    "acceptedArabic": [
+      "مؤشر"
+    ],
+    "exampleTurkish": "İmleci cümlenin başına getir.",
+    "exampleArabic": "انقل المؤشر إلى بداية الجملة."
+  },
+  {
+    "id": "word-1257",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "satır",
+    "arabic": "سطر",
+    "acceptedArabic": [
+      "سطر"
+    ],
+    "exampleTurkish": "İkinci satırda bir hata var.",
+    "exampleArabic": "يوجد خطأ في السطر الثاني."
+  },
+  {
+    "id": "word-1258",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "sütun",
+    "arabic": "عمود",
+    "acceptedArabic": [
+      "عمود"
+    ],
+    "exampleTurkish": "Tablodaki son sütunu gizledim.",
+    "exampleArabic": "أخفيت العمود الأخير في الجدول."
+  },
+  {
+    "id": "word-1259",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "hücre",
+    "arabic": "خلية",
+    "acceptedArabic": [
+      "خلية"
+    ],
+    "exampleTurkish": "Bu hücreye toplam tutarı yaz.",
+    "exampleArabic": "اكتب المبلغ الإجمالي في هذه الخلية."
+  },
+  {
+    "id": "word-1260",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "formül",
+    "arabic": "صيغة / معادلة",
+    "acceptedArabic": [
+      "صيغة",
+      "معادلة"
+    ],
+    "exampleTurkish": "Bu formül toplam ücreti hesaplıyor.",
+    "exampleArabic": "تحسب هذه الصيغة التكلفة الإجمالية."
+  },
+  {
+    "id": "word-1261",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "bütçe",
+    "arabic": "ميزانية",
+    "acceptedArabic": [
+      "ميزانية"
+    ],
+    "exampleTurkish": "Yolculuk için bir bütçe hazırladık.",
+    "exampleArabic": "أعددنا ميزانية للرحلة."
+  },
+  {
+    "id": "word-1262",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "masraf",
+    "arabic": "نفقة / مصروف",
+    "acceptedArabic": [
+      "نفقة",
+      "مصروف"
+    ],
+    "exampleTurkish": "Ek masraf çıkmasını istemiyoruz.",
+    "exampleArabic": "لا نريد أن تترتب نفقات إضافية."
+  },
+  {
+    "id": "word-1263",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "sermaye",
+    "arabic": "رأس مال",
+    "acceptedArabic": [
+      "رأس مال"
+    ],
+    "exampleTurkish": "Küçük bir sermayeyle işe başladılar.",
+    "exampleArabic": "بدؤوا العمل برأس مال صغير."
+  },
+  {
+    "id": "word-1264",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "gelir",
+    "arabic": "دخل",
+    "acceptedArabic": [
+      "دخل"
+    ],
+    "exampleTurkish": "Aylık gelirimi ve giderlerimi yazıyorum.",
+    "exampleArabic": "أدوّن دخلي الشهري ونفقاتي."
+  },
+  {
+    "id": "word-1265",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "gider",
+    "arabic": "نفقة / مصروف",
+    "acceptedArabic": [
+      "نفقة",
+      "مصروف"
+    ],
+    "exampleTurkish": "Bu ay ulaşım giderimiz arttı.",
+    "exampleArabic": "زادت نفقات المواصلات لدينا هذا الشهر."
+  },
+  {
+    "id": "word-1266",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "vergi",
+    "arabic": "ضريبة",
+    "acceptedArabic": [
+      "ضريبة"
+    ],
+    "exampleTurkish": "Bu fiyata vergi dâhil mi?",
+    "exampleArabic": "هل يشمل هذا السعر الضريبة؟"
+  },
+  {
+    "id": "word-1267",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "taksit",
+    "arabic": "قسط",
+    "acceptedArabic": [
+      "قسط"
+    ],
+    "exampleTurkish": "Bilgisayarı üç taksitte ödedim.",
+    "exampleArabic": "دفعت ثمن الحاسوب على ثلاثة أقساط."
+  },
+  {
+    "id": "word-1268",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "tasarruf",
+    "arabic": "توفير / ادخار",
+    "acceptedArabic": [
+      "توفير",
+      "ادخار"
+    ],
+    "exampleTurkish": "Bu yöntem zaman tasarrufu sağlıyor.",
+    "exampleArabic": "توفر هذه الطريقة الوقت."
+  },
+  {
+    "id": "word-1269",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "ödeme",
+    "arabic": "دفع / سداد",
+    "acceptedArabic": [
+      "دفع",
+      "سداد"
+    ],
+    "exampleTurkish": "Ödeme için kart kullanabilirsiniz.",
+    "exampleArabic": "يمكنكم استخدام البطاقة للدفع."
+  },
+  {
+    "id": "word-1270",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "maliyet",
+    "arabic": "تكلفة",
+    "acceptedArabic": [
+      "تكلفة"
+    ],
+    "exampleTurkish": "Projenin toplam maliyetini hesapladık.",
+    "exampleArabic": "حسبنا التكلفة الإجمالية للمشروع."
+  },
+  {
+    "id": "word-1271",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "verimli",
+    "arabic": "منتج / فعّال",
+    "acceptedArabic": [
+      "منتج",
+      "فعّال"
+    ],
+    "exampleTurkish": "Sabahları daha verimli çalışıyorum.",
+    "exampleArabic": "أعمل بإنتاجية أكبر صباحًا."
+  },
+  {
+    "id": "word-1272",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "esnek",
+    "arabic": "مرن",
+    "acceptedArabic": [
+      "مرن"
+    ],
+    "exampleTurkish": "Esnek bir çalışma programımız var.",
+    "exampleArabic": "لدينا برنامج عمل مرن."
+  },
+  {
+    "id": "word-1273",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "tutarlı",
+    "arabic": "متسق",
+    "acceptedArabic": [
+      "متسق"
+    ],
+    "exampleTurkish": "Rapordaki sonuçlar birbiriyle tutarlı.",
+    "exampleArabic": "نتائج التقرير متسقة فيما بينها."
+  },
+  {
+    "id": "word-1274",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "ayrıntılı",
+    "arabic": "مفصل",
+    "acceptedArabic": [
+      "مفصل"
+    ],
+    "exampleTurkish": "Bana ayrıntılı bir açıklama gönderdi.",
+    "exampleArabic": "أرسل لي شرحًا مفصلًا."
+  },
+  {
+    "id": "word-1275",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "özenli",
+    "arabic": "متقن / يتسم بالعناية",
+    "acceptedArabic": [
+      "متقن",
+      "يتسم بالعناية"
+    ],
+    "exampleTurkish": "Bu çalışma oldukça özenli hazırlanmış.",
+    "exampleArabic": "أُعد هذا العمل بعناية كبيرة."
+  },
+  {
+    "id": "word-1276",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "yaratıcı",
+    "arabic": "مبدع / مبتكر",
+    "acceptedArabic": [
+      "مبدع",
+      "مبتكر"
+    ],
+    "exampleTurkish": "Soruna yaratıcı bir çözüm buldun.",
+    "exampleArabic": "وجدت حلًا مبتكرًا للمشكلة."
+  },
+  {
+    "id": "word-1277",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "yenilikçi",
+    "arabic": "ابتكاري",
+    "acceptedArabic": [
+      "ابتكاري"
+    ],
+    "exampleTurkish": "Şirket yenilikçi fikirlere önem veriyor.",
+    "exampleArabic": "تولي الشركة الأفكار الابتكارية أهمية."
+  },
+  {
+    "id": "word-1278",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "şeffaf",
+    "arabic": "شفاف",
+    "acceptedArabic": [
+      "شفاف"
+    ],
+    "exampleTurkish": "Karar sürecinin şeffaf olmasını istiyoruz.",
+    "exampleArabic": "نريد أن تكون عملية اتخاذ القرار شفافة."
+  },
+  {
+    "id": "word-1279",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "etkili",
+    "arabic": "فعّال / مؤثر",
+    "acceptedArabic": [
+      "فعّال",
+      "مؤثر"
+    ],
+    "exampleTurkish": "Bu yöntem kelime öğrenmek için etkili.",
+    "exampleArabic": "هذه الطريقة فعالة لتعلم الكلمات."
+  },
+  {
+    "id": "word-1280",
+    "kind": "word",
+    "category": "العمل والتقنية والصفات",
+    "turkish": "belirgin",
+    "arabic": "واضح / بارز",
+    "acceptedArabic": [
+      "واضح",
+      "بارز"
+    ],
+    "exampleTurkish": "İki seçenek arasında belirgin bir fark var.",
+    "exampleArabic": "يوجد فرق واضح بين الخيارين."
+  }
+]

@@ -1,0 +1,3023 @@
+[
+  {
+    "id": "phrase-0001",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Merhaba.",
+    "arabic": "مرحبًا.",
+    "acceptedArabic": [
+      "مرحبًا."
+    ],
+    "exampleTurkish": "Merhaba, ben Ali.",
+    "exampleArabic": "مرحبًا، أنا علي."
+  },
+  {
+    "id": "phrase-0002",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Günaydın.",
+    "arabic": "صباح الخير.",
+    "acceptedArabic": [
+      "صباح الخير."
+    ],
+    "exampleTurkish": "Günaydın, iyi uyudun mu?",
+    "exampleArabic": "صباح الخير، هل نمت جيدًا؟"
+  },
+  {
+    "id": "phrase-0003",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "İyi akşamlar.",
+    "arabic": "مساء الخير.",
+    "acceptedArabic": [
+      "مساء الخير."
+    ],
+    "exampleTurkish": "İyi akşamlar, hoş geldiniz.",
+    "exampleArabic": "مساء الخير، أهلًا بكم."
+  },
+  {
+    "id": "phrase-0004",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "İyi geceler.",
+    "arabic": "تصبح على خير.",
+    "acceptedArabic": [
+      "تصبح على خير."
+    ],
+    "exampleTurkish": "İyi geceler, yarın görüşürüz.",
+    "exampleArabic": "تصبح على خير، نراك غدًا."
+  },
+  {
+    "id": "phrase-0005",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Hoş geldiniz.",
+    "arabic": "أهلًا وسهلًا بكم؛ ترحيب مهذب أو لجماعة.",
+    "acceptedArabic": [
+      "أهلًا وسهلًا بكم؛ ترحيب مهذب أو لجماعة.",
+      "أهلًا وسهلًا بكم"
+    ],
+    "exampleTurkish": "Hoş geldiniz, buyurun oturun.",
+    "exampleArabic": "أهلًا وسهلًا بكم، تفضلوا بالجلوس."
+  },
+  {
+    "id": "phrase-0006",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Hoş bulduk.",
+    "arabic": "شكرًا على الترحيب؛ جواب «أهلًا وسهلًا».",
+    "acceptedArabic": [
+      "شكرًا على الترحيب؛ جواب «أهلًا وسهلًا».",
+      "شكرًا على الترحيب"
+    ],
+    "exampleTurkish": "— Hoş geldiniz. — Hoş bulduk.",
+    "exampleArabic": "— أهلًا وسهلًا بكم. — شكرًا على الترحيب."
+  },
+  {
+    "id": "phrase-0007",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Nasılsınız?",
+    "arabic": "كيف حالك؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "كيف حالك؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Nasılsınız, her şey yolunda mı?",
+    "exampleArabic": "كيف حالك، هل كل شيء على ما يرام؟"
+  },
+  {
+    "id": "phrase-0008",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "İyiyim, teşekkür ederim.",
+    "arabic": "أنا بخير، شكرًا.",
+    "acceptedArabic": [
+      "أنا بخير، شكرًا."
+    ],
+    "exampleTurkish": "İyiyim, teşekkür ederim. Siz nasılsınız?",
+    "exampleArabic": "أنا بخير، شكرًا. وكيف حالك؟"
+  },
+  {
+    "id": "phrase-0009",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Adınız ne?",
+    "arabic": "ما اسمك؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "ما اسمك؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Merhaba, adınız ne?",
+    "exampleArabic": "مرحبًا، ما اسمك؟"
+  },
+  {
+    "id": "phrase-0010",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Benim adım Ömer.",
+    "arabic": "اسمي عمر.",
+    "acceptedArabic": [
+      "اسمي عمر."
+    ],
+    "exampleTurkish": "Benim adım Ömer. Sizin adınız ne?",
+    "exampleArabic": "اسمي عمر. وما اسمك؟"
+  },
+  {
+    "id": "phrase-0011",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Tanıştığımıza memnun oldum.",
+    "arabic": "سررت بالتعرف عليك.",
+    "acceptedArabic": [
+      "سررت بالتعرف عليك."
+    ],
+    "exampleTurkish": "Ben de tanıştığımıza memnun oldum.",
+    "exampleArabic": "أنا أيضًا سررت بالتعرف عليك."
+  },
+  {
+    "id": "phrase-0012",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Nerelisiniz?",
+    "arabic": "من أي بلد أو منطقة أنت؟",
+    "acceptedArabic": [
+      "من أي بلد أو منطقة أنت؟"
+    ],
+    "exampleTurkish": "Nerelisiniz, Türkiye'den misiniz?",
+    "exampleArabic": "من أين أنت، هل أنت من تركيا؟"
+  },
+  {
+    "id": "phrase-0013",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Ben Mısırlıyım.",
+    "arabic": "أنا مصري.",
+    "acceptedArabic": [
+      "أنا مصري."
+    ],
+    "exampleTurkish": "Ben Mısırlıyım, Kahire'den geldim.",
+    "exampleArabic": "أنا مصري، جئت من القاهرة."
+  },
+  {
+    "id": "phrase-0014",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Nerede yaşıyorsunuz?",
+    "arabic": "أين تعيش؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "أين تعيش؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Şimdi nerede yaşıyorsunuz?",
+    "exampleArabic": "أين تعيش الآن؟"
+  },
+  {
+    "id": "phrase-0015",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "İstanbul'da yaşıyorum.",
+    "arabic": "أعيش في إسطنبول.",
+    "acceptedArabic": [
+      "أعيش في إسطنبول."
+    ],
+    "exampleTurkish": "İstanbul'da yaşıyorum ama bugün Ankara'dayım.",
+    "exampleArabic": "أعيش في إسطنبول، لكنني اليوم في أنقرة."
+  },
+  {
+    "id": "phrase-0016",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Ne iş yapıyorsunuz?",
+    "arabic": "ما عملك؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "ما عملك؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Ne iş yapıyorsunuz, öğretmen misiniz?",
+    "exampleArabic": "ما عملك، هل أنت معلم؟"
+  },
+  {
+    "id": "phrase-0017",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Öğrenciyim.",
+    "arabic": "أنا طالب.",
+    "acceptedArabic": [
+      "أنا طالب."
+    ],
+    "exampleTurkish": "Öğrenciyim, Türkçe öğreniyorum.",
+    "exampleArabic": "أنا طالب، أتعلم التركية."
+  },
+  {
+    "id": "phrase-0018",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Görüşürüz.",
+    "arabic": "إلى اللقاء.",
+    "acceptedArabic": [
+      "إلى اللقاء."
+    ],
+    "exampleTurkish": "Şimdi gitmem gerekiyor, görüşürüz.",
+    "exampleArabic": "عليّ أن أذهب الآن، إلى اللقاء."
+  },
+  {
+    "id": "phrase-0019",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Hoşça kal.",
+    "arabic": "إلى اللقاء؛ تقال لشخص مقرّب يبقى في المكان.",
+    "acceptedArabic": [
+      "إلى اللقاء؛ تقال لشخص مقرّب يبقى في المكان.",
+      "إلى اللقاء"
+    ],
+    "exampleTurkish": "Ben gidiyorum, hoşça kal.",
+    "exampleArabic": "أنا ذاهب، إلى اللقاء."
+  },
+  {
+    "id": "phrase-0020",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Güle güle.",
+    "arabic": "مع السلامة؛ تقال للشخص المغادر.",
+    "acceptedArabic": [
+      "مع السلامة؛ تقال للشخص المغادر.",
+      "مع السلامة"
+    ],
+    "exampleTurkish": "Güle güle, yine gel.",
+    "exampleArabic": "مع السلامة، تعال مرة أخرى."
+  },
+  {
+    "id": "phrase-0021",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Yarın görüşürüz.",
+    "arabic": "نراك غدًا.",
+    "acceptedArabic": [
+      "نراك غدًا."
+    ],
+    "exampleTurkish": "Ders bitti, yarın görüşürüz.",
+    "exampleArabic": "انتهى الدرس، نراك غدًا."
+  },
+  {
+    "id": "phrase-0022",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "İyi günler.",
+    "arabic": "نهارك سعيد.",
+    "acceptedArabic": [
+      "نهارك سعيد."
+    ],
+    "exampleTurkish": "Teşekkür ederim, iyi günler.",
+    "exampleArabic": "شكرًا، نهارك سعيد."
+  },
+  {
+    "id": "phrase-0023",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Aileniz nasıl?",
+    "arabic": "كيف حال عائلتك؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "كيف حال عائلتك؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Siz iyisiniz, peki aileniz nasıl?",
+    "exampleArabic": "أنت بخير، وماذا عن عائلتك؟"
+  },
+  {
+    "id": "phrase-0024",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Uzun zamandır görüşmedik.",
+    "arabic": "لم نلتقِ منذ مدة طويلة.",
+    "acceptedArabic": [
+      "لم نلتقِ منذ مدة طويلة."
+    ],
+    "exampleTurkish": "Uzun zamandır görüşmedik, nasılsın?",
+    "exampleArabic": "لم نلتقِ منذ مدة طويلة، كيف حالك؟"
+  },
+  {
+    "id": "phrase-0025",
+    "kind": "phrase",
+    "category": "التحية والتعارف",
+    "turkish": "Kendine iyi bak.",
+    "arabic": "اعتنِ بنفسك؛ لشخص مقرّب.",
+    "acceptedArabic": [
+      "اعتنِ بنفسك؛ لشخص مقرّب.",
+      "اعتنِ بنفسك"
+    ],
+    "exampleTurkish": "Yakında görüşürüz, kendine iyi bak.",
+    "exampleArabic": "نلتقي قريبًا، اعتنِ بنفسك."
+  },
+  {
+    "id": "phrase-0026",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Teşekkür ederim.",
+    "arabic": "شكرًا لك.",
+    "acceptedArabic": [
+      "شكرًا لك."
+    ],
+    "exampleTurkish": "Yardımınız için teşekkür ederim.",
+    "exampleArabic": "شكرًا لك على مساعدتك."
+  },
+  {
+    "id": "phrase-0027",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Çok teşekkürler.",
+    "arabic": "شكرًا جزيلًا.",
+    "acceptedArabic": [
+      "شكرًا جزيلًا."
+    ],
+    "exampleTurkish": "Beni beklediğin için çok teşekkürler.",
+    "exampleArabic": "شكرًا جزيلًا لأنك انتظرتني."
+  },
+  {
+    "id": "phrase-0028",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Rica ederim.",
+    "arabic": "على الرحب والسعة.",
+    "acceptedArabic": [
+      "على الرحب والسعة."
+    ],
+    "exampleTurkish": "— Teşekkürler. — Rica ederim.",
+    "exampleArabic": "— شكرًا. — على الرحب والسعة."
+  },
+  {
+    "id": "phrase-0029",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Lütfen.",
+    "arabic": "من فضلك.",
+    "acceptedArabic": [
+      "من فضلك."
+    ],
+    "exampleTurkish": "Bir bardak su, lütfen.",
+    "exampleArabic": "كوب ماء، من فضلك."
+  },
+  {
+    "id": "phrase-0030",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Affedersiniz.",
+    "arabic": "المعذرة؛ للاعتذار البسيط أو لفت الانتباه.",
+    "acceptedArabic": [
+      "المعذرة؛ للاعتذار البسيط أو لفت الانتباه.",
+      "المعذرة"
+    ],
+    "exampleTurkish": "Affedersiniz, burası boş mu?",
+    "exampleArabic": "المعذرة، هل هذا المكان خالٍ؟"
+  },
+  {
+    "id": "phrase-0031",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Özür dilerim.",
+    "arabic": "أعتذر.",
+    "acceptedArabic": [
+      "أعتذر."
+    ],
+    "exampleTurkish": "Geç kaldım, özür dilerim.",
+    "exampleArabic": "تأخرت، أعتذر."
+  },
+  {
+    "id": "phrase-0032",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Sorun değil.",
+    "arabic": "لا مشكلة.",
+    "acceptedArabic": [
+      "لا مشكلة."
+    ],
+    "exampleTurkish": "— Özür dilerim. — Sorun değil.",
+    "exampleArabic": "— أعتذر. — لا مشكلة."
+  },
+  {
+    "id": "phrase-0033",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Bir şey sorabilir miyim?",
+    "arabic": "هل يمكنني أن أسأل سؤالًا؟",
+    "acceptedArabic": [
+      "هل يمكنني أن أسأل سؤالًا؟"
+    ],
+    "exampleTurkish": "Affedersiniz, bir şey sorabilir miyim?",
+    "exampleArabic": "المعذرة، هل يمكنني أن أسأل سؤالًا؟"
+  },
+  {
+    "id": "phrase-0034",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Bana yardım eder misiniz?",
+    "arabic": "هل تساعدني؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تساعدني؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Bu kutu çok ağır, bana yardım eder misiniz?",
+    "exampleArabic": "هذا الصندوق ثقيل جدًا، هل تساعدني؟"
+  },
+  {
+    "id": "phrase-0035",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Bir dakika bekler misiniz?",
+    "arabic": "هل تنتظر دقيقة؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تنتظر دقيقة؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Hazır değilim, bir dakika bekler misiniz?",
+    "exampleArabic": "لست جاهزًا، هل تنتظر دقيقة؟"
+  },
+  {
+    "id": "phrase-0036",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "İçeri girebilir miyim?",
+    "arabic": "هل يمكنني الدخول؟",
+    "acceptedArabic": [
+      "هل يمكنني الدخول؟"
+    ],
+    "exampleTurkish": "Kapı açık, içeri girebilir miyim?",
+    "exampleArabic": "الباب مفتوح، هل يمكنني الدخول؟"
+  },
+  {
+    "id": "phrase-0037",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Buraya oturabilir miyim?",
+    "arabic": "هل يمكنني الجلوس هنا؟",
+    "acceptedArabic": [
+      "هل يمكنني الجلوس هنا؟"
+    ],
+    "exampleTurkish": "Affedersiniz, buraya oturabilir miyim?",
+    "exampleArabic": "المعذرة، هل يمكنني الجلوس هنا؟"
+  },
+  {
+    "id": "phrase-0038",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Geçebilir miyim?",
+    "arabic": "هل تسمح لي بالمرور؟",
+    "acceptedArabic": [
+      "هل تسمح لي بالمرور؟"
+    ],
+    "exampleTurkish": "İneceğim, geçebilir miyim?",
+    "exampleArabic": "سأنزل، هل تسمح لي بالمرور؟"
+  },
+  {
+    "id": "phrase-0039",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Kapıyı açar mısınız?",
+    "arabic": "هل تفتح الباب؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تفتح الباب؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Ellerim dolu, kapıyı açar mısınız?",
+    "exampleArabic": "يداي مشغولتان، هل تفتح الباب؟"
+  },
+  {
+    "id": "phrase-0040",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Pencereyi kapatır mısınız?",
+    "arabic": "هل تغلق النافذة؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تغلق النافذة؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Üşüyorum, pencereyi kapatır mısınız?",
+    "exampleArabic": "أشعر بالبرد، هل تغلق النافذة؟"
+  },
+  {
+    "id": "phrase-0041",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Bunu alabilir miyim?",
+    "arabic": "هل يمكنني أخذ هذا؟",
+    "acceptedArabic": [
+      "هل يمكنني أخذ هذا؟"
+    ],
+    "exampleTurkish": "Bu kalem boşta mı, bunu alabilir miyim?",
+    "exampleArabic": "هل هذا القلم غير مستخدم، وهل يمكنني أخذه؟"
+  },
+  {
+    "id": "phrase-0042",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "İzin verir misiniz?",
+    "arabic": "هل تسمح؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تسمح؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Fotoğraf çekmek istiyorum, izin verir misiniz?",
+    "exampleArabic": "أريد التقاط صورة، هل تسمح؟"
+  },
+  {
+    "id": "phrase-0043",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Sizi rahatsız etmek istemiyorum.",
+    "arabic": "لا أريد إزعاجك.",
+    "acceptedArabic": [
+      "لا أريد إزعاجك."
+    ],
+    "exampleTurkish": "Sizi rahatsız etmek istemiyorum, sonra gelebilirim.",
+    "exampleArabic": "لا أريد إزعاجك، يمكنني المجيء لاحقًا."
+  },
+  {
+    "id": "phrase-0044",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Zahmet oldu.",
+    "arabic": "أتعبتك معي؛ امتنان لتعب شخص من أجلك.",
+    "acceptedArabic": [
+      "أتعبتك معي؛ امتنان لتعب شخص من أجلك.",
+      "أتعبتك معي"
+    ],
+    "exampleTurkish": "Beni eve bıraktınız, zahmet oldu.",
+    "exampleArabic": "أوصلتني إلى البيت، أتعبتك معي."
+  },
+  {
+    "id": "phrase-0045",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Elinize sağlık.",
+    "arabic": "تسلم يداك؛ شكر على طعام أو عمل متقن.",
+    "acceptedArabic": [
+      "تسلم يداك؛ شكر على طعام أو عمل متقن.",
+      "تسلم يداك"
+    ],
+    "exampleTurkish": "Yemek çok güzeldi, elinize sağlık.",
+    "exampleArabic": "كان الطعام لذيذًا جدًا، تسلم يداك."
+  },
+  {
+    "id": "phrase-0046",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Kolay gelsin.",
+    "arabic": "يعطيك العافية؛ تقال لمن يعمل.",
+    "acceptedArabic": [
+      "يعطيك العافية؛ تقال لمن يعمل.",
+      "يعطيك العافية"
+    ],
+    "exampleTurkish": "Çok işiniz var, kolay gelsin.",
+    "exampleArabic": "لديك عمل كثير، يعطيك العافية."
+  },
+  {
+    "id": "phrase-0047",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Geçmiş olsun.",
+    "arabic": "سلامتك؛ تقال لمريض أو بعد مكروه.",
+    "acceptedArabic": [
+      "سلامتك؛ تقال لمريض أو بعد مكروه.",
+      "سلامتك"
+    ],
+    "exampleTurkish": "Hasta olduğunu duydum, geçmiş olsun.",
+    "exampleArabic": "سمعت أنك مريض، سلامتك."
+  },
+  {
+    "id": "phrase-0048",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Tebrik ederim.",
+    "arabic": "أهنئك.",
+    "acceptedArabic": [
+      "أهنئك."
+    ],
+    "exampleTurkish": "Sınavı geçtin, tebrik ederim.",
+    "exampleArabic": "نجحت في الامتحان، أهنئك."
+  },
+  {
+    "id": "phrase-0049",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Afiyet olsun.",
+    "arabic": "بالهنا والشفا.",
+    "acceptedArabic": [
+      "بالهنا والشفا."
+    ],
+    "exampleTurkish": "Yemeğiniz hazır, afiyet olsun.",
+    "exampleArabic": "طعامك جاهز، بالهنا والشفا."
+  },
+  {
+    "id": "phrase-0050",
+    "kind": "phrase",
+    "category": "اللباقة وطلب المساعدة",
+    "turkish": "Estağfurullah.",
+    "arabic": "لا داعي للشكر أو الاعتذار؛ رد متواضع بحسب السياق.",
+    "acceptedArabic": [
+      "لا داعي للشكر أو الاعتذار؛ رد متواضع بحسب السياق.",
+      "لا داعي للشكر أو الاعتذار"
+    ],
+    "exampleTurkish": "— Sizi çok yordum. — Estağfurullah.",
+    "exampleArabic": "— أتعبتك كثيرًا. — لا داعي للاعتذار."
+  },
+  {
+    "id": "phrase-0051",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Türkçe öğreniyorum.",
+    "arabic": "أتعلم التركية.",
+    "acceptedArabic": [
+      "أتعلم التركية."
+    ],
+    "exampleTurkish": "Türkçe öğreniyorum, her gün çalışıyorum.",
+    "exampleArabic": "أتعلم التركية، وأدرس كل يوم."
+  },
+  {
+    "id": "phrase-0052",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Biraz Türkçe biliyorum.",
+    "arabic": "أعرف قليلًا من التركية.",
+    "acceptedArabic": [
+      "أعرف قليلًا من التركية."
+    ],
+    "exampleTurkish": "Biraz Türkçe biliyorum ama hızlı konuşamıyorum.",
+    "exampleArabic": "أعرف قليلًا من التركية، لكنني لا أستطيع التحدث بسرعة."
+  },
+  {
+    "id": "phrase-0053",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Türkçem çok iyi değil.",
+    "arabic": "لغتي التركية ليست جيدة جدًا.",
+    "acceptedArabic": [
+      "لغتي التركية ليست جيدة جدًا."
+    ],
+    "exampleTurkish": "Türkçem çok iyi değil, yavaş konuşur musunuz?",
+    "exampleArabic": "لغتي التركية ليست جيدة جدًا، هل تتحدث ببطء؟"
+  },
+  {
+    "id": "phrase-0054",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Arapça biliyor musunuz?",
+    "arabic": "هل تعرف العربية؟",
+    "acceptedArabic": [
+      "هل تعرف العربية؟"
+    ],
+    "exampleTurkish": "Ben Arapça konuşuyorum, Arapça biliyor musunuz?",
+    "exampleArabic": "أنا أتحدث العربية، هل تعرفها؟"
+  },
+  {
+    "id": "phrase-0055",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "İngilizce konuşabilir miyiz?",
+    "arabic": "هل يمكننا التحدث بالإنجليزية؟",
+    "acceptedArabic": [
+      "هل يمكننا التحدث بالإنجليزية؟"
+    ],
+    "exampleTurkish": "Bu konu zor, İngilizce konuşabilir miyiz?",
+    "exampleArabic": "هذا الموضوع صعب، هل يمكننا التحدث بالإنجليزية؟"
+  },
+  {
+    "id": "phrase-0056",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Anlamadım.",
+    "arabic": "لم أفهم.",
+    "acceptedArabic": [
+      "لم أفهم."
+    ],
+    "exampleTurkish": "Son cümleyi anlamadım.",
+    "exampleArabic": "لم أفهم الجملة الأخيرة."
+  },
+  {
+    "id": "phrase-0057",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Anladım.",
+    "arabic": "فهمت.",
+    "acceptedArabic": [
+      "فهمت."
+    ],
+    "exampleTurkish": "Şimdi anladım, teşekkür ederim.",
+    "exampleArabic": "فهمت الآن، شكرًا لك."
+  },
+  {
+    "id": "phrase-0058",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Tekrar eder misiniz?",
+    "arabic": "هل تعيد ما قلت؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تعيد ما قلت؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Duymadım, tekrar eder misiniz?",
+    "exampleArabic": "لم أسمع، هل تعيد ما قلت؟"
+  },
+  {
+    "id": "phrase-0059",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Daha yavaş konuşur musunuz?",
+    "arabic": "هل تتحدث ببطء أكثر؟",
+    "acceptedArabic": [
+      "هل تتحدث ببطء أكثر؟"
+    ],
+    "exampleTurkish": "Türkçe öğreniyorum, daha yavaş konuşur musunuz?",
+    "exampleArabic": "أتعلم التركية، هل تتحدث ببطء أكثر؟"
+  },
+  {
+    "id": "phrase-0060",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Biraz daha yüksek sesle konuşur musunuz?",
+    "arabic": "هل ترفع صوتك قليلًا؟",
+    "acceptedArabic": [
+      "هل ترفع صوتك قليلًا؟"
+    ],
+    "exampleTurkish": "Burada gürültü var, biraz daha yüksek sesle konuşur musunuz?",
+    "exampleArabic": "هنا ضوضاء، هل ترفع صوتك قليلًا؟"
+  },
+  {
+    "id": "phrase-0061",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bu ne demek?",
+    "arabic": "ماذا يعني هذا؟",
+    "acceptedArabic": [
+      "ماذا يعني هذا؟"
+    ],
+    "exampleTurkish": "Bu kelimeyi bilmiyorum, bu ne demek?",
+    "exampleArabic": "لا أعرف هذه الكلمة، ماذا تعني؟"
+  },
+  {
+    "id": "phrase-0062",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bunu Türkçe nasıl söylerim?",
+    "arabic": "كيف أقول هذا بالتركية؟",
+    "acceptedArabic": [
+      "كيف أقول هذا بالتركية؟"
+    ],
+    "exampleTurkish": "Bir isteğim var, bunu Türkçe nasıl söylerim?",
+    "exampleArabic": "لدي طلب، كيف أقوله بالتركية؟"
+  },
+  {
+    "id": "phrase-0063",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Nasıl yazılıyor?",
+    "arabic": "كيف تُكتب؟",
+    "acceptedArabic": [
+      "كيف تُكتب؟"
+    ],
+    "exampleTurkish": "Soyadınız nasıl yazılıyor?",
+    "exampleArabic": "كيف يُكتب اسم عائلتك؟"
+  },
+  {
+    "id": "phrase-0064",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Harf harf söyler misiniz?",
+    "arabic": "هل تتهجّى ذلك حرفًا حرفًا؟",
+    "acceptedArabic": [
+      "هل تتهجّى ذلك حرفًا حرفًا؟"
+    ],
+    "exampleTurkish": "Adınızı harf harf söyler misiniz?",
+    "exampleArabic": "هل تتهجّى اسمك حرفًا حرفًا؟"
+  },
+  {
+    "id": "phrase-0065",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bunu yazar mısınız?",
+    "arabic": "هل تكتب هذا؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تكتب هذا؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Adresi anlamadım, bunu yazar mısınız?",
+    "exampleArabic": "لم أفهم العنوان، هل تكتبه؟"
+  },
+  {
+    "id": "phrase-0066",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bir örnek verir misiniz?",
+    "arabic": "هل تعطيني مثالًا؟",
+    "acceptedArabic": [
+      "هل تعطيني مثالًا؟"
+    ],
+    "exampleTurkish": "Bu kural için bir örnek verir misiniz?",
+    "exampleArabic": "هل تعطيني مثالًا لهذه القاعدة؟"
+  },
+  {
+    "id": "phrase-0067",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Doğru mu söyledim?",
+    "arabic": "هل قلتها بشكل صحيح؟",
+    "acceptedArabic": [
+      "هل قلتها بشكل صحيح؟"
+    ],
+    "exampleTurkish": "Yeni kelimeyi doğru mu söyledim?",
+    "exampleArabic": "هل قلت الكلمة الجديدة بشكل صحيح؟"
+  },
+  {
+    "id": "phrase-0068",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Yanlış söyledim.",
+    "arabic": "قلتها بشكل خاطئ.",
+    "acceptedArabic": [
+      "قلتها بشكل خاطئ."
+    ],
+    "exampleTurkish": "Özür dilerim, yanlış söyledim.",
+    "exampleArabic": "أعتذر، قلتها بشكل خاطئ."
+  },
+  {
+    "id": "phrase-0069",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Beni anlıyor musunuz?",
+    "arabic": "هل تفهمني؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تفهمني؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Sesim net mi, beni anlıyor musunuz?",
+    "exampleArabic": "هل صوتي واضح، وهل تفهمني؟"
+  },
+  {
+    "id": "phrase-0070",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bu kelimeyi nasıl telaffuz ediyorsunuz?",
+    "arabic": "كيف تنطق هذه الكلمة؟",
+    "acceptedArabic": [
+      "كيف تنطق هذه الكلمة؟"
+    ],
+    "exampleTurkish": "Metindeki bu kelimeyi nasıl telaffuz ediyorsunuz?",
+    "exampleArabic": "كيف تنطق هذه الكلمة الموجودة في النص؟"
+  },
+  {
+    "id": "phrase-0071",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Biraz düşüneyim.",
+    "arabic": "دعني أفكر قليلًا.",
+    "acceptedArabic": [
+      "دعني أفكر قليلًا."
+    ],
+    "exampleTurkish": "Cevabı hemen bilmiyorum, biraz düşüneyim.",
+    "exampleArabic": "لا أعرف الإجابة فورًا، دعني أفكر قليلًا."
+  },
+  {
+    "id": "phrase-0072",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Emin değilim.",
+    "arabic": "لست متأكدًا.",
+    "acceptedArabic": [
+      "لست متأكدًا."
+    ],
+    "exampleTurkish": "Galiba bugün açık ama emin değilim.",
+    "exampleArabic": "أظنه مفتوحًا اليوم، لكنني لست متأكدًا."
+  },
+  {
+    "id": "phrase-0073",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bilmiyorum.",
+    "arabic": "لا أعرف.",
+    "acceptedArabic": [
+      "لا أعرف."
+    ],
+    "exampleTurkish": "Bu sokağın adını bilmiyorum.",
+    "exampleArabic": "لا أعرف اسم هذا الشارع."
+  },
+  {
+    "id": "phrase-0074",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Bunun anlamını biliyor musunuz?",
+    "arabic": "هل تعرف معنى هذا؟",
+    "acceptedArabic": [
+      "هل تعرف معنى هذا؟"
+    ],
+    "exampleTurkish": "Bu eski bir kelime, bunun anlamını biliyor musunuz?",
+    "exampleArabic": "هذه كلمة قديمة، هل تعرف معناها؟"
+  },
+  {
+    "id": "phrase-0075",
+    "kind": "phrase",
+    "category": "الفهم وتعلّم اللغة",
+    "turkish": "Lütfen hatalarımı düzeltin.",
+    "arabic": "صحّح أخطائي من فضلك.",
+    "acceptedArabic": [
+      "صحّح أخطائي من فضلك."
+    ],
+    "exampleTurkish": "Türkçe konuşalım, lütfen hatalarımı düzeltin.",
+    "exampleArabic": "لنتحدث بالتركية، صحّح أخطائي من فضلك."
+  },
+  {
+    "id": "phrase-0076",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bu ne kadar?",
+    "arabic": "كم سعر هذا؟",
+    "acceptedArabic": [
+      "كم سعر هذا؟"
+    ],
+    "exampleTurkish": "Bu gömlek güzel, bu ne kadar?",
+    "exampleArabic": "هذا القميص جميل، كم سعره؟"
+  },
+  {
+    "id": "phrase-0077",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Fiyatı nedir?",
+    "arabic": "ما سعره؟",
+    "acceptedArabic": [
+      "ما سعره؟"
+    ],
+    "exampleTurkish": "Bu çantanın fiyatı nedir?",
+    "exampleArabic": "ما سعر هذه الحقيبة؟"
+  },
+  {
+    "id": "phrase-0078",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Çok pahalı.",
+    "arabic": "غالي جدًا.",
+    "acceptedArabic": [
+      "غالي جدًا."
+    ],
+    "exampleTurkish": "Bu ayakkabı çok pahalı.",
+    "exampleArabic": "هذا الحذاء غالٍ جدًا."
+  },
+  {
+    "id": "phrase-0079",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Daha ucuzu var mı?",
+    "arabic": "هل يوجد أرخص منه؟",
+    "acceptedArabic": [
+      "هل يوجد أرخص منه؟"
+    ],
+    "exampleTurkish": "Bu pahalı, daha ucuzu var mı?",
+    "exampleArabic": "هذا غالٍ، هل يوجد أرخص منه؟"
+  },
+  {
+    "id": "phrase-0080",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "İndirim var mı?",
+    "arabic": "هل يوجد تخفيض؟",
+    "acceptedArabic": [
+      "هل يوجد تخفيض؟"
+    ],
+    "exampleTurkish": "Bu üründe indirim var mı?",
+    "exampleArabic": "هل يوجد تخفيض على هذا المنتج؟"
+  },
+  {
+    "id": "phrase-0081",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bunu denemek istiyorum.",
+    "arabic": "أريد تجربة هذا.",
+    "acceptedArabic": [
+      "أريد تجربة هذا."
+    ],
+    "exampleTurkish": "Bu ceketi beğendim, bunu denemek istiyorum.",
+    "exampleArabic": "أعجبتني هذه السترة، أريد تجربتها."
+  },
+  {
+    "id": "phrase-0082",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Deneme kabini nerede?",
+    "arabic": "أين غرفة القياس؟",
+    "acceptedArabic": [
+      "أين غرفة القياس؟"
+    ],
+    "exampleTurkish": "Pantolonu deneyeceğim, deneme kabini nerede?",
+    "exampleArabic": "سأجرب البنطال، أين غرفة القياس؟"
+  },
+  {
+    "id": "phrase-0083",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bir beden büyüğü var mı?",
+    "arabic": "هل يوجد مقاس أكبر بدرجة؟",
+    "acceptedArabic": [
+      "هل يوجد مقاس أكبر بدرجة؟"
+    ],
+    "exampleTurkish": "Bu dar geldi, bir beden büyüğü var mı?",
+    "exampleArabic": "هذا ضيق عليّ، هل يوجد مقاس أكبر بدرجة؟"
+  },
+  {
+    "id": "phrase-0084",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bir beden küçüğü var mı?",
+    "arabic": "هل يوجد مقاس أصغر بدرجة؟",
+    "acceptedArabic": [
+      "هل يوجد مقاس أصغر بدرجة؟"
+    ],
+    "exampleTurkish": "Bu bol geldi, bir beden küçüğü var mı?",
+    "exampleArabic": "هذا واسع عليّ، هل يوجد مقاس أصغر بدرجة؟"
+  },
+  {
+    "id": "phrase-0085",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Başka rengi var mı?",
+    "arabic": "هل يوجد لون آخر منه؟",
+    "acceptedArabic": [
+      "هل يوجد لون آخر منه؟"
+    ],
+    "exampleTurkish": "Mavi istemiyorum, başka rengi var mı?",
+    "exampleArabic": "لا أريد الأزرق، هل يوجد لون آخر منه؟"
+  },
+  {
+    "id": "phrase-0086",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bunu alacağım.",
+    "arabic": "سآخذ هذا؛ عند الشراء.",
+    "acceptedArabic": [
+      "سآخذ هذا؛ عند الشراء.",
+      "سآخذ هذا"
+    ],
+    "exampleTurkish": "Bu beden uygun, bunu alacağım.",
+    "exampleArabic": "هذا المقاس مناسب، سآخذ هذا."
+  },
+  {
+    "id": "phrase-0087",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Sadece bakıyorum.",
+    "arabic": "أنا أتفرج فقط؛ في متجر.",
+    "acceptedArabic": [
+      "أنا أتفرج فقط؛ في متجر.",
+      "أنا أتفرج فقط"
+    ],
+    "exampleTurkish": "Teşekkürler, sadece bakıyorum.",
+    "exampleArabic": "شكرًا، أنا أتفرج فقط."
+  },
+  {
+    "id": "phrase-0088",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Kartla ödeyebilir miyim?",
+    "arabic": "هل يمكنني الدفع بالبطاقة؟",
+    "acceptedArabic": [
+      "هل يمكنني الدفع بالبطاقة؟"
+    ],
+    "exampleTurkish": "Nakit param yok, kartla ödeyebilir miyim?",
+    "exampleArabic": "ليس معي نقد، هل يمكنني الدفع بالبطاقة؟"
+  },
+  {
+    "id": "phrase-0089",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Nakit ödeyeceğim.",
+    "arabic": "سأدفع نقدًا.",
+    "acceptedArabic": [
+      "سأدفع نقدًا."
+    ],
+    "exampleTurkish": "Kartımı unuttum, nakit ödeyeceğim.",
+    "exampleArabic": "نسيت بطاقتي، سأدفع نقدًا."
+  },
+  {
+    "id": "phrase-0090",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Fiş alabilir miyim?",
+    "arabic": "هل يمكنني الحصول على إيصال؟",
+    "acceptedArabic": [
+      "هل يمكنني الحصول على إيصال؟"
+    ],
+    "exampleTurkish": "Ödeme yaptım, fiş alabilir miyim?",
+    "exampleArabic": "دفعت، هل يمكنني الحصول على إيصال؟"
+  },
+  {
+    "id": "phrase-0091",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Poşet istiyorum.",
+    "arabic": "أريد كيسًا.",
+    "acceptedArabic": [
+      "أريد كيسًا."
+    ],
+    "exampleTurkish": "Bunlar için bir poşet istiyorum.",
+    "exampleArabic": "أريد كيسًا لهذه الأشياء."
+  },
+  {
+    "id": "phrase-0092",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Poşet istemiyorum.",
+    "arabic": "لا أريد كيسًا.",
+    "acceptedArabic": [
+      "لا أريد كيسًا."
+    ],
+    "exampleTurkish": "Çantam var, poşet istemiyorum.",
+    "exampleArabic": "معي حقيبة، لا أريد كيسًا."
+  },
+  {
+    "id": "phrase-0093",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bunu iade etmek istiyorum.",
+    "arabic": "أريد إرجاع هذا المنتج.",
+    "acceptedArabic": [
+      "أريد إرجاع هذا المنتج."
+    ],
+    "exampleTurkish": "Ürün bozuk, bunu iade etmek istiyorum.",
+    "exampleArabic": "المنتج معطّل، أريد إرجاعه."
+  },
+  {
+    "id": "phrase-0094",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bunu değiştirebilir miyim?",
+    "arabic": "هل يمكنني استبدال هذا؟",
+    "acceptedArabic": [
+      "هل يمكنني استبدال هذا؟"
+    ],
+    "exampleTurkish": "Beden uymadı, bunu değiştirebilir miyim?",
+    "exampleArabic": "لم يناسبني المقاس، هل يمكنني استبدال هذا؟"
+  },
+  {
+    "id": "phrase-0095",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Kasayı nerede bulabilirim?",
+    "arabic": "أين أجد صندوق الدفع؟",
+    "acceptedArabic": [
+      "أين أجد صندوق الدفع؟"
+    ],
+    "exampleTurkish": "Alışverişim bitti, kasayı nerede bulabilirim?",
+    "exampleArabic": "انتهيت من التسوق، أين أجد صندوق الدفع؟"
+  },
+  {
+    "id": "phrase-0096",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Yarım kilo domates istiyorum.",
+    "arabic": "أريد نصف كيلو من الطماطم.",
+    "acceptedArabic": [
+      "أريد نصف كيلو من الطماطم."
+    ],
+    "exampleTurkish": "Yarım kilo domates istiyorum, lütfen.",
+    "exampleArabic": "أريد نصف كيلو من الطماطم، من فضلك."
+  },
+  {
+    "id": "phrase-0097",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Bunlar taze mi?",
+    "arabic": "هل هذه طازجة؟",
+    "acceptedArabic": [
+      "هل هذه طازجة؟"
+    ],
+    "exampleTurkish": "Çilekler güzel görünüyor, bunlar taze mi?",
+    "exampleArabic": "تبدو الفراولة جميلة، هل هي طازجة؟"
+  },
+  {
+    "id": "phrase-0098",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Son kullanma tarihi nerede?",
+    "arabic": "أين تاريخ انتهاء الصلاحية؟",
+    "acceptedArabic": [
+      "أين تاريخ انتهاء الصلاحية؟"
+    ],
+    "exampleTurkish": "Kutuda son kullanma tarihi nerede?",
+    "exampleArabic": "أين تاريخ انتهاء الصلاحية على العلبة؟"
+  },
+  {
+    "id": "phrase-0099",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Para üstü eksik.",
+    "arabic": "الباقي من النقود ناقص.",
+    "acceptedArabic": [
+      "الباقي من النقود ناقص."
+    ],
+    "exampleTurkish": "Affedersiniz, para üstü eksik.",
+    "exampleArabic": "المعذرة، الباقي من النقود ناقص."
+  },
+  {
+    "id": "phrase-0100",
+    "kind": "phrase",
+    "category": "التسوّق والدفع",
+    "turkish": "Mağaza saat kaçta kapanıyor?",
+    "arabic": "في أي ساعة يغلق المتجر؟",
+    "acceptedArabic": [
+      "في أي ساعة يغلق المتجر؟"
+    ],
+    "exampleTurkish": "Akşam geleceğim, mağaza saat kaçta kapanıyor?",
+    "exampleArabic": "سآتي مساءً، في أي ساعة يغلق المتجر؟"
+  },
+  {
+    "id": "phrase-0101",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "İki kişilik masa var mı?",
+    "arabic": "هل توجد طاولة لشخصين؟",
+    "acceptedArabic": [
+      "هل توجد طاولة لشخصين؟"
+    ],
+    "exampleTurkish": "İyi akşamlar, iki kişilik masa var mı?",
+    "exampleArabic": "مساء الخير، هل توجد طاولة لشخصين؟"
+  },
+  {
+    "id": "phrase-0102",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Menüyü alabilir miyim?",
+    "arabic": "هل يمكنني الحصول على قائمة الطعام؟",
+    "acceptedArabic": [
+      "هل يمكنني الحصول على قائمة الطعام؟"
+    ],
+    "exampleTurkish": "Sipariş vermeden önce menüyü alabilir miyim?",
+    "exampleArabic": "هل يمكنني الحصول على قائمة الطعام قبل أن أطلب؟"
+  },
+  {
+    "id": "phrase-0103",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Ne tavsiye edersiniz?",
+    "arabic": "بماذا تنصح؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "بماذا تنصح؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "İlk kez geldim, ne tavsiye edersiniz?",
+    "exampleArabic": "جئت لأول مرة، بماذا تنصح؟"
+  },
+  {
+    "id": "phrase-0104",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Sipariş vermek istiyorum.",
+    "arabic": "أريد أن أطلب الطعام.",
+    "acceptedArabic": [
+      "أريد أن أطلب الطعام."
+    ],
+    "exampleTurkish": "Karar verdim, sipariş vermek istiyorum.",
+    "exampleArabic": "قررت، وأريد أن أطلب الطعام."
+  },
+  {
+    "id": "phrase-0105",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Bir çay alabilir miyim?",
+    "arabic": "هل يمكنني الحصول على كوب شاي؟",
+    "acceptedArabic": [
+      "هل يمكنني الحصول على كوب شاي؟"
+    ],
+    "exampleTurkish": "Yemekten sonra bir çay alabilir miyim?",
+    "exampleArabic": "هل يمكنني الحصول على كوب شاي بعد الطعام؟"
+  },
+  {
+    "id": "phrase-0106",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Şekersiz olsun.",
+    "arabic": "ليكن بدون سكر.",
+    "acceptedArabic": [
+      "ليكن بدون سكر."
+    ],
+    "exampleTurkish": "Kahvem şekersiz olsun.",
+    "exampleArabic": "لتكن قهوتي بدون سكر."
+  },
+  {
+    "id": "phrase-0107",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Sütlü kahve istiyorum.",
+    "arabic": "أريد قهوة بالحليب.",
+    "acceptedArabic": [
+      "أريد قهوة بالحليب."
+    ],
+    "exampleTurkish": "Bir fincan sütlü kahve istiyorum.",
+    "exampleArabic": "أريد فنجان قهوة بالحليب."
+  },
+  {
+    "id": "phrase-0108",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Su getirir misiniz?",
+    "arabic": "هل تحضر ماءً؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تحضر ماءً؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Masaya su getirir misiniz?",
+    "exampleArabic": "هل تحضر ماءً إلى الطاولة؟"
+  },
+  {
+    "id": "phrase-0109",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Acı olmasın.",
+    "arabic": "من دون فلفل حار، من فضلك.",
+    "acceptedArabic": [
+      "من دون فلفل حار، من فضلك."
+    ],
+    "exampleTurkish": "Çorba istiyorum ama acı olmasın.",
+    "exampleArabic": "أريد حساء، لكن من دون فلفل حار."
+  },
+  {
+    "id": "phrase-0110",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "İçinde ne var?",
+    "arabic": "ما مكوناته؟",
+    "acceptedArabic": [
+      "ما مكوناته؟"
+    ],
+    "exampleTurkish": "Bu çorbanın içinde ne var?",
+    "exampleArabic": "ما مكونات هذا الحساء؟"
+  },
+  {
+    "id": "phrase-0111",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Et yemiyorum.",
+    "arabic": "لا آكل اللحم.",
+    "acceptedArabic": [
+      "لا آكل اللحم."
+    ],
+    "exampleTurkish": "Et yemiyorum, sebze yemeği var mı?",
+    "exampleArabic": "لا آكل اللحم، هل يوجد طبق خضار؟"
+  },
+  {
+    "id": "phrase-0112",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Vejetaryen yemek var mı?",
+    "arabic": "هل يوجد طعام نباتي؟",
+    "acceptedArabic": [
+      "هل يوجد طعام نباتي؟"
+    ],
+    "exampleTurkish": "Menüde vejetaryen yemek var mı?",
+    "exampleArabic": "هل يوجد طعام نباتي في القائمة؟"
+  },
+  {
+    "id": "phrase-0113",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Antep fıstığına alerjim var.",
+    "arabic": "لدي حساسية من الفستق.",
+    "acceptedArabic": [
+      "لدي حساسية من الفستق."
+    ],
+    "exampleTurkish": "Antep fıstığına alerjim var, bu tatlıda Antep fıstığı var mı?",
+    "exampleArabic": "لدي حساسية من الفستق، هل تحتوي هذه الحلوى على فستق؟"
+  },
+  {
+    "id": "phrase-0114",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Domuz eti içeriyor mu?",
+    "arabic": "هل يحتوي على لحم الخنزير؟",
+    "acceptedArabic": [
+      "هل يحتوي على لحم الخنزير؟"
+    ],
+    "exampleTurkish": "Bu sandviç domuz eti içeriyor mu?",
+    "exampleArabic": "هل تحتوي هذه الشطيرة على لحم الخنزير؟"
+  },
+  {
+    "id": "phrase-0115",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Hesabı alabilir miyim?",
+    "arabic": "هل يمكنني الحصول على الحساب؟",
+    "acceptedArabic": [
+      "هل يمكنني الحصول على الحساب؟"
+    ],
+    "exampleTurkish": "Yemeğimiz bitti, hesabı alabilir miyim?",
+    "exampleArabic": "انتهينا من الطعام، هل يمكنني الحصول على الحساب؟"
+  },
+  {
+    "id": "phrase-0116",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Ayrı ayrı ödeyeceğiz.",
+    "arabic": "سندفع كلٌّ على حدة.",
+    "acceptedArabic": [
+      "سندفع كلٌّ على حدة."
+    ],
+    "exampleTurkish": "Hesabı bölün lütfen, ayrı ayrı ödeyeceğiz.",
+    "exampleArabic": "قسّم الحساب من فضلك، سندفع كلٌّ على حدة."
+  },
+  {
+    "id": "phrase-0117",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Paket yapar mısınız?",
+    "arabic": "هل تغلّفه للسفري؟",
+    "acceptedArabic": [
+      "هل تغلّفه للسفري؟"
+    ],
+    "exampleTurkish": "Kalan yemeği paket yapar mısınız?",
+    "exampleArabic": "هل تغلّف الطعام المتبقي للسفري؟"
+  },
+  {
+    "id": "phrase-0118",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Burada yiyeceğim.",
+    "arabic": "سآكل هنا.",
+    "acceptedArabic": [
+      "سآكل هنا."
+    ],
+    "exampleTurkish": "Paket istemiyorum, burada yiyeceğim.",
+    "exampleArabic": "لا أريده سفريًا، سآكل هنا."
+  },
+  {
+    "id": "phrase-0119",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Siparişim henüz gelmedi.",
+    "arabic": "لم يصل طلبي بعد.",
+    "acceptedArabic": [
+      "لم يصل طلبي بعد."
+    ],
+    "exampleTurkish": "Yarım saat oldu, siparişim henüz gelmedi.",
+    "exampleArabic": "مضت نصف ساعة، ولم يصل طلبي بعد."
+  },
+  {
+    "id": "phrase-0120",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Bu benim siparişim değil.",
+    "arabic": "هذا ليس طلبي.",
+    "acceptedArabic": [
+      "هذا ليس طلبي."
+    ],
+    "exampleTurkish": "Ben çorba istedim, bu benim siparişim değil.",
+    "exampleArabic": "طلبت حساء، وهذا ليس طلبي."
+  },
+  {
+    "id": "phrase-0121",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Biraz daha ekmek alabilir miyim?",
+    "arabic": "هل يمكنني الحصول على مزيد من الخبز؟",
+    "acceptedArabic": [
+      "هل يمكنني الحصول على مزيد من الخبز؟"
+    ],
+    "exampleTurkish": "Çorba için biraz daha ekmek alabilir miyim?",
+    "exampleArabic": "هل يمكنني الحصول على مزيد من الخبز للحساء؟"
+  },
+  {
+    "id": "phrase-0122",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Tuz uzatır mısınız?",
+    "arabic": "هل تناولني الملح؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تناولني الملح؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Tuz uzatır mısınız, lütfen?",
+    "exampleArabic": "هل تناولني الملح، من فضلك؟"
+  },
+  {
+    "id": "phrase-0123",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Çok lezzetli.",
+    "arabic": "لذيذ جدًا.",
+    "acceptedArabic": [
+      "لذيذ جدًا."
+    ],
+    "exampleTurkish": "Bu yemek çok lezzetli.",
+    "exampleArabic": "هذا الطعام لذيذ جدًا."
+  },
+  {
+    "id": "phrase-0124",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Doydum, teşekkür ederim.",
+    "arabic": "شبعت، شكرًا.",
+    "acceptedArabic": [
+      "شبعت، شكرًا."
+    ],
+    "exampleTurkish": "Daha fazla istemiyorum, doydum, teşekkür ederim.",
+    "exampleArabic": "لا أريد المزيد، شبعت، شكرًا."
+  },
+  {
+    "id": "phrase-0125",
+    "kind": "phrase",
+    "category": "المطعم والطعام",
+    "turkish": "Kahvaltı saat kaçta başlıyor?",
+    "arabic": "في أي ساعة يبدأ الإفطار؟",
+    "acceptedArabic": [
+      "في أي ساعة يبدأ الإفطار؟"
+    ],
+    "exampleTurkish": "Yarın kahvaltı saat kaçta başlıyor?",
+    "exampleArabic": "في أي ساعة يبدأ الإفطار غدًا؟"
+  },
+  {
+    "id": "phrase-0126",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Otobüs durağı nerede?",
+    "arabic": "أين موقف الحافلات؟",
+    "acceptedArabic": [
+      "أين موقف الحافلات؟"
+    ],
+    "exampleTurkish": "Merkeze gideceğim, otobüs durağı nerede?",
+    "exampleArabic": "سأذهب إلى وسط المدينة، أين موقف الحافلات؟"
+  },
+  {
+    "id": "phrase-0127",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "En yakın metro istasyonu nerede?",
+    "arabic": "أين أقرب محطة مترو؟",
+    "acceptedArabic": [
+      "أين أقرب محطة مترو؟"
+    ],
+    "exampleTurkish": "Buraya yakın mı, en yakın metro istasyonu nerede?",
+    "exampleArabic": "هل هي قريبة من هنا، أين أقرب محطة مترو؟"
+  },
+  {
+    "id": "phrase-0128",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Bu otobüs merkeze gider mi?",
+    "arabic": "هل تذهب هذه الحافلة إلى وسط المدينة؟",
+    "acceptedArabic": [
+      "هل تذهب هذه الحافلة إلى وسط المدينة؟"
+    ],
+    "exampleTurkish": "Affedersiniz, bu otobüs merkeze gider mi?",
+    "exampleArabic": "المعذرة، هل تذهب هذه الحافلة إلى وسط المدينة؟"
+  },
+  {
+    "id": "phrase-0129",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Hangi durakta inmeliyim?",
+    "arabic": "في أي محطة يجب أن أنزل؟",
+    "acceptedArabic": [
+      "في أي محطة يجب أن أنزل؟"
+    ],
+    "exampleTurkish": "Müzeye gitmek için hangi durakta inmeliyim?",
+    "exampleArabic": "في أي محطة يجب أن أنزل للذهاب إلى المتحف؟"
+  },
+  {
+    "id": "phrase-0130",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Burada ineceğim.",
+    "arabic": "سأنزل هنا.",
+    "acceptedArabic": [
+      "سأنزل هنا."
+    ],
+    "exampleTurkish": "Kapıyı açar mısınız, burada ineceğim.",
+    "exampleArabic": "هل تفتح الباب، سأنزل هنا."
+  },
+  {
+    "id": "phrase-0131",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Bir bilet istiyorum.",
+    "arabic": "أريد تذكرة واحدة.",
+    "acceptedArabic": [
+      "أريد تذكرة واحدة."
+    ],
+    "exampleTurkish": "Ankara'ya bir bilet istiyorum.",
+    "exampleArabic": "أريد تذكرة واحدة إلى أنقرة."
+  },
+  {
+    "id": "phrase-0132",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Tek yön mü, gidiş dönüş mü?",
+    "arabic": "ذهاب فقط أم ذهاب وعودة؟",
+    "acceptedArabic": [
+      "ذهاب فقط أم ذهاب وعودة؟"
+    ],
+    "exampleTurkish": "Biletiniz tek yön mü, gidiş dönüş mü?",
+    "exampleArabic": "هل تذكرتك للذهاب فقط أم للذهاب والعودة؟"
+  },
+  {
+    "id": "phrase-0133",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Tren saat kaçta kalkıyor?",
+    "arabic": "في أي ساعة ينطلق القطار؟",
+    "acceptedArabic": [
+      "في أي ساعة ينطلق القطار؟"
+    ],
+    "exampleTurkish": "Ankara treni saat kaçta kalkıyor?",
+    "exampleArabic": "في أي ساعة ينطلق قطار أنقرة؟"
+  },
+  {
+    "id": "phrase-0134",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Bu koltuk boş mu?",
+    "arabic": "هل هذا المقعد خالٍ؟",
+    "acceptedArabic": [
+      "هل هذا المقعد خالٍ؟"
+    ],
+    "exampleTurkish": "Affedersiniz, bu koltuk boş mu?",
+    "exampleArabic": "المعذرة، هل هذا المقعد خالٍ؟"
+  },
+  {
+    "id": "phrase-0135",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Taksi çağırabilir misiniz?",
+    "arabic": "هل يمكنك طلب سيارة أجرة؟",
+    "acceptedArabic": [
+      "هل يمكنك طلب سيارة أجرة؟"
+    ],
+    "exampleTurkish": "Havaalanına gideceğim, taksi çağırabilir misiniz?",
+    "exampleArabic": "سأذهب إلى المطار، هل يمكنك طلب سيارة أجرة؟"
+  },
+  {
+    "id": "phrase-0136",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Bu adrese gitmek istiyorum.",
+    "arabic": "أريد الذهاب إلى هذا العنوان.",
+    "acceptedArabic": [
+      "أريد الذهاب إلى هذا العنوان."
+    ],
+    "exampleTurkish": "İşte adres, bu adrese gitmek istiyorum.",
+    "exampleArabic": "هذا هو العنوان، أريد الذهاب إليه."
+  },
+  {
+    "id": "phrase-0137",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Ne kadar sürer?",
+    "arabic": "كم يستغرق؟",
+    "acceptedArabic": [
+      "كم يستغرق؟"
+    ],
+    "exampleTurkish": "Buradan havaalanına gitmek ne kadar sürer?",
+    "exampleArabic": "كم يستغرق الذهاب من هنا إلى المطار؟"
+  },
+  {
+    "id": "phrase-0138",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Buradan uzak mı?",
+    "arabic": "هل هو بعيد من هنا؟",
+    "acceptedArabic": [
+      "هل هو بعيد من هنا؟"
+    ],
+    "exampleTurkish": "Hastane buradan uzak mı?",
+    "exampleArabic": "هل المستشفى بعيد من هنا؟"
+  },
+  {
+    "id": "phrase-0139",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Yürüyerek gidebilir miyim?",
+    "arabic": "هل يمكنني الذهاب سيرًا؟",
+    "acceptedArabic": [
+      "هل يمكنني الذهاب سيرًا؟"
+    ],
+    "exampleTurkish": "Park yakın mı, yürüyerek gidebilir miyim?",
+    "exampleArabic": "هل الحديقة قريبة، وهل يمكنني الذهاب سيرًا؟"
+  },
+  {
+    "id": "phrase-0140",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Sağa dönün.",
+    "arabic": "انعطف يمينًا؛ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "انعطف يمينًا؛ بصيغة مهذبة.",
+      "انعطف يمينًا"
+    ],
+    "exampleTurkish": "İlk sokaktan sağa dönün.",
+    "exampleArabic": "انعطف يمينًا عند أول شارع."
+  },
+  {
+    "id": "phrase-0141",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Sola dönün.",
+    "arabic": "انعطف يسارًا؛ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "انعطف يسارًا؛ بصيغة مهذبة.",
+      "انعطف يسارًا"
+    ],
+    "exampleTurkish": "Eczaneden sonra sola dönün.",
+    "exampleArabic": "انعطف يسارًا بعد الصيدلية."
+  },
+  {
+    "id": "phrase-0142",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Düz gidin.",
+    "arabic": "سر إلى الأمام مباشرة؛ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "سر إلى الأمام مباشرة؛ بصيغة مهذبة.",
+      "سر إلى الأمام مباشرة"
+    ],
+    "exampleTurkish": "Bu caddede düz gidin.",
+    "exampleArabic": "سر إلى الأمام مباشرة في هذا الشارع."
+  },
+  {
+    "id": "phrase-0143",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Yolumu kaybettim.",
+    "arabic": "ضللت الطريق.",
+    "acceptedArabic": [
+      "ضللت الطريق."
+    ],
+    "exampleTurkish": "Yolumu kaybettim, bana yardım eder misiniz?",
+    "exampleArabic": "ضللت الطريق، هل تساعدني؟"
+  },
+  {
+    "id": "phrase-0144",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Haritada gösterir misiniz?",
+    "arabic": "هل تريه لي على الخريطة؟",
+    "acceptedArabic": [
+      "هل تريه لي على الخريطة؟"
+    ],
+    "exampleTurkish": "Oteli haritada gösterir misiniz?",
+    "exampleArabic": "هل تريني الفندق على الخريطة؟"
+  },
+  {
+    "id": "phrase-0145",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Havaalanına nasıl gidebilirim?",
+    "arabic": "كيف أذهب إلى المطار؟",
+    "acceptedArabic": [
+      "كيف أذهب إلى المطار؟"
+    ],
+    "exampleTurkish": "Buradan havaalanına nasıl gidebilirim?",
+    "exampleArabic": "كيف أذهب إلى المطار من هنا؟"
+  },
+  {
+    "id": "phrase-0146",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Trafik çok yoğun.",
+    "arabic": "الازدحام المروري شديد.",
+    "acceptedArabic": [
+      "الازدحام المروري شديد."
+    ],
+    "exampleTurkish": "Trafik çok yoğun, biraz geç kalacağız.",
+    "exampleArabic": "الازدحام المروري شديد، سنتأخر قليلًا."
+  },
+  {
+    "id": "phrase-0147",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Burada durabilir misiniz?",
+    "arabic": "هل يمكنك التوقف هنا؟",
+    "acceptedArabic": [
+      "هل يمكنك التوقف هنا؟"
+    ],
+    "exampleTurkish": "Sağda boş yer var, burada durabilir misiniz?",
+    "exampleArabic": "يوجد مكان خالٍ على اليمين، هل يمكنك التوقف هنا؟"
+  },
+  {
+    "id": "phrase-0148",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Kartıma para yüklemek istiyorum.",
+    "arabic": "أريد شحن بطاقتي برصيد.",
+    "acceptedArabic": [
+      "أريد شحن بطاقتي برصيد."
+    ],
+    "exampleTurkish": "Ulaşım kartıma para yüklemek istiyorum.",
+    "exampleArabic": "أريد شحن بطاقة المواصلات برصيد."
+  },
+  {
+    "id": "phrase-0149",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Aktarma yapmam gerekiyor mu?",
+    "arabic": "هل عليّ تغيير وسيلة النقل أو الخط؟",
+    "acceptedArabic": [
+      "هل عليّ تغيير وسيلة النقل أو الخط؟"
+    ],
+    "exampleTurkish": "Bu yolculukta aktarma yapmam gerekiyor mu?",
+    "exampleArabic": "هل عليّ تغيير وسيلة النقل أو الخط في هذه الرحلة؟"
+  },
+  {
+    "id": "phrase-0150",
+    "kind": "phrase",
+    "category": "المواصلات والاتجاهات",
+    "turkish": "Son otobüs saat kaçta?",
+    "arabic": "في أي ساعة آخر حافلة؟",
+    "acceptedArabic": [
+      "في أي ساعة آخر حافلة؟"
+    ],
+    "exampleTurkish": "Eve geç döneceğim, son otobüs saat kaçta?",
+    "exampleArabic": "سأعود إلى البيت متأخرًا، في أي ساعة آخر حافلة؟"
+  },
+  {
+    "id": "phrase-0151",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Rezervasyonum var.",
+    "arabic": "لدي حجز.",
+    "acceptedArabic": [
+      "لدي حجز."
+    ],
+    "exampleTurkish": "İyi akşamlar, rezervasyonum var.",
+    "exampleArabic": "مساء الخير، لدي حجز."
+  },
+  {
+    "id": "phrase-0152",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Boş odanız var mı?",
+    "arabic": "هل لديكم غرفة شاغرة؟",
+    "acceptedArabic": [
+      "هل لديكم غرفة شاغرة؟"
+    ],
+    "exampleTurkish": "Bu gece için boş odanız var mı?",
+    "exampleArabic": "هل لديكم غرفة شاغرة لهذه الليلة؟"
+  },
+  {
+    "id": "phrase-0153",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Bir gecelik oda istiyorum.",
+    "arabic": "أريد غرفة لليلة واحدة.",
+    "acceptedArabic": [
+      "أريد غرفة لليلة واحدة."
+    ],
+    "exampleTurkish": "Tek kişilik, bir gecelik oda istiyorum.",
+    "exampleArabic": "أريد غرفة فردية لليلة واحدة."
+  },
+  {
+    "id": "phrase-0154",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Kahvaltı dahil mi?",
+    "arabic": "هل الإفطار مشمول؟",
+    "acceptedArabic": [
+      "هل الإفطار مشمول؟"
+    ],
+    "exampleTurkish": "Bu fiyata kahvaltı dahil mi?",
+    "exampleArabic": "هل الإفطار مشمول بهذا السعر؟"
+  },
+  {
+    "id": "phrase-0155",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Giriş saati kaç?",
+    "arabic": "ما موعد تسجيل الدخول؟",
+    "acceptedArabic": [
+      "ما موعد تسجيل الدخول؟"
+    ],
+    "exampleTurkish": "Otele giriş saati kaç?",
+    "exampleArabic": "ما موعد تسجيل الدخول إلى الفندق؟"
+  },
+  {
+    "id": "phrase-0156",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Çıkış saati kaç?",
+    "arabic": "ما موعد تسجيل المغادرة؟",
+    "acceptedArabic": [
+      "ما موعد تسجيل المغادرة؟"
+    ],
+    "exampleTurkish": "Yarın çıkış saati kaç?",
+    "exampleArabic": "ما موعد تسجيل المغادرة غدًا؟"
+  },
+  {
+    "id": "phrase-0157",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Odam hazır mı?",
+    "arabic": "هل غرفتي جاهزة؟",
+    "acceptedArabic": [
+      "هل غرفتي جاهزة؟"
+    ],
+    "exampleTurkish": "Erken geldim, odam hazır mı?",
+    "exampleArabic": "جئت مبكرًا، هل غرفتي جاهزة؟"
+  },
+  {
+    "id": "phrase-0158",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Anahtarımı kaybettim.",
+    "arabic": "فقدت مفتاحي.",
+    "acceptedArabic": [
+      "فقدت مفتاحي."
+    ],
+    "exampleTurkish": "Oda anahtarımı kaybettim.",
+    "exampleArabic": "فقدت مفتاح غرفتي."
+  },
+  {
+    "id": "phrase-0159",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Oda kartı çalışmıyor.",
+    "arabic": "بطاقة الغرفة لا تعمل.",
+    "acceptedArabic": [
+      "بطاقة الغرفة لا تعمل."
+    ],
+    "exampleTurkish": "Kapı açılmıyor, oda kartı çalışmıyor.",
+    "exampleArabic": "الباب لا يفتح، بطاقة الغرفة لا تعمل."
+  },
+  {
+    "id": "phrase-0160",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Wi-Fi şifresi nedir?",
+    "arabic": "ما كلمة مرور الواي فاي؟",
+    "acceptedArabic": [
+      "ما كلمة مرور الواي فاي؟"
+    ],
+    "exampleTurkish": "İnternete bağlanacağım, Wi-Fi şifresi nedir?",
+    "exampleArabic": "سأتصل بالإنترنت، ما كلمة مرور الواي فاي؟"
+  },
+  {
+    "id": "phrase-0161",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Sıcak su yok.",
+    "arabic": "لا يوجد ماء ساخن.",
+    "acceptedArabic": [
+      "لا يوجد ماء ساخن."
+    ],
+    "exampleTurkish": "Banyoda sıcak su yok.",
+    "exampleArabic": "لا يوجد ماء ساخن في الحمّام."
+  },
+  {
+    "id": "phrase-0162",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Klima çalışmıyor.",
+    "arabic": "المكيّف لا يعمل.",
+    "acceptedArabic": [
+      "المكيّف لا يعمل."
+    ],
+    "exampleTurkish": "Oda çok sıcak, klima çalışmıyor.",
+    "exampleArabic": "الغرفة حارة جدًا، والمكيّف لا يعمل."
+  },
+  {
+    "id": "phrase-0163",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Bir havlu daha alabilir miyim?",
+    "arabic": "هل يمكنني الحصول على منشفة إضافية؟",
+    "acceptedArabic": [
+      "هل يمكنني الحصول على منشفة إضافية؟"
+    ],
+    "exampleTurkish": "Banyo için bir havlu daha alabilir miyim?",
+    "exampleArabic": "هل يمكنني الحصول على منشفة إضافية للحمّام؟"
+  },
+  {
+    "id": "phrase-0164",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Odayı temizler misiniz?",
+    "arabic": "هل تنظّفون الغرفة؟",
+    "acceptedArabic": [
+      "هل تنظّفون الغرفة؟"
+    ],
+    "exampleTurkish": "Biz dışarıdayken odayı temizler misiniz?",
+    "exampleArabic": "هل تنظّفون الغرفة ونحن في الخارج؟"
+  },
+  {
+    "id": "phrase-0165",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Daha sessiz bir oda var mı?",
+    "arabic": "هل توجد غرفة أكثر هدوءًا؟",
+    "acceptedArabic": [
+      "هل توجد غرفة أكثر هدوءًا؟"
+    ],
+    "exampleTurkish": "Sokak çok gürültülü, daha sessiz bir oda var mı?",
+    "exampleArabic": "الشارع صاخب جدًا، هل توجد غرفة أكثر هدوءًا؟"
+  },
+  {
+    "id": "phrase-0166",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Bavulumu burada bırakabilir miyim?",
+    "arabic": "هل يمكنني ترك حقيبتي هنا؟",
+    "acceptedArabic": [
+      "هل يمكنني ترك حقيبتي هنا؟"
+    ],
+    "exampleTurkish": "Trenim akşam, bavulumu burada bırakabilir miyim?",
+    "exampleArabic": "قطاري مساءً، هل يمكنني ترك حقيبتي هنا؟"
+  },
+  {
+    "id": "phrase-0167",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Asansör nerede?",
+    "arabic": "أين المصعد؟",
+    "acceptedArabic": [
+      "أين المصعد؟"
+    ],
+    "exampleTurkish": "Odam beşinci katta, asansör nerede?",
+    "exampleArabic": "غرفتي في الطابق الخامس، أين المصعد؟"
+  },
+  {
+    "id": "phrase-0168",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Çamaşırlarımı yıkatmak istiyorum.",
+    "arabic": "أريد أن أطلب غسل ملابسي.",
+    "acceptedArabic": [
+      "أريد أن أطلب غسل ملابسي."
+    ],
+    "exampleTurkish": "Çamaşırlarımı yıkatmak istiyorum, bu hizmet var mı?",
+    "exampleArabic": "أريد أن أطلب غسل ملابسي، هل تتوفر هذه الخدمة؟"
+  },
+  {
+    "id": "phrase-0169",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Kira ne kadar?",
+    "arabic": "كم الإيجار؟",
+    "acceptedArabic": [
+      "كم الإيجار؟"
+    ],
+    "exampleTurkish": "Bu evin aylık kirası ne kadar?",
+    "exampleArabic": "كم الإيجار الشهري لهذا المنزل؟"
+  },
+  {
+    "id": "phrase-0170",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Faturalar kiraya dahil mi?",
+    "arabic": "هل الفواتير مشمولة في الإيجار؟",
+    "acceptedArabic": [
+      "هل الفواتير مشمولة في الإيجار؟"
+    ],
+    "exampleTurkish": "Elektrik ve su faturaları kiraya dahil mi?",
+    "exampleArabic": "هل فاتورتا الكهرباء والماء مشمولتان في الإيجار؟"
+  },
+  {
+    "id": "phrase-0171",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Evi görebilir miyim?",
+    "arabic": "هل يمكنني رؤية المنزل؟",
+    "acceptedArabic": [
+      "هل يمكنني رؤية المنزل؟"
+    ],
+    "exampleTurkish": "İlanı gördüm, evi görebilir miyim?",
+    "exampleArabic": "رأيت الإعلان، هل يمكنني رؤية المنزل؟"
+  },
+  {
+    "id": "phrase-0172",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Musluk su damlatıyor.",
+    "arabic": "الصنبور يقطر ماءً.",
+    "acceptedArabic": [
+      "الصنبور يقطر ماءً."
+    ],
+    "exampleTurkish": "Mutfaktaki musluk su damlatıyor.",
+    "exampleArabic": "الصنبور الموجود في المطبخ يقطر ماءً."
+  },
+  {
+    "id": "phrase-0173",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Elektrikler kesildi.",
+    "arabic": "انقطع التيار الكهربائي.",
+    "acceptedArabic": [
+      "انقطع التيار الكهربائي."
+    ],
+    "exampleTurkish": "Bütün binada elektrikler kesildi.",
+    "exampleArabic": "انقطع التيار الكهربائي في المبنى كله."
+  },
+  {
+    "id": "phrase-0174",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Kapıda kaldım.",
+    "arabic": "أُغلق الباب وبقيت خارجه دون القدرة على الدخول.",
+    "acceptedArabic": [
+      "أُغلق الباب وبقيت خارجه دون القدرة على الدخول."
+    ],
+    "exampleTurkish": "Anahtar içeride, kapıda kaldım.",
+    "exampleArabic": "المفتاح في الداخل، وأُغلق الباب وبقيت خارجه."
+  },
+  {
+    "id": "phrase-0175",
+    "kind": "phrase",
+    "category": "السكن والفندق",
+    "turkish": "Adresimi göndereyim.",
+    "arabic": "دعني أرسل عنواني.",
+    "acceptedArabic": [
+      "دعني أرسل عنواني."
+    ],
+    "exampleTurkish": "Beni bulmanız için adresimi göndereyim.",
+    "exampleArabic": "دعني أرسل عنواني لكي تجدني."
+  },
+  {
+    "id": "phrase-0176",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Randevu almak istiyorum.",
+    "arabic": "أريد حجز موعد.",
+    "acceptedArabic": [
+      "أريد حجز موعد."
+    ],
+    "exampleTurkish": "Doktor için randevu almak istiyorum.",
+    "exampleArabic": "أريد حجز موعد عند الطبيب."
+  },
+  {
+    "id": "phrase-0177",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Yarın müsait misiniz?",
+    "arabic": "هل أنت متفرغ غدًا؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل أنت متفرغ غدًا؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Konuşmamız gerekiyor, yarın müsait misiniz?",
+    "exampleArabic": "نحتاج إلى التحدث، هل أنت متفرغ غدًا؟"
+  },
+  {
+    "id": "phrase-0178",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Saat üç uygun mu?",
+    "arabic": "هل الساعة الثالثة مناسبة؟",
+    "acceptedArabic": [
+      "هل الساعة الثالثة مناسبة؟"
+    ],
+    "exampleTurkish": "Yarın saat üç uygun mu?",
+    "exampleArabic": "هل الساعة الثالثة غدًا مناسبة؟"
+  },
+  {
+    "id": "phrase-0179",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Randevumu değiştirmek istiyorum.",
+    "arabic": "أريد تغيير موعدي.",
+    "acceptedArabic": [
+      "أريد تغيير موعدي."
+    ],
+    "exampleTurkish": "Yarın gelemem, randevumu değiştirmek istiyorum.",
+    "exampleArabic": "لا أستطيع المجيء غدًا، أريد تغيير موعدي."
+  },
+  {
+    "id": "phrase-0180",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Randevumu iptal etmek istiyorum.",
+    "arabic": "أريد إلغاء موعدي.",
+    "acceptedArabic": [
+      "أريد إلغاء موعدي."
+    ],
+    "exampleTurkish": "Planım değişti, randevumu iptal etmek istiyorum.",
+    "exampleArabic": "تغيّرت خطتي، أريد إلغاء موعدي."
+  },
+  {
+    "id": "phrase-0181",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Geç kalacağım.",
+    "arabic": "سأتأخر.",
+    "acceptedArabic": [
+      "سأتأخر."
+    ],
+    "exampleTurkish": "Otobüsü kaçırdım, geç kalacağım.",
+    "exampleArabic": "فاتتني الحافلة، سأتأخر."
+  },
+  {
+    "id": "phrase-0182",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "On dakika sonra oradayım.",
+    "arabic": "سأكون هناك بعد عشر دقائق.",
+    "acceptedArabic": [
+      "سأكون هناك بعد عشر دقائق."
+    ],
+    "exampleTurkish": "Yoldayım, on dakika sonra oradayım.",
+    "exampleArabic": "أنا في الطريق، سأكون هناك بعد عشر دقائق."
+  },
+  {
+    "id": "phrase-0183",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Nerede buluşalım?",
+    "arabic": "أين نلتقي؟",
+    "acceptedArabic": [
+      "أين نلتقي؟"
+    ],
+    "exampleTurkish": "Yarın nerede buluşalım?",
+    "exampleArabic": "أين نلتقي غدًا؟"
+  },
+  {
+    "id": "phrase-0184",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Saat kaçta buluşalım?",
+    "arabic": "في أي ساعة نلتقي؟",
+    "acceptedArabic": [
+      "في أي ساعة نلتقي؟"
+    ],
+    "exampleTurkish": "Pazar günü saat kaçta buluşalım?",
+    "exampleArabic": "في أي ساعة نلتقي يوم الأحد؟"
+  },
+  {
+    "id": "phrase-0185",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Bugün gelemiyorum.",
+    "arabic": "لا أستطيع المجيء اليوم.",
+    "acceptedArabic": [
+      "لا أستطيع المجيء اليوم."
+    ],
+    "exampleTurkish": "Hastayım, bugün gelemiyorum.",
+    "exampleArabic": "أنا مريض، لا أستطيع المجيء اليوم."
+  },
+  {
+    "id": "phrase-0186",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Toplantı ne zaman başlıyor?",
+    "arabic": "متى يبدأ الاجتماع؟",
+    "acceptedArabic": [
+      "متى يبدأ الاجتماع؟"
+    ],
+    "exampleTurkish": "Sabahki toplantı ne zaman başlıyor?",
+    "exampleArabic": "متى يبدأ الاجتماع الصباحي؟"
+  },
+  {
+    "id": "phrase-0187",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Şu anda meşgulüm.",
+    "arabic": "أنا مشغول حاليًا.",
+    "acceptedArabic": [
+      "أنا مشغول حاليًا."
+    ],
+    "exampleTurkish": "Şu anda meşgulüm, sonra konuşalım.",
+    "exampleArabic": "أنا مشغول حاليًا، لنتحدث لاحقًا."
+  },
+  {
+    "id": "phrase-0188",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Sizi sonra arayabilir miyim?",
+    "arabic": "هل يمكنني الاتصال بك لاحقًا؟",
+    "acceptedArabic": [
+      "هل يمكنني الاتصال بك لاحقًا؟"
+    ],
+    "exampleTurkish": "Şimdi uygun değilim, sizi sonra arayabilir miyim?",
+    "exampleArabic": "الوقت غير مناسب لي الآن، هل يمكنني الاتصال بك لاحقًا؟"
+  },
+  {
+    "id": "phrase-0189",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Sesiniz gelmiyor.",
+    "arabic": "لا أسمع صوتك؛ في مكالمة.",
+    "acceptedArabic": [
+      "لا أسمع صوتك؛ في مكالمة.",
+      "لا أسمع صوتك"
+    ],
+    "exampleTurkish": "Alo, sesiniz gelmiyor.",
+    "exampleArabic": "ألو، لا أسمع صوتك."
+  },
+  {
+    "id": "phrase-0190",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Hat kesildi.",
+    "arabic": "انقطع الاتصال.",
+    "acceptedArabic": [
+      "انقطع الاتصال."
+    ],
+    "exampleTurkish": "Az önce hat kesildi, tekrar aradım.",
+    "exampleArabic": "انقطع الاتصال قبل قليل، فاتصلت مجددًا."
+  },
+  {
+    "id": "phrase-0191",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Mesajımı aldınız mı?",
+    "arabic": "هل وصلتك رسالتي؟",
+    "acceptedArabic": [
+      "هل وصلتك رسالتي؟"
+    ],
+    "exampleTurkish": "Sabah gönderdim, mesajımı aldınız mı?",
+    "exampleArabic": "أرسلتها صباحًا، هل وصلتك رسالتي؟"
+  },
+  {
+    "id": "phrase-0192",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "E-posta adresiniz nedir?",
+    "arabic": "ما عنوان بريدك الإلكتروني؟",
+    "acceptedArabic": [
+      "ما عنوان بريدك الإلكتروني؟"
+    ],
+    "exampleTurkish": "Belgeyi göndereceğim, e-posta adresiniz nedir?",
+    "exampleArabic": "سأرسل المستند، ما عنوان بريدك الإلكتروني؟"
+  },
+  {
+    "id": "phrase-0193",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Dosyayı gönderdim.",
+    "arabic": "أرسلت الملف.",
+    "acceptedArabic": [
+      "أرسلت الملف."
+    ],
+    "exampleTurkish": "Dosyayı e-postayla gönderdim.",
+    "exampleArabic": "أرسلت الملف بالبريد الإلكتروني."
+  },
+  {
+    "id": "phrase-0194",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Biraz ara verelim.",
+    "arabic": "لنأخذ استراحة قصيرة.",
+    "acceptedArabic": [
+      "لنأخذ استراحة قصيرة."
+    ],
+    "exampleTurkish": "Çok çalıştık, biraz ara verelim.",
+    "exampleArabic": "عملنا كثيرًا، لنأخذ استراحة قصيرة."
+  },
+  {
+    "id": "phrase-0195",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Bunu ne zamana kadar bitirmeliyim?",
+    "arabic": "بحلول متى يجب أن أنهي هذا؟",
+    "acceptedArabic": [
+      "بحلول متى يجب أن أنهي هذا؟"
+    ],
+    "exampleTurkish": "Raporu aldım, bunu ne zamana kadar bitirmeliyim?",
+    "exampleArabic": "تسلّمت التقرير، بحلول متى يجب أن أنهيه؟"
+  },
+  {
+    "id": "phrase-0196",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Yardıma ihtiyacım var.",
+    "arabic": "أحتاج إلى مساعدة.",
+    "acceptedArabic": [
+      "أحتاج إلى مساعدة."
+    ],
+    "exampleTurkish": "Bu form için yardıma ihtiyacım var.",
+    "exampleArabic": "أحتاج إلى مساعدة في هذا النموذج."
+  },
+  {
+    "id": "phrase-0197",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Birlikte kontrol edelim.",
+    "arabic": "لنتحقق منه معًا.",
+    "acceptedArabic": [
+      "لنتحقق منه معًا."
+    ],
+    "exampleTurkish": "Hata olabilir, birlikte kontrol edelim.",
+    "exampleArabic": "قد يوجد خطأ، لنتحقق منه معًا."
+  },
+  {
+    "id": "phrase-0198",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Bugün izinliyim.",
+    "arabic": "أنا في إجازة اليوم.",
+    "acceptedArabic": [
+      "أنا في إجازة اليوم."
+    ],
+    "exampleTurkish": "Ofiste değilim, bugün izinliyim.",
+    "exampleArabic": "لست في المكتب، أنا في إجازة اليوم."
+  },
+  {
+    "id": "phrase-0199",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Yarın görüşebilir miyiz?",
+    "arabic": "هل يمكننا اللقاء غدًا؟",
+    "acceptedArabic": [
+      "هل يمكننا اللقاء غدًا؟"
+    ],
+    "exampleTurkish": "Bugün yoğunum, yarın görüşebilir miyiz?",
+    "exampleArabic": "أنا منشغل اليوم، هل يمكننا اللقاء غدًا؟"
+  },
+  {
+    "id": "phrase-0200",
+    "kind": "phrase",
+    "category": "المواعيد والعمل والهاتف",
+    "turkish": "Takvimime bakayım.",
+    "arabic": "دعني أراجع جدول مواعيدي.",
+    "acceptedArabic": [
+      "دعني أراجع جدول مواعيدي."
+    ],
+    "exampleTurkish": "Cuma için takvimime bakayım.",
+    "exampleArabic": "دعني أراجع جدول مواعيدي ليوم الجمعة."
+  },
+  {
+    "id": "phrase-0201",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Kendimi iyi hissetmiyorum.",
+    "arabic": "لا أشعر أنني بخير.",
+    "acceptedArabic": [
+      "لا أشعر أنني بخير."
+    ],
+    "exampleTurkish": "Kendimi iyi hissetmiyorum, biraz oturacağım.",
+    "exampleArabic": "لا أشعر أنني بخير، سأجلس قليلًا."
+  },
+  {
+    "id": "phrase-0202",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Başım ağrıyor.",
+    "arabic": "رأسي يؤلمني.",
+    "acceptedArabic": [
+      "رأسي يؤلمني."
+    ],
+    "exampleTurkish": "Sabahtan beri başım ağrıyor.",
+    "exampleArabic": "رأسي يؤلمني منذ الصباح."
+  },
+  {
+    "id": "phrase-0203",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Karnım ağrıyor.",
+    "arabic": "بطني يؤلمني.",
+    "acceptedArabic": [
+      "بطني يؤلمني."
+    ],
+    "exampleTurkish": "Yemekten sonra karnım ağrıyor.",
+    "exampleArabic": "بطني يؤلمني بعد الطعام."
+  },
+  {
+    "id": "phrase-0204",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Ateşim var.",
+    "arabic": "لدي حمّى.",
+    "acceptedArabic": [
+      "لدي حمّى."
+    ],
+    "exampleTurkish": "Ateşim var, doktora gitmek istiyorum.",
+    "exampleArabic": "لدي حمّى، أريد الذهاب إلى الطبيب."
+  },
+  {
+    "id": "phrase-0205",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Başım dönüyor.",
+    "arabic": "أشعر بدوار.",
+    "acceptedArabic": [
+      "أشعر بدوار."
+    ],
+    "exampleTurkish": "Başım dönüyor, oturmam gerekiyor.",
+    "exampleArabic": "أشعر بدوار، عليّ أن أجلس."
+  },
+  {
+    "id": "phrase-0206",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Nefes almakta zorlanıyorum.",
+    "arabic": "أجد صعوبة في التنفس.",
+    "acceptedArabic": [
+      "أجد صعوبة في التنفس."
+    ],
+    "exampleTurkish": "Nefes almakta zorlanıyorum, yardım çağırın.",
+    "exampleArabic": "أجد صعوبة في التنفس، اطلبوا المساعدة."
+  },
+  {
+    "id": "phrase-0207",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Ambulans çağırın.",
+    "arabic": "اتصلوا بالإسعاف.",
+    "acceptedArabic": [
+      "اتصلوا بالإسعاف."
+    ],
+    "exampleTurkish": "Birisi bayıldı, ambulans çağırın.",
+    "exampleArabic": "أُغمي على شخص، اتصلوا بالإسعاف."
+  },
+  {
+    "id": "phrase-0208",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Polisi arayın.",
+    "arabic": "اتصلوا بالشرطة.",
+    "acceptedArabic": [
+      "اتصلوا بالشرطة."
+    ],
+    "exampleTurkish": "Çantam çalındı, polisi arayın.",
+    "exampleArabic": "سُرقت حقيبتي، اتصلوا بالشرطة."
+  },
+  {
+    "id": "phrase-0209",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Yangın var!",
+    "arabic": "يوجد حريق!",
+    "acceptedArabic": [
+      "يوجد حريق!"
+    ],
+    "exampleTurkish": "Binada yangın var, dışarı çıkın!",
+    "exampleArabic": "يوجد حريق في المبنى، اخرجوا!"
+  },
+  {
+    "id": "phrase-0210",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Yardım edin!",
+    "arabic": "ساعدوني!",
+    "acceptedArabic": [
+      "ساعدوني!"
+    ],
+    "exampleTurkish": "Yardım edin, kapı açılmıyor!",
+    "exampleArabic": "ساعدوني، الباب لا يفتح!"
+  },
+  {
+    "id": "phrase-0211",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "En yakın hastane nerede?",
+    "arabic": "أين أقرب مستشفى؟",
+    "acceptedArabic": [
+      "أين أقرب مستشفى؟"
+    ],
+    "exampleTurkish": "Acil bir durum var, en yakın hastane nerede?",
+    "exampleArabic": "توجد حالة طارئة، أين أقرب مستشفى؟"
+  },
+  {
+    "id": "phrase-0212",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Nöbetçi eczane nerede?",
+    "arabic": "أين الصيدلية المناوبة؟",
+    "acceptedArabic": [
+      "أين الصيدلية المناوبة؟"
+    ],
+    "exampleTurkish": "Gece açık olan nöbetçi eczane nerede?",
+    "exampleArabic": "أين الصيدلية المناوبة المفتوحة ليلًا؟"
+  },
+  {
+    "id": "phrase-0213",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Doktora görünmem gerekiyor.",
+    "arabic": "أحتاج إلى مراجعة الطبيب.",
+    "acceptedArabic": [
+      "أحتاج إلى مراجعة الطبيب."
+    ],
+    "exampleTurkish": "Ağrım geçmedi, doktora görünmem gerekiyor.",
+    "exampleArabic": "لم يزل الألم، أحتاج إلى مراجعة الطبيب."
+  },
+  {
+    "id": "phrase-0214",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "İlaç kullanıyorum.",
+    "arabic": "أتناول دواءً.",
+    "acceptedArabic": [
+      "أتناول دواءً."
+    ],
+    "exampleTurkish": "Düzenli olarak ilaç kullanıyorum.",
+    "exampleArabic": "أتناول دواءً بانتظام."
+  },
+  {
+    "id": "phrase-0215",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Bu ilacı nasıl kullanmalıyım?",
+    "arabic": "كيف يجب أن أستخدم هذا الدواء؟",
+    "acceptedArabic": [
+      "كيف يجب أن أستخدم هذا الدواء؟"
+    ],
+    "exampleTurkish": "Doktor yazdı, bu ilacı nasıl kullanmalıyım?",
+    "exampleArabic": "وصفه الطبيب، كيف يجب أن أستخدم هذا الدواء؟"
+  },
+  {
+    "id": "phrase-0216",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Reçetem var.",
+    "arabic": "لدي وصفة طبية.",
+    "acceptedArabic": [
+      "لدي وصفة طبية."
+    ],
+    "exampleTurkish": "Reçetem var, ilaçları alabilir miyim?",
+    "exampleArabic": "لدي وصفة طبية، هل يمكنني الحصول على الأدوية؟"
+  },
+  {
+    "id": "phrase-0217",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Pasaportumu kaybettim.",
+    "arabic": "فقدت جواز سفري.",
+    "acceptedArabic": [
+      "فقدت جواز سفري."
+    ],
+    "exampleTurkish": "Pasaportumu kaybettim, ne yapmalıyım?",
+    "exampleArabic": "فقدت جواز سفري، ماذا عليّ أن أفعل؟"
+  },
+  {
+    "id": "phrase-0218",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Telefonum çalındı.",
+    "arabic": "سُرق هاتفي.",
+    "acceptedArabic": [
+      "سُرق هاتفي."
+    ],
+    "exampleTurkish": "Otobüste telefonum çalındı.",
+    "exampleArabic": "سُرق هاتفي في الحافلة."
+  },
+  {
+    "id": "phrase-0219",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Çocuğumu bulamıyorum.",
+    "arabic": "لا أستطيع العثور على طفلي.",
+    "acceptedArabic": [
+      "لا أستطيع العثور على طفلي."
+    ],
+    "exampleTurkish": "Çocuğumu bulamıyorum, güvenliği çağırır mısınız?",
+    "exampleArabic": "لا أستطيع العثور على طفلي، هل تستدعي الأمن؟"
+  },
+  {
+    "id": "phrase-0220",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Beni yalnız bırakmayın.",
+    "arabic": "لا تتركوني وحدي.",
+    "acceptedArabic": [
+      "لا تتركوني وحدي."
+    ],
+    "exampleTurkish": "Çok korkuyorum, beni yalnız bırakmayın.",
+    "exampleArabic": "أنا خائف جدًا، لا تتركوني وحدي."
+  },
+  {
+    "id": "phrase-0221",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Burada güvende miyiz?",
+    "arabic": "هل نحن بأمان هنا؟",
+    "acceptedArabic": [
+      "هل نحن بأمان هنا؟"
+    ],
+    "exampleTurkish": "Dışarıda duman var, burada güvende miyiz?",
+    "exampleArabic": "يوجد دخان بالخارج، هل نحن بأمان هنا؟"
+  },
+  {
+    "id": "phrase-0222",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Acil çıkış nerede?",
+    "arabic": "أين مخرج الطوارئ؟",
+    "acceptedArabic": [
+      "أين مخرج الطوارئ؟"
+    ],
+    "exampleTurkish": "Merdiveni bulamıyorum, acil çıkış nerede?",
+    "exampleArabic": "لا أجد السلالم، أين مخرج الطوارئ؟"
+  },
+  {
+    "id": "phrase-0223",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Bir kaza oldu.",
+    "arabic": "وقع حادث.",
+    "acceptedArabic": [
+      "وقع حادث."
+    ],
+    "exampleTurkish": "Yolda bir kaza oldu.",
+    "exampleArabic": "وقع حادث على الطريق."
+  },
+  {
+    "id": "phrase-0224",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Dokunmayın.",
+    "arabic": "لا تلمس؛ بصيغة مهذبة أو للجماعة.",
+    "acceptedArabic": [
+      "لا تلمس؛ بصيغة مهذبة أو للجماعة.",
+      "لا تلمس"
+    ],
+    "exampleTurkish": "Bu kabloya dokunmayın.",
+    "exampleArabic": "لا تلمس هذا السلك."
+  },
+  {
+    "id": "phrase-0225",
+    "kind": "phrase",
+    "category": "الصحة والطوارئ",
+    "turkish": "Ailemle iletişime geçmem gerekiyor.",
+    "arabic": "أحتاج إلى التواصل مع عائلتي.",
+    "acceptedArabic": [
+      "أحتاج إلى التواصل مع عائلتي."
+    ],
+    "exampleTurkish": "Telefonum yok, ailemle iletişime geçmem gerekiyor.",
+    "exampleArabic": "ليس معي هاتف، أحتاج إلى التواصل مع عائلتي."
+  },
+  {
+    "id": "phrase-0226",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Saat kaç?",
+    "arabic": "كم الساعة؟",
+    "acceptedArabic": [
+      "كم الساعة؟"
+    ],
+    "exampleTurkish": "Telefonum kapalı, saat kaç?",
+    "exampleArabic": "هاتفي مغلق، كم الساعة؟"
+  },
+  {
+    "id": "phrase-0227",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Bugün günlerden ne?",
+    "arabic": "أي يوم من أيام الأسبوع اليوم؟",
+    "acceptedArabic": [
+      "أي يوم من أيام الأسبوع اليوم؟"
+    ],
+    "exampleTurkish": "Tarihi biliyorum ama bugün günlerden ne?",
+    "exampleArabic": "أعرف التاريخ، لكن أي يوم من أيام الأسبوع اليوم؟"
+  },
+  {
+    "id": "phrase-0228",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Hava nasıl?",
+    "arabic": "كيف الجو؟",
+    "acceptedArabic": [
+      "كيف الجو؟"
+    ],
+    "exampleTurkish": "Dışarıda hava nasıl?",
+    "exampleArabic": "كيف الجو في الخارج؟"
+  },
+  {
+    "id": "phrase-0229",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Yağmur yağıyor.",
+    "arabic": "تمطر.",
+    "acceptedArabic": [
+      "تمطر."
+    ],
+    "exampleTurkish": "Yağmur yağıyor, şemsiyeni al.",
+    "exampleArabic": "تمطر، خذ مظلتك."
+  },
+  {
+    "id": "phrase-0230",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Çok sıcak.",
+    "arabic": "الجو حار جدًا.",
+    "acceptedArabic": [
+      "الجو حار جدًا."
+    ],
+    "exampleTurkish": "Bugün çok sıcak, su içelim.",
+    "exampleArabic": "الجو حار جدًا اليوم، لنشرب الماء."
+  },
+  {
+    "id": "phrase-0231",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Üşüyorum.",
+    "arabic": "أشعر بالبرد.",
+    "acceptedArabic": [
+      "أشعر بالبرد."
+    ],
+    "exampleTurkish": "Üşüyorum, ceketimi giyeceğim.",
+    "exampleArabic": "أشعر بالبرد، سأرتدي سترتي."
+  },
+  {
+    "id": "phrase-0232",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Acıktım.",
+    "arabic": "جعت.",
+    "acceptedArabic": [
+      "جعت."
+    ],
+    "exampleTurkish": "Acıktım, bir şey yiyelim.",
+    "exampleArabic": "جعت، لنأكل شيئًا."
+  },
+  {
+    "id": "phrase-0233",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Susadım.",
+    "arabic": "عطشت.",
+    "acceptedArabic": [
+      "عطشت."
+    ],
+    "exampleTurkish": "Çok yürüdük, susadım.",
+    "exampleArabic": "مشينا كثيرًا، عطشت."
+  },
+  {
+    "id": "phrase-0234",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Yoruldum.",
+    "arabic": "تعبت.",
+    "acceptedArabic": [
+      "تعبت."
+    ],
+    "exampleTurkish": "Yoruldum, biraz dinlenmek istiyorum.",
+    "exampleArabic": "تعبت، أريد أن أستريح قليلًا."
+  },
+  {
+    "id": "phrase-0235",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Uykum var.",
+    "arabic": "أشعر بالنعاس.",
+    "acceptedArabic": [
+      "أشعر بالنعاس."
+    ],
+    "exampleTurkish": "Uykum var, erken yatacağım.",
+    "exampleArabic": "أشعر بالنعاس، سأنام مبكرًا."
+  },
+  {
+    "id": "phrase-0236",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Ne yapmak istersin?",
+    "arabic": "ماذا تريد أن تفعل؟ لشخص مقرّب.",
+    "acceptedArabic": [
+      "ماذا تريد أن تفعل؟ لشخص مقرّب."
+    ],
+    "exampleTurkish": "Hafta sonu ne yapmak istersin?",
+    "exampleArabic": "ماذا تريد أن تفعل في عطلة نهاية الأسبوع؟"
+  },
+  {
+    "id": "phrase-0237",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Yürüyüşe çıkalım mı?",
+    "arabic": "هل نخرج للمشي؟",
+    "acceptedArabic": [
+      "هل نخرج للمشي؟"
+    ],
+    "exampleTurkish": "Hava güzel, yürüyüşe çıkalım mı?",
+    "exampleArabic": "الجو جميل، هل نخرج للمشي؟"
+  },
+  {
+    "id": "phrase-0238",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Bize gelir misin?",
+    "arabic": "هل تأتي إلى منزلنا؟ لشخص مقرّب.",
+    "acceptedArabic": [
+      "هل تأتي إلى منزلنا؟ لشخص مقرّب."
+    ],
+    "exampleTurkish": "Bu akşam bize gelir misin?",
+    "exampleArabic": "هل تأتي إلى منزلنا هذا المساء؟"
+  },
+  {
+    "id": "phrase-0239",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Memnuniyetle.",
+    "arabic": "بكل سرور.",
+    "acceptedArabic": [
+      "بكل سرور."
+    ],
+    "exampleTurkish": "— Bize katılır mısın? — Memnuniyetle.",
+    "exampleArabic": "— هل تنضم إلينا؟ — بكل سرور."
+  },
+  {
+    "id": "phrase-0240",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Belki başka zaman.",
+    "arabic": "ربما في وقت آخر.",
+    "acceptedArabic": [
+      "ربما في وقت آخر."
+    ],
+    "exampleTurkish": "Bugün olmaz, belki başka zaman.",
+    "exampleArabic": "لا يمكن اليوم، ربما في وقت آخر."
+  },
+  {
+    "id": "phrase-0241",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "İyi fikir.",
+    "arabic": "فكرة جيدة.",
+    "acceptedArabic": [
+      "فكرة جيدة."
+    ],
+    "exampleTurkish": "Parka gitmek iyi fikir.",
+    "exampleArabic": "الذهاب إلى الحديقة فكرة جيدة."
+  },
+  {
+    "id": "phrase-0242",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Sana katılıyorum.",
+    "arabic": "أتفق معك؛ لشخص مقرّب.",
+    "acceptedArabic": [
+      "أتفق معك؛ لشخص مقرّب.",
+      "أتفق معك"
+    ],
+    "exampleTurkish": "Bu konuda sana katılıyorum.",
+    "exampleArabic": "أتفق معك في هذا الموضوع."
+  },
+  {
+    "id": "phrase-0243",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Bence öyle değil.",
+    "arabic": "في رأيي، الأمر ليس كذلك.",
+    "acceptedArabic": [
+      "في رأيي، الأمر ليس كذلك."
+    ],
+    "exampleTurkish": "Seni anlıyorum ama bence öyle değil.",
+    "exampleArabic": "أفهمك، لكن في رأيي الأمر ليس كذلك."
+  },
+  {
+    "id": "phrase-0244",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Fark etmez.",
+    "arabic": "لا فرق عندي.",
+    "acceptedArabic": [
+      "لا فرق عندي."
+    ],
+    "exampleTurkish": "Çay ya da kahve, fark etmez.",
+    "exampleArabic": "شاي أو قهوة، لا فرق عندي."
+  },
+  {
+    "id": "phrase-0245",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Seni özledim.",
+    "arabic": "اشتقت إليك؛ لشخص مقرّب.",
+    "acceptedArabic": [
+      "اشتقت إليك؛ لشخص مقرّب.",
+      "اشتقت إليك"
+    ],
+    "exampleTurkish": "Uzun zamandır yoksun, seni özledim.",
+    "exampleArabic": "أنت غائب منذ زمن، اشتقت إليك."
+  },
+  {
+    "id": "phrase-0246",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Doğum günün kutlu olsun.",
+    "arabic": "عيد ميلاد سعيد؛ لشخص مقرّب.",
+    "acceptedArabic": [
+      "عيد ميلاد سعيد؛ لشخص مقرّب.",
+      "عيد ميلاد سعيد"
+    ],
+    "exampleTurkish": "Doğum günün kutlu olsun, nice mutlu yıllara.",
+    "exampleArabic": "عيد ميلاد سعيد، وأتمنى لك سنوات سعيدة كثيرة."
+  },
+  {
+    "id": "phrase-0247",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "İyi yolculuklar.",
+    "arabic": "رحلة سعيدة.",
+    "acceptedArabic": [
+      "رحلة سعيدة."
+    ],
+    "exampleTurkish": "Yarın gidiyorsun, iyi yolculuklar.",
+    "exampleArabic": "ستسافر غدًا، رحلة سعيدة."
+  },
+  {
+    "id": "phrase-0248",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Şarj aletin var mı?",
+    "arabic": "هل لديك شاحن؟ لشخص مقرّب.",
+    "acceptedArabic": [
+      "هل لديك شاحن؟ لشخص مقرّب."
+    ],
+    "exampleTurkish": "Telefonumun şarjı bitti, şarj aletin var mı?",
+    "exampleArabic": "نفد شحن هاتفي، هل لديك شاحن؟"
+  },
+  {
+    "id": "phrase-0249",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Fotoğrafımızı çeker misiniz?",
+    "arabic": "هل تلتقط لنا صورة؟ بصيغة مهذبة.",
+    "acceptedArabic": [
+      "هل تلتقط لنا صورة؟ بصيغة مهذبة."
+    ],
+    "exampleTurkish": "Bu manzaranın önünde fotoğrafımızı çeker misiniz?",
+    "exampleArabic": "هل تلتقط لنا صورة أمام هذا المنظر؟"
+  },
+  {
+    "id": "phrase-0250",
+    "kind": "phrase",
+    "category": "الحياة اليومية والعلاقات",
+    "turkish": "Tuvalet nerede?",
+    "arabic": "أين دورة المياه؟",
+    "acceptedArabic": [
+      "أين دورة المياه؟"
+    ],
+    "exampleTurkish": "Affedersiniz, tuvalet nerede?",
+    "exampleArabic": "المعذرة، أين دورة المياه؟"
+  }
+]

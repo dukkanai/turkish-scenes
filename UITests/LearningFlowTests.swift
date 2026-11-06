@@ -1,32 +1,27 @@
 import XCTest
 
 final class LearningFlowTests: XCTestCase {
-    func testLearningScreenOpensAndNavigates() throws {
+    func testNewCurriculumAndResumeWithoutPaidConnection() throws {
         let app = XCUIApplication()
-        app.launchArguments = ["UITEST_DISABLE_VIDEO"]
         app.launch()
-        XCTAssertTrue(app.navigationBars["لقطة تركية"].waitForExistence(timeout: 20))
-        let first = app.buttons["segment-1"].firstMatch
-        let found = first.waitForExistence(timeout: 10)
-        if !found { print(String(app.debugDescription.prefix(16000))) }
-        XCTAssertTrue(found)
-        guard found else { return }
-        XCTAssertTrue(first.label.contains("المقطع رقم"))
-        XCTAssertTrue(first.label.contains("رئيس"))
+        XCTAssertTrue(app.navigationBars["تعلّم التركية"].waitForExistence(timeout: 20))
+        XCTAssertFalse(app.buttons["segment-1"].exists)
+        app.buttons["audio-track-word"].tap()
+        let first = app.buttons["audio-lesson-word-lesson-1"]
+        XCTAssertTrue(first.waitForExistence(timeout: 10))
         first.tap()
-        XCTAssertTrue(app.navigationBars.matching(NSPredicate(format: "identifier BEGINSWITH %@", "المقطع")).firstMatch.waitForExistence(timeout: 10), String(app.debugDescription.prefix(12000)))
-        let initialTitle = app.navigationBars.matching(NSPredicate(format: "identifier BEGINSWITH %@", "المقطع")).firstMatch.identifier
-        let next = app.buttons["المقطع التالي"]
-        for _ in 0..<15 {
-            if next.isHittable { break }
-            app.swipeUp()
-        }
-        XCTAssertTrue(next.isHittable)
-        next.tap()
-        XCTAssertTrue(app.navigationBars.matching(NSPredicate(format: "identifier BEGINSWITH %@", "المقطع")).firstMatch.waitForExistence(timeout: 10))
-        XCTAssertNotEqual(initialTitle, app.navigationBars.matching(NSPredicate(format: "identifier BEGINSWITH %@", "المقطع")).firstMatch.identifier)
-        app.terminate()
-        app.launch()
-        XCTAssertTrue(app.buttons["متابعة التعلم"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.navigationBars["درسي الصوتي"].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.buttons["audio-paid-start"].exists)
+        app.buttons["audio-paid-start"].tap()
+        XCTAssertTrue(app.alerts["بدء جلسة مدفوعة؟"].waitForExistence(timeout: 5))
+        app.alerts.buttons["إلغاء"].tap()
+        XCTAssertTrue(app.staticTexts["audio-status"].label.contains("متوقفة"))
+        app.buttons["إغلاق"].tap()
+        app.terminate(); app.launch()
+        XCTAssertTrue(app.buttons["audio-resume"].waitForExistence(timeout: 10))
+        app.tabBars.buttons["تقدمي"].tap()
+        app.buttons["audio-settings"].tap()
+        XCTAssertTrue(app.secureTextFields["audio-key-input"].waitForExistence(timeout: 10))
+        XCTAssertFalse(app.buttons["حفظ المفتاح بأمان"].isEnabled)
     }
 }

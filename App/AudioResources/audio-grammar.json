@@ -1,0 +1,268 @@
+[
+  {
+    "titleArabic": "الجمع والانسجام الصوتي الثنائي",
+    "explanationArabic": "للجمع نضيف لار أو لَر حسب آخر حرف علة في الكلمة. إذا كان آخر حرف علة a أو ı أو o أو u، نضيف lar. وإذا كان e أو i أو ö أو ü، نضيف ler. مثلًا ev تصبح evler. ومع العدد لا نضيف علامة الجمع عادةً: iki ev تعني بيتين.",
+    "exampleTurkish": "Evler büyük.",
+    "exampleArabic": "البيوت كبيرة.",
+    "questionArabic": "ما جمع كلمة kitap، أي كتاب، بالتركية؟ قل كلمة الجمع فقط.",
+    "expectedTurkish": "kitaplar",
+    "acceptedAnswers": [
+      "kitaplar"
+    ],
+    "correctionArabic": "آخر حرف علة في kitap هو a، ولذلك نضيف lar: kitaplar.",
+    "id": "grammar-0001"
+  },
+  {
+    "titleArabic": "الانسجام الرباعي مع ملكية المتكلم",
+    "explanationArabic": "لقول «لي» مع اسم ينتهي بحرف ساكن، نضيف ım أو im أو um أو üm. نختار ım بعد a وı، وim بعد e وi، وum بعد o وu، وüm بعد ö وü. لذلك evim تعني بيتي، وgözüm تعني عيني. نتدرب هنا على أسماء لا يتغير حرفها الأخير.",
+    "exampleTurkish": "Evim burada.",
+    "exampleArabic": "بيتي هنا.",
+    "questionArabic": "كيف تقول «هاتفي» بالتركية انطلاقًا من كلمة telefon؟ قل كلمة واحدة.",
+    "expectedTurkish": "telefonum",
+    "acceptedAnswers": [
+      "telefonum"
+    ],
+    "correctionArabic": "آخر حرف علة في telefon هو o. نختار لاحقة الملكية um، فنقول telefonum.",
+    "id": "grammar-0002"
+  },
+  {
+    "titleArabic": "ضمائر الأشخاص",
+    "explanationArabic": "ضمائر الأشخاص هي ben بمعنى أنا، وsen بمعنى أنت للمفرد المألوف، وo بمعنى هو أو هي، وbiz بمعنى نحن، وsiz بمعنى أنتم أو أنت باحترام، وonlar بمعنى هم. الضمير o لا يميّز بين المذكر والمؤنث.",
+    "exampleTurkish": "Biz buradayız.",
+    "exampleArabic": "نحن هنا.",
+    "questionArabic": "ما الضمير التركي الذي يعني «هم»؟ قل الضمير وحده.",
+    "expectedTurkish": "onlar",
+    "acceptedAnswers": [
+      "onlar"
+    ],
+    "correctionArabic": "ضمير الغائب الجمع هو onlar. أما o فهو للمفرد: هو أو هي.",
+    "id": "grammar-0003"
+  },
+  {
+    "titleArabic": "أنا في الجملة الاسمية",
+    "explanationArabic": "في التركية لا نحتاج فعلًا مستقلًا بمعنى أكون في الجملة الاسمية البسيطة. مع أنا نضيف لاحقة المتكلم إلى الاسم أو الصفة. مثلًا öğretmenim تعني أنا معلم. وإذا انتهت الكلمة بحرف علة نضع y قبل اللاحقة، مثل öğrenciyim بمعنى أنا طالب. ويمكن ذكر ben أو حذفه.",
+    "exampleTurkish": "Ben öğretmenim.",
+    "exampleArabic": "أنا معلم.",
+    "questionArabic": "قل بالتركية «أنا طالب» باستخدام كلمة öğrenci.",
+    "expectedTurkish": "Ben öğrenciyim.",
+    "acceptedAnswers": [
+      "Ben öğrenciyim.",
+      "Öğrenciyim."
+    ],
+    "correctionArabic": "كلمة öğrenci تنتهي بحرف علة، فنضيف yim لتصبح öğrenciyim. ذكر ben اختياري.",
+    "id": "grammar-0004"
+  },
+  {
+    "titleArabic": "نفي الجملة الاسمية",
+    "explanationArabic": "لنفي وصف أو هوية نستخدم değil، ثم نضيف لاحقة الشخص إليها. «أنا لست» تصبح değilim. لا نضع علامة النفي هذه داخل الاسم، ولا نستخدمها بدل نفي الفعل.",
+    "exampleTurkish": "Ben doktor değilim.",
+    "exampleArabic": "أنا لست طبيبًا.",
+    "questionArabic": "قل بالتركية «أنا لست متعبًا» باستخدام الصفة yorgun.",
+    "expectedTurkish": "Ben yorgun değilim.",
+    "acceptedAnswers": [
+      "Ben yorgun değilim.",
+      "Yorgun değilim."
+    ],
+    "correctionArabic": "نضع الصفة yorgun ثم değilim: yorgun değilim، أي لست متعبًا.",
+    "id": "grammar-0005"
+  },
+  {
+    "titleArabic": "سؤال نعم أو لا",
+    "explanationArabic": "لصنع سؤال نعم أو لا نضيف أداة الاستفهام mı أو mi أو mu أو mü، وتُكتب منفصلة. تتبع آخر حرف علة في الكلمة السابقة. في سؤال صفة عن الغائب المفرد نقول مثلًا: Ev büyük mü؟ أي هل البيت كبير؟",
+    "exampleTurkish": "Ev büyük mü?",
+    "exampleArabic": "هل البيت كبير؟",
+    "questionArabic": "اسأل بالتركية «هل الباب مفتوح؟» باستخدام kapı للباب وaçık لمفتوح.",
+    "expectedTurkish": "Kapı açık mı?",
+    "acceptedAnswers": [
+      "Kapı açık mı?"
+    ],
+    "correctionArabic": "آخر حرف علة في açık هو ı، فنختار mı ونكتبها منفصلة: Kapı açık mı?",
+    "id": "grammar-0006"
+  },
+  {
+    "titleArabic": "التعبير عن الوجود والعدم",
+    "explanationArabic": "نستخدم var بمعنى يوجد، وyok بمعنى لا يوجد. نذكر المكان ثم الشيء ثم var أو yok. مثلًا Masada su var تعني يوجد ماء على الطاولة. var وyok ليستا أداتي تعريف.",
+    "exampleTurkish": "Masada su var.",
+    "exampleArabic": "يوجد ماء على الطاولة.",
+    "questionArabic": "قل بالتركية «لا يوجد خبز في البيت». استخدم evde بمعنى في البيت وekmek بمعنى خبز.",
+    "expectedTurkish": "Evde ekmek yok.",
+    "acceptedAnswers": [
+      "Evde ekmek yok.",
+      "Ekmek evde yok."
+    ],
+    "correctionArabic": "لعدم الوجود نستخدم yok: Evde ekmek yok. أما var فتثبت الوجود.",
+    "id": "grammar-0007"
+  },
+  {
+    "titleArabic": "لاحقة المكان: في أو عند",
+    "explanationArabic": "للتعبير عن مكان ثابت نضيف da أو de، وتتحول الدال إلى تاء بعد الحروف الساكنة المهموسة ç وf وh وk وp وs وş وt. اختيار a أو e يتبع الانسجام الثنائي. مثلًا evde تعني في البيت، وparkta تعني في الحديقة.",
+    "exampleTurkish": "Çocuk parkta.",
+    "exampleArabic": "الطفل في الحديقة.",
+    "questionArabic": "كيف تقول «في المدرسة» بكلمة واحدة؟ كلمة مدرسة هي okul.",
+    "expectedTurkish": "okulda",
+    "acceptedAnswers": [
+      "okulda"
+    ],
+    "correctionArabic": "آخر حرف علة في okul هو u فنختار da، واللام لا تستدعي تحويل الدال إلى تاء: okulda.",
+    "id": "grammar-0008"
+  },
+  {
+    "titleArabic": "لاحقة الاتجاه: إلى",
+    "explanationArabic": "للوجهة نضيف a أو e وفق الانسجام الثنائي. إذا انتهى الاسم بحرف علة نضع y فاصلة، مثل odaya بمعنى إلى الغرفة. ev تصبح eve، أي إلى البيت. هذه اللاحقة تدل هنا على اتجاه الحركة لا على مكان ثابت.",
+    "exampleTurkish": "Eve gidiyorum.",
+    "exampleArabic": "أنا ذاهب إلى البيت.",
+    "questionArabic": "كيف تقول «إلى المدرسة» بكلمة واحدة؟ كلمة مدرسة هي okul.",
+    "expectedTurkish": "okula",
+    "acceptedAnswers": [
+      "okula"
+    ],
+    "correctionArabic": "آخر حرف علة في okul هو u، فنضيف a: okula. لا نحتاج y لأن الكلمة تنتهي بساكن.",
+    "id": "grammar-0009"
+  },
+  {
+    "titleArabic": "لاحقة الابتعاد: من",
+    "explanationArabic": "للتعبير عن نقطة الانطلاق نضيف dan أو den، أو tan أو ten بعد الحروف المهموسة. اختيار a أو e يتبع آخر حرف علة. evden تعني من البيت، وparktan تعني من الحديقة.",
+    "exampleTurkish": "Evden geliyorum.",
+    "exampleArabic": "أنا قادم من البيت.",
+    "questionArabic": "كيف تقول «من المدرسة» بكلمة واحدة؟ كلمة مدرسة هي okul.",
+    "expectedTurkish": "okuldan",
+    "acceptedAnswers": [
+      "okuldan"
+    ],
+    "correctionArabic": "نضيف dan إلى okul لأن آخر حرف علة هو u والحرف الأخير هو l: okuldan.",
+    "id": "grammar-0010"
+  },
+  {
+    "titleArabic": "المفعول به المحدد",
+    "explanationArabic": "عندما يكون المفعول به مباشرًا ومحددًا، نضيف ı أو i أو u أو ü وفق الانسجام الرباعي. وإذا انتهى الاسم بحرف علة نضع y فاصلة. مثلًا kapıyı aç تعني افتح الباب المقصود. لا تُضاف اللاحقة إلى كل اسم لمجرد أنه مذكور في الجملة.",
+    "exampleTurkish": "Kapıyı aç.",
+    "exampleArabic": "افتح الباب.",
+    "questionArabic": "قل «افتح النافذة» بالتركية لشخص واحد مقرّب. استخدم pencere بمعنى نافذة وaç بمعنى افتح، والمقصود نافذة محددة.",
+    "expectedTurkish": "Pencereyi aç.",
+    "acceptedAnswers": [
+      "Pencereyi aç."
+    ],
+    "correctionArabic": "pencere تنتهي بحرف علة، فنضيف yi للمفعول المحدد: pencereyi. ثم نقول aç.",
+    "id": "grammar-0011"
+  },
+  {
+    "titleArabic": "الإضافة إلى اسم شخص",
+    "explanationArabic": "لقول إن شيئًا يخص شخصًا، نضيف إلى اسم المالك لاحقة الإضافة، ثم إلى الشيء لاحقة ملكية الغائب. مثلًا Ali'nin evi تعني بيت علي. بعد اسم ينتهي بحرف علة تظهر n في لاحقة المالك. وفي الكتابة نفصل اللاحقة عن اسم العَلَم بعلامة اقتباس مفردة.",
+    "exampleTurkish": "Ali'nin evi büyük.",
+    "exampleArabic": "بيت علي كبير.",
+    "questionArabic": "كيف تقول «بيت أَيْشَه»؟ اسم الشخص Ayşe، وكلمة بيت ev. قل العبارة دون جملة إضافية.",
+    "expectedTurkish": "Ayşe'nin evi",
+    "acceptedAnswers": [
+      "Ayşe'nin evi"
+    ],
+    "correctionArabic": "نضيف nin إلى Ayşe، ونضيف i إلى ev: Ayşe'nin evi. لا تكفي إضافة اللاحقة إلى اسم المالك وحده.",
+    "id": "grammar-0012"
+  },
+  {
+    "titleArabic": "الصفة قبل الاسم",
+    "explanationArabic": "الصفة في التركية تأتي قبل الاسم الذي تصفه. لا تتغير الصفة للمذكر والمؤنث أو للجمع. büyük ev تعني بيتًا كبيرًا، وbüyük evler تعني بيوتًا كبيرة. أما ev büyük فهي جملة معناها البيت كبير.",
+    "exampleTurkish": "Küçük oda",
+    "exampleArabic": "غرفة صغيرة.",
+    "questionArabic": "قل عبارة «بيت كبير» وليست جملة «البيت كبير». استخدم كبير büyük وبيت ev.",
+    "expectedTurkish": "büyük ev",
+    "acceptedAnswers": [
+      "büyük ev"
+    ],
+    "correctionArabic": "في العبارة الوصفية تأتي الصفة أولًا: büyük ev. عكس الترتيب يعطي جملة اسمية مختلفة.",
+    "id": "grammar-0013"
+  },
+  {
+    "titleArabic": "المضارع المستمر مع أنا",
+    "explanationArabic": "للفعل الجاري الآن نستخدم لاحقة المضارع المستمر yor مع حرف العلة المناسب قبلها، ثم لاحقة الشخص. مع جذر gel، أي تعال، نقول geliyorum بمعنى أنا قادم. وyazıyorum تعني أنا أكتب. بعض الجذور تتغير قليلًا، لذلك نبدأ هنا بجذور منتظمة.",
+    "exampleTurkish": "Şimdi yazıyorum.",
+    "exampleArabic": "أنا أكتب الآن.",
+    "questionArabic": "قل بالتركية «أنا قادم» باستخدام الفعل gelmek في المضارع المستمر.",
+    "expectedTurkish": "Geliyorum.",
+    "acceptedAnswers": [
+      "Geliyorum.",
+      "Ben geliyorum."
+    ],
+    "correctionArabic": "من الجذر gel نكوّن geliyorum: حرف i ثم yor ثم um للمتكلم.",
+    "id": "grammar-0014"
+  },
+  {
+    "titleArabic": "نفي المضارع المستمر",
+    "explanationArabic": "لنفي المضارع المستمر نضع لاحقة النفي قبل yor، وتظهر الصيغ mıyor أو miyor أو muyor أو müyor حسب الانسجام الصوتي. مع gel نقول gelmiyorum، أي أنا لا آتي. لاحقة الشخص تبقى في نهاية الفعل.",
+    "exampleTurkish": "Bugün gelmiyorum.",
+    "exampleArabic": "أنا لا آتي اليوم.",
+    "questionArabic": "قل بالتركية «أنا لا أكتب» باستخدام yazmak في المضارع المستمر.",
+    "expectedTurkish": "Yazmıyorum.",
+    "acceptedAnswers": [
+      "Yazmıyorum.",
+      "Ben yazmıyorum."
+    ],
+    "correctionArabic": "آخر حرف علة في الجذر yaz هو a، فنستخدم mıyor ثم um: yazmıyorum.",
+    "id": "grammar-0015"
+  },
+  {
+    "titleArabic": "الماضي المثبت مع أنا",
+    "explanationArabic": "لحدث ماضٍ نستخدم لاحقة الماضي dı أو di أو du أو dü، وتبدأ بتاء بعد الحروف المهموسة. ثم نضيف لاحقة الشخص. مع أنا نضيف m، مثل geldim بمعنى أتيت، وbaktım بمعنى نظرت.",
+    "exampleTurkish": "Dün geldim.",
+    "exampleArabic": "أتيت أمس.",
+    "questionArabic": "قل بالتركية «أنا نظرت» في الماضي باستخدام الفعل bakmak. قل الفعل المصرف فقط.",
+    "expectedTurkish": "Baktım.",
+    "acceptedAnswers": [
+      "Baktım."
+    ],
+    "correctionArabic": "الجذر bak ينتهي بحرف k المهموس وآخر حرف علة فيه a، فنضيف tı ثم m: baktım.",
+    "id": "grammar-0016"
+  },
+  {
+    "titleArabic": "المستقبل مع أنت",
+    "explanationArabic": "للمستقبل نضيف acak أو ecek حسب الانسجام الثنائي، ثم لاحقة الشخص. مع أنت المفرد المألوف تكون اللاحقة sın أو sin. لذلك bakacaksın تعني ستنظر، وgeleceksin تعني ستأتي. نركز هنا على أفعال تنتهي جذورها بساكن.",
+    "exampleTurkish": "Yarın geleceksin.",
+    "exampleArabic": "ستأتي غدًا.",
+    "questionArabic": "قل «ستكتب» بالتركية لشخص واحد مقرّب، باستخدام yazmak. قل الفعل فقط.",
+    "expectedTurkish": "Yazacaksın.",
+    "acceptedAnswers": [
+      "Yazacaksın."
+    ],
+    "correctionArabic": "من yaz نضيف acak ثم sın: yazacaksın. هذه صيغة أنت، وليست صيغة أنا.",
+    "id": "grammar-0017"
+  },
+  {
+    "titleArabic": "التعبير عن القدرة",
+    "explanationArabic": "للتعبير عن القدرة نضيف abil أو ebil إلى جذر الفعل، مع y فاصلة إذا انتهى الجذر بحرف علة، ثم نصرفه. صيغة المتكلم الشائعة هي abilirim أو ebilirim، مثل gelebilirim بمعنى أستطيع المجيء. وتأتي للقدرة أو الإمكان حسب السياق.",
+    "exampleTurkish": "Yarın gelebilirim.",
+    "exampleArabic": "أستطيع المجيء غدًا.",
+    "questionArabic": "قل بالتركية «أستطيع السباحة» باستخدام yüzmek.",
+    "expectedTurkish": "Yüzebilirim.",
+    "acceptedAnswers": [
+      "Yüzebilirim.",
+      "Ben yüzebilirim."
+    ],
+    "correctionArabic": "نضيف ebilirim إلى الجذر yüz لأن حروف علته أمامية: yüzebilirim.",
+    "id": "grammar-0018"
+  },
+  {
+    "titleArabic": "الأمر المباشر للمفرد",
+    "explanationArabic": "للأمر المباشر إلى شخص واحد مقرّب نستخدم جذر الفعل دون لاحقة شخص. نحذف mak أو mek من المصدر. مثلًا gelmek يصبح gel بمعنى تعال. هذه صيغة مباشرة، ومع الغرباء نفضّل صيغة أكثر تهذيبًا.",
+    "exampleTurkish": "Buraya gel.",
+    "exampleArabic": "تعال إلى هنا.",
+    "questionArabic": "قل «اجلس» بالتركية كأمر مباشر لصديق واحد. المصدر هو oturmak. قل فعل الأمر فقط.",
+    "expectedTurkish": "Otur.",
+    "acceptedAnswers": [
+      "Otur."
+    ],
+    "correctionArabic": "نحذف mak من oturmak، فيبقى الجذر otur، وهو أمر المفرد المباشر.",
+    "id": "grammar-0019"
+  },
+  {
+    "titleArabic": "ترتيب الجملة الفعلية البسيطة",
+    "explanationArabic": "الترتيب المحايد الشائع في الجملة التركية هو الفاعل ثم المفعول ثم الفعل في النهاية. مثلًا Ben çay içiyorum تعني أنا أشرب الشاي. يمكن أن يتغير الترتيب للتأكيد، لكننا نتدرب هنا على الترتيب المحايد مع ذكر الفاعل.",
+    "exampleTurkish": "Ben çay içiyorum.",
+    "exampleArabic": "أنا أشرب الشاي.",
+    "questionArabic": "رتّب هذه الكلمات بالترتيب المحايد: okuyorum، ben، kitap. المطلوب جملة «أنا أقرأ كتابًا»، مع ذكر الضمير في البداية والفعل في النهاية.",
+    "expectedTurkish": "Ben kitap okuyorum.",
+    "acceptedAnswers": [
+      "Ben kitap okuyorum."
+    ],
+    "correctionArabic": "نضع ben للفاعل أولًا، ثم kitap للمفعول غير المحدد، ثم okuyorum للفعل: Ben kitap okuyorum.",
+    "id": "grammar-0020"
+  }
+]
