@@ -49,6 +49,11 @@ jobs:
           PY
       - name: Verify compiled app icon
         run: python3 ci/check_app_bundle.py build/DerivedData/Build/Products/Debug-iphonesimulator/TurkishScenes.app
+      - name: Verify optimized Release archive before signing
+        run: |
+          set -euo pipefail
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -configuration Release -destination 'generic/platform=iOS' -archivePath build/UnsignedRelease.xcarchive CODE_SIGNING_ALLOWED=NO archive
+          python3 ci/check_app_bundle.py build/UnsignedRelease.xcarchive/Products/Applications/TurkishScenes.app
       - name: Run iPhone UI smoke test
         run: |
           set -euo pipefail

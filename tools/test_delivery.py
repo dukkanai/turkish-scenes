@@ -6,6 +6,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +21,16 @@ def load(name):
 
 check_result = load("run_altool").check_result
 check_bundle = load("check_app_bundle").check_bundle
+
+
+def png(width=120, height=120, optimized=False):
+    def chunk(kind, payload):
+        return (struct.pack(">I", len(payload)) + kind + payload
+                + struct.pack(">I", zlib.crc32(kind + payload)))
+    header = b"\x89PNG\r\n\x1a\n"
+    if optimized:
+        header += chunk(b"CgBI", b"\x40\xa0\x60\x82")
+    return header + chunk(b"IHDR", struct.pack(">IIBBBBB", width, height, 8, 2, 0, 0, 0))
 
 
 class AltoolChecks(unittest.TestCase):
@@ -73,13 +84,16 @@ class BundleChecks(unittest.TestCase):
         self.write_info()
         (self.bundle / "Assets.car").write_bytes(b"fixture")
         self.icon = self.bundle / "AppIcon60x60@2x.png"
-        self.icon.write_bytes(b"\x89PNG\r\n\x1a\n" + struct.pack(">I", 13)
-                              + b"IHDR" + struct.pack(">II", 120, 120))
+        self.icon.write_bytes(png())
 
     def write_info(self):
         (self.bundle / "Info.plist").write_bytes(plistlib.dumps(self.info))
 
     def test_valid_metadata_and_icon(self):
+        check_bundle(self.bundle)
+
+    def test_apple_optimized_release_png(self):
+        self.icon.write_bytes(png(optimized=True))
         check_bundle(self.bundle)
 
     def test_missing_catalog(self):
@@ -94,8 +108,9 @@ class BundleChecks(unittest.TestCase):
             check_bundle(self.bundle)
 
     def test_wrong_dimensions_or_truncated_icon(self):
-        for data in (b"not png", b"\x89PNG\r\n\x1a\n" + struct.pack(">I", 13)
-                     + b"IHDR" + struct.pack(">II", 180, 180)):
+        for data in (b"not png", png(180, 180), png(180, 180, optimized=True),
+                     png()[:24], png(optimized=True)[:22],
+                     b"\x89PNG\r\n\x1a\n" + struct.pack(">I4s", 2**31, b"CgBI")):
             self.icon.write_bytes(data)
             with self.assertRaises(ValueError):
                 check_bundle(self.bundle)
