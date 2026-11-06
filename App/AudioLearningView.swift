@@ -175,6 +175,7 @@ private struct AudioSessionView: View {
         List {
             Section("حالة الجلسة") {
                 Text(tutor.status).accessibilityIdentifier("audio-status")
+                    .accessibilityValue(tutor.state == .stopped ? "متوقفة" : tutor.state == .connecting ? "جارٍ الاتصال" : "متصلة")
                 if let session = store.progress.session {
                     Text(session.phase == .teaching ? "الشرح أولًا ثم الاختبار" : session.phase == .quiz ? "متبقٍ للتدريب: \(session.queue.count)" : "اكتمل الدرس. يمكنك العودة إلى الدروس لاختيار التالي.")
                     if session.phase == .quiz, let id = session.currentID, let card = store.allCards.first(where: { $0.id == id }) {
