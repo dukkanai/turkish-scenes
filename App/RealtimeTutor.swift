@@ -33,6 +33,8 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
     private var responsePrompts: [String: String] = [:]
     private var handledCalls: Set<String> = []
     private var responseActive = false
+    private var activeResponseID: String?
+    private var interruptedResponses: Set<String> = []
     private var interruptedItems: Set<String> = []
     init(store: AudioProgressStore) {
         self.store = store
@@ -66,7 +68,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             guard let task = network?.webSocketTask(with: request) else { throw URLError(.unknown) }
             task.maximumMessageSize = 1_000_000
             socket = task; task.resume()
-            handledCalls = []; interruptedItems = []; userTurnAvailable = false; muted = false
+            handledCalls = []; interruptedItems = []; interruptedResponses = []; activeResponseID = nil; userTurnAvailable = false; muted = false
             receiver = Task { [weak self] in
                 do {
                     while !Task.isCancelled {
@@ -170,6 +172,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
         send(["type": "response.create"])
     }
     private func interruptPlayback() {
+        if let responseID = activeResponseID { interruptedResponses.insert(responseID) }
         for (item, milliseconds) in io.interrupt() {
             interruptedItems.insert(item)
             send(["type": "conversation.item.truncate", "item_id": item, "content_index": 0, "audio_end_ms": milliseconds])
@@ -191,22 +194,29 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             if !muted { committedPromptID = store.progress.session?.promptID }
         case "response.created":
             responseActive = true
+            activeResponseID = (event["response"] as? [String: Any])?["id"] as? String
             if let response = event["response"] as? [String: Any],
                let id = response["id"] as? String, let prompt = committedPromptID {
                 responsePrompts[id] = prompt
             }
             committedPromptID = nil
         case "response.output_audio.delta":
+            guard !interruptedResponses.contains(event["response_id"] as? String ?? "") else { return }
             guard let item = event["item_id"] as? String, !interruptedItems.contains(item),
                   let encoded = event["delta"] as? String, let data = Data(base64Encoded: encoded) else { return }
             do { try io.play(data, itemID: item) }
             catch { stop("تعذر تشغيل الصوت المستلم. توقفت الجلسة لحماية استقرار الصوت.") }
         case "response.output_audio_transcript.done":
+            guard !interruptedResponses.contains(event["response_id"] as? String ?? "") else { return }
             if let text = event["transcript"] as? String { transcript = String(text.prefix(4000)) }
         case "response.done":
             responseActive = false
             guard let response = event["response"] as? [String: Any] else { return }
             let responseID = response["id"] as? String ?? ""
+            if interruptedResponses.contains(responseID) {
+                responsePrompts.removeValue(forKey: responseID)
+                return
+            }
             let responsePrompt = responsePrompts.removeValue(forKey: responseID)
             userTurnAvailable = responsePrompt != nil && responsePrompt == store.progress.session?.promptID
             defer { userTurnAvailable = false }
