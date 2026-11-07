@@ -38,6 +38,8 @@ class LiveContractChecks(unittest.TestCase):
         tutor = (ROOT / 'App/LiveTutor.swift').read_text()
         close = tutor.split('func stop(', 1)[1].split('private func finishStop', 1)[0]
         self.assertLess(close.index('io.stop()'), close.index('"session.close"'))
+        self.assertIn('guard started, let socket', close)
+        self.assertNotIn('guard state == .connected', close)
         self.assertIn('sendGeneration = UUID()', close)
         self.assertIn('5_000_000_000', close)
         self.assertIn('started && !voiceUsage.finalized', tutor)

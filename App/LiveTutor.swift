@@ -167,7 +167,7 @@ private final class LiveNetworkPolicy: NSObject, URLSessionWebSocketDelegate {
     /// keep the microphone running while waiting for session.closed.
     func stop(_ message: String = "توقفت الجلسة والميكروفون. التقدم المسجل محفوظ.") {
         guard state != .closing, state != .stopped else { return }
-        guard state == .connected, started, let socket else { finishStop(message); return }
+        guard started, let socket else { finishStop(message); return }
         state = .closing; closingMessage = message; status = "توقف الميكروفون. جارٍ إغلاق الجلسة وتأكيد الاستخدام."
         muted = true; mutePending = false; pendingMute = nil; turns.invalidate()
         if io.stop() != nil { teardownFailed = true; diagnostics.record(.audioTeardown) }
