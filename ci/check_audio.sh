@@ -1,0 +1,26 @@
+#!/bin/bash
+set -euo pipefail
+mkdir -p build
+python3 -m unittest discover -s tools -p 'test_*.py' -v
+swiftc App/AudioLearningCore.swift Tests/AudioLearningChecks.swift -o build/audio-learning-checks
+build/audio-learning-checks
+swiftc App/AudioLearningCore.swift App/AudioProgressStore.swift Tests/AudioProgressChecks.swift -o build/audio-progress-checks
+build/audio-progress-checks
+swiftc App/RealtimeMessageCodec.swift App/AudioLearningCore.swift App/AudioTutorProtocol.swift Tests/AudioProtocolChecks.swift -o build/audio-protocol-checks
+build/audio-protocol-checks
+swiftc App/RealtimeUsage.swift Tests/RealtimeUsageChecks.swift -o build/realtime-usage-checks
+build/realtime-usage-checks
+swiftc App/RealtimeDiagnostics.swift App/RealtimeFailure.swift App/RealtimeResponseDisposition.swift Tests/RealtimeResponseChecks.swift -o build/realtime-response-checks
+build/realtime-response-checks
+swiftc App/RealtimeDiagnostics.swift App/RealtimeFailure.swift Tests/RealtimeFailureChecks.swift -o build/realtime-failure-checks
+build/realtime-failure-checks
+swiftc App/SpeechLanguageRuns.swift Tests/SpeechLanguageChecks.swift -o build/speech-checks
+build/speech-checks
+swiftc App/AudioPlaybackTimeline.swift Tests/AudioPlaybackChecks.swift -o build/audio-playback-checks
+build/audio-playback-checks
+swiftc App/RealtimeDiagnostics.swift App/RealtimeMessageCodec.swift Tests/RealtimeDiagnosticsChecks.swift -o build/realtime-diagnostics-checks
+build/realtime-diagnostics-checks
+bash -n ci/testflight.sh
+ruby -c ci/verify_testflight.rb
+swiftc App/AudioLearningCore.swift App/RealtimeMessageCodec.swift App/AudioTutorProtocol.swift App/LiveTutorProtocol.swift App/LiveSessionLedger.swift Tests/LiveProtocolChecks.swift -o build/live-protocol-checks
+build/live-protocol-checks

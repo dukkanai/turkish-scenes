@@ -1,0 +1,65 @@
+name: iOS CI
+on:
+  push:
+    branches: ['main', 'dev/ios-app-20261101']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ios-ci-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.1.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Record build environment
+        run: |
+          set -euo pipefail
+          sw_vers
+          xcodebuild -version
+          swift --version
+          xcrun simctl list runtimes
+      - name: Test audio curriculum, progress and security contracts
+        run: bash ci/check_audio.sh
+      - name: Install project generator
+        run: brew install xcodegen
+      - name: Generate app icon
+        run: swift tools/make_app_icon.swift
+      - name: Generate project
+        run: xcodegen generate
+      - name: Build iPhone simulator
+        run: |
+          set -euo pipefail
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO build
+      - name: Verify Arabic bundle localization
+        run: |
+          python3 - <<'PY'
+          import plistlib
+          from pathlib import Path
+          p = Path("build/DerivedData/Build/Products/Debug-iphonesimulator/TurkishScenes.app/Info.plist")
+          info = plistlib.loads(p.read_bytes())
+          assert info["CFBundleDevelopmentRegion"] == "ar", info.get("CFBundleDevelopmentRegion")
+          assert "ar" in info["CFBundleLocalizations"]
+          print("PASS: Arabic development language and supported localization")
+          PY
+      - name: Verify compiled app icon
+        run: python3 ci/check_app_bundle.py build/DerivedData/Build/Products/Debug-iphonesimulator/TurkishScenes.app
+      - name: Verify optimized Release archive before signing
+        run: |
+          set -euo pipefail
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -configuration Release -destination 'generic/platform=iOS' -archivePath build/UnsignedRelease.xcarchive CODE_SIGNING_ALLOWED=NO archive
+          python3 ci/check_app_bundle.py build/UnsignedRelease.xcarchive/Products/Applications/TurkishScenes.app
+      - name: Run iPhone UI smoke test
+        run: |
+          set -euo pipefail
+          DEVICE=$(xcrun simctl create TurkishScenesCI com.apple.CoreSimulator.SimDeviceType.iPhone-16 com.apple.CoreSimulator.SimRuntime.iOS-18-5)
+          xcrun simctl boot "$DEVICE"
+          xcrun simctl bootstatus "$DEVICE" -b
+          xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -destination "platform=iOS Simulator,id=$DEVICE" -derivedDataPath build/DerivedData -resultBundlePath build/UITests.xcresult CODE_SIGNING_ALLOWED=NO -parallel-testing-enabled NO -maximum-concurrent-test-simulator-destinations 1 -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 180 test
+      - name: Report scope
+        run: echo 'Automated data, progress, security-contract and simulator checks only. Paid GPT-Live account access and real-device VoiceOver/audio remain unverified.'
