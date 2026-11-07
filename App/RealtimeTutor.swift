@@ -2,11 +2,24 @@ import Foundation
 import Combine
 import AVFoundation
 
-private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
+private final class RealtimeNetworkPolicy: NSObject, URLSessionWebSocketDelegate {
+    enum Event { case opened, closed, failed(Error, Int?) }
+    private let onEvent: (Event) -> Void
+    init(onEvent: @escaping (Event) -> Void) { self.onEvent = onEvent }
     func urlSession(_ session: URLSession, task: URLSessionTask,
                     willPerformHTTPRedirection response: HTTPURLResponse, newRequest request: URLRequest,
                     completionHandler: @escaping (URLRequest?) -> Void) {
         completionHandler(nil) // Never forward the user's Authorization header to another URL.
+    }
+    func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didOpenWithProtocol protocolName: String?) {
+        onEvent(.opened)
+    }
+    func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask,
+                    didCloseWith closeCode: URLSessionWebSocketTask.CloseCode, reason: Data?) {
+        onEvent(.closed) // Do not display arbitrary close reasons or protocol text.
+    }
+    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
+        if let error { onEvent(.failed(error, (task.response as? HTTPURLResponse)?.statusCode)) }
     }
 }
 
@@ -28,7 +41,9 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
     private var deadline: Task<Void, Never>?
     private var handshake: Task<Void, Never>?
     private var generation = UUID()
-    private var queuedBytes = 0
+    @Published private(set) var diagnostics = RealtimeDiagnostics()
+    private var sendBudget = RealtimeSendBudget()
+    private var progressObserver: AnyCancellable?
     private var userTurnAvailable = false
     private var committedPromptID: String?
     private var responsePrompts: [String: String] = [:]
@@ -39,6 +54,14 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
     private var interruptedItems: Set<String> = []
     init(store: AudioProgressStore) {
         self.store = store
+        io.onFailure = { [weak self] _ in
+            guard let self, self.state != .stopped else { return }
+            self.fail(.audioConversion, "تعذر تحويل صوت الميكروفون. توقفت الجلسة؛ حاول بدءها مجددًا.")
+        }
+        progressObserver = store.$persistenceFailure.dropFirst().sink { [weak self] failed in
+            guard failed, let self, self.state != .stopped else { return }
+            self.fail(.progressWrite, "لم يُحفظ التغيير. توقفت الجلسة المدفوعة والميكروفون، وبقي التقدم السابق محفوظًا.")
+        }
         io.onPCM = { [weak self] data in
             guard let self, self.state == .connected, !self.muted else { return }
             self.send(["type": "input_audio_buffer.append", "audio": data.base64EncodedString()], audioBytes: data.count)
@@ -47,6 +70,11 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
     func start(minutes: Int) async {
         guard state == .stopped, let session = store.progress.session, session.phase != .complete else { return }
         guard (1...10).contains(minutes) else { return }
+        guard store.canUseProgress else {
+            fail(.progressUnavailable, "تعذر الوصول إلى تقدم التعلم أو حفظه. لم نبدأ اتصالًا مدفوعًا؛ أعد فتح التطبيق بعد معالجة مشكلة التخزين.")
+            return
+        }
+        diagnostics = RealtimeDiagnostics(); diagnostics.record(.starting)
         state = .connecting; status = "طلب إذن الميكروفون والاتصال"; transcript = ""; totalTokens = 0
         usage = RealtimeUsage()
         let token = UUID(); generation = token
@@ -54,17 +82,28 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             AVAudioSession.sharedInstance().requestRecordPermission { continuation.resume(returning: $0) }
         }
         guard generation == token, state == .connecting else { return }
-        guard permitted else { stop("الميكروفون غير مسموح. يمكنك السماح به من إعدادات iPhone."); return }
+        guard !Task.isCancelled else { stop(); return }
+        guard permitted else { fail(.permissionDenied, "الميكروفون غير مسموح. يمكنك السماح به من إعدادات iPhone."); return }
         do {
             guard let key = try PersonalAPIKey.read(), !key.isEmpty else {
-                stop("أدخل مفتاح OpenAI الشخصي في الإعدادات أولًا."); return
+                fail(.missingKey, "أدخل مفتاح OpenAI الشخصي في الإعدادات أولًا."); return
             }
             let configuration = URLSessionConfiguration.ephemeral
             configuration.urlCache = nil; configuration.httpCookieStorage = nil
             configuration.urlCredentialStorage = nil
             configuration.timeoutIntervalForRequest = 20
             configuration.timeoutIntervalForResource = TimeInterval(minutes * 60 + 30)
-            network = URLSession(configuration: configuration, delegate: RealtimeNetworkPolicy(), delegateQueue: nil)
+            let policy = RealtimeNetworkPolicy { [weak self] event in
+                Task { @MainActor [weak self] in
+                    guard let self, self.generation == token, self.state != .stopped else { return }
+                    switch event {
+                    case .opened: self.diagnostics.record(.socketOpened)
+                    case .closed: self.fail(.socketClosed, "أغلق الخادم الاتصال. توقف الميكروفون؛ يمكنك بدء جلسة جديدة بعد مراجعة السبب والتكلفة.")
+                    case .failed(let error, let httpStatus): self.transportFailed(error, httpStatus: httpStatus)
+                    }
+                }
+            }
+            network = URLSession(configuration: configuration, delegate: policy, delegateQueue: nil)
             var request = URLRequest(url: AudioTutorProtocol.endpoint)
             request.setValue("Bearer \(key)", forHTTPHeaderField: "Authorization")
             guard let task = network?.webSocketTask(with: request) else { throw URLError(.unknown) }
@@ -80,36 +119,62 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
                         switch message {
                         case .string(let value): data = Data(value.utf8)
                         case .data(let value): data = value
-                        @unknown default: continue
+                        @unknown default:
+                            self.fail(.invalidEvent, "وصل نوع رسالة غير مدعوم. توقفت الجلسة دون تغيير التقدم."); return
                         }
-                        guard let event = try JSONSerialization.jsonObject(with: data) as? [String: Any] else { continue }
-                        self.handle(event)
+                        do { try self.handle(RealtimeMessageCodec.event(data)) }
+                        catch {
+                            let code: RealtimeDiagnosticCode
+                            switch error as? RealtimeMessageCodec.Failure {
+                            case .encoding: code = .outgoingJSON
+                            case .invalidAudio: code = .invalidAudio
+                            case .invalidTool: code = .invalidTool
+                            case .invalidEvent: code = .invalidEvent
+                            default: code = .incomingJSON
+                            }
+                            self.fail(code, "تعذرت معالجة رسالة الجلسة. توقفت الجلسة دون إرسال بيانات ناقصة أو تغيير التقدم بسبب الرسالة.")
+                            return
+                        }
                     }
                 } catch {
                     guard let self, self.generation == token, !Task.isCancelled else { return }
-                    self.stop(RealtimeFailure.transport(httpStatus: (task.response as? HTTPURLResponse)?.statusCode))
+                    self.transportFailed(error, httpStatus: (task.response as? HTTPURLResponse)?.statusCode)
                 }
             }
             handshake = Task { [weak self] in
-                try? await Task.sleep(nanoseconds: 20_000_000_000)
+                do { try await Task.sleep(nanoseconds: 20_000_000_000) } catch { return }
                 guard !Task.isCancelled, let self, self.generation == token, self.state == .connecting else { return }
-                self.stop("انتهت مهلة الاتصال. تحقّق من الإنترنت والمفتاح وإتاحة النموذج في حسابك.")
+                self.fail(.setupTimeout, "انتهت مهلة الاتصال. تحقّق من الإنترنت والمفتاح وإتاحة النموذج في حسابك.")
             }
             deadline = Task { [weak self] in
-                try? await Task.sleep(nanoseconds: UInt64(minutes) * 60_000_000_000)
+                do { try await Task.sleep(nanoseconds: UInt64(minutes) * 60_000_000_000) } catch { return }
                 guard !Task.isCancelled, let self, self.generation == token else { return }
                 self.stop("انتهت المدة التي اخترتها. يمكنك بدء جلسة جديدة بعد مراجعة التكلفة.")
             }
-        } catch { stop("تعذر الوصول إلى المفتاح المحفوظ أو بدء الاتصال. لم يُعرض المفتاح أو يُسجّل.") }
+        } catch { fail(.keychainReadFailed, "تعذر الوصول إلى المفتاح المحفوظ أو بدء الاتصال. لم يُعرض المفتاح أو يُسجّل.") }
     }
     func stop(_ message: String = "توقفت الجلسة والميكروفون. التقدم المسجل محفوظ.") {
-        generation = UUID(); state = .stopped; status = message
+        if state != .stopped { status = message; diagnostics.record(.stopped) }
+        generation = UUID(); state = .stopped
         receiver?.cancel(); sender?.cancel(); deadline?.cancel(); handshake?.cancel()
         receiver = nil; sender = nil; deadline = nil; handshake = nil
-        io.stop(); socket?.cancel(with: .normalClosure, reason: nil); socket = nil
+        if io.stop() != nil {
+            diagnostics.record(.audioTeardown)
+            status += "\nتوقف التسجيل والتشغيل، لكن تعذر تحرير جلسة الصوت للنظام."
+        }
+        socket?.cancel(with: .normalClosure, reason: nil); socket = nil
         network?.invalidateAndCancel(); network = nil
         userTurnAvailable = false; committedPromptID = nil; responsePrompts = [:]
-        responseActive = false; queuedBytes = 0; muted = false
+        responseActive = false; sendBudget = RealtimeSendBudget(); muted = false
+    }
+    private func fail(_ code: RealtimeDiagnosticCode, _ message: String) {
+        diagnostics.record(code)
+        status = message + "\nرمز التشخيص: " + code.rawValue
+        stop(status)
+    }
+    private func transportFailed(_ error: Error, httpStatus: Int?) {
+        let code = RealtimeDiagnostics.networkCode(error)
+        fail(code, RealtimeFailure.transport(httpStatus: httpStatus, networkCode: code))
     }
     func toggleMute() {
         guard state == .connected else { return }
@@ -118,13 +183,14 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             userTurnAvailable = false; committedPromptID = nil; responsePrompts = [:]
             send(["type": "input_audio_buffer.clear"])
         }
+        guard state == .connected else { return }
         status = muted ? "الميكروفون مكتوم" : "أستمع لإجابتك"
     }
     func beginQuiz() {
         guard state == .connected else { return }
         interruptPlayback()
         if responseActive { send(["type": "response.cancel"]); responseActive = false }
-        guard store.change({ $0.beginQuiz() }) else { return }
+        guard state == .connected, store.change({ $0.beginQuiz() }) else { return }
         userTurnAvailable = false; committedPromptID = nil; responsePrompts = [:]
         send(["type": "input_audio_buffer.clear"])
         speakCurrentState()
@@ -138,10 +204,15 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
         speakCurrentState()
     }
     private func send(_ object: [String: Any], audioBytes: Int = 0) {
-        guard let socket, let data = try? JSONSerialization.data(withJSONObject: object),
-              let message = String(data: data, encoding: .utf8) else { return }
-        queuedBytes += audioBytes
-        guard queuedBytes <= 24000 * 2 * 3 else { stop("الشبكة بطيئة للصوت المباشر. توقفت الجلسة دون إعادة اتصال تلقائي."); return }
+        // Calls already queued when stop invalidates the generation are expected.
+        guard state != .stopped else { return }
+        guard let socket else { fail(.networkOther, "لا يوجد اتصال نشط لإرسال الطلب."); return }
+        let message: String
+        do { message = try RealtimeMessageCodec.encode(object) }
+        catch { fail(.outgoingJSON, "تعذر تجهيز رسالة الاتصال. توقفت الجلسة دون إرسال بيانات ناقصة."); return }
+        guard sendBudget.reserve(audioBytes: audioBytes) else {
+            fail(.sendBackpressure, "الشبكة بطيئة للصوت المباشر. توقفت الجلسة دون إعادة اتصال تلقائي."); return
+        }
         let previous = sender, token = generation
         sender = Task { [weak self] in
             await previous?.value
@@ -149,17 +220,20 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             do {
                 try await socket.send(.string(message))
                 guard self.generation == token else { return }
-                self.queuedBytes -= audioBytes
+                self.sendBudget.release(audioBytes: audioBytes)
             } catch {
-                guard self.generation == token else { return }
-                self.stop("تعذر إرسال الصوت. توقف الاتصال وبقي تقدمك محفوظًا.")
+                guard self.generation == token, !Task.isCancelled else { return }
+                self.transportFailed(error, httpStatus: (socket.response as? HTTPURLResponse)?.statusCode)
             }
         }
     }
     private func speakCurrentState() {
-        send(["type": "session.update", "session": ["type": "realtime",
-              "instructions": AudioTutorProtocol.instructions(progress: store.progress, cards: store.allCards)]])
-        send(["type": "response.create"])
+        guard state != .stopped else { return }
+        do {
+            let instructions = try AudioTutorProtocol.instructions(progress: store.progress, cards: store.allCards)
+            send(["type": "session.update", "session": ["type": "realtime", "instructions": instructions]])
+            send(["type": "response.create"])
+        } catch { fail(.outgoingJSON, "تعذر تجهيز محتوى الدرس. توقفت الجلسة دون إرسال حالة ناقصة.") }
     }
     private func interruptPlayback() {
         if let responseID = activeResponseID { interruptedResponses.insert(responseID) }
@@ -168,24 +242,26 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             send(["type": "conversation.item.truncate", "item_id": item, "content_index": 0, "audio_end_ms": milliseconds])
         }
     }
-    private func handle(_ event: [String: Any]) {
-        guard let type = event["type"] as? String else { return }
+    private func handle(_ event: [String: Any]) throws {
+        guard state != .stopped else { return }
+        guard let type = event["type"] as? String else { throw RealtimeMessageCodec.Failure.invalidEvent }
         switch type {
         case "session.created":
-            send(AudioTutorProtocol.sessionUpdate(progress: store.progress, cards: store.allCards))
+            send(try AudioTutorProtocol.sessionUpdate(progress: store.progress, cards: store.allCards))
         case "session.updated":
             if state == .connecting {
                 do {
-                    try io.start(); state = .connected; handshake?.cancel(); status = "الجلسة متصلة. الميكروفون يعمل"
+                    try io.start(); state = .connected; handshake?.cancel(); diagnostics.record(.sessionReady); status = "الجلسة متصلة. الميكروفون يعمل"
                     send(["type": "response.create"])
-                } catch { stop("تعذر تشغيل الصوت. أوقف المكالمات الأخرى ثم حاول مجددًا.") }
+                } catch { fail(.audioSetup, "تعذر تشغيل الصوت. أوقف المكالمات الأخرى ثم حاول مجددًا.") }
             }
         case "input_audio_buffer.speech_started": interruptPlayback()
         case "input_audio_buffer.committed":
             if !muted { committedPromptID = store.progress.session?.promptID }
         case "response.created":
             responseActive = true
-            activeResponseID = (event["response"] as? [String: Any])?["id"] as? String
+            guard let response = event["response"] as? [String: Any], let responseID = response["id"] as? String, !responseID.isEmpty else { throw RealtimeMessageCodec.Failure.invalidEvent }
+            activeResponseID = responseID
             if let response = event["response"] as? [String: Any],
                let id = response["id"] as? String, let prompt = committedPromptID {
                 responsePrompts[id] = prompt
@@ -193,15 +269,17 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             committedPromptID = nil
         case "response.output_audio.delta":
             guard !interruptedResponses.contains(event["response_id"] as? String ?? "") else { return }
-            guard let item = event["item_id"] as? String, !interruptedItems.contains(item),
-                  let encoded = event["delta"] as? String, let data = Data(base64Encoded: encoded) else { return }
-            do { try io.play(data, itemID: item) }
-            catch { stop("تعذر تشغيل الصوت المستلم. توقفت الجلسة لحماية استقرار الصوت.") }
+            guard let item = event["item_id"] as? String, !item.isEmpty else { throw RealtimeMessageCodec.Failure.invalidEvent }
+            guard !interruptedItems.contains(item) else { return }
+            do { try io.play(RealtimeMessageCodec.audio(event["delta"]), itemID: item) }
+            catch { fail(error is RealtimeMessageCodec.Failure ? .invalidAudio : .audioPlayback,
+                         "تعذر تشغيل الصوت المستلم. توقفت الجلسة لحماية استقرار الصوت.") }
         case "response.output_audio_transcript.done":
             guard !interruptedResponses.contains(event["response_id"] as? String ?? "") else { return }
-            if let text = event["transcript"] as? String { transcript = String(text.prefix(4000)) }
+            guard let text = event["transcript"] as? String else { throw RealtimeMessageCodec.Failure.invalidEvent }
+            transcript = String(text.prefix(4000))
         case "response.done":
-            guard let response = event["response"] as? [String: Any] else { return }
+            guard let response = event["response"] as? [String: Any], let identifier = response["id"] as? String, !identifier.isEmpty else { throw RealtimeMessageCodec.Failure.invalidEvent }
             let responseID = response["id"] as? String ?? ""
             if responseID == activeResponseID { responseActive = false }
             // Usage belongs to the response even when its audio/tools were cancelled.
@@ -217,44 +295,50 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             defer { userTurnAvailable = false }
             switch RealtimeResponseDisposition.classify(response) {
             case .stopSession(let message):
+                diagnostics.record(.responseFailed)
                 stop(message); return
             case .keepSession(let message):
                 // response.done is generation completion, not playback completion.
                 // Let queued audio finish, preserve mute/deadline and wait for the user.
-                if let message { status = message }
+                if let message { status = message; diagnostics.record(.responseInterrupted) }
                 return
             case .processCompleted:
                 break
             }
-            let calls = (response["output"] as? [[String: Any]] ?? []).filter { $0["type"] as? String == "function_call" }
+            guard let output = response["output"] as? [[String: Any]] else { throw RealtimeMessageCodec.Failure.invalidEvent }
+            let calls = output.filter { $0["type"] as? String == "function_call" }
             var mutationUsed = false
             for call in calls {
-                guard let callID = call["call_id"] as? String, !handledCalls.contains(callID) else { continue }
+                guard let callID = call["call_id"] as? String, !callID.isEmpty else { throw RealtimeMessageCodec.Failure.invalidTool }
+                guard !handledCalls.contains(callID) else { continue }
                 handledCalls.insert(callID)
                 let accepted = !mutationUsed && handleTool(call)
+                guard state != .stopped else { return } // A failed disk write stops paid work immediately.
                 mutationUsed = mutationUsed || accepted
                 let result: [String: Any] = ["accepted": accepted,
-                    "state": AudioTutorProtocol.instructions(progress: store.progress, cards: store.allCards)]
-                let output = (try? JSONSerialization.data(withJSONObject: result)).flatMap { String(data: $0, encoding: .utf8) } ?? "{}"
+                    "state": try AudioTutorProtocol.instructions(progress: store.progress, cards: store.allCards)]
+                let output = try RealtimeMessageCodec.encode(result)
                 send(["type": "conversation.item.create", "item": ["type": "function_call_output", "call_id": callID, "output": output]])
             }
             if !calls.isEmpty {
                 // Refresh the authoritative instructions before the next question.
                 // Never allow repeated rejected calls to generate a paid response loop.
                 if mutationUsed { speakCurrentState() }
-                else { stop("لم يُقبل التقييم أو الطلب لأنه لم يرتبط بإجابة جديدة للسؤال الحالي. بقي التقدم السابق محفوظًا؛ يمكنك بدء الجلسة مجددًا.") }
+                else { fail(.toolRejected, "لم يُقبل التقييم أو الطلب لأنه لم يرتبط بإجابة جديدة للسؤال الحالي. بقي التقدم السابق محفوظًا؛ يمكنك بدء الجلسة مجددًا.") }
             }
         case "error":
             let code = (event["error"] as? [String: Any])?["code"] as? String
             if code == "response_cancel_not_active" { return }
+            diagnostics.record(.serviceRejected)
             stop(RealtimeFailure.service(event["error"] as? [String: Any], duringSetup: state == .connecting))
         default: break
         }
     }
     private func handleTool(_ call: [String: Any]) -> Bool {
-        guard userTurnAvailable, let name = call["name"] as? String,
-              let raw = call["arguments"] as? String, raw.utf8.count <= 8000,
-              let arguments = try? JSONSerialization.jsonObject(with: Data(raw.utf8)) as? [String: Any] else { return false }
+        guard userTurnAvailable, let name = call["name"] as? String else { return false }
+        let arguments: [String: Any]
+        do { arguments = try RealtimeMessageCodec.arguments(call["arguments"]) }
+        catch { diagnostics.record(.invalidTool); return false }
         switch name {
         case "begin_quiz":
             guard store.change({ $0.beginQuiz() }) else { return false }
@@ -275,6 +359,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
                                      turkish: turkish, arabic: arabic, acceptedArabic: [arabic],
                                      exampleTurkish: example, exampleArabic: translation)
             muted = true; send(["type": "input_audio_buffer.clear"])
+            guard state == .connected else { return false }
             status = "اقتراح كلمة جاهز للمراجعة. الميكروفون مكتوم حتى تعيد تشغيله."
         default: return false
         }

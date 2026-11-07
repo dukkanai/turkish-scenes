@@ -37,6 +37,8 @@ import Foundation
         for status in [nil, 101, 200, 400, 999] as [Int?] {
             assert(RealtimeFailure.transport(httpStatus: status).contains("دون رمز خطأ خدمة محدد"))
         }
+        assert(RealtimeFailure.transport(httpStatus: nil, networkCode: .networkTLS).contains("لم نتجاوز فحص الشهادة"))
+        assert(RealtimeFailure.transport(httpStatus: nil, networkCode: .networkOffline).contains("غير متصل بالإنترنت"))
         print("PASS: actionable error categories, stage, parameter, HTTP statuses and secret-safe diagnostics")
     }
 }

@@ -70,14 +70,24 @@ enum RealtimeFailure {
         return explanation + "\n" + details.joined(separator: "، ") + "\nتوقف الميكروفون. لم يُعرض المفتاح أو يُسجّل."
     }
 
-    static func transport(httpStatus: Int?) -> String {
+    static func transport(httpStatus: Int?, networkCode: RealtimeDiagnosticCode = .networkOther) -> String {
         switch httpStatus {
         case 401: return "رفض OpenAI مصادقة الاتصال (HTTP 401). راجع المفتاح داخل التطبيق ولا ترسله لأحد."
         case 403: return "رفض OpenAI صلاحية الاتصال (HTTP 403). راجع صلاحيات مشروع API وإتاحة الخدمة."
         case 404: return "لم يجد OpenAI المورد المطلوب (HTTP 404). يلزم التحقق من النموذج والعنوان والصلاحيات."
         case 429: return "رفض OpenAI الاتصال بحد استخدام (HTTP 429). قد يكون حدًا مؤقتًا أو حصة API؛ لا يمكن الجزم من هذا الرمز وحده."
         case 500, 502, 503, 504: return "تعذر الاتصال بخدمة OpenAI بسبب خطأ خادم (HTTP \(httpStatus!)). حاول لاحقًا."
-        default: return "انقطع الاتصال دون رمز خطأ خدمة محدد. حُفظ التقدم السابق. اضغط البدء لإعادة الاتصال؛ لا نعيد الاتصال تلقائيًا."
+        default:
+            let reason: String
+            switch networkCode {
+            case .networkOffline: reason = "الجهاز غير متصل بالإنترنت."
+            case .networkTimeout: reason = "انتهت مهلة طلب الشبكة."
+            case .networkDNS: reason = "تعذر العثور على عنوان خدمة الاتصال."
+            case .networkTLS: reason = "تعذر التحقق من أمان الاتصال. لم نتجاوز فحص الشهادة."
+            case .networkLost: reason = "فُقد اتصال الشبكة أو تعذر الوصول إلى الخادم."
+            default: reason = "انقطع الاتصال دون رمز خطأ خدمة محدد."
+            }
+            return reason + " حُفظ التقدم السابق. اضغط البدء لإعادة الاتصال؛ لا نعيد الاتصال تلقائيًا."
         }
     }
 }

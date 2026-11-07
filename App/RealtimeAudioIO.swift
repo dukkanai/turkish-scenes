@@ -6,17 +6,20 @@ import AVFoundation
     private let player = AVAudioPlayerNode()
     private var tapInstalled = false
     private var attached = false
+    private var sessionActive = false
     private var generation = UUID()
     private var timeline = AudioPlaybackTimeline()
-    private let format = AVAudioFormat(standardFormatWithSampleRate: 24000, channels: 1)!
+    private let format = AVAudioFormat(standardFormatWithSampleRate: 24000, channels: 1)
     var onPCM: ((Data) -> Void)?
-    var onFailure: (() -> Void)?
+    var onFailure: ((AudioError) -> Void)?
     func start() throws {
+        guard !tapInstalled, !engine.isRunning, let format else { throw AudioError.format }
         let token = UUID()
         generation = token
         let session = AVAudioSession.sharedInstance()
         try session.setCategory(.playAndRecord, mode: .voiceChat, options: [.defaultToSpeaker, .allowBluetooth])
         try session.setActive(true)
+        sessionActive = true
         let input = engine.inputNode
         try input.setVoiceProcessingEnabled(true)
         if !attached { engine.attach(player); attached = true }
@@ -27,15 +30,35 @@ import AVFoundation
               let converter = AVAudioConverter(from: inputFormat, to: pcm) else { throw AudioError.format }
         input.installTap(onBus: 0, bufferSize: 2048, format: inputFormat) { [weak self] buffer, _ in
             let capacity = AVAudioFrameCount(ceil(Double(buffer.frameLength) * 24000 / inputFormat.sampleRate)) + 32
-            guard let output = AVAudioPCMBuffer(pcmFormat: pcm, frameCapacity: capacity) else { return }
+            guard let output = AVAudioPCMBuffer(pcmFormat: pcm, frameCapacity: capacity) else {
+                Task { @MainActor [weak self] in
+                    guard let self, self.generation == token else { return }
+                    self.onFailure?(.allocation)
+                }
+                return
+            }
             var supplied = false
             var error: NSError?
-            converter.convert(to: output, error: &error) { _, status in
+            let conversion = converter.convert(to: output, error: &error) { _, status in
                 if supplied { status.pointee = .noDataNow; return nil }
                 supplied = true; status.pointee = .haveData; return buffer
             }
-            guard error == nil, output.frameLength > 0,
-                  let bytes = output.audioBufferList.pointee.mBuffers.mData else { return }
+            guard error == nil, conversion != .error else {
+                Task { @MainActor [weak self] in
+                    guard let self, self.generation == token else { return }
+                    self.onFailure?(.conversion)
+                }
+                return
+            }
+            // A converter may need more input before producing a frame.
+            guard output.frameLength > 0 else { return }
+            guard let bytes = output.audioBufferList.pointee.mBuffers.mData else {
+                Task { @MainActor [weak self] in
+                    guard let self, self.generation == token else { return }
+                    self.onFailure?(.allocation)
+                }
+                return
+            }
             let data = Data(bytes: bytes, count: Int(output.frameLength) * 2)
             Task { @MainActor [weak self] in
                 guard let self, self.generation == token else { return }
@@ -48,7 +71,7 @@ import AVFoundation
         player.play()
     }
     func play(_ data: Data, itemID: String) throws {
-        guard !data.isEmpty, data.count % 2 == 0, data.count <= 512_000 else { throw AudioError.format }
+        guard engine.isRunning, let format, !data.isEmpty, data.count % 2 == 0, data.count <= 512_000 else { throw AudioError.format }
         let count = data.count / 2
         guard let buffer = AVAudioPCMBuffer(pcmFormat: format, frameCapacity: AVAudioFrameCount(count)),
               let samples = buffer.floatChannelData?[0] else { throw AudioError.format }
@@ -76,11 +99,16 @@ import AVFoundation
         if engine.isRunning { player.play() }
         return result
     }
-    func stop() {
+    @discardableResult func stop() -> AudioError? {
         generation = UUID() // Discard tap callbacks already queued before teardown.
         if tapInstalled { engine.inputNode.removeTap(onBus: 0); tapInstalled = false }
         player.stop(); engine.stop(); timeline.reset()
-        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        guard sessionActive else { return nil }
+        do {
+            try AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+            sessionActive = false
+        } catch { return .deactivation }
+        return nil
     }
-    enum AudioError: Error { case format, overflow }
+    enum AudioError: Error { case format, overflow, conversion, allocation, deactivation }
 }

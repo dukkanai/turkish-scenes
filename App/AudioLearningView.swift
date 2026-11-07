@@ -97,6 +97,12 @@ struct AudioLearningView: View {
         } message: { Text("سيبقى سجل إجاباتك وأخطائك، لكن ترتيب أسئلة الدرس غير المكتمل سيبدأ من جديد عند العودة إليه.") }
         .onChange(of: scenePhase) { phase in if phase != .active { tutor.stop("توقفت الجلسة عند مغادرة التطبيق. يمكنك استئناف الدرس لاحقًا.") } }
         .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.interruptionNotification)) { _ in tutor.stop("توقفت الجلسة بسبب مقاطعة صوتية. تقدمك محفوظ.") }
+        .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.mediaServicesWereLostNotification)) { _ in
+            tutor.stop("توقفت خدمة الصوت في النظام. توقفت الجلسة؛ حاول مجددًا بعد عودة الصوت.")
+        }
+        .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.mediaServicesWereResetNotification)) { _ in
+            tutor.stop("أعاد النظام تهيئة خدمة الصوت. توقفت الجلسة؛ أعد فتح التطبيق قبل المحاولة مجددًا.")
+        }
         .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.routeChangeNotification)) { note in
             if let raw = note.userInfo?[AVAudioSessionRouteChangeReasonKey] as? UInt,
                AVAudioSession.RouteChangeReason(rawValue: raw) == .oldDeviceUnavailable {
@@ -200,6 +206,16 @@ private struct AudioSessionView: View {
                 }
                 if tutor.totalTokens > 0 { Text("وحدات استخدام أبلغت عنها الخدمة: \(tutor.totalTokens). ليست تقديرًا بالدولار.").font(.footnote) }
             }
+            if !tutor.diagnostics.entries.isEmpty {
+                Section {
+                    DisclosureGroup("تشخيص الجلسة الآمن") {
+                        ForEach(tutor.diagnostics.entries) { entry in
+                            Text("\(entry.id). \(entry.code.rawValue)").font(.caption).textSelection(.enabled)
+                        }
+                        Text("رموز تقنية فقط، دون المفتاح أو الصوت أو نص إجابتك. تبقى مؤقتًا في الذاكرة حتى الجلسة التالية ولا تُرفع لأي جهة.").font(.footnote)
+                    }
+                }
+            }
             if !tutor.transcript.isEmpty {
                 Section("آخر كلام المعلم") { LanguageText(text: tutor.transcript, language: "ar") }
             }
@@ -236,19 +252,22 @@ private struct AudioSettingsView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var key = ""
     @State private var hasKey = false
+    @State private var keyReadFailed = false
     @State private var message = ""
     @State private var deleteConfirmation = false
     var body: some View {
         Form {
             Section("مفتاحك الشخصي") {
-                Text(hasKey ? "يوجد مفتاح محفوظ على هذا الهاتف" : "لم يُحفظ مفتاح")
+                Text(keyReadFailed ? "تعذر التحقق من المفتاح المحفوظ" : hasKey ? "يوجد مفتاح محفوظ على هذا الهاتف" : "لم يُحفظ مفتاح")
+                if keyReadFailed { Button("إعادة فحص المفتاح المحفوظ") { loadKeyState() } }
                 SecureField("أدخل مفتاح OpenAI", text: $key)
                     .textInputAutocapitalization(.never).autocorrectionDisabled().privacySensitive()
                     .accessibilityIdentifier("audio-key-input")
                 Button(hasKey ? "حفظ واستبدال المفتاح" : "حفظ المفتاح بأمان") {
                     tutor.stop()
-                    do { try PersonalAPIKey.save(key); key = ""; hasKey = true; message = "حُفظ في Keychain لهذا الهاتف فقط. لم يبدأ اتصال مدفوع." }
-                    catch { message = "تعذر الحفظ. تحقق من صيغة المفتاح وحاول مجددًا." }
+                    do { try PersonalAPIKey.save(key); key = ""; hasKey = true; keyReadFailed = false; message = "حُفظ في Keychain لهذا الهاتف فقط. لم يبدأ اتصال مدفوع." }
+                    catch PersonalAPIKey.KeyError.invalid { message = "صيغة المفتاح غير صالحة. لم يتغير المفتاح المحفوظ. الرمز: keyFormat" }
+                    catch { message = "تعذر الحفظ في Keychain. لم نؤكد حفظ المفتاح. الرمز: keychainWrite" }
                 }.disabled(key.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 Button("حذف المفتاح المحفوظ", role: .destructive) { deleteConfirmation = true }.disabled(!hasKey)
                 Text(message)
@@ -261,16 +280,26 @@ private struct AudioSettingsView: View {
                 Text("مراجعة المنهج نصية آلية، وليست اعتمادًا من متحدث أصلي أو اختبار نطق على جميع الأجهزة.")
             }
         }.navigationTitle("المفتاح والخصوصية")
-            .onAppear { hasKey = (try? PersonalAPIKey.read()) != nil }
+            .onAppear { loadKeyState() }
             .onDisappear { key = "" }
             .onChange(of: scenePhase) { if $0 != .active { key = "" } }
             .alert("حذف مفتاح OpenAI؟", isPresented: $deleteConfirmation) {
                 Button("إلغاء", role: .cancel) {}
                 Button("حذف", role: .destructive) {
                     tutor.stop()
-                    do { try PersonalAPIKey.delete(); hasKey = false; key = ""; message = "حُذف المفتاح. تقدم التعلم لم يتغير." }
-                    catch { message = "تعذر حذف المفتاح. لم نؤكد الحذف؛ حاول مجددًا." }
+                    do { try PersonalAPIKey.delete(); hasKey = false; keyReadFailed = false; key = ""; message = "حُذف المفتاح. تقدم التعلم لم يتغير." }
+                    catch { message = "تعذر حذف المفتاح. لم نؤكد الحذف؛ حاول مجددًا. الرمز: keychainDelete" }
                 }
             } message: { Text("ستحتاج إلى إدخاله مجددًا قبل جلسة صوتية. لا يحذف هذا تقدّمك.") }
     }
+    private func loadKeyState() {
+        do {
+            hasKey = try PersonalAPIKey.read() != nil
+            keyReadFailed = false
+        } catch {
+            keyReadFailed = true
+            message = "تعذر قراءة Keychain. لا يعني ذلك غياب المفتاح. الرمز: keychainRead"
+        }
+    }
+
 }

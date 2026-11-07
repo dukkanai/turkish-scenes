@@ -5,6 +5,9 @@ import Combine
     @Published private(set) var progress = AudioLearningProgress()
     @Published private(set) var cards: [AudioCard] = []
     @Published var errorMessage: String?
+    @Published private(set) var persistenceFailure = false
+    var canUseProgress: Bool { !blocked && !persistenceFailure && !curriculumUnavailable }
+    private var curriculumUnavailable = false
     private let directory: URL
     private var blocked = false
     private var recovered = false
@@ -16,7 +19,7 @@ import Combine
             .appendingPathComponent("TurkishScenesAudio", isDirectory: true)
         if loadCurriculum {
             do { cards = try AudioCurriculum.load() }
-            catch { errorMessage = "تعذر قراءة منهج التعلم. لم تتغير بياناتك." }
+            catch { curriculumUnavailable = true; errorMessage = "تعذر قراءة منهج التعلم. لم تتغير بياناتك، ولن نبدأ جلسة بمنهج ناقص." }
         }
         load()
     }
@@ -35,7 +38,7 @@ import Combine
                 progress = try decode(backup); recovered = true
                 errorMessage = "استُعيدت النسخة السابقة من تقدم التعلم الصوتي."
             } catch {
-                blocked = true; errorMessage = "تعذر قراءة تقدم التعلم الصوتي. الملفات محفوظة ولن نستبدلها تلقائيًا."
+                blocked = true; persistenceFailure = true; errorMessage = "تعذر قراءة تقدم التعلم الصوتي. الملفات محفوظة ولن نستبدلها تلقائيًا."
             }
         }
     }
@@ -54,8 +57,9 @@ import Combine
                 }
             }
             try JSONEncoder().encode(value).write(to: file, options: [.atomic, .completeFileProtection])
-            progress = value; recovered = false; errorMessage = nil; return true
+            progress = value; recovered = false; persistenceFailure = false; errorMessage = nil; return true
         } catch {
+            persistenceFailure = true
             errorMessage = "لم يُحفظ التغيير. بقي التقدم السابق محفوظًا. أوقف الجلسة وحاول مجددًا."
             return false
         }

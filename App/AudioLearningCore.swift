@@ -156,13 +156,14 @@ struct AudioLearningProgress: Codable {
     /// Application state, not the model, owns progression. Two independent correct recalls
     /// per item are required; a mistake resets that item's streak and schedules it again.
     mutating func record(promptID: String, cardID: String, verdict: AudioVerdict, now: Date = Date()) -> Bool {
-        guard var current = session, current.phase == .quiz, current.promptID == promptID,
+        guard var current = session, current.isValid, current.phase == .quiz, current.promptID == promptID,
               current.currentID == cardID else { return false }
         current.promptID = UUID().uuidString // Reject duplicate, stale and replayed tool results.
         if verdict != .unclear {
             var item = mastery[cardID] ?? AudioMastery()
             current.queue.removeFirst()
             if verdict == .correct {
+                guard item.correctCount < Int.max else { return false }
                 item.correctCount += 1
                 current.streaks[cardID, default: 0] += 1
                 if current.streaks[cardID, default: 0] >= 2 {
@@ -171,6 +172,7 @@ struct AudioLearningProgress: Codable {
                     item.reviewDue = now.addingTimeInterval(current.isReview ? 3 * 86400 : 86400)
                 } else { current.queue.append(cardID) }
             } else {
+                guard item.wrongCount < Int.max else { return false }
                 item.wrongCount += 1; item.openMistake = true; item.masteredAt = nil
                 item.reviewDue = now; current.streaks[cardID] = 0; current.queue.append(cardID)
             }

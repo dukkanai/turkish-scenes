@@ -1,7 +1,7 @@
 name: iOS CI
 on:
   push:
-    branches: ['main']
+    branches: ['main', 'dev/ios-app-20261101']
   pull_request:
   workflow_dispatch:
 permissions:

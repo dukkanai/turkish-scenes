@@ -6,12 +6,12 @@ import Foundation
         assert(AudioTutorProtocol.endpoint.user == nil && AudioTutorProtocol.model == "gpt-realtime-2.1")
         assert(Set(AudioTutorProtocol.tools.compactMap { $0["name"] as? String }) == ["begin_quiz", "record_answer", "propose_word"])
         for tool in AudioTutorProtocol.tools { assert(JSONSerialization.isValidJSONObject(tool)) }
-        let instructions = AudioTutorProtocol.instructions(progress: AudioLearningProgress(), cards: [])
+        let instructions = try AudioTutorProtocol.instructions(progress: AudioLearningProgress(), cards: [])
         assert(instructions.contains("unclear") && instructions.contains("لا تسجّل إجابة في مرحلة الشرح"))
         assert(instructions.contains("لا تحتاج إلى النظر إلى الشاشة"))
         assert(instructions.contains("لا تجمع عناصر الدرس الخمسة في رد واحد"))
         assert(instructions.contains("ثم انتظر المتعلم قبل العنصر التالي"))
-        let configuration = AudioTutorProtocol.sessionConfiguration(progress: AudioLearningProgress(), cards: [])
+        let configuration = try AudioTutorProtocol.sessionConfiguration(progress: AudioLearningProgress(), cards: [])
         assert(JSONSerialization.isValidJSONObject(configuration))
         assert(Set(configuration.keys) == ["type", "instructions", "output_modalities", "max_output_tokens", "audio", "tools", "tool_choice"])
         assert(configuration["model"] == nil, "Model is immutable after connection; do not send it in session.update")
@@ -30,7 +30,7 @@ import Foundation
         assert(vad as? [String: String] == ["type": "semantic_vad"])
         assert((audio["output"] as! [String: Any])["voice"] as? String == "marin")
         // Exercise the same event factory used by the live session.created handler.
-        let event = AudioTutorProtocol.sessionUpdate(progress: AudioLearningProgress(), cards: [])
+        let event = try AudioTutorProtocol.sessionUpdate(progress: AudioLearningProgress(), cards: [])
         let encoded = try JSONSerialization.data(withJSONObject: event)
         let decoded = try JSONSerialization.jsonObject(with: encoded) as! [String: Any]
         // Independent full wire-shape expectation: exact keys, nesting and JSON types.

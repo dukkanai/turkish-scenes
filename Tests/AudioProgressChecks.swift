@@ -22,6 +22,7 @@ import Foundation
         assert(savedFiles.contains { $0.hasPrefix("unreadable-") })
         try Data("broken".utf8).write(to: file); try Data("broken".utf8).write(to: backup)
         let blocked = AudioProgressStore(directory: root, loadCurriculum: false)
+        assert(!blocked.canUseProgress && blocked.persistenceFailure)
         assert(!blocked.change { $0.begin(lesson) })
         let preserved = try String(contentsOf: file)
         assert(preserved == "broken")
@@ -29,6 +30,8 @@ import Foundation
         try Data("keep".utf8).write(to: blockedPath)
         let unwritable = AudioProgressStore(directory: blockedPath, loadCurriculum: false)
         assert(!unwritable.addPersonal(card) && unwritable.progress.personalCards.isEmpty)
+        assert(unwritable.persistenceFailure && !unwritable.canUseProgress)
+        assert(!reopened.persistenceFailure && reopened.canUseProgress)
         print("PASS: persistence, backup recovery, corrupt-file preservation and failed-write rollback")
     }
 }

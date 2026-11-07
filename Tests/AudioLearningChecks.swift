@@ -44,6 +44,14 @@ import Foundation
         assert(!p.begin(AudioLesson(id: "too-many", track: .word, number: 3, cards: cards)))
         var corrupt = p; corrupt.session!.queue = ["unrecognized"]
         assert(!corrupt.isValid)
+        for verdict in [AudioVerdict.correct, .incorrect] {
+            var overflow = AudioLearningProgress()
+            assert(overflow.begin(lessons[0]) && overflow.beginQuiz())
+            let before = overflow.session!
+            overflow.mastery[cards[0].id] = AudioMastery(correctCount: Int.max, wrongCount: Int.max)
+            assert(!overflow.record(promptID: before.promptID, cardID: cards[0].id, verdict: verdict))
+            assert(overflow.session?.promptID == before.promptID && overflow.attempts.isEmpty)
+        }
         print("PASS: lesson mastery, unclear, retry, stale/replay rejection, persistence and review")
     }
 }
