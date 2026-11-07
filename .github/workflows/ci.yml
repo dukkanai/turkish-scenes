@@ -62,4 +62,4 @@ jobs:
           xcrun simctl bootstatus "$DEVICE" -b
           xcodebuild -project TurkishScenes.xcodeproj -scheme TurkishScenes -destination "platform=iOS Simulator,id=$DEVICE" -derivedDataPath build/DerivedData -resultBundlePath build/UITests.xcresult CODE_SIGNING_ALLOWED=NO -parallel-testing-enabled NO -maximum-concurrent-test-simulator-destinations 1 -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 180 test
       - name: Report scope
-        run: echo 'Automated data, progress, security-contract and simulator checks only. Paid Realtime sessions and real-device VoiceOver/audio remain unverified.'
+        run: echo 'Automated data, progress, security-contract and simulator checks only. Paid GPT-Live account access and real-device VoiceOver/audio remain unverified.'

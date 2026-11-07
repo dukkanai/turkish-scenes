@@ -28,7 +28,7 @@ Local mute blocks microphone submission immediately; unmute waits for the matchi
 
 Added Python source/security contracts and compiled Swift protocol/replay checks cover Live payload shape, no Realtime endpoint substitution, tool-result shape, nested-response correlation without `response_id`, duplicate events, failed/malformed tool items, stale prompt/speech rejection, boolean/nonfinite duration rejection and cumulative usage. Existing curriculum, storage, key, error handling and delivery tests remain.
 
-Python checks pass locally. Swift compilation, simulator UI, unsigned archive and security checks must pass on the exact final commit before TestFlight upload. Paid model connectivity, actual microphone/network playback and real-device VoiceOver have **not** been verified. Upload or Apple's processing success is not proof of those checks.
+The code revision `d7baf81ab74d94e1685f4d55b9c70601d518bc86` passed all 20 Python checks, compiled Swift suites including Live protocol/replay, simulator build, Arabic/icon verification, optimized unsigned Release archive and iPhone UI smoke in [CI run 42368164871](https://github.com/dukkanai/turkish-scenes/actions/runs/42368164871). The TestFlight workflow reruns its checks on the release commit before signing and uploading. Paid model connectivity, actual microphone/network playback and real-device VoiceOver have **not** been verified. Upload or Apple's processing success is not proof of those checks.
 
 ## Official sources reviewed 2026-11-07
 
