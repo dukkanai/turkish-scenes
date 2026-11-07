@@ -50,7 +50,8 @@ class CurriculumChecks(unittest.TestCase):
         self.assertIn("completionHandler(nil)", tutor)
         self.assertIn("maximumMessageSize = 1_000_000", tutor)
         self.assertIn('RealtimeFailure.service(event["error"]', tutor)
-        self.assertIn('RealtimeFailure.service(details?["error"]', tutor)
+        disposition = (ROOT / "App/RealtimeResponseDisposition.swift").read_text()
+        self.assertIn('RealtimeFailure.service(details?["error"]', disposition)
         self.assertIn('RealtimeFailure.transport(httpStatus:', tutor)
         self.assertIn('AudioTutorProtocol.sessionUpdate', tutor)
         self.assertNotIn('"model": AudioTutorProtocol.model', tutor)
@@ -73,6 +74,22 @@ class CurriculumChecks(unittest.TestCase):
         self.assertIn('return', interrupted)
         self.assertNotIn('handleTool', interrupted)
         self.assertIn('usage = RealtimeUsage()', tutor.split('func start(minutes:', 1)[1].split('func stop(', 1)[0])
+
+    def test_incomplete_response_preserves_session_and_playback(self):
+        tutor = (ROOT / "App/RealtimeTutor.swift").read_text()
+        handler = tutor.split('case "response.done":', 1)[1].split('case "error":', 1)[0]
+        self.assertIn('switch RealtimeResponseDisposition.classify(response)', handler)
+        self.assertLess(handler.index('usage.record(response)'), handler.index('RealtimeResponseDisposition.classify(response)'))
+        self.assertLess(handler.index('responsePrompts.removeValue'), handler.index('RealtimeResponseDisposition.classify(response)'))
+        self.assertIn('defer { userTurnAvailable = false }', handler)
+        recovery = handler.split('case .keepSession(let message):', 1)[1].split('case .processCompleted:', 1)[0]
+        recovery = re.sub(r'//[^\n]*', '', recovery)
+        self.assertIn('status = message', recovery)
+        self.assertIn('return', recovery)
+        for forbidden in ['stop(', 'io.', 'send(', 'speakCurrentState(', 'store.change', 'handleTool', 'muted =', 'deadline', 'state =']:
+            self.assertNotIn(forbidden, recovery)
+        self.assertLess(handler.index('case .processCompleted:'), handler.index('handleTool(call)'))
+        self.assertIn('stop(message); return', handler.split('case .keepSession', 1)[0])
 
 if __name__ == "__main__":
     unittest.main()

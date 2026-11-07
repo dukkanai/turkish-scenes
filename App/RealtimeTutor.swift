@@ -215,14 +215,17 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             let responsePrompt = responsePrompts.removeValue(forKey: responseID)
             userTurnAvailable = responsePrompt != nil && responsePrompt == store.progress.session?.promptID
             defer { userTurnAvailable = false }
-            if response["status"] as? String == "failed" {
-                let details = response["status_details"] as? [String: Any]
-                stop(RealtimeFailure.service(details?["error"] as? [String: Any], duringSetup: false)); return
+            switch RealtimeResponseDisposition.classify(response) {
+            case .stopSession(let message):
+                stop(message); return
+            case .keepSession(let message):
+                // response.done is generation completion, not playback completion.
+                // Let queued audio finish, preserve mute/deadline and wait for the user.
+                if let message { status = message }
+                return
+            case .processCompleted:
+                break
             }
-            if response["status"] as? String == "incomplete" {
-                stop("انتهى الرد قبل اكتماله. لم نحتسب تقييمًا ناقصًا؛ يمكنك المحاولة مجددًا."); return
-            }
-            guard response["status"] as? String == "completed" else { return }
             let calls = (response["output"] as? [[String: Any]] ?? []).filter { $0["type"] as? String == "function_call" }
             var mutationUsed = false
             for call in calls {

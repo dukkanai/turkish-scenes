@@ -1,4 +1,4 @@
-# Internal preview with minimal semantic VAD and interrupted-response usage checks. No paid API calls in CI.
+# Internal preview preserving the session and queued audio after incomplete responses. No paid API calls in CI.
 name: Internal TestFlight preview
 on:
   push:

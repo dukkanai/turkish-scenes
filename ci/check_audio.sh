@@ -10,6 +10,8 @@ swiftc App/AudioLearningCore.swift App/AudioTutorProtocol.swift Tests/AudioProto
 build/audio-protocol-checks
 swiftc App/RealtimeUsage.swift Tests/RealtimeUsageChecks.swift -o build/realtime-usage-checks
 build/realtime-usage-checks
+swiftc App/RealtimeFailure.swift App/RealtimeResponseDisposition.swift Tests/RealtimeResponseChecks.swift -o build/realtime-response-checks
+build/realtime-response-checks
 swiftc App/RealtimeFailure.swift Tests/RealtimeFailureChecks.swift -o build/realtime-failure-checks
 build/realtime-failure-checks
 swiftc App/SpeechLanguageRuns.swift Tests/SpeechLanguageChecks.swift -o build/speech-checks

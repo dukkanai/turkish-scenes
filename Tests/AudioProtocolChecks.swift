@@ -9,6 +9,8 @@ import Foundation
         let instructions = AudioTutorProtocol.instructions(progress: AudioLearningProgress(), cards: [])
         assert(instructions.contains("unclear") && instructions.contains("لا تسجّل إجابة في مرحلة الشرح"))
         assert(instructions.contains("لا تحتاج إلى النظر إلى الشاشة"))
+        assert(instructions.contains("لا تجمع عناصر الدرس الخمسة في رد واحد"))
+        assert(instructions.contains("ثم انتظر المتعلم قبل العنصر التالي"))
         let configuration = AudioTutorProtocol.sessionConfiguration(progress: AudioLearningProgress(), cards: [])
         assert(JSONSerialization.isValidJSONObject(configuration))
         assert(Set(configuration.keys) == ["type", "instructions", "output_modalities", "max_output_tokens", "audio", "tools", "tool_choice"])
