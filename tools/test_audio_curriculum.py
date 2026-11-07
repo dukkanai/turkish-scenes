@@ -52,7 +52,7 @@ class CurriculumChecks(unittest.TestCase):
         self.assertIn('RealtimeFailure.service(event["error"]', tutor)
         self.assertIn('RealtimeFailure.service(details?["error"]', tutor)
         self.assertIn('RealtimeFailure.transport(httpStatus:', tutor)
-        self.assertIn('AudioTutorProtocol.sessionConfiguration', tutor)
+        self.assertIn('AudioTutorProtocol.sessionUpdate', tutor)
         self.assertNotIn('"model": AudioTutorProtocol.model', tutor)
         failure = (ROOT / "App/RealtimeFailure.swift").read_text()
         self.assertNotIn('["message"]', failure)
@@ -64,6 +64,15 @@ class CurriculumChecks(unittest.TestCase):
             self.assertIsNone(re.search(r"sk-(?:proj-)?[A-Za-z0-9_-]{20,}", text))
             self.assertNotIn("print(key)", text)
         self.assertNotIn("YouTube", (ROOT / "App/TurkishScenesApp.swift").read_text())
+
+    def test_interrupted_response_usage_precedes_output_rejection(self):
+        tutor = (ROOT / "App/RealtimeTutor.swift").read_text()
+        handler = tutor.split('case "response.done":', 1)[1].split('case "error":', 1)[0]
+        self.assertLess(handler.index('usage.record(response)'), handler.index('if interruptedResponses.contains(responseID)'))
+        interrupted = handler.split('if interruptedResponses.contains(responseID)', 1)[1].split('let responsePrompt', 1)[0]
+        self.assertIn('return', interrupted)
+        self.assertNotIn('handleTool', interrupted)
+        self.assertIn('usage = RealtimeUsage()', tutor.split('func start(minutes:', 1)[1].split('func stop(', 1)[0])
 
 if __name__ == "__main__":
     unittest.main()

@@ -25,12 +25,34 @@ import Foundation
         }
         let input = audio["input"] as! [String: Any]
         let vad = input["turn_detection"] as! [String: Any]
-        assert(vad["type"] as? String == "server_vad" && vad["create_response"] as? Bool == true)
+        assert(vad as? [String: String] == ["type": "semantic_vad"])
         assert((audio["output"] as! [String: Any])["voice"] as? String == "marin")
-        let event: [String: Any] = ["type": "session.update", "session": configuration]
+        // Exercise the same event factory used by the live session.created handler.
+        let event = AudioTutorProtocol.sessionUpdate(progress: AudioLearningProgress(), cards: [])
         let encoded = try JSONSerialization.data(withJSONObject: event)
         let decoded = try JSONSerialization.jsonObject(with: encoded) as! [String: Any]
-        assert((decoded["session"] as! [String: Any])["model"] == nil)
-        print("PASS: fixed TLS endpoint, expected model, bounded tools and GA session.update payload")
+        // Independent full wire-shape expectation: exact keys, nesting and JSON types.
+        var expected = try JSONSerialization.jsonObject(with: Data("""
+        {"type":"session.update","session":{"type":"realtime","output_modalities":["audio"],
+        "max_output_tokens":700,"tool_choice":"auto","audio":{
+        "input":{"format":{"type":"audio/pcm","rate":24000},"noise_reduction":{"type":"near_field"},
+        "turn_detection":{"type":"semantic_vad"}},
+        "output":{"format":{"type":"audio/pcm","rate":24000},"voice":"marin"}}}}
+        """.utf8)) as! [String: Any]
+        var expectedSession = expected["session"] as! [String: Any]
+        expectedSession["instructions"] = instructions
+        expectedSession["tools"] = AudioTutorProtocol.tools
+        expected["session"] = expectedSession
+        let actualWire = try JSONSerialization.data(withJSONObject: decoded, options: [.sortedKeys])
+        let expectedWire = try JSONSerialization.data(withJSONObject: expected, options: [.sortedKeys])
+        assert(actualWire == expectedWire, "Serialized session.update must match the documented minimal semantic-VAD shape")
+        let decodedSession = decoded["session"] as! [String: Any]
+        let decodedInput = (decodedSession["audio"] as! [String: Any])["input"] as! [String: Any]
+        let decodedVAD = decodedInput["turn_detection"] as! [String: Any]
+        for forbidden in ["threshold", "prefix_padding_ms", "silence_duration_ms", "idle_timeout_ms"] {
+            assert(decodedVAD[forbidden] == nil, "Do not mix server-VAD fields into semantic VAD")
+        }
+        assert(decodedSession["model"] == nil)
+        print("PASS: fixed TLS endpoint, expected model, bounded tools and exact serialized semantic-VAD session.update")
     }
 }

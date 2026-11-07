@@ -18,6 +18,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
     @Published private(set) var muted = false
     @Published var proposedWord: AudioCard?
     @Published private(set) var totalTokens = 0
+    private var usage = RealtimeUsage()
     private let store: AudioProgressStore
     private let io = RealtimeAudioIO()
     private var network: URLSession?
@@ -47,6 +48,7 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
         guard state == .stopped, let session = store.progress.session, session.phase != .complete else { return }
         guard (1...10).contains(minutes) else { return }
         state = .connecting; status = "طلب إذن الميكروفون والاتصال"; transcript = ""; totalTokens = 0
+        usage = RealtimeUsage()
         let token = UUID(); generation = token
         let permitted = await withCheckedContinuation { continuation in
             AVAudioSession.sharedInstance().requestRecordPermission { continuation.resume(returning: $0) }
@@ -154,9 +156,6 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             }
         }
     }
-    private func sessionConfiguration() -> [String: Any] {
-        AudioTutorProtocol.sessionConfiguration(progress: store.progress, cards: store.allCards)
-    }
     private func speakCurrentState() {
         send(["type": "session.update", "session": ["type": "realtime",
               "instructions": AudioTutorProtocol.instructions(progress: store.progress, cards: store.allCards)]])
@@ -172,7 +171,8 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
     private func handle(_ event: [String: Any]) {
         guard let type = event["type"] as? String else { return }
         switch type {
-        case "session.created": send(["type": "session.update", "session": sessionConfiguration()])
+        case "session.created":
+            send(AudioTutorProtocol.sessionUpdate(progress: store.progress, cards: store.allCards))
         case "session.updated":
             if state == .connecting {
                 do {
@@ -201,9 +201,13 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             guard !interruptedResponses.contains(event["response_id"] as? String ?? "") else { return }
             if let text = event["transcript"] as? String { transcript = String(text.prefix(4000)) }
         case "response.done":
-            responseActive = false
             guard let response = event["response"] as? [String: Any] else { return }
             let responseID = response["id"] as? String ?? ""
+            if responseID == activeResponseID { responseActive = false }
+            // Usage belongs to the response even when its audio/tools were cancelled.
+            // Account before dropping interrupted output, without accepting its tools.
+            usage.record(response)
+            totalTokens = usage.totalTokens
             if interruptedResponses.contains(responseID) {
                 responsePrompts.removeValue(forKey: responseID)
                 return
@@ -211,7 +215,6 @@ private final class RealtimeNetworkPolicy: NSObject, URLSessionTaskDelegate {
             let responsePrompt = responsePrompts.removeValue(forKey: responseID)
             userTurnAvailable = responsePrompt != nil && responsePrompt == store.progress.session?.promptID
             defer { userTurnAvailable = false }
-            if let usage = response["usage"] as? [String: Any], let count = usage["total_tokens"] as? Int, count >= 0 { totalTokens += count }
             if response["status"] as? String == "failed" {
                 let details = response["status_details"] as? [String: Any]
                 stop(RealtimeFailure.service(details?["error"] as? [String: Any], duringSetup: false)); return

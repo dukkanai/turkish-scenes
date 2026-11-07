@@ -3,6 +3,9 @@ import Foundation
 enum AudioTutorProtocol {
     static let model = "gpt-realtime-2.1"
     static let endpoint = URL(string: "wss://api.openai.com/v1/realtime?model=gpt-realtime-2.1")!
+    static func sessionUpdate(progress: AudioLearningProgress, cards: [AudioCard]) -> [String: Any] {
+        ["type": "session.update", "session": sessionConfiguration(progress: progress, cards: cards)]
+    }
     static func sessionConfiguration(progress: AudioLearningProgress, cards: [AudioCard]) -> [String: Any] {
         // The model is selected by the connection URL and cannot be changed by
         // session.update. Keep this exact GA payload shared with offline tests.
@@ -11,8 +14,9 @@ enum AudioTutorProtocol {
          "audio": [
             "input": ["format": ["type": "audio/pcm", "rate": 24000],
                       "noise_reduction": ["type": "near_field"],
-                      "turn_detection": ["type": "server_vad", "threshold": 0.6, "prefix_padding_ms": 300,
-                                         "silence_duration_ms": 900, "create_response": true, "interrupt_response": true]],
+                      // Minimal configuration in OpenAI's Realtime conversations guide.
+                      // Server-VAD tuning fields do not belong to semantic VAD.
+                      "turn_detection": ["type": "semantic_vad"]],
             "output": ["format": ["type": "audio/pcm", "rate": 24000], "voice": "marin"]
          ], "tools": tools, "tool_choice": "auto"]
     }
