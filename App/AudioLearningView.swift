@@ -3,7 +3,7 @@ import AVFoundation
 
 struct AudioLearningView: View {
     @ObservedObject var store: AudioProgressStore
-    @StateObject private var tutor: RealtimeTutor
+    @StateObject private var tutor: LiveTutor
     @Environment(\.scenePhase) private var scenePhase
     @State private var sessionPresented = false
     @State private var pendingLesson: AudioLesson?
@@ -11,7 +11,7 @@ struct AudioLearningView: View {
     @State private var replacementConfirmation = false
     init(store: AudioProgressStore) {
         self.store = store
-        _tutor = StateObject(wrappedValue: RealtimeTutor(store: store))
+        _tutor = StateObject(wrappedValue: LiveTutor(store: store))
     }
     var body: some View {
         TabView {
@@ -173,7 +173,7 @@ struct AudioCardView: View {
 
 private struct AudioSessionView: View {
     @ObservedObject var store: AudioProgressStore
-    @ObservedObject var tutor: RealtimeTutor
+    @ObservedObject var tutor: LiveTutor
     @Environment(\.dismiss) private var dismiss
     @State private var minutes = 5
     @State private var consent = false
@@ -181,7 +181,7 @@ private struct AudioSessionView: View {
         List {
             Section("حالة الجلسة") {
                 Text(tutor.status).accessibilityIdentifier("audio-status")
-                    .accessibilityValue(tutor.state == .stopped ? "متوقفة" : tutor.state == .connecting ? "جارٍ الاتصال" : "متصلة")
+                    .accessibilityValue(tutor.state == .stopped ? "متوقفة" : tutor.state == .connecting ? "جارٍ الاتصال" : tutor.state == .closing ? "جارٍ الإغلاق" : "متصلة")
                 if let session = store.progress.session {
                     Text(session.phase == .teaching ? "الشرح أولًا ثم الاختبار" : session.phase == .quiz ? "متبقٍ للتدريب: \(session.queue.count)" : "اكتمل الدرس. يمكنك العودة إلى الدروس لاختيار التالي.")
                     if session.phase == .quiz, let id = session.currentID, let card = store.allCards.first(where: { $0.id == id }) {
@@ -197,14 +197,17 @@ private struct AudioSessionView: View {
                 } else if tutor.state != .stopped {
                     Button("إيقاف الجلسة والميكروفون", role: .destructive) { tutor.stop() }
                     if tutor.state == .connected {
-                        Button(tutor.muted ? "تشغيل الميكروفون" : "كتم الميكروفون") { tutor.toggleMute() }
-                        Button("أعد السؤال أو الشرح") { tutor.repeatQuestion() }
+                        Button(tutor.muted ? "تشغيل الميكروفون" : "كتم الميكروفون") { tutor.toggleMute() }.disabled(tutor.mutePending)
+                        Button("أعد السؤال أو الشرح") { tutor.repeatQuestion() }.disabled(tutor.mutePending)
                         if store.progress.session?.phase == .teaching {
-                            Button("ابدأ الاختبار الآن") { tutor.beginQuiz() }
+                            Button("ابدأ الاختبار الآن") { tutor.beginQuiz() }.disabled(tutor.mutePending)
                         }
                     }
                 }
-                if tutor.totalTokens > 0 { Text("وحدات استخدام أبلغت عنها الخدمة: \(tutor.totalTokens). ليست تقديرًا بالدولار.").font(.footnote) }
+                if tutor.voiceUsage.seconds > 0 {
+                    Text("مدة صوت أبلغت عنها الخدمة: \(Int(tutor.voiceUsage.seconds.rounded(.up))) ثانية. \(tutor.voiceUsage.finalized ? "استخدام نهائي مؤكد." : "استخدام جارٍ أو غير مؤكد نهائيًا.")").font(.footnote)
+                }
+                if tutor.totalTokens > 0 { Text("وحدات نموذج التقييم الخلفي: \(tutor.totalTokens). تُحاسب منفصلة عن الصوت وليست تقديرًا بالدولار.").font(.footnote) }
             }
             if !tutor.diagnostics.entries.isEmpty {
                 Section {
@@ -242,13 +245,13 @@ private struct AudioSessionView: View {
             Button("إلغاء", role: .cancel) {}
             Button("أوافق وأبدأ") { Task { await tutor.start(minutes: minutes) } }
         } message: {
-            Text("سيُرسل صوتك ومحتوى الدرس إلى OpenAI مباشرة بمفتاحك لاستخدام GPT-Realtime-2.1. تُحاسب وفق استخدام حسابك، ولا يشمله اشتراك ChatGPT بالضرورة. تتوقف الجلسة بعد \(minutes) دقائق كحد أقصى أو عند مغادرة التطبيق. هذا حد زمني وليس سقفًا ماليًا. لا نحفظ التسجيلات أو نص إجاباتك؛ نحتفظ بنتائج التدريب فقط.")
+            Text("سيُرسل صوتك ومحتوى الدرس إلى OpenAI مباشرة بمفتاحك لاستخدام GPT-Live-1، مع GPT-6-Luna لتقييم الإجابات والأدوات. تُحاسب مدة الصوت وتوكنات الخلفية منفصلتين وفق حسابك. يستمر احتساب مدة الجلسة أثناء الصمت والكتم، وقد توجد مدة بدء محتسبة. لا يشمله اشتراك ChatGPT بالضرورة. نوقف الميكروفون بعد \(minutes) دقائق كحد أقصى أو عند مغادرة التطبيق، وقد ينتظر تأكيد إغلاق الخدمة بضع ثوانٍ. هذا حد زمني وليس سقفًا ماليًا. لا نحفظ التسجيلات أو نص إجاباتك؛ نحتفظ بنتائج التدريب فقط. الإتاحة وجودة الصوت تحتاجان اختبارًا على حسابك وجهازك.")
         }
     }
 }
 
 private struct AudioSettingsView: View {
-    @ObservedObject var tutor: RealtimeTutor
+    @ObservedObject var tutor: LiveTutor
     @Environment(\.scenePhase) private var scenePhase
     @State private var key = ""
     @State private var hasKey = false
@@ -274,7 +277,7 @@ private struct AudioSettingsView: View {
             }
             Section("الخصوصية والتكلفة") {
                 Text("لا تضع المفتاح في المحادثات أو المستودع. يُحفظ في Keychain دون مزامنة أو نسخة سحابية، ولا يُرسل إلا إلى api.openai.com عند بدء جلسة توافق عليها. المفتاح الشخصي على جهازك له مخاطر إذا اختُرق الجهاز؛ استخدم مفتاح مشروع مخصصًا وحدود إنفاق من حساب OpenAI.")
-                Text("يستخدم الاتصال WebSocket أصليًا دون خادم وسيط. الصوت الاصطناعي والتصحيح يحتاجان إنترنت وقد يخطئان. لا نعرض نجاحًا إذا تعذر الحفظ، ولا نعيد الاتصال تلقائيًا.")
+                Text("يستخدم GPT-Live اتصال WebSocket أصليًا بمفتاحك الشخصي دون خادم وسيط. توصي OpenAI بخادم موثوق عند استخدام مفتاح إنتاج مشترك؛ لا يتضمن التطبيق مفتاحًا مشتركًا. تُحاسب مدة الصوت حتى أثناء الكتم، وتُحاسب توكنات GPT-6-Luna منفصلة. لا نعيد الاتصال تلقائيًا. الصوت والتصحيح قد يخطئان.")
                 Link("أسعار OpenAI الحالية", destination: URL(string: "https://developers.openai.com/api/docs/pricing")!)
                 Link("بياناتك في واجهة OpenAI", destination: URL(string: "https://developers.openai.com/api/docs/guides/your-data")!)
                 Text("مراجعة المنهج نصية آلية، وليست اعتمادًا من متحدث أصلي أو اختبار نطق على جميع الأجهزة.")

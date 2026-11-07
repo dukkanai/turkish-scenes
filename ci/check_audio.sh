@@ -22,3 +22,5 @@ swiftc App/RealtimeDiagnostics.swift App/RealtimeMessageCodec.swift Tests/Realti
 build/realtime-diagnostics-checks
 bash -n ci/testflight.sh
 ruby -c ci/verify_testflight.rb
+swiftc App/AudioLearningCore.swift App/RealtimeMessageCodec.swift App/AudioTutorProtocol.swift App/LiveTutorProtocol.swift App/LiveSessionLedger.swift Tests/LiveProtocolChecks.swift -o build/live-protocol-checks
+build/live-protocol-checks
